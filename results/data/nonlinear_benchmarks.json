@@ -1,0 +1,2135 @@
+{
+ "args": {
+  "n": 500,
+  "steps": 1500,
+  "synthetic": false
+ },
+ "results": {
+  "Silverbox": {
+   "infos": {
+    "unité": "mV",
+    "échelle": 1000.0,
+    "points d'entraînement": 65062,
+    "tests": {
+     "multisinus": 21688,
+     "flèche (avec extrapolation)": 40475,
+     "flèche (sans extrapolation)": 32000
+    }
+   },
+   "régression linéaire (fenêtre)": {
+    "multisinus": {
+     "nmse": 0.017128502257926278,
+     "rmse": 7.103664073309998,
+     "lags": 100,
+     "lam": 100.0
+    },
+    "flèche (avec extrapolation)": {
+     "nmse": 0.07263717848236319,
+     "rmse": 14.405094493914,
+     "lags": 100,
+     "lam": 100.0
+    },
+    "flèche (sans extrapolation)": {
+     "nmse": 0.02406747698072437,
+     "rmse": 6.667171946891038,
+     "lags": 100,
+     "lam": 100.0
+    }
+   },
+   "réservoir classique": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.29565250915804786,
+       "rmse": 29.52555939594884
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.38613223749697634,
+       "rmse": 33.23325881491486
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.34541773480941684,
+       "rmse": 25.277723837240536
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      7.7,
+      13.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.27278320660578653,
+       "rmse": 28.36064901293136
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.39257106035427175,
+       "rmse": 33.50919844831048
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.3669290926517214,
+       "rmse": 26.05293898519165
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      6.0,
+      14.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.28582608581977514,
+       "rmse": 29.030751682618284
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.4161065634266188,
+       "rmse": 34.499053652383644
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.4108055249278344,
+       "rmse": 27.566636958178957
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      5.9,
+      14.8
+     ]
+    }
+   },
+   "RNN, lr global × 0.1": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.00975602193439106,
+       "rmse": 5.363443796797202
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.04181173336886436,
+       "rmse": 10.935886271399351
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.014024568421232212,
+       "rmse": 5.09343070062568
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      40.4,
+      13.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.01639749892895251,
+       "rmse": 6.953383066365197
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.06572645739846929,
+       "rmse": 13.71118565408395
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.034499124931127785,
+       "rmse": 7.988581837025523
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      41.7,
+      14.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.01846828411413508,
+       "rmse": 7.37939272156091
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.05875310108066631,
+       "rmse": 12.963441020411814
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.026611064047970145,
+       "rmse": 7.016116133285665
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      41.5,
+      13.8
+     ]
+    }
+   },
+   "GRU, init soignée": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.004424472445418884,
+       "rmse": 3.611919790220857
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.013752248236566695,
+       "rmse": 6.271793497217987
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.0049421339299842385,
+       "rmse": 3.023590026464598
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      12.4,
+      2.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.00894377597526618,
+       "rmse": 5.135323488339975
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.02218196955088644,
+       "rmse": 7.965351609993848
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.00984167486901447,
+       "rmse": 4.266779066025003
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      10.3,
+      2.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.012620671236297934,
+       "rmse": 6.1002632491341275
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.026407670025435644,
+       "rmse": 8.691003829960804
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.013171376811961158,
+       "rmse": 4.936069160730745
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      10.6,
+      2.2
+     ]
+    }
+   },
+   "LRU": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.02036296022719808,
+       "rmse": 7.7486814354954365
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07597708734217677,
+       "rmse": 14.741654186276454
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.026859052036230624,
+       "rmse": 7.048731848080377
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      54.7,
+      15.5
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.020743901601034034,
+       "rmse": 7.820825066476416
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07614943194331536,
+       "rmse": 14.758364522558319
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.02681651974762069,
+       "rmse": 7.043148674919617
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      55.5,
+      15.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.02139734190496809,
+       "rmse": 7.943049392331975
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07782412270947817,
+       "rmse": 14.919766139468894
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.028993957105649105,
+       "rmse": 7.323511956458246
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      56.4,
+      16.3
+     ]
+    }
+   },
+   "réservoir accordé": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.006903134911697915,
+       "rmse": 4.5115994035183
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03278315567794081,
+       "rmse": 9.683453624641706
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.00980705395123245,
+       "rmse": 4.259267643938693
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      40.3,
+      13.7
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0052409231382224645,
+       "rmse": 3.931074235761903
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03612284343065324,
+       "rmse": 10.164730377555083
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.0074949546273073075,
+       "rmse": 3.723489666641601
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      40.9,
+      13.8
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.00632902584735931,
+       "rmse": 4.319920799837442
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.034507387964683896,
+       "rmse": 9.934841488629287
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.009156756899211891,
+       "rmse": 4.115631580820638
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      40.8,
+      14.1
+     ]
+    }
+   },
+   "réservoir accordé linéaire (type LRU)": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.017731814778555663,
+       "rmse": 7.2307599367078845
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07363013916691379,
+       "rmse": 14.512181776766331
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.023970160143311624,
+       "rmse": 6.658878898298633
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      54.5,
+      15.5
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.01803347148554615,
+       "rmse": 7.292006023745213
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07413247709037725,
+       "rmse": 14.561601943755749
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.02471677287487355,
+       "rmse": 6.761787718921689
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      55.4,
+      15.6
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.01757156096667164,
+       "rmse": 7.198011262563054
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07357952268846112,
+       "rmse": 14.507192774782359
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.024219798847300085,
+       "rmse": 6.6934637365427285
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      57.6,
+      15.7
+     ]
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.006817625164656757,
+       "rmse": 4.483569539088389
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03342172845017082,
+       "rmse": 9.777309255647351
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.00931098168571678,
+       "rmse": 4.150146094279461
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      181.0,
+      70.5
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.004888072390206375,
+       "rmse": 3.796436712664774
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03576515467567285,
+       "rmse": 10.114279545029255
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.00761124529746435,
+       "rmse": 3.7522650506167303
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      181.5,
+      71.5
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.005842186576409694,
+       "rmse": 4.150448804729491
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.033734986199043075,
+       "rmse": 9.823023146183212
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.008726248589156145,
+       "rmse": 4.017717894096529
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      182.0,
+      71.5
+     ]
+    }
+   },
+   "accordé sélectif": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.007621062903392749,
+       "rmse": 4.740401459175247
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03548936463193286,
+       "rmse": 10.075207774574604
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.01131247540526772,
+       "rmse": 4.574508858077762
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      71.2,
+      28.4
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0047680565473456485,
+       "rmse": 3.74954049787283
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03767868414605329,
+       "rmse": 10.38132441086483
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.007156433794941278,
+       "rmse": 3.6384296141257724
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      72.4,
+      28.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.005687466848456115,
+       "rmse": 4.095121476905542
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03470370637915731,
+       "rmse": 9.96306191153499
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.008307722978346506,
+       "rmse": 3.9201858086081276
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      74.0,
+      28.6
+     ]
+    }
+   },
+   "réservoir accordé, readout carré": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.006532711978391122,
+       "rmse": 4.388884030936755
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03477662750463377,
+       "rmse": 9.973523855162345
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.009111267037739934,
+       "rmse": 4.105395827381183
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      41.0,
+      15.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.005493565611853951,
+       "rmse": 4.024709213476525
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03607821720540629,
+       "rmse": 10.158449674132235
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.007697652836383657,
+       "rmse": 3.7735039520561573
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      40.2,
+      14.7
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.00613716943980669,
+       "rmse": 4.253940458693853
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03539680345939104,
+       "rmse": 10.062060428615696
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.008896996251461217,
+       "rmse": 4.056835077503029
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      40.0,
+      15.0
+     ]
+    }
+   },
+   "relais aléatoire + RNN accordé, readout carré": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.01540917279297616,
+       "rmse": 6.74057604473249
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.0875260443590522,
+       "rmse": 15.822443360361193
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.024693266267888266,
+       "rmse": 6.758571593250184
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      58.2,
+      25.4
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.012236900634294496,
+       "rmse": 6.006798543087042
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07926674073200761,
+       "rmse": 15.057414286545605
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.019871969235038003,
+       "rmse": 6.062979530100053
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      58.4,
+      25.5
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.014219127828451507,
+       "rmse": 6.4750604796000415
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07531600268091357,
+       "rmse": 14.677379721077626
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.020816859620022433,
+       "rmse": 6.205449642685054
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      59.0,
+      25.7
+     ]
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.038195170489877805,
+       "rmse": 10.61235028559101
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.08472446673704584,
+       "rmse": 15.56715755729366
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.05977786516082239,
+       "rmse": 10.515643382521898
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      41.4,
+      14.1
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.03304142216311095,
+       "rmse": 9.870444615051717
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.08920135892651221,
+       "rmse": 15.973152363233643
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.061099926214480085,
+       "rmse": 10.631290656147584
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      41.0,
+      13.9
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.02590144787861254,
+       "rmse": 8.739153563905777
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07656553774562559,
+       "rmse": 14.798631893070581
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.03558694854790629,
+       "rmse": 8.113552003626152
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      40.6,
+      14.0
+     ]
+    }
+   },
+   "réservoir à biais et entrées appris (sans g)": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0627997238679966,
+       "rmse": 13.60774671640707
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.10556341113357916,
+       "rmse": 17.37647207151549
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.06976371682171847,
+       "rmse": 11.360055527234401
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      33.7,
+      13.6
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.04561634859383109,
+       "rmse": 11.597586207243955
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.09246462824633478,
+       "rmse": 16.262702334583295
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.05419167034410977,
+       "rmse": 10.012255359228446
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      32.1,
+      13.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.07238462788885736,
+       "rmse": 14.60933753215766
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.11386303133228164,
+       "rmse": 18.046636461192303
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.08000401908263713,
+       "rmse": 12.165264370513981
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      32.6,
+      13.2
+     ]
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.006383710739282572,
+       "rmse": 4.338543437384184
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.029415079776337946,
+       "rmse": 9.172546334842693
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.009081554273072017,
+       "rmse": 4.0986963051564995
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      35.5,
+      12.9
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0032295883582733552,
+       "rmse": 3.085893512718249
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.027391975730502022,
+       "rmse": 8.851493974945269
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.005267285922206698,
+       "rmse": 3.1214694995881698
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      35.7,
+      12.9
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.00411142784546322,
+       "rmse": 3.4817989217550993
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03002745285463852,
+       "rmse": 9.26753310049781
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.006416641168455019,
+       "rmse": 3.445240354930561
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      36.2,
+      13.0
+     ]
+    }
+   },
+   "réservoir cisaillé": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.04144755481661155,
+       "rmse": 11.054950627153612
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.08767573241342223,
+       "rmse": 15.835967443477724
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.06425616597910158,
+       "rmse": 10.902423630554512
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      36.2,
+      13.1
+     ]
+    },
+    "1": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.041652951456904785,
+       "rmse": 11.082308617028787
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.07912991909366349,
+       "rmse": 15.044413437414278
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.06154460037459027,
+       "rmse": 10.66990682391313
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      35.4,
+      13.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.036170667295887506,
+       "rmse": 10.327271877268663
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.08147593382049187,
+       "rmse": 15.265800141824872
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.0505352027879773,
+       "rmse": 9.668579115234024
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      36.4,
+      13.3
+     ]
+    }
+   }
+  },
+  "Wiener-Hammerstein (2009)": {
+   "infos": {
+    "unité": "mV",
+    "échelle": 1000.0,
+    "points d'entraînement": 100000,
+    "tests": {
+     "test WH": 78800
+    }
+   },
+   "régression linéaire (fenêtre)": {
+    "test WH": {
+     "nmse": 0.03171233667352275,
+     "rmse": 43.42600121721066,
+     "lags": 50,
+     "lam": 0.01
+    }
+   },
+   "réservoir classique": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.12688332479445397,
+       "rmse": 86.8778792935512
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      9.6,
+      16.7
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.10017707251196875,
+       "rmse": 77.19534351132249
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      9.8,
+      15.8
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.12506914674519362,
+       "rmse": 86.25455314019332
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      9.4,
+      16.0
+     ]
+    }
+   },
+   "RNN, lr global × 0.1": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.003878773557161029,
+       "rmse": 15.189873222629819
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      46.4,
+      16.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.004203399757870485,
+       "rmse": 15.81274558435511
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      46.6,
+      15.9
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0041511023234028395,
+       "rmse": 15.714068987289197
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      45.9,
+      16.2
+     ]
+    }
+   },
+   "GRU, init soignée": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00019964860913177028,
+       "rmse": 3.4461968455148475
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      11.7,
+      2.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00018226180595550456,
+       "rmse": 3.2927197656128704
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      11.3,
+      2.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00012923537414315304,
+       "rmse": 2.772666519775391
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      11.4,
+      2.2
+     ]
+    }
+   },
+   "LRU": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008335990662753878,
+       "rmse": 22.268222180478446
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      61.7,
+      18.5
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008411056064981133,
+       "rmse": 22.36825988756368
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      61.1,
+      18.1
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008272246559452261,
+       "rmse": 22.182917868515457
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      60.9,
+      17.7
+     ]
+    }
+   },
+   "réservoir accordé": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.002333760416111111,
+       "rmse": 11.782435492533274
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      45.9,
+      15.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.002316521341959499,
+       "rmse": 11.738837450241268
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      45.0,
+      15.7
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0023554052390966614,
+       "rmse": 11.83694839996726
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      45.4,
+      15.3
+     ]
+    }
+   },
+   "réservoir accordé linéaire (type LRU)": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00873444250706597,
+       "rmse": 22.794209279199414
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      62.0,
+      17.3
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00873932792060278,
+       "rmse": 22.80058310164319
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      60.4,
+      18.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008525116243161265,
+       "rmse": 22.5194142947807
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      61.0,
+      17.1
+     ]
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0016681175935466407,
+       "rmse": 9.961397430077795
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      208.1,
+      78.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0019683529432113008,
+       "rmse": 10.820776403730012
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      203.0,
+      79.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0018139039988305052,
+       "rmse": 10.387572911904424
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      205.5,
+      78.3
+     ]
+    }
+   },
+   "accordé sélectif": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0015827256439838097,
+       "rmse": 9.703083206492929
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      82.6,
+      30.9
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0018512763301430193,
+       "rmse": 10.494036254988453
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      81.6,
+      31.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0017449479134774028,
+       "rmse": 10.188216613158447
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      82.0,
+      31.1
+     ]
+    }
+   },
+   "réservoir accordé, readout carré": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0022713021557618377,
+       "rmse": 11.623700001039024
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      43.4,
+      17.3
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0019824785096100284,
+       "rmse": 10.859533769521583
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      43.7,
+      17.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0021034841465174116,
+       "rmse": 11.186044885504495
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      44.3,
+      16.4
+     ]
+    }
+   },
+   "relais aléatoire + RNN accordé, readout carré": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.006522034534801457,
+       "rmse": 19.696927352571095
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      65.1,
+      28.6
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008298777886629288,
+       "rmse": 22.218462692963882
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      64.4,
+      28.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.007802328775658419,
+       "rmse": 21.54363881654814
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      64.0,
+      28.4
+     ]
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00597061392365388,
+       "rmse": 18.84588040470293
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      44.7,
+      15.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.00832838418983231,
+       "rmse": 22.258060143755362
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      44.5,
+      15.4
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.004472678516173529,
+       "rmse": 16.31138271682569
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      45.1,
+      15.3
+     ]
+    }
+   },
+   "réservoir à biais et entrées appris (sans g)": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.008371187559481954,
+       "rmse": 22.315184009210412
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      36.9,
+      14.8
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.009958691046236102,
+       "rmse": 24.33929898839752
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      37.7,
+      15.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.007536838487164533,
+       "rmse": 21.17393328339101
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      36.9,
+      15.0
+     ]
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0015689193097889415,
+       "rmse": 9.660669842615777
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      39.7,
+      14.7
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0016439388759521213,
+       "rmse": 9.888940617071833
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      40.2,
+      14.7
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.001646852192691248,
+       "rmse": 9.89769911295152
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      39.8,
+      14.6
+     ]
+    }
+   },
+   "réservoir cisaillé": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.005241903922039782,
+       "rmse": 17.658404638241603
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      40.2,
+      14.6
+     ]
+    },
+    "1": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.007078230930466056,
+       "rmse": 20.519619337822032
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      40.3,
+      14.8
+     ]
+    },
+    "2": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0047098868582721495,
+       "rmse": 16.738331831622997
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      40.0,
+      14.5
+     ]
+    }
+   }
+  },
+  "Cascaded Tanks": {
+   "infos": {
+    "unité": "V",
+    "échelle": 1.0,
+    "points d'entraînement": 1024,
+    "tests": {
+     "test Cascaded_Tanks": 1024
+    }
+   },
+   "régression linéaire (fenêtre)": {
+    "test Cascaded_Tanks": {
+     "nmse": 0.09487637001889054,
+     "rmse": 0.6466372869329451,
+     "lags": 100,
+     "lam": 100.0
+    }
+   },
+   "réservoir classique": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.378632020636734,
+       "rmse": 2.4891921678426217
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      0.1,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.2171385330928852,
+       "rmse": 2.338860132372452
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      0.1,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.58417239765229,
+       "rmse": 2.6683049760276627
+      }
+     },
+     "n_params": 0,
+     "secondes": [
+      0.1,
+      0.2
+     ]
+    }
+   },
+   "RNN, lr global × 0.1": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 2031.4807228013844,
+       "rmse": 95.55217957990668
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      33.6,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1574.6299486840362,
+       "rmse": 84.12469424357985
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      32.9,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 3311.288482634093,
+       "rmse": 121.99239409941426
+      }
+     },
+     "n_params": 251000,
+     "secondes": [
+      33.1,
+      0.2
+     ]
+    }
+   },
+   "GRU, init soignée": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 2.280064897562068,
+       "rmse": 3.2011634485297598
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      10.2,
+      0.0
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 5.50401556853979,
+       "rmse": 4.973636848666049
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      10.5,
+      0.0
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 2505.5790813498425,
+       "rmse": 106.11781579936526
+      }
+     },
+     "n_params": 754500,
+     "secondes": [
+      10.6,
+      0.0
+     ]
+    }
+   },
+   "LRU": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.6256088819268214,
+       "rmse": 1.6768171149282842
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      49.4,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.8571709055569886,
+       "rmse": 1.9627634222884278
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      48.7,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.2379468790381774,
+       "rmse": 2.358768121908486
+      }
+     },
+     "n_params": 251750,
+     "secondes": [
+      50.3,
+      0.2
+     ]
+    }
+   },
+   "réservoir accordé": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.7986441993925854,
+       "rmse": 1.8945711337861981
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      33.1,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.3725283514893564,
+       "rmse": 1.293939320293075
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      33.7,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.7765443384813258,
+       "rmse": 1.8681742170295974
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      34.3,
+      0.2
+     ]
+    }
+   },
+   "réservoir accordé linéaire (type LRU)": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.458660207203317,
+       "rmse": 1.4357531460680455
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      48.7,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.3632369879176673,
+       "rmse": 2.4752548814712156
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      50.3,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.2284488692519104,
+       "rmse": 2.3497020056566433
+      }
+     },
+     "n_params": 1250,
+     "secondes": [
+      50.3,
+      0.2
+     ]
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.726918826139271,
+       "rmse": 1.8074954113668975
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      143.7,
+      0.9
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.36522432885004436,
+       "rmse": 1.2811916365307001
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      143.5,
+      1.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.893155444815315,
+       "rmse": 2.0035388595427457
+      }
+     },
+     "n_params": 4500,
+     "secondes": [
+      149.0,
+      0.9
+     ]
+    }
+   },
+   "accordé sélectif": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.7992052494701841,
+       "rmse": 1.895236488062026
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      56.7,
+      0.3
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.5869247298336975,
+       "rmse": 1.6241474309462882
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      58.3,
+      0.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.5496047876055149,
+       "rmse": 1.571663251837571
+      }
+     },
+     "n_params": 2000,
+     "secondes": [
+      59.0,
+      0.4
+     ]
+    }
+   },
+   "réservoir accordé, readout carré": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.2104948441068228,
+       "rmse": 2.3324681230843978
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      33.0,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.6791100681858355,
+       "rmse": 1.7470459579581101
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      32.3,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.9742860831557135,
+       "rmse": 2.092557953661458
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      32.1,
+      0.3
+     ]
+    }
+   },
+   "relais aléatoire + RNN accordé, readout carré": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.7943263378740546,
+       "rmse": 2.8397817320919496
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      46.5,
+      0.3
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.807181027102756,
+       "rmse": 1.9046698963186286
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      46.2,
+      0.3
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.5507966872735868,
+       "rmse": 2.640047114833363
+      }
+     },
+     "n_params": 1500,
+     "secondes": [
+      47.2,
+      0.3
+     ]
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 619866.0681715269,
+       "rmse": 1669.1031504462205
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      34.3,
+      0.3
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 817.1209015249732,
+       "rmse": 60.600667101360706
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      34.6,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 13125.260544886152,
+       "rmse": 242.87801886855212
+      }
+     },
+     "n_params": 126750,
+     "secondes": [
+      34.6,
+      0.2
+     ]
+    }
+   },
+   "réservoir à biais et entrées appris (sans g)": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.837577828549173,
+       "rmse": 2.873803810138955
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      28.0,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 2.625776186509621,
+       "rmse": 3.43528756871227
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      27.4,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.7130221318763061,
+       "rmse": 2.774698070333876
+      }
+     },
+     "n_params": 1000,
+     "secondes": [
+      27.4,
+      0.2
+     ]
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.8004341211419603,
+       "rmse": 2.8446108526091933
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      31.3,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 5.835011663304701,
+       "rmse": 5.121003932954495
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      31.6,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.580172510260237,
+       "rmse": 2.664934236518034
+      }
+     },
+     "n_params": 2494,
+     "secondes": [
+      31.8,
+      0.2
+     ]
+    }
+   },
+   "réservoir cisaillé": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 71932.19662828233,
+       "rmse": 568.5856654219007
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      31.4,
+      0.2
+     ]
+    },
+    "1": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 21398.3539875752,
+       "rmse": 310.11618233205877
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      30.6,
+      0.2
+     ]
+    },
+    "2": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 43209.69974006689,
+       "rmse": 440.68155108323447
+      }
+     },
+     "n_params": 125750,
+     "secondes": [
+      32.0,
+      0.2
+     ]
+    }
+   }
+  }
+ }
+}

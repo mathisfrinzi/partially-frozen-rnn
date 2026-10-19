@@ -1,0 +1,771 @@
+{
+ "args": {
+  "n": 500,
+  "steps": 1500
+ },
+ "note": "reconstruit depuis le log Colab (NMSE \u00e0 3 chiffres significatifs) : le zip de ce bloc \u00e9tait vide",
+ "results": {
+  "Mackey-Glass (+15)": {
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 1.84e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 2.41e-06,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 1.89e-06,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr global \u00d7 0.03": {
+    "0": {
+     "nmse": 1.1e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 8.61e-07,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 1.4e-06,
+     "n_params": 251000
+    }
+   },
+   "GRU, init soign\u00e9e, lr 2e-3": {
+    "0": {
+     "nmse": 1.16e-07,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 9.84e-08,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 1.23e-07,
+     "n_params": 754500
+    }
+   },
+   "GRU, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 1.7e-07,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 2.08e-07,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 1.37e-07,
+     "n_params": 754500
+    }
+   },
+   "LSTM, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 1.01e-07,
+     "n_params": 1006000
+    },
+    "1": {
+     "nmse": 1.13e-07,
+     "n_params": 1006000
+    },
+    "2": {
+     "nmse": 1.21e-07,
+     "n_params": 1006000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 5.8e-08,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 8.1e-08,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 8.61e-08,
+     "n_params": 1500
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 3.69e-08,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 4.92e-08,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 4.5e-08,
+     "n_params": 2000
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 5.73e-08,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 7.16e-08,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 7.75e-08,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes": {
+    "0": {
+     "nmse": 6.89e-08,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 6.53e-08,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 8.49e-08,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes l\u00e9g\u00e8res": {
+    "0": {
+     "nmse": 6.89e-08,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 6.45e-08,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 8.44e-08,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes, type LSTM": {
+    "0": {
+     "nmse": 6.36e-08,
+     "n_params": 6000
+    },
+    "1": {
+     "nmse": 6.11e-08,
+     "n_params": 6000
+    },
+    "2": {
+     "nmse": 7.46e-08,
+     "n_params": 6000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 porte d'entr\u00e9e": {
+    "0": {
+     "nmse": 6.17e-08,
+     "n_params": 2500
+    },
+    "1": {
+     "nmse": 6.6e-08,
+     "n_params": 2500
+    },
+    "2": {
+     "nmse": 7.6e-08,
+     "n_params": 2500
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9 \u00e0 portes, portes seules": {
+    "0": {
+     "nmse": 2.1e-07,
+     "n_params": 4000
+    },
+    "1": {
+     "nmse": 2.32e-07,
+     "n_params": 4000
+    },
+    "2": {
+     "nmse": 1.51e-07,
+     "n_params": 4000
+    }
+   },
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 1.584303816127852e-05,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 1.51e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 7.14e-06,
+     "n_params": 0
+    }
+   },
+   "LRU, lr 2e-3": {
+    "0": {
+     "nmse": 0.00015358835826630843,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.0002946862037752383,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.0003627790671899877,
+     "n_params": 251750
+    }
+   },
+   "LRU, lr 5e-4": {
+    "0": {
+     "nmse": 6.216548709241596e-05,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.00010804127486248507,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.00013930075739367913,
+     "n_params": 251750
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire (type LRU)": {
+    "0": {
+     "nmse": 0.00011378275415110486,
+     "n_params": 1250
+    },
+    "1": {
+     "nmse": 0.00015778088620392637,
+     "n_params": 1250
+    },
+    "2": {
+     "nmse": 0.00023878094122074445,
+     "n_params": 1250
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire, 2 couches": {
+    "0": {
+     "nmse": 0.0005294838726570356,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.0003733685923782646,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.00037154983743781667,
+     "n_params": 2000
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.25,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.252,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.223,
+     "n_params": 0
+    }
+   },
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0707,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.115,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0974,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr global \u00d7 0.03": {
+    "0": {
+     "nmse": 0.195,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.231,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.21,
+     "n_params": 251000
+    }
+   },
+   "GRU, init soign\u00e9e, lr 2e-3": {
+    "0": {
+     "nmse": 0.167,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.144,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.151,
+     "n_params": 754500
+    }
+   },
+   "GRU, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 0.116,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.113,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.127,
+     "n_params": 754500
+    }
+   },
+   "LSTM, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 0.221,
+     "n_params": 1006000
+    },
+    "1": {
+     "nmse": 0.212,
+     "n_params": 1006000
+    },
+    "2": {
+     "nmse": 0.236,
+     "n_params": 1006000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0103,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.00982,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0105,
+     "n_params": 1500
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 0.00882,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.0105,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.0092,
+     "n_params": 2000
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 0.0108,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.00918,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.0102,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes": {
+    "0": {
+     "nmse": 0.00836,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 0.00868,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 0.00849,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes l\u00e9g\u00e8res": {
+    "0": {
+     "nmse": 0.00872,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 0.00886,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 0.00853,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes, type LSTM": {
+    "0": {
+     "nmse": 0.012,
+     "n_params": 6000
+    },
+    "1": {
+     "nmse": 0.0106,
+     "n_params": 6000
+    },
+    "2": {
+     "nmse": 0.0115,
+     "n_params": 6000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 porte d'entr\u00e9e": {
+    "0": {
+     "nmse": 0.00912,
+     "n_params": 2500
+    },
+    "1": {
+     "nmse": 0.00906,
+     "n_params": 2500
+    },
+    "2": {
+     "nmse": 0.00903,
+     "n_params": 2500
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9 \u00e0 portes, portes seules": {
+    "0": {
+     "nmse": 0.0171,
+     "n_params": 4000
+    },
+    "1": {
+     "nmse": 0.0183,
+     "n_params": 4000
+    },
+    "2": {
+     "nmse": 0.0124,
+     "n_params": 4000
+    }
+   },
+   "LRU, lr 2e-3": {
+    "0": {
+     "nmse": 0.014697342467300666,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.01464479678621976,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.014637355923736247,
+     "n_params": 251750
+    }
+   },
+   "LRU, lr 5e-4": {
+    "0": {
+     "nmse": 0.012023778503109607,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.013475069631850188,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.01489510778242884,
+     "n_params": 251750
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire (type LRU)": {
+    "0": {
+     "nmse": 0.012095948256026336,
+     "n_params": 1250
+    },
+    "1": {
+     "nmse": 0.01371789213377733,
+     "n_params": 1250
+    },
+    "2": {
+     "nmse": 0.012748881013779745,
+     "n_params": 1250
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire, 2 couches": {
+    "0": {
+     "nmse": 0.029821202047363937,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.030915012883699612,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.035180729804127536,
+     "n_params": 2000
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.217,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.196,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.249,
+     "n_params": 0
+    }
+   },
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0388,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0362,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0463,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr global \u00d7 0.03": {
+    "0": {
+     "nmse": 0.0365,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0319,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0404,
+     "n_params": 251000
+    }
+   },
+   "GRU, init soign\u00e9e, lr 2e-3": {
+    "0": {
+     "nmse": 0.588,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.531,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.543,
+     "n_params": 754500
+    }
+   },
+   "GRU, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 0.565,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.555,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.539,
+     "n_params": 754500
+    }
+   },
+   "LSTM, init soign\u00e9e, lr 5e-4": {
+    "0": {
+     "nmse": 0.25,
+     "n_params": 1006000
+    },
+    "1": {
+     "nmse": 0.282,
+     "n_params": 1006000
+    },
+    "2": {
+     "nmse": 0.214,
+     "n_params": 1006000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0019,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.00187,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.00182,
+     "n_params": 1500
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 0.00234,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.00233,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.00232,
+     "n_params": 2000
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 0.00184,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.00167,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.0017,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes": {
+    "0": {
+     "nmse": 0.00173,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 0.00163,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 0.00155,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes l\u00e9g\u00e8res": {
+    "0": {
+     "nmse": 0.00174,
+     "n_params": 4500
+    },
+    "1": {
+     "nmse": 0.00167,
+     "n_params": 4500
+    },
+    "2": {
+     "nmse": 0.00164,
+     "n_params": 4500
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 portes, type LSTM": {
+    "0": {
+     "nmse": 0.00229,
+     "n_params": 6000
+    },
+    "1": {
+     "nmse": 0.00223,
+     "n_params": 6000
+    },
+    "2": {
+     "nmse": 0.00236,
+     "n_params": 6000
+    }
+   },
+   "r\u00e9servoir accord\u00e9 \u00e0 porte d'entr\u00e9e": {
+    "0": {
+     "nmse": 0.00188,
+     "n_params": 2500
+    },
+    "1": {
+     "nmse": 0.0017,
+     "n_params": 2500
+    },
+    "2": {
+     "nmse": 0.00177,
+     "n_params": 2500
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9 \u00e0 portes, portes seules": {
+    "0": {
+     "nmse": 0.00225,
+     "n_params": 4000
+    },
+    "1": {
+     "nmse": 0.00176,
+     "n_params": 4000
+    },
+    "2": {
+     "nmse": 0.00223,
+     "n_params": 4000
+    }
+   },
+   "LRU, lr 2e-3": {
+    "0": {
+     "nmse": 0.006598043217235969,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.005783946563327406,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.007760026273563878,
+     "n_params": 251750
+    }
+   },
+   "LRU, lr 5e-4": {
+    "0": {
+     "nmse": 0.006816179175680443,
+     "n_params": 251750
+    },
+    "1": {
+     "nmse": 0.00692709424907193,
+     "n_params": 251750
+    },
+    "2": {
+     "nmse": 0.007654737396256129,
+     "n_params": 251750
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire (type LRU)": {
+    "0": {
+     "nmse": 0.00578859770797385,
+     "n_params": 1250
+    },
+    "1": {
+     "nmse": 0.005514782761814093,
+     "n_params": 1250
+    },
+    "2": {
+     "nmse": 0.005621531261831658,
+     "n_params": 1250
+    }
+   },
+   "r\u00e9servoir accord\u00e9 lin\u00e9aire, 2 couches": {
+    "0": {
+     "nmse": 0.027073970231041668,
+     "n_params": 2000
+    },
+    "1": {
+     "nmse": 0.026414417203578747,
+     "n_params": 2000
+    },
+    "2": {
+     "nmse": 0.023944777625241293,
+     "n_params": 2000
+    }
+   }
+  }
+ }
+}

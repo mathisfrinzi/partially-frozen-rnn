@@ -1,0 +1,50 @@
+{
+ "G brut | premières − aléatoires": [
+  "+0.01 [3/5]",
+  "-0.04 [2/5]",
+  "-0.01 [2/5]"
+ ],
+ "G brut | premières − suivantes": [
+  "+0.02 [3/5]",
+  "-0.03 [3/5]",
+  "+0.00 [2/5]"
+ ],
+ "G brut | dégel décroissant − aléatoire": [
+  0.07372737269982235
+ ],
+ "G brut | dégel décroissant − croissant": [
+  -0.025528937974638354
+ ],
+ "M⁻¹G (ε = 0.01) | premières − aléatoires": [
+  "+0.23 [1/5]",
+  "+0.16 [1/5]",
+  "+0.13 [0/5]"
+ ],
+ "M⁻¹G (ε = 0.01) | premières − suivantes": [
+  "+0.20 [1/5]",
+  "+0.15 [0/5]",
+  "+0.19 [0/5]"
+ ],
+ "M⁻¹G (ε = 0.01) | dégel décroissant − aléatoire": [
+  -0.01738109466559661
+ ],
+ "M⁻¹G (ε = 0.01) | dégel décroissant − croissant": [
+  0.03873196357707385
+ ],
+ "M⁻¹G (ε = 0.1) | premières − aléatoires": [
+  "+0.06 [1/5]",
+  "+0.08 [2/5]",
+  "+0.03 [2/5]"
+ ],
+ "M⁻¹G (ε = 0.1) | premières − suivantes": [
+  "+0.06 [1/5]",
+  "+0.10 [2/5]",
+  "+0.05 [2/5]"
+ ],
+ "M⁻¹G (ε = 0.1) | dégel décroissant − aléatoire": [
+  -0.06651943579059787
+ ],
+ "M⁻¹G (ε = 0.1) | dégel décroissant − croissant": [
+  0.03988489960594612
+ ]
+}

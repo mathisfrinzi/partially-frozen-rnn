@@ -1,0 +1,428 @@
+{
+ "args": {
+  "n": 500,
+  "steps": 1500
+ },
+ "results": {
+  "0": {
+   "accordé, tout par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 5.804590606518069e-08,
+     "n_par_tache": 2001
+    },
+    "NARMA10": {
+     "final": 0.010535798230615848,
+     "n_par_tache": 2001
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.0018970862063172143,
+     "n_par_tache": 2001
+    }
+   },
+   "accordé, entrées partagées": {
+    "Mackey-Glass (+15)": {
+     "final": 1.1201797851224792e-07,
+     "n_par_tache": 1501
+    },
+    "NARMA10": {
+     "final": 0.01903583467383406,
+     "n_par_tache": 1501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.06419929185759653,
+     "n_par_tache": 1501
+    }
+   },
+   "RNN, une copie par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 5.832354236644921e-05,
+     "n_par_tache": 251501
+    },
+    "NARMA10": {
+     "final": 0.26027653109193855,
+     "n_par_tache": 251501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.11765096993554848,
+     "n_par_tache": 251501
+    }
+   },
+   "RNN séquentiel": {
+    "Mackey-Glass (+15)": {
+     "juste après": 5.832354236644921e-05,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      5.832354236644921e-05,
+      0.4903573460098346,
+      0.34547043808502054
+     ],
+     "final": 0.34547043808502054,
+     "final, lecture réapprise": 0.0018808397538742827
+    },
+    "NARMA10": {
+     "juste après": 0.14406699418027055,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.14406699418027055,
+      0.5816845373701983
+     ],
+     "final": 0.5816845373701983,
+     "final, lecture réapprise": 0.2595607117347004
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 0.2994690433346259,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.2994690433346259
+     ],
+     "final": 0.2994690433346259,
+     "final, lecture réapprise": 0.2994690433346259
+    }
+   },
+   "accordé séquentiel, un réglage": {
+    "Mackey-Glass (+15)": {
+     "juste après": 5.804590606518069e-08,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      5.804590606518069e-08,
+      12.630295227348162,
+      28.084385320834365
+     ],
+     "final": 28.084385320834365,
+     "final, lecture réapprise": 0.0001288429954374859
+    },
+    "NARMA10": {
+     "juste après": 0.010954782462458679,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.010954782462458679,
+      1.1406804290085204
+     ],
+     "final": 1.1406804290085204,
+     "final, lecture réapprise": 0.017877594948620793
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 0.0031821000660094446,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.0031821000660094446
+     ],
+     "final": 0.0031821000660094446,
+     "final, lecture réapprise": 0.0031821000660094446
+    }
+   },
+   "réglages croisés": {
+    "Mackey-Glass (+15)": {
+     "Mackey-Glass (+15)": 1.1201797851224792e-07,
+     "NARMA10": 0.12077366735074221,
+     "Mémoire (délai 15)": 0.3157211679027427
+    },
+    "NARMA10": {
+     "Mackey-Glass (+15)": 2.282369502597717e-06,
+     "NARMA10": 0.01903583467383406,
+     "Mémoire (délai 15)": 0.22800755065411352
+    },
+    "Mémoire (délai 15)": {
+     "Mackey-Glass (+15)": 2.2467183275278816e-06,
+     "NARMA10": 0.061940760736181405,
+     "Mémoire (délai 15)": 0.06419929185759653
+    },
+    "moyenne Mackey-Glass + NARMA10": {
+     "Mackey-Glass (+15)": 7.890384245680773e-07,
+     "NARMA10": 0.0534552587370793,
+     "Mémoire (délai 15)": 0.18614859431929412
+    },
+    "réservoir de départ (g = 1)": {
+     "Mackey-Glass (+15)": 1.5841110618808377e-05,
+     "NARMA10": 0.24986835165380245,
+     "Mémoire (délai 15)": 0.2171078119975376
+    }
+   },
+   "contrôle, réglage rangé remis en place": {
+    "Mackey-Glass (+15)": 1.1201797851224792e-07,
+    "NARMA10": 0.01903583467383406,
+    "Mémoire (délai 15)": 0.06419929185759653
+   }
+  },
+  "1": {
+   "accordé, tout par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 8.106838443187618e-08,
+     "n_par_tache": 2001
+    },
+    "NARMA10": {
+     "final": 0.00993713862899866,
+     "n_par_tache": 2001
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.0018665298995254123,
+     "n_par_tache": 2001
+    }
+   },
+   "accordé, entrées partagées": {
+    "Mackey-Glass (+15)": {
+     "final": 4.2346163495486284e-07,
+     "n_par_tache": 1501
+    },
+    "NARMA10": {
+     "final": 0.023254756410242185,
+     "n_par_tache": 1501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.048455316983100474,
+     "n_par_tache": 1501
+    }
+   },
+   "RNN, une copie par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 7.317977839024425e-05,
+     "n_par_tache": 251501
+    },
+    "NARMA10": {
+     "final": 0.1750052171239937,
+     "n_par_tache": 251501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.113045038723387,
+     "n_par_tache": 251501
+    }
+   },
+   "RNN séquentiel": {
+    "Mackey-Glass (+15)": {
+     "juste après": 7.317977839024425e-05,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      7.317977839024425e-05,
+      0.582937136084454,
+      0.5073225946358304
+     ],
+     "final": 0.5073225946358304,
+     "final, lecture réapprise": 0.0022355527986598453
+    },
+    "NARMA10": {
+     "juste après": 0.13876874418513566,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.13876874418513566,
+      0.4338683372102125
+     ],
+     "final": 0.4338683372102125,
+     "final, lecture réapprise": 0.2631180856395764
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 0.3852997981229591,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.3852997981229591
+     ],
+     "final": 0.3852997981229591,
+     "final, lecture réapprise": 0.3852997981229591
+    }
+   },
+   "accordé séquentiel, un réglage": {
+    "Mackey-Glass (+15)": {
+     "juste après": 8.106838443187618e-08,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      8.106838443187618e-08,
+      12.62818890933645,
+      8.847074224226724
+     ],
+     "final": 8.847074224226724,
+     "final, lecture réapprise": 0.0002361141524307903
+    },
+    "NARMA10": {
+     "juste après": 0.015185559097809609,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.015185559097809609,
+      0.6564459003054909
+     ],
+     "final": 0.6564459003054909,
+     "final, lecture réapprise": 0.025027428424720922
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 0.0026859995403501124,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.0026859995403501124
+     ],
+     "final": 0.0026859995403501124,
+     "final, lecture réapprise": 0.0026859995403501124
+    }
+   },
+   "réglages croisés": {
+    "Mackey-Glass (+15)": {
+     "Mackey-Glass (+15)": 4.2346163495486284e-07,
+     "NARMA10": 0.10996430825436722,
+     "Mémoire (délai 15)": 0.25323160842152725
+    },
+    "NARMA10": {
+     "Mackey-Glass (+15)": 4.613111125780737e-06,
+     "NARMA10": 0.023254756410242185,
+     "Mémoire (délai 15)": 0.2052498349621182
+    },
+    "Mémoire (délai 15)": {
+     "Mackey-Glass (+15)": 4.013850926893723e-06,
+     "NARMA10": 0.07774813893123844,
+     "Mémoire (délai 15)": 0.048455316983100474
+    },
+    "moyenne Mackey-Glass + NARMA10": {
+     "Mackey-Glass (+15)": 1.078641731957868e-06,
+     "NARMA10": 0.05475634223557219,
+     "Mémoire (délai 15)": 0.20427656534513808
+    },
+    "réservoir de départ (g = 1)": {
+     "Mackey-Glass (+15)": 1.5098227294902841e-05,
+     "NARMA10": 0.2517820817708899,
+     "Mémoire (délai 15)": 0.19625880946891322
+    }
+   },
+   "contrôle, réglage rangé remis en place": {
+    "Mackey-Glass (+15)": 4.2346163495486284e-07,
+    "NARMA10": 0.023254756410242185,
+    "Mémoire (délai 15)": 0.048455316983100474
+   }
+  },
+  "2": {
+   "accordé, tout par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 8.612396771129229e-08,
+     "n_par_tache": 2001
+    },
+    "NARMA10": {
+     "final": 0.010709110459172402,
+     "n_par_tache": 2001
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.0018182859407333246,
+     "n_par_tache": 2001
+    }
+   },
+   "accordé, entrées partagées": {
+    "Mackey-Glass (+15)": {
+     "final": 1.3514268586511403e-07,
+     "n_par_tache": 1501
+    },
+    "NARMA10": {
+     "final": 0.02674941885854061,
+     "n_par_tache": 1501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.05626558934685561,
+     "n_par_tache": 1501
+    }
+   },
+   "RNN, une copie par tâche": {
+    "Mackey-Glass (+15)": {
+     "final": 0.0008168594508567239,
+     "n_par_tache": 251501
+    },
+    "NARMA10": {
+     "final": 0.1614786053129009,
+     "n_par_tache": 251501
+    },
+    "Mémoire (délai 15)": {
+     "final": 0.11659072659786912,
+     "n_par_tache": 251501
+    }
+   },
+   "RNN séquentiel": {
+    "Mackey-Glass (+15)": {
+     "juste après": 0.0008168594508567239,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.0008168594508567239,
+      2.4199350350839284,
+      4.233237019965869
+     ],
+     "final": 4.233237019965869,
+     "final, lecture réapprise": 0.032398724302781574
+    },
+    "NARMA10": {
+     "juste après": 0.28558026383205826,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      0.28558026383205826,
+      5.474572958732879
+     ],
+     "final": 5.474572958732879,
+     "final, lecture réapprise": 0.5001550562670253
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 1.467155258722423,
+     "n_par_tache": 251501,
+     "après chaque étape": [
+      1.467155258722423
+     ],
+     "final": 1.467155258722423,
+     "final, lecture réapprise": 1.467155258722423
+    }
+   },
+   "accordé séquentiel, un réglage": {
+    "Mackey-Glass (+15)": {
+     "juste après": 8.612396771129229e-08,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      8.612396771129229e-08,
+      10.698650935420492,
+      2.839569021238771
+     ],
+     "final": 2.839569021238771,
+     "final, lecture réapprise": 0.00022504964897392287
+    },
+    "NARMA10": {
+     "juste après": 0.010904577588422214,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.010904577588422214,
+      0.740129945295848
+     ],
+     "final": 0.740129945295848,
+     "final, lecture réapprise": 0.01997072982729866
+    },
+    "Mémoire (délai 15)": {
+     "juste après": 0.002372242399421752,
+     "n_par_tache": 2001,
+     "après chaque étape": [
+      0.002372242399421752
+     ],
+     "final": 0.002372242399421752,
+     "final, lecture réapprise": 0.002372242399421752
+    }
+   },
+   "réglages croisés": {
+    "Mackey-Glass (+15)": {
+     "Mackey-Glass (+15)": 1.3514268586511403e-07,
+     "NARMA10": 0.10080993061556072,
+     "Mémoire (délai 15)": 0.28894501439970693
+    },
+    "NARMA10": {
+     "Mackey-Glass (+15)": 8.867973736993657e-07,
+     "NARMA10": 0.02674941885854061,
+     "Mémoire (délai 15)": 0.21126783676915517
+    },
+    "Mémoire (délai 15)": {
+     "Mackey-Glass (+15)": 2.9876451651329183e-06,
+     "NARMA10": 0.06592988798129992,
+     "Mémoire (délai 15)": 0.05626558934685561
+    },
+    "moyenne Mackey-Glass + NARMA10": {
+     "Mackey-Glass (+15)": 7.153157378240322e-07,
+     "NARMA10": 0.06557555954610202,
+     "Mémoire (délai 15)": 0.19712916837380554
+    },
+    "réservoir de départ (g = 1)": {
+     "Mackey-Glass (+15)": 7.140029412202855e-06,
+     "NARMA10": 0.22257013719614702,
+     "Mémoire (délai 15)": 0.2486326536160155
+    }
+   },
+   "contrôle, réglage rangé remis en place": {
+    "Mackey-Glass (+15)": 1.3514268586511403e-07,
+    "NARMA10": 0.02674941885854061,
+    "Mémoire (délai 15)": 0.05626558934685561
+   }
+  }
+ }
+}

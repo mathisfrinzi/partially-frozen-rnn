@@ -1,0 +1,212 @@
+{
+ "Mackey-Glass (+15)": {
+  "réservoir de Fourier, non entraîné": {
+   "500": {
+    "nmse": 6.330369712643102e-05,
+    "secondes": 1.6666666666666667,
+    "paramètres": 0
+   },
+   "2000": {
+    "nmse": 1.303669631640658e-06,
+    "secondes": 8.333333333333334,
+    "paramètres": 0
+   },
+   "8000": {
+    "nmse": 2.983018726815972e-07,
+    "secondes": 8.666666666666666,
+    "paramètres": 0
+   },
+   "16000": {
+    "nmse": 1.8267774513826457e-07,
+    "secondes": 8.666666666666666,
+    "paramètres": 0
+   }
+  },
+  "accordé rapide (Fourier)": {
+   "500": {
+    "nmse": 1.8424913956647827e-07,
+    "secondes": 90.33333333333333,
+    "paramètres": 1251
+   },
+   "2000": {
+    "nmse": 2.5975819728138617e-08,
+    "secondes": 96.33333333333333,
+    "paramètres": 5001
+   },
+   "8000": {
+    "nmse": 8.834017778537958e-08,
+    "secondes": 103.33333333333333,
+    "paramètres": 20001
+   },
+   "16000": {
+    "nmse": 2.018537974198382e-07,
+    "secondes": 150.66666666666666,
+    "paramètres": 40001
+   }
+  },
+  "réservoir accordé (dense)": {
+   "500": {
+    "nmse": 7.395576855131836e-08,
+    "secondes": 34.666666666666664,
+    "paramètres": 1500
+   },
+   "2000": {
+    "nmse": 3.385370708360194e-08,
+    "secondes": 72.0,
+    "paramètres": 6000
+   }
+  },
+  "RNN (meilleur lr)": {
+   "500": {
+    "nmse": 1.0986042904412614e-06,
+    "secondes": 34.0,
+    "paramètres": 251000
+   },
+   "2000": {
+    "nmse": 1.8092934983667277e-08,
+    "secondes": 56.0,
+    "paramètres": 4004000
+   }
+  }
+ },
+ "NARMA10": {
+  "réservoir de Fourier, non entraîné": {
+   "500": {
+    "nmse": 0.21942059660493354,
+    "secondes": 1.0,
+    "paramètres": 0
+   },
+   "2000": {
+    "nmse": 0.5004473676050717,
+    "secondes": 8.666666666666666,
+    "paramètres": 0
+   },
+   "8000": {
+    "nmse": 0.3611079446893073,
+    "secondes": 8.666666666666666,
+    "paramètres": 0
+   },
+   "16000": {
+    "nmse": 0.3283208243034781,
+    "secondes": 8.0,
+    "paramètres": 0
+   }
+  },
+  "accordé rapide (Fourier)": {
+   "500": {
+    "nmse": 0.010743009697398723,
+    "secondes": 90.66666666666667,
+    "paramètres": 1251
+   },
+   "2000": {
+    "nmse": 0.01626413381761583,
+    "secondes": 96.33333333333333,
+    "paramètres": 5001
+   },
+   "8000": {
+    "nmse": 0.01836642526478667,
+    "secondes": 103.0,
+    "paramètres": 20001
+   },
+   "16000": {
+    "nmse": 0.01344725648035126,
+    "secondes": 151.0,
+    "paramètres": 40001
+   }
+  },
+  "réservoir accordé (dense)": {
+   "500": {
+    "nmse": 0.01020264252948516,
+    "secondes": 34.0,
+    "paramètres": 1500
+   },
+   "2000": {
+    "nmse": 0.01665221858991499,
+    "secondes": 74.0,
+    "paramètres": 6000
+   }
+  },
+  "RNN (meilleur lr)": {
+   "500": {
+    "nmse": 0.0925178227162087,
+    "secondes": 34.0,
+    "paramètres": 251000
+   },
+   "2000": {
+    "nmse": 0.2559120893623871,
+    "secondes": 56.666666666666664,
+    "paramètres": 4004000
+   }
+  }
+ },
+ "Mémoire (délai 15)": {
+  "réservoir de Fourier, non entraîné": {
+   "500": {
+    "nmse": 0.33712320748052,
+    "secondes": 2.3333333333333335,
+    "paramètres": 0
+   },
+   "2000": {
+    "nmse": 0.2377808282880995,
+    "secondes": 7.0,
+    "paramètres": 0
+   },
+   "8000": {
+    "nmse": 0.09659261674727852,
+    "secondes": 8.0,
+    "paramètres": 0
+   },
+   "16000": {
+    "nmse": 0.05511905900052983,
+    "secondes": 8.0,
+    "paramètres": 0
+   }
+  },
+  "accordé rapide (Fourier)": {
+   "500": {
+    "nmse": 0.0019390312944589179,
+    "secondes": 90.0,
+    "paramètres": 1251
+   },
+   "2000": {
+    "nmse": 0.005779758533672047,
+    "secondes": 98.33333333333333,
+    "paramètres": 5001
+   },
+   "8000": {
+    "nmse": 0.010962763901478694,
+    "secondes": 102.66666666666667,
+    "paramètres": 20001
+   },
+   "16000": {
+    "nmse": 0.007943670766407838,
+    "secondes": 151.66666666666666,
+    "paramètres": 40001
+   }
+  },
+  "réservoir accordé (dense)": {
+   "500": {
+    "nmse": 0.0018630400818013654,
+    "secondes": 34.0,
+    "paramètres": 1500
+   },
+   "2000": {
+    "nmse": 0.004406909152030693,
+    "secondes": 72.66666666666667,
+    "paramètres": 6000
+   }
+  },
+  "RNN (meilleur lr)": {
+   "500": {
+    "nmse": 0.03609842919477837,
+    "secondes": 33.666666666666664,
+    "paramètres": 251000
+   },
+   "2000": {
+    "nmse": 0.04405355221961279,
+    "secondes": 56.0,
+    "paramètres": 4004000
+   }
+  }
+ }
+}

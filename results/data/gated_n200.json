@@ -1,0 +1,194 @@
+{
+ "args": {
+  "n": 200,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "réservoir accordé": {
+    "0": {
+     "nmse": 4.485307861968823e-06,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 2.9165393542208445e-06,
+     "n_params": 600
+    }
+   },
+   "GRU, init soignée, lr 2e-3": {
+    "0": {
+     "nmse": 1.0373802343680135e-06,
+     "n_params": 121800
+    },
+    "1": {
+     "nmse": 1.2647409178894814e-06,
+     "n_params": 121800
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "nmse": 2.7712367017269307e-06,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 2.6407107194748966e-06,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes légères": {
+    "0": {
+     "nmse": 3.124391162819619e-06,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 2.5684917866437244e-06,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes, type LSTM": {
+    "0": {
+     "nmse": 6.146736169562921e-06,
+     "n_params": 2400
+    },
+    "1": {
+     "nmse": 3.577812435680528e-06,
+     "n_params": 2400
+    }
+   },
+   "réservoir accordé à porte d'entrée": {
+    "0": {
+     "nmse": 3.3244460693624518e-06,
+     "n_params": 1000
+    },
+    "1": {
+     "nmse": 2.729321545423433e-06,
+     "n_params": 1000
+    }
+   }
+  },
+  "NARMA10": {
+   "réservoir accordé": {
+    "0": {
+     "nmse": 0.01408041770427869,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.016018454564958175,
+     "n_params": 600
+    }
+   },
+   "GRU, init soignée, lr 2e-3": {
+    "0": {
+     "nmse": 0.11470102491049886,
+     "n_params": 121800
+    },
+    "1": {
+     "nmse": 0.10860459448071955,
+     "n_params": 121800
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "nmse": 0.011231294615165246,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 0.01064514991446021,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes légères": {
+    "0": {
+     "nmse": 0.011554699592107073,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 0.01189415746818739,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes, type LSTM": {
+    "0": {
+     "nmse": 0.014798123912620685,
+     "n_params": 2400
+    },
+    "1": {
+     "nmse": 0.015508102448888917,
+     "n_params": 2400
+    }
+   },
+   "réservoir accordé à porte d'entrée": {
+    "0": {
+     "nmse": 0.012564740668144695,
+     "n_params": 1000
+    },
+    "1": {
+     "nmse": 0.014055806341538182,
+     "n_params": 1000
+    }
+   }
+  },
+  "Mémoire (délai 15)": {
+   "réservoir accordé": {
+    "0": {
+     "nmse": 0.0017992354348895065,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.0019238033937299297,
+     "n_params": 600
+    }
+   },
+   "GRU, init soignée, lr 2e-3": {
+    "0": {
+     "nmse": 0.6497106440652999,
+     "n_params": 121800
+    },
+    "1": {
+     "nmse": 0.6322112971632078,
+     "n_params": 121800
+    }
+   },
+   "réservoir accordé à portes": {
+    "0": {
+     "nmse": 0.0018389740486257202,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 0.0017258962471729407,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes légères": {
+    "0": {
+     "nmse": 0.0020618417867784415,
+     "n_params": 1800
+    },
+    "1": {
+     "nmse": 0.0017035017678417054,
+     "n_params": 1800
+    }
+   },
+   "réservoir accordé à portes, type LSTM": {
+    "0": {
+     "nmse": 0.003011197098669134,
+     "n_params": 2400
+    },
+    "1": {
+     "nmse": 0.002844443789105287,
+     "n_params": 2400
+    }
+   },
+   "réservoir accordé à porte d'entrée": {
+    "0": {
+     "nmse": 0.0019218548132342757,
+     "n_params": 1000
+    },
+    "1": {
+     "nmse": 0.0017327619575616628,
+     "n_params": 1000
+    }
+   }
+  }
+ }
+}

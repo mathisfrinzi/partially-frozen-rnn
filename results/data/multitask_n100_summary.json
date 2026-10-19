@@ -1,0 +1,105 @@
+{
+ "accordé, tout par tâche": {
+  "nmse": {
+   "Mackey-Glass (+15)": 8.819192530410006e-05,
+   "NARMA10": 0.023276829470954837,
+   "Mémoire (délai 15)": 0.002871613300019725
+  },
+  "nombres par tâche": 401
+ },
+ "accordé, entrées partagées": {
+  "nmse": {
+   "Mackey-Glass (+15)": 0.00014950494984856114,
+   "NARMA10": 0.06349842904902173,
+   "Mémoire (délai 15)": 0.15569645686636857
+  },
+  "nombres par tâche": 301
+ },
+ "RNN, une copie par tâche": {
+  "nmse": {
+   "Mackey-Glass (+15)": 7.758908104765416e-05,
+   "NARMA10": 0.03239951259231084,
+   "Mémoire (délai 15)": 0.002996454699053365
+  },
+  "nombres par tâche": 10301
+ },
+ "RNN séquentiel": {
+  "nmse": {
+   "Mackey-Glass (+15)": 0.8339616937943586,
+   "NARMA10": 0.6858900952455286,
+   "Mémoire (délai 15)": 0.003476867512676502
+  },
+  "nombres par tâche": 10301
+ },
+ "accordé séquentiel, un réglage": {
+  "nmse": {
+   "Mackey-Glass (+15)": 4.258930479359445,
+   "NARMA10": 1.1512934034839797,
+   "Mémoire (délai 15)": 0.006100781424111056
+  },
+  "nombres par tâche": 401
+ },
+ "oubli": {
+  "RNN séquentiel": {
+   "Mackey-Glass (+15)": {
+    "juste après": 7.758908104765416e-05,
+    "fin": 0.8339616937943586,
+    "fin, lecture réapprise": 0.0009291964952537455
+   },
+   "NARMA10": {
+    "juste après": 0.036374667573198884,
+    "fin": 0.6858900952455286,
+    "fin, lecture réapprise": 0.13048856195647474
+   },
+   "Mémoire (délai 15)": {
+    "juste après": 0.003476867512676502,
+    "fin": 0.003476867512676502,
+    "fin, lecture réapprise": 0.003476867512676502
+   }
+  },
+  "accordé séquentiel, un réglage": {
+   "Mackey-Glass (+15)": {
+    "juste après": 8.819192530410006e-05,
+    "fin": 4.258930479359445,
+    "fin, lecture réapprise": 0.00374821829480727
+   },
+   "NARMA10": {
+    "juste après": 0.02986708920216699,
+    "fin": 1.1512934034839797,
+    "fin, lecture réapprise": 0.12556148271330855
+   },
+   "Mémoire (délai 15)": {
+    "juste après": 0.006100781424111056,
+    "fin": 0.006100781424111056,
+    "fin, lecture réapprise": 0.006100781424111056
+   }
+  }
+ },
+ "réglages croisés": {
+  "Mackey-Glass (+15)": {
+   "Mackey-Glass (+15)": 0.00014950494984856114,
+   "NARMA10": 0.2738171622219711,
+   "Mémoire (délai 15)": 0.880536684837347
+  },
+  "NARMA10": {
+   "Mackey-Glass (+15)": 0.0008895416072303667,
+   "NARMA10": 0.06349842904902173,
+   "Mémoire (délai 15)": 0.682984745385383
+  },
+  "Mémoire (délai 15)": {
+   "Mackey-Glass (+15)": 0.002384597549449047,
+   "NARMA10": 0.2025741194763223,
+   "Mémoire (délai 15)": 0.15569645686636857
+  },
+  "moyenne Mackey-Glass + NARMA10": {
+   "Mackey-Glass (+15)": 0.0006261801637903937,
+   "NARMA10": 0.16377518795787877,
+   "Mémoire (délai 15)": 0.7567948236032741
+  },
+  "réservoir de départ (g = 1)": {
+   "Mackey-Glass (+15)": 0.0016456423836587778,
+   "NARMA10": 0.27578716269702497,
+   "Mémoire (délai 15)": 0.7776723013715581
+  }
+ }
+}

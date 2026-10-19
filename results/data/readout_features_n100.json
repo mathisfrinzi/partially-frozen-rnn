@@ -1,0 +1,722 @@
+{
+ "args": {
+  "n": 100,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": null,
+  "only": null,
+  "report": false
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.00187,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.00157,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00152,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + carr\u00e9": {
+    "0": {
+     "nmse": 6.64e-05,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 4.08e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 6.47e-05,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique, 200 neurones": {
+    "0": {
+     "nmse": 0.000127,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.000119,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.000224,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 9.83e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.000105,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 6.65e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + carr\u00e9  [x, x\u00b2]": {
+    "0": {
+     "nmse": 1.33e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 8.08e-06,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 1.05e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + cube  [x, x\u00b3] (impair)": {
+    "0": {
+     "nmse": 1.08e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 5.23e-06,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 1.66e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + valeur absolue  [x, |x|]": {
+    "0": {
+     "nmse": 3.85e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 6.47e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 5.33e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + produits de paires  [x, x\u1d62x\u2c7c]": {
+    "0": {
+     "nmse": 7.88e-06,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 1.02e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 1.02e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9, 200 neurones": {
+    "0": {
+     "nmse": 4.49e-06,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 2.92e-06,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 3.42e-06,
+     "n_params": 600
+    }
+   },
+   "r\u00e9servoir classique + cube": {
+    "0": {
+     "nmse": 0.00020409244264520335,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 9.761613771145705e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00016942674101395208,
+     "n_params": 0
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.298,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.219,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.321,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + carr\u00e9": {
+    "0": {
+     "nmse": 0.225,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.131,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.256,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique, 200 neurones": {
+    "0": {
+     "nmse": 0.239,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.26,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.279,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0216,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0232,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0252,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + carr\u00e9  [x, x\u00b2]": {
+    "0": {
+     "nmse": 0.0177,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0121,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0144,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + cube  [x, x\u00b3] (impair)": {
+    "0": {
+     "nmse": 0.0176,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0151,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0173,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + valeur absolue  [x, |x|]": {
+    "0": {
+     "nmse": 0.0248,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0169,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0159,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + produits de paires  [x, x\u1d62x\u2c7c]": {
+    "0": {
+     "nmse": 0.0163,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0164,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0171,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9, 200 neurones": {
+    "0": {
+     "nmse": 0.0141,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.016,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 0.0167,
+     "n_params": 600
+    }
+   },
+   "r\u00e9servoir classique + cube": {
+    "0": {
+     "nmse": 0.2749438705247741,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.21022133389907238,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.30346423934502265,
+     "n_params": 0
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.945,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.598,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.833,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + carr\u00e9": {
+    "0": {
+     "nmse": 0.978,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.61,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.864,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique, 200 neurones": {
+    "0": {
+     "nmse": 0.437,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.596,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.514,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.00279,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00296,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00299,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + carr\u00e9  [x, x\u00b2]": {
+    "0": {
+     "nmse": 0.00358,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00328,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00426,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + cube  [x, x\u00b3] (impair)": {
+    "0": {
+     "nmse": 0.00342,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00328,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00285,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + valeur absolue  [x, |x|]": {
+    "0": {
+     "nmse": 0.00315,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00358,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00416,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + produits de paires  [x, x\u1d62x\u2c7c]": {
+    "0": {
+     "nmse": 0.0034,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00305,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00328,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9, 200 neurones": {
+    "0": {
+     "nmse": 0.00185,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.0018,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 0.00187,
+     "n_params": 600
+    }
+   },
+   "r\u00e9servoir classique + cube": {
+    "0": {
+     "nmse": 0.9322901312727608,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.468190270682207,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.8064054411304404,
+     "n_params": 0
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.00119,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.00293,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00279,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + carr\u00e9": {
+    "0": {
+     "nmse": 0.000182,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.000328,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.000676,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique, 200 neurones": {
+    "0": {
+     "nmse": 0.000957,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.00167,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00194,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.00072,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.000476,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.000687,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + carr\u00e9  [x, x\u00b2]": {
+    "0": {
+     "nmse": 0.000126,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 7.86e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 4.67e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + cube  [x, x\u00b3] (impair)": {
+    "0": {
+     "nmse": 0.000224,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 5.5e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 7.01e-05,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + valeur absolue  [x, |x|]": {
+    "0": {
+     "nmse": 0.000393,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00035,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.000427,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + produits de paires  [x, x\u1d62x\u2c7c]": {
+    "0": {
+     "nmse": 0.00013,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 7.04e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00010457138749050061,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9, 200 neurones": {
+    "0": {
+     "nmse": 0.000442,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.000168,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 9.64287309717265e-05,
+     "n_params": 600
+    }
+   },
+   "r\u00e9servoir classique + cube": {
+    "0": {
+     "nmse": 0.0004187744595829847,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.0008268126672487902,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.0009276413221554889,
+     "n_params": 0
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.6801744264241126,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6621816076013914,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.6647459873907902,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + carr\u00e9": {
+    "0": {
+     "nmse": 0.5119461023680513,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6072185608519476,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.5557358801161556,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique + cube": {
+    "0": {
+     "nmse": 0.406490532177799,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.5242544249811512,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.3875681111665298,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir classique, 200 neurones": {
+    "0": {
+     "nmse": 0.6185589246635949,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.5377019206046433,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.6214917867332089,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.04004745860500722,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.04234487438539029,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.04396243056719376,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + carr\u00e9  [x, x\u00b2]": {
+    "0": {
+     "nmse": 0.01031668691853639,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.018459290713650565,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.009651793920300194,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + cube  [x, x\u00b3] (impair)": {
+    "0": {
+     "nmse": 0.007679183011222837,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.007552939470690736,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.008431393827656484,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + valeur absolue  [x, |x|]": {
+    "0": {
+     "nmse": 0.010789869823930815,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.006950417321491897,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.010975593524103393,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9 + produits de paires  [x, x\u1d62x\u2c7c]": {
+    "0": {
+     "nmse": 0.016116341612035238,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.01589528232970457,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.040577948020288114,
+     "n_params": 300
+    }
+   },
+   "accord\u00e9, 200 neurones": {
+    "0": {
+     "nmse": 0.049145773301013454,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.056779928448902096,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 0.06631151709150206,
+     "n_params": 600
+    }
+   }
+  }
+ }
+}

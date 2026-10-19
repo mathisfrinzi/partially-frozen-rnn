@@ -1,0 +1,378 @@
+{
+ "args": {
+  "n": 100,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "directions principales | 100": {
+    "log10": -4.190644545534188,
+    "n_params": 300
+   },
+   "directions à accord | 100": {
+    "log10": -4.1541828969027375,
+    "n_params": 300
+   },
+   "positions du gradient | 100": {
+    "log10": -3.9641936310910446,
+    "n_params": 300
+   },
+   "positions à accord | 100": {
+    "log10": -4.25036856541842,
+    "n_params": 300
+   },
+   "contrôle : directions aléatoires | 100": {
+    "log10": -4.103360573217693,
+    "n_params": 300
+   },
+   "contrôle : positions au hasard | 100": {
+    "log10": -4.475679683287186,
+    "n_params": 300
+   },
+   "directions principales | 300": {
+    "log10": -4.317767268502614,
+    "n_params": 500
+   },
+   "directions à accord | 300": {
+    "log10": -4.388233755793469,
+    "n_params": 500
+   },
+   "positions du gradient | 300": {
+    "log10": -4.278779092852054,
+    "n_params": 500
+   },
+   "positions à accord | 300": {
+    "log10": -4.19478296083762,
+    "n_params": 500
+   },
+   "contrôle : directions aléatoires | 300": {
+    "log10": -4.380830952993702,
+    "n_params": 500
+   },
+   "contrôle : positions au hasard | 300": {
+    "log10": -4.37123110751011,
+    "n_params": 500
+   },
+   "directions principales | 1000": {
+    "log10": -4.392060700110006,
+    "n_params": 1200
+   },
+   "directions à accord | 1000": {
+    "log10": -4.496452739651783,
+    "n_params": 1200
+   },
+   "positions du gradient | 1000": {
+    "log10": -4.306308909894688,
+    "n_params": 1200
+   },
+   "positions à accord | 1000": {
+    "log10": -4.381891020885961,
+    "n_params": 1200
+   },
+   "contrôle : directions aléatoires | 1000": {
+    "log10": -4.428570845636236,
+    "n_params": 1200
+   },
+   "contrôle : positions au hasard | 1000": {
+    "log10": -4.73789387709105,
+    "n_params": 1200
+   }
+  },
+  "NARMA10": {
+   "directions principales | 100": {
+    "log10": -1.671337962022966,
+    "n_params": 300
+   },
+   "directions à accord | 100": {
+    "log10": -1.691869949013002,
+    "n_params": 300
+   },
+   "positions du gradient | 100": {
+    "log10": -1.7211366132472867,
+    "n_params": 300
+   },
+   "positions à accord | 100": {
+    "log10": -1.5859200062276184,
+    "n_params": 300
+   },
+   "contrôle : directions aléatoires | 100": {
+    "log10": -1.712749063590987,
+    "n_params": 300
+   },
+   "contrôle : positions au hasard | 100": {
+    "log10": -1.747938691311227,
+    "n_params": 300
+   },
+   "directions principales | 300": {
+    "log10": -1.8665178378035832,
+    "n_params": 500
+   },
+   "directions à accord | 300": {
+    "log10": -1.800356120124804,
+    "n_params": 500
+   },
+   "positions du gradient | 300": {
+    "log10": -1.862763247434111,
+    "n_params": 500
+   },
+   "positions à accord | 300": {
+    "log10": -1.711198892226552,
+    "n_params": 500
+   },
+   "contrôle : directions aléatoires | 300": {
+    "log10": -1.7955405035234921,
+    "n_params": 500
+   },
+   "contrôle : positions au hasard | 300": {
+    "log10": -1.8557961627394586,
+    "n_params": 500
+   },
+   "directions principales | 1000": {
+    "log10": -1.913825812849128,
+    "n_params": 1200
+   },
+   "directions à accord | 1000": {
+    "log10": -1.9191531546236424,
+    "n_params": 1200
+   },
+   "positions du gradient | 1000": {
+    "log10": -1.9403914406963025,
+    "n_params": 1200
+   },
+   "positions à accord | 1000": {
+    "log10": -1.9021452836378117,
+    "n_params": 1200
+   },
+   "contrôle : directions aléatoires | 1000": {
+    "log10": -1.9969910933389021,
+    "n_params": 1200
+   },
+   "contrôle : positions au hasard | 1000": {
+    "log10": -1.942000304760688,
+    "n_params": 1200
+   }
+  },
+  "Mémoire (délai 15)": {
+   "directions principales | 100": {
+    "log10": -2.5076358011641795,
+    "n_params": 300
+   },
+   "directions à accord | 100": {
+    "log10": -2.581333446495737,
+    "n_params": 300
+   },
+   "positions du gradient | 100": {
+    "log10": -1.9986458787664962,
+    "n_params": 300
+   },
+   "positions à accord | 100": {
+    "log10": -2.530361028643271,
+    "n_params": 300
+   },
+   "contrôle : directions aléatoires | 100": {
+    "log10": -2.762630946013245,
+    "n_params": 300
+   },
+   "contrôle : positions au hasard | 100": {
+    "log10": -2.657004934591089,
+    "n_params": 300
+   },
+   "directions principales | 300": {
+    "log10": -2.7343539238938117,
+    "n_params": 500
+   },
+   "directions à accord | 300": {
+    "log10": -2.781856554664948,
+    "n_params": 500
+   },
+   "positions du gradient | 300": {
+    "log10": -2.732494233669627,
+    "n_params": 500
+   },
+   "positions à accord | 300": {
+    "log10": -2.779371697947053,
+    "n_params": 500
+   },
+   "contrôle : directions aléatoires | 300": {
+    "log10": -2.772896448886459,
+    "n_params": 500
+   },
+   "contrôle : positions au hasard | 300": {
+    "log10": -2.8625707036239927,
+    "n_params": 500
+   },
+   "directions principales | 1000": {
+    "log10": -2.714459355969733,
+    "n_params": 1200
+   },
+   "directions à accord | 1000": {
+    "log10": -2.771915287206491,
+    "n_params": 1200
+   },
+   "positions du gradient | 1000": {
+    "log10": -2.855841254426893,
+    "n_params": 1200
+   },
+   "positions à accord | 1000": {
+    "log10": -2.8484932862326096,
+    "n_params": 1200
+   },
+   "contrôle : directions aléatoires | 1000": {
+    "log10": -2.8406182958794366,
+    "n_params": 1200
+   },
+   "contrôle : positions au hasard | 1000": {
+    "log10": -2.9196063910266097,
+    "n_params": 1200
+   }
+  },
+  "Lorenz (+10)": {
+   "directions principales | 100": {
+    "log10": -3.728280483275425,
+    "n_params": 300
+   },
+   "directions à accord | 100": {
+    "log10": -3.3753434638399527,
+    "n_params": 300
+   },
+   "positions du gradient | 100": {
+    "log10": -3.3754447286766234,
+    "n_params": 300
+   },
+   "positions à accord | 100": {
+    "log10": -3.2535351513948525,
+    "n_params": 300
+   },
+   "contrôle : directions aléatoires | 100": {
+    "log10": -3.200744632213246,
+    "n_params": 300
+   },
+   "contrôle : positions au hasard | 100": {
+    "log10": -3.278600056414694,
+    "n_params": 300
+   },
+   "directions principales | 300": {
+    "log10": -3.860663735482698,
+    "n_params": 500
+   },
+   "directions à accord | 300": {
+    "log10": -3.686386312064659,
+    "n_params": 500
+   },
+   "positions du gradient | 300": {
+    "log10": -3.3050686393331796,
+    "n_params": 500
+   },
+   "positions à accord | 300": {
+    "log10": -3.6370972081277797,
+    "n_params": 500
+   },
+   "contrôle : directions aléatoires | 300": {
+    "log10": -3.515135815492271,
+    "n_params": 500
+   },
+   "contrôle : positions au hasard | 300": {
+    "log10": -3.4677510304202572,
+    "n_params": 500
+   },
+   "directions principales | 1000": {
+    "log10": -3.983813369783524,
+    "n_params": 1200
+   },
+   "directions à accord | 1000": {
+    "log10": -3.593259916433834,
+    "n_params": 1200
+   },
+   "positions du gradient | 1000": {
+    "log10": -4.23196541261677,
+    "n_params": 1200
+   },
+   "positions à accord | 1000": {
+    "log10": -3.952340063635395,
+    "n_params": 1200
+   },
+   "contrôle : directions aléatoires | 1000": {
+    "log10": -3.6393503431722705,
+    "n_params": 1200
+   },
+   "contrôle : positions au hasard | 1000": {
+    "log10": -4.0070092436521385,
+    "n_params": 1200
+   }
+  },
+  "Hénon (+3)": {
+   "directions principales | 100": {
+    "log10": -1.3268738251769834,
+    "n_params": 300
+   },
+   "directions à accord | 100": {
+    "log10": -1.3492432213929597,
+    "n_params": 300
+   },
+   "positions du gradient | 100": {
+    "log10": -1.5178911703852762,
+    "n_params": 300
+   },
+   "positions à accord | 100": {
+    "log10": -1.4454775174716663,
+    "n_params": 300
+   },
+   "contrôle : directions aléatoires | 100": {
+    "log10": -1.2693443360704282,
+    "n_params": 300
+   },
+   "contrôle : positions au hasard | 100": {
+    "log10": -1.4830615447156021,
+    "n_params": 300
+   },
+   "directions principales | 300": {
+    "log10": -1.7703746014922732,
+    "n_params": 500
+   },
+   "directions à accord | 300": {
+    "log10": -1.5719168479630234,
+    "n_params": 500
+   },
+   "positions du gradient | 300": {
+    "log10": -1.604106611644973,
+    "n_params": 500
+   },
+   "positions à accord | 300": {
+    "log10": -1.4342697138308302,
+    "n_params": 500
+   },
+   "contrôle : directions aléatoires | 300": {
+    "log10": -1.4193920625314922,
+    "n_params": 500
+   },
+   "contrôle : positions au hasard | 300": {
+    "log10": -1.657318986431327,
+    "n_params": 500
+   },
+   "directions principales | 1000": {
+    "log10": -1.8692831767862843,
+    "n_params": 1200
+   },
+   "directions à accord | 1000": {
+    "log10": -1.891704123798736,
+    "n_params": 1200
+   },
+   "positions du gradient | 1000": {
+    "log10": -1.868743280758035,
+    "n_params": 1200
+   },
+   "positions à accord | 1000": {
+    "log10": -1.673968446029494,
+    "n_params": 1200
+   },
+   "contrôle : directions aléatoires | 1000": {
+    "log10": -1.627215954277654,
+    "n_params": 1200
+   },
+   "contrôle : positions au hasard | 1000": {
+    "log10": -1.8080374224308982,
+    "n_params": 1200
+   }
+  }
+ }
+}

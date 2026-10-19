@@ -1,0 +1,320 @@
+{
+ "args": {
+  "n": 200,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.00012670480604646094,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 3.767069633734168e-05,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.3": {
+    "0": {
+     "nmse": 2.369221665803188e-05,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 2.9845521006536324e-05,
+     "n_params": 40400
+    }
+   },
+   "RNN frein\u00e9": {
+    "0": {
+     "nmse": 4.9641776001474726e-06,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir corrig\u00e9 de rang 4": {
+    "0": {
+     "nmse": 3.800031634986051e-06,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir sculpt\u00e9 int\u00e9gral, dense": {
+    "0": {
+     "nmse": 5.904749049551651e-06,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 4.485260903547001e-06,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 2.9165393542208445e-06,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 3.4172168807976775e-06,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 born\u00e9": {
+    "0": {
+     "nmse": 5.532929465269837e-06,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 3.698831016272665e-06,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9, valeurs propres": {
+    "0": {
+     "nmse": 6.614115851475754e-06,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9 param\u00e9trique (8 coef.)": {
+    "0": {
+     "nmse": 1.0291833768983029e-05,
+     "n_params": 408
+    }
+   },
+   "accord\u00e9 profond (2 \u00d7 N/2)": {
+    "0": {
+     "nmse": 1.9653924434215127e-05,
+     "n_params": 10500
+    }
+   },
+   "accord\u00e9 + rang 4": {
+    "0": {
+     "nmse": 4.157441626089858e-06,
+     "n_params": 2200
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 3.5842066342510975e-06,
+     "n_params": 800
+    },
+    "1": {
+     "nmse": 3.451818259924241e-06,
+     "n_params": 800
+    },
+    "2": {
+     "nmse": 3.522662325508414e-06,
+     "n_params": 800
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.23914323639616442,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.09711426786410658,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.3": {
+    "0": {
+     "nmse": 0.03654782656053662,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 0.02043412935962638,
+     "n_params": 40400
+    }
+   },
+   "RNN frein\u00e9": {
+    "0": {
+     "nmse": 0.012778783622929325,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir corrig\u00e9 de rang 4": {
+    "0": {
+     "nmse": 0.007440038243882654,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir sculpt\u00e9 int\u00e9gral, dense": {
+    "0": {
+     "nmse": 0.00848952131565036,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.014082341103572364,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.016018454564958175,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 0.016819715116705432,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 born\u00e9": {
+    "0": {
+     "nmse": 0.015612338523370456,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 0.012857888458418896,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9, valeurs propres": {
+    "0": {
+     "nmse": 0.022406426935429383,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9 param\u00e9trique (8 coef.)": {
+    "0": {
+     "nmse": 0.024725853041352233,
+     "n_params": 408
+    }
+   },
+   "accord\u00e9 profond (2 \u00d7 N/2)": {
+    "0": {
+     "nmse": 0.01452229712870228,
+     "n_params": 10500
+    }
+   },
+   "accord\u00e9 + rang 4": {
+    "0": {
+     "nmse": 0.011335905210483499,
+     "n_params": 2200
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 0.009092616987556956,
+     "n_params": 800
+    },
+    "1": {
+     "nmse": 0.011261148547454183,
+     "n_params": 800
+    },
+    "2": {
+     "nmse": 0.009932807924119606,
+     "n_params": 800
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.4371866948201028,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.07316472953337852,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.3": {
+    "0": {
+     "nmse": 0.008334557819922215,
+     "n_params": 40400
+    }
+   },
+   "RNN, lr global \u00d7 0.1": {
+    "0": {
+     "nmse": 0.015930134531542062,
+     "n_params": 40400
+    }
+   },
+   "RNN frein\u00e9": {
+    "0": {
+     "nmse": 0.0017650532583985592,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir corrig\u00e9 de rang 4": {
+    "0": {
+     "nmse": 0.001369865805794916,
+     "n_params": 2000
+    }
+   },
+   "r\u00e9servoir sculpt\u00e9 int\u00e9gral, dense": {
+    "0": {
+     "nmse": 0.0005891473893194455,
+     "n_params": 40400
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0018322606227255335,
+     "n_params": 600
+    },
+    "1": {
+     "nmse": 0.0019238033937299297,
+     "n_params": 600
+    },
+    "2": {
+     "nmse": 0.0018718614647205022,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 born\u00e9": {
+    "0": {
+     "nmse": 0.0018582187112644343,
+     "n_params": 600
+    }
+   },
+   "accord\u00e9 + fuite": {
+    "0": {
+     "nmse": 0.0018347493892615799,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9, valeurs propres": {
+    "0": {
+     "nmse": 0.004728646493018454,
+     "n_params": 800
+    }
+   },
+   "accord\u00e9 param\u00e9trique (8 coef.)": {
+    "0": {
+     "nmse": 0.005668558982561763,
+     "n_params": 408
+    }
+   },
+   "accord\u00e9 s\u00e9lectif": {
+    "0": {
+     "nmse": 0.0020153613758860786,
+     "n_params": 800
+    },
+    "1": {
+     "nmse": 0.0022853965550302347,
+     "n_params": 800
+    },
+    "2": {
+     "nmse": 0.0020822923217082546,
+     "n_params": 800
+    }
+   }
+  }
+ }
+}

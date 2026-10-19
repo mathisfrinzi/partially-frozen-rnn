@@ -1,0 +1,95 @@
+{
+ "EMPS — test (impulsions)": {
+  "réservoir classique": {
+   "rmse": 6.634974768763321,
+   "se": 0.21825153030296313,
+   "nmse": 6435.187845234574,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "accordé": {
+   "rmse": 4.03544810278317,
+   "se": 0.6054413349364844,
+   "nmse": 2266.1777956144656,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 7.525656363039494,
+   "se": 1.19068919585209,
+   "nmse": 7854.004104059122,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 2.1797776306638945,
+   "se": 0.19385880693671176,
+   "nmse": 684.376569826415,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 0.95126431638939,
+   "se": 0.3636898897777665,
+   "nmse": 86.92053654375121,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 0.1756048718509539,
+   "se": 0.04814958541510468,
+   "nmse": 3.937586420915296,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 1.0162620583261945,
+   "se": 0.19383978369980534,
+   "nmse": 140.99635796600006,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 2.7573262039144244,
+   "se": 1.7906403505799668,
+   "nmse": 455.721083420003,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 1.5250979783483303,
+   "se": 0.2266774581388294,
+   "nmse": 326.38274321601614,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 0.28903704234495603,
+   "se": 0.01924342076090083,
+   "nmse": 12.125292097328137,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "GRU, 100 unités": {
+   "rmse": 1.771589686669116,
+   "se": 0.6773543134627961,
+   "nmse": 353.0454939283036,
+   "paramètres": 30900,
+   "graines": 3
+  },
+  "GRU, 500 unités": {
+   "rmse": 4.799500690148498,
+   "se": 4.688005303294492,
+   "nmse": 44.87842554743331,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU, 200 unités": {
+   "rmse": 2.174881647435265,
+   "se": 0.3762022139748188,
+   "nmse": 646.3888460435362,
+   "paramètres": 40700,
+   "graines": 3
+  }
+ }
+}

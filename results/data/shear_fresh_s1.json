@@ -1,0 +1,567 @@
+{
+ "args": {
+  "mode": "fresh",
+  "n": 500,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 9.404694977725757e-06,
+     "train": 8.94442393829021e-06,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 5.1202724981733066e-08,
+     "train": 4.469025595084349e-08,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 1.424282404708153e-07,
+     "train": 1.5400090563693784e-07,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 3.0381889642724724e-08,
+     "train": 2.9559740763097803e-08,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 2.3359238223343395e-08,
+     "train": 2.118039888439034e-08,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 4.131461465597805e-08,
+     "train": 3.5345159368326154e-08,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 2.597081167996818e-08,
+     "train": 2.449826791950761e-08,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 2.01691543841132e-08,
+     "train": 1.799172715090734e-08,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 2.2269283424559072e-08,
+     "train": 1.9875693157066633e-08,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 2.7948842039507816e-05,
+     "train": 2.650935636791395e-05,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 1.1912925702375833e-05,
+     "train": 1.144792783613414e-05,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 4.5363417387130775e-08,
+     "train": 5.102982747884037e-08,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.00033372846805718696,
+     "train": 0.0003078497709925567,
+     "n_params": 40700
+    }
+   }
+  },
+  "NARMA10": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 0.2347890926726765,
+     "train": 0.16257446088720778,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 0.009458891581315227,
+     "train": 0.003655661515740203,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 0.018671234680624624,
+     "train": 0.015547498756342914,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 0.0043352164978456235,
+     "train": 0.0020722258465392493,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 0.004002026237901404,
+     "train": 0.0012917900332976213,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 0.008974192400392246,
+     "train": 0.0009061904870143751,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 0.004801044382636796,
+     "train": 0.0018786056699036696,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 0.00572543528987653,
+     "train": 0.0012789835762104186,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 0.0036476135606713497,
+     "train": 0.0012336224800045602,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 0.0014832193655973881,
+     "train": 0.0007270428175447979,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 0.007653365992127173,
+     "train": 0.00118359347467749,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 0.14000890260225943,
+     "train": 0.0003144344717680881,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.009607623505900704,
+     "train": 0.002340735941868995,
+     "n_params": 40700
+    }
+   }
+  },
+  "Mémoire (délai 15)": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 0.18834657805708657,
+     "train": 0.12702289740129452,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 0.0022163583103837017,
+     "train": 0.001125284534247531,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 0.001672225551469731,
+     "train": 0.0010561492692509552,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 0.0015161493218973148,
+     "train": 0.0007329266177352213,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 0.0012670520547890113,
+     "train": 0.0004662309749426842,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 0.0018423118254238698,
+     "train": 0.0003565817446174235,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 0.0017510889201115894,
+     "train": 0.0007703254202883245,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 0.0014623160697298425,
+     "train": 0.0004726800655716041,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 0.001181672544048483,
+     "train": 0.000431527040550427,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 1.0959737374305971e-05,
+     "train": 6.903850117756719e-06,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 0.680160854797281,
+     "train": 0.006096212005939762,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 0.6469282611015574,
+     "train": 0.0005098190039030132,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.0093841373088275,
+     "train": 0.0076187643001157865,
+     "n_params": 40700
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 0.000676188316690425,
+     "train": 0.00021115844137555942,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 9.217140468587259e-05,
+     "train": 1.04251906570111e-07,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 1.183841463559366e-05,
+     "train": 4.6683479027056913e-07,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 2.3761601788206986e-05,
+     "train": 8.166618338465897e-08,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 2.623359973146782e-05,
+     "train": 3.558227905106724e-08,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 6.778001605014362e-06,
+     "train": 2.114019475056356e-08,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 2.061944627813636e-05,
+     "train": 6.018299505660213e-08,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 3.0139514790877326e-05,
+     "train": 2.2546434136335533e-08,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 2.595047421283399e-05,
+     "train": 3.601333944552231e-08,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 0.0003550519286699756,
+     "train": 3.949029030307132e-05,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 7.0620875428520165e-06,
+     "train": 2.0706892881098937e-06,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 1.48946468215267e-07,
+     "train": 2.3483376414844812e-08,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.09968321898245186,
+     "train": 0.05199396021431598,
+     "n_params": 40700
+    }
+   }
+  },
+  "Hénon (+3)": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 0.4062018327667337,
+     "train": 0.27703556579749133,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 0.04696696494961365,
+     "train": 0.0260412231267042,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 0.018953769865689276,
+     "train": 0.012230734106338065,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 0.03122308701020344,
+     "train": 0.019627772852065867,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 0.03541995975528619,
+     "train": 0.016736687064512118,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 0.09032643417791551,
+     "train": 0.006769877312288575,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 0.0773735307734519,
+     "train": 0.026970020605273298,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 0.19833768141155328,
+     "train": 0.01308588241055193,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 0.028548365480334067,
+     "train": 0.013087666722113705,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 0.1999221462914754,
+     "train": 0.059053357203641875,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 0.005491718872212527,
+     "train": 0.0017285130671886395,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 0.0003403039762560852,
+     "train": 6.70048396213232e-05,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.020540885641097965,
+     "train": 0.010222994134621898,
+     "n_params": 40700
+    }
+   }
+  },
+  "Wiener-Hammerstein": {
+   "réservoir classique": {
+    "1": {
+     "nmse": 0.06366380764018599,
+     "train": 0.045483579099682904,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "1": {
+     "nmse": 0.001483715498201428,
+     "train": 0.00041395089289843076,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "1": {
+     "nmse": 0.001953480025393172,
+     "train": 0.0007526331042206567,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "1": {
+     "nmse": 0.0010544957009583167,
+     "train": 0.0002873562450266957,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "1": {
+     "nmse": 0.0015135305145228914,
+     "train": 0.00034711461536628,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "1": {
+     "nmse": 0.005357049247264974,
+     "train": 0.0004890180467356773,
+     "n_params": 15535
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "1": {
+     "nmse": 0.0012753377789235525,
+     "train": 0.0003163196093700843,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "1": {
+     "nmse": 0.0019481565575111546,
+     "train": 0.00039345364835141296,
+     "n_params": 6445
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "1": {
+     "nmse": 0.0013622514234187327,
+     "train": 0.00033220270987219724,
+     "n_params": 6945
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "1": {
+     "nmse": 0.0021543886952375656,
+     "train": 0.0011601715852887623,
+     "n_params": 6945
+    }
+   },
+   "GRU, 100 unités": {
+    "1": {
+     "nmse": 0.0009818338411259216,
+     "train": 0.0002941703113916644,
+     "n_params": 30900
+    }
+   },
+   "GRU, 500 unités": {
+    "1": {
+     "nmse": 0.0008810143691834023,
+     "train": 0.00028496540762904617,
+     "n_params": 754500
+    }
+   },
+   "LRU, 200 unités": {
+    "1": {
+     "nmse": 0.015948692095589058,
+     "train": 0.003830092371990298,
+     "n_params": 40700
+    }
+   }
+  }
+ }
+}

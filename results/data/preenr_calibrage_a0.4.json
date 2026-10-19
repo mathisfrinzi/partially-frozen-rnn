@@ -1,0 +1,223 @@
+{
+ "graine": 3,
+ "calibrage": {
+  "0.4": {
+   "T1 tournée": {
+    "oracle": {
+     "test": -2.9811594171093607,
+     "validation": -3.003313123003445,
+     "pas retenu": 0
+    },
+    "classique": {
+     "test": -2.61528021621906,
+     "validation": -2.6647081190744704,
+     "pas retenu": 0
+    },
+    "structures": {
+     "RNN": {
+      "test": -2.61528021621906,
+      "validation": -2.6647081190744704,
+      "pas retenu": 0
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "test": -2.6152803268478912,
+      "validation": -2.6647080480791487,
+      "pas retenu": 0
+     },
+     "réservoir tourné (rotations)": {
+      "test": -2.719865979299283,
+      "validation": -2.7265674108401816,
+      "pas retenu": 2400
+     },
+     "Iwasawa : cisaillement (N)": {
+      "test": -2.6152803082875025,
+      "validation": -2.664707994972182,
+      "pas retenu": 0
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "test": -2.6226633203140364,
+      "validation": -2.68434090566655,
+      "pas retenu": 3000
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "test": -2.6565536754421673,
+      "validation": -2.707251964001112,
+      "pas retenu": 3000
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "test": -2.61528021621906,
+      "validation": -2.6647081190744704,
+      "pas retenu": 0
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "test": -2.6152803268478912,
+      "validation": -2.6647080480791487,
+      "pas retenu": 0
+     }
+    }
+   },
+   "T2 cisaillée": {
+    "oracle": {
+     "test": -2.9672866389649997,
+     "validation": -2.9944751663880855,
+     "pas retenu": 0
+    },
+    "classique": {
+     "test": -1.6715852981929604,
+     "validation": -1.706329604083338,
+     "pas retenu": 0
+    },
+    "structures": {
+     "RNN": {
+      "test": -2.3789718421353196,
+      "validation": -2.4286110686674958,
+      "pas retenu": 900
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "test": -2.4167673847449214,
+      "validation": -2.4610411252845026,
+      "pas retenu": 3000
+     },
+     "réservoir tourné (rotations)": {
+      "test": -2.466803928075502,
+      "validation": -2.5183219899176685,
+      "pas retenu": 1300
+     },
+     "Iwasawa : cisaillement (N)": {
+      "test": -2.4531808509862034,
+      "validation": -2.480793797860495,
+      "pas retenu": 1300
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "test": -2.541420900652524,
+      "validation": -2.55642863485198,
+      "pas retenu": 3000
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "test": -2.550304248829884,
+      "validation": -2.5824896039480207,
+      "pas retenu": 2600
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "test": -2.423059788916916,
+      "validation": -2.4804729448387186,
+      "pas retenu": 900
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "test": -1.9757451723675852,
+      "validation": -2.0428373468080725,
+      "pas retenu": 3000
+     }
+    }
+   },
+   "T3 accordée": {
+    "oracle": {
+     "test": -3.0183842728767734,
+     "validation": -3.0226875844422056,
+     "pas retenu": 0
+    },
+    "classique": {
+     "test": -1.8697404674285305,
+     "validation": -1.9059449704610352,
+     "pas retenu": 0
+    },
+    "structures": {
+     "RNN": {
+      "test": -2.2925168141104666,
+      "validation": -2.2897239697823237,
+      "pas retenu": 1300
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "test": -2.552375130727029,
+      "validation": -2.5736284088553774,
+      "pas retenu": 3000
+     },
+     "réservoir tourné (rotations)": {
+      "test": -2.2590566677832955,
+      "validation": -2.30890920895684,
+      "pas retenu": 2800
+     },
+     "Iwasawa : cisaillement (N)": {
+      "test": -2.2922643351162804,
+      "validation": -2.324772821228099,
+      "pas retenu": 1300
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "test": -2.1740119625529704,
+      "validation": -2.2340991159231147,
+      "pas retenu": 2900
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "test": -2.37176810999059,
+      "validation": -2.3620879596232482,
+      "pas retenu": 2900
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "test": -2.3501708534784473,
+      "validation": -2.3439649851907767,
+      "pas retenu": 700
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "test": -1.9633866947663499,
+      "validation": -2.0106134494849917,
+      "pas retenu": 3000
+     }
+    }
+   },
+   "T4 bande": {
+    "oracle": {
+     "test": -3.0305407586636166,
+     "validation": -3.013131199162771,
+     "pas retenu": 0
+    },
+    "classique": {
+     "test": -1.9879582788251702,
+     "validation": -1.9361123211249505,
+     "pas retenu": 0
+    },
+    "structures": {
+     "RNN": {
+      "test": -2.464011477051906,
+      "validation": -2.4218442598798435,
+      "pas retenu": 1700
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "test": -2.3578006646832543,
+      "validation": -2.325268061592679,
+      "pas retenu": 3000
+     },
+     "réservoir tourné (rotations)": {
+      "test": -2.5754607349858194,
+      "validation": -2.5810501188374557,
+      "pas retenu": 2800
+     },
+     "Iwasawa : cisaillement (N)": {
+      "test": -2.5623057277486363,
+      "validation": -2.5527595650703354,
+      "pas retenu": 2300
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "test": -2.494306944892548,
+      "validation": -2.4566877406450973,
+      "pas retenu": 3000
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "test": -2.5971328055671576,
+      "validation": -2.5383722651481335,
+      "pas retenu": 3000
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "test": -2.437075358742865,
+      "validation": -2.4005313393308416,
+      "pas retenu": 1700
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "test": -2.1409923974284144,
+      "validation": -2.101695145168726,
+      "pas retenu": 3000
+     }
+    }
+   }
+  }
+ }
+}

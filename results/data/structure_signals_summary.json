@@ -1,0 +1,390 @@
+{
+ "structures": [
+  "RNN",
+  "réservoir accordé (valeurs singulières)",
+  "réservoir tourné (rotations)",
+  "accordé, valeurs propres (Jordan-Chevalley, partie semi-simple)",
+  "Jordan-Chevalley + partie nilpotente apprise",
+  "Iwasawa : amplitudes (A)",
+  "Iwasawa : cisaillement (N)",
+  "Iwasawa : amplitudes et cisaillement (A et N)",
+  "réservoir cisaillé en bande, k = 1",
+  "réservoir cisaillé en bande, k = 3",
+  "réservoir cisaillé en bande, k = 10",
+  "réservoir nilpotent en bande, k = 3",
+  "réservoir à biais et entrées appris (sans g)"
+ ],
+ "tâches": [
+  "Mackey-Glass (+15)",
+  "NARMA10",
+  "Mémoire (délai 15)",
+  "Lorenz (+10)",
+  "Hénon (+3)"
+ ],
+ "graines": 3,
+ "signaux": {
+  "part captée": {
+   "rho": 0.22600732600732606,
+   "se": 0.07673945840355947,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.36312109480259736
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3593307147356698,
+   "bons choix": 1,
+   "interaction": {
+    "r": 0.13831206226762177,
+    "p": 0.365
+   }
+  },
+  "part par paramètre": {
+   "rho": -0.2567765567765568,
+   "se": 0.05453659443709207,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "réservoir à biais et entrées appris (sans g)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.5762971639563435
+    },
+    "NARMA10": {
+     "choisie": "réservoir à biais et entrées appris (sans g)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.9128962257783426
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "réservoir à biais et entrées appris (sans g)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 1.375582420270598
+    },
+    "Lorenz (+10)": {
+     "choisie": "réservoir à biais et entrées appris (sans g)",
+     "meilleure": "RNN",
+     "regret": 0.36087204493212344
+    },
+    "Hénon (+3)": {
+     "choisie": "réservoir à biais et entrées appris (sans g)",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.3375743783816163
+    }
+   },
+   "regret moyen": 0.7126444466638048,
+   "bons choix": 0,
+   "interaction": {
+    "r": 0.13831206226762216,
+    "p": 0.307
+   }
+  },
+  "signal sur bruit": {
+   "rho": 0.15054945054945054,
+   "se": 0.07864704912496573,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.1098900082209795
+    },
+    "NARMA10": {
+     "choisie": "Iwasawa : amplitudes et cisaillement (A et N)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.3121658774451759
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.2715532063630086,
+   "bons choix": 1,
+   "interaction": {
+    "r": 0.33628832202958975,
+    "p": 0.019
+   }
+  },
+  "accord entraînement-validation": {
+   "rho": 0.11062271062271063,
+   "se": 0.10084841826774855,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.1098900082209795
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "Iwasawa : amplitudes et cisaillement (A et N)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.22407919719289016
+    },
+    "Lorenz (+10)": {
+     "choisie": "réservoir tourné (rotations)",
+     "meilleure": "RNN",
+     "regret": 0.43437160342252046
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3820963690995049,
+   "bons choix": 0,
+   "interaction": {
+    "r": -0.02885547306943034,
+    "p": 0.8645
+   }
+  },
+  "pas de Newton": {
+   "rho": 0.21465201465201464,
+   "se": 0.07786569548924703,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.36312109480259736
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3593307147356698,
+   "bons choix": 1,
+   "interaction": {
+    "r": -0.24548054034338596,
+    "p": 0.09
+   }
+  },
+  "directions principales": {
+   "rho": 0.23846153846153847,
+   "se": 0.07508800134442421,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.36312109480259736
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3593307147356698,
+   "bons choix": 1,
+   "interaction": {
+    "r": -0.14895494214947208,
+    "p": 0.3095
+   }
+  },
+  "mouvement naturel": {
+   "rho": 0.19304029304029305,
+   "se": 0.07317210836151661,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.36312109480259736
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3593307147356698,
+   "bons choix": 1,
+   "interaction": {
+    "r": 0.25253097593401236,
+    "p": 0.0555
+   }
+  },
+  "entraînement pilote": {
+   "rho": 0.1813186813186813,
+   "se": 0.08812115381472921,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "réservoir tourné (rotations)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.30006296965979296
+    },
+    "NARMA10": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2851646268036947
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2053511676783648
+    },
+    "Lorenz (+10)": {
+     "choisie": "réservoir cisaillé en bande, k = 1",
+     "meilleure": "RNN",
+     "regret": 0.4413719542250889
+    },
+    "Hénon (+3)": {
+     "choisie": "réservoir tourné (rotations)",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.0
+    }
+   },
+   "regret moyen": 0.24639014367338827,
+   "bons choix": 1,
+   "interaction": {
+    "r": 0.06893109160380338,
+    "p": 0.6915
+   }
+  },
+  "taille": {
+   "rho": 0.1992673992673993,
+   "se": 0.07018288799331385,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.36312109480259736
+    },
+    "NARMA10": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.49782233272686405
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.2913914422146173
+    },
+    "Lorenz (+10)": {
+     "choisie": "RNN",
+     "meilleure": "RNN",
+     "regret": 0.0
+    },
+    "Hénon (+3)": {
+     "choisie": "RNN",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.6443187039342704
+    }
+   },
+   "regret moyen": 0.3593307147356698,
+   "bons choix": 1
+  },
+  "choix naïf": {
+   "rho": 0.4472527472527473,
+   "se": 0.08961556027383603,
+   "choix": {
+    "Mackey-Glass (+15)": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.0
+    },
+    "NARMA10": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.0
+    },
+    "Mémoire (délai 15)": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "meilleure": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.0
+    },
+    "Lorenz (+10)": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "meilleure": "RNN",
+     "regret": 0.07251970252130668
+    },
+    "Hénon (+3)": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "meilleure": "réservoir tourné (rotations)",
+     "regret": 0.07686483123640775
+    }
+   },
+   "regret moyen": 0.029876906751542885,
+   "bons choix": 3
+  }
+ },
+ "hasard, regret moyen": 0.3508230397565254
+}

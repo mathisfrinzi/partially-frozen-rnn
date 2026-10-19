@@ -1,0 +1,754 @@
+{
+ "args": {
+  "mode": "curve",
+  "n": 500,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "réservoir classique": {
+    "0": {
+     "nmse": 1.584303816127852e-05,
+     "train": 8.151411768984777e-06,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "0": {
+     "nmse": 5.8020622712163325e-08,
+     "train": 2.6667867560392516e-08,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "0": {
+     "nmse": 2.396635363842211e-07,
+     "train": 1.1441579847221349e-07,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "nmse": 1.3140327125699467e-07,
+     "train": 6.090187658766819e-08,
+     "n_params": 1499
+    }
+   },
+   "réservoir cisaillé en bande, k = 2": {
+    "0": {
+     "nmse": 1.0442734342854647e-07,
+     "train": 4.825171564983756e-08,
+     "n_params": 1997
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "nmse": 1.0011737341607322e-07,
+     "train": 4.098345144035472e-08,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 5": {
+    "0": {
+     "nmse": 5.719313929649621e-08,
+     "train": 2.7621922639972506e-08,
+     "n_params": 3485
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "nmse": 3.871231179686602e-08,
+     "train": 1.8788132206855033e-08,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 20": {
+    "0": {
+     "nmse": 3.671412485790072e-08,
+     "train": 1.635910515648084e-08,
+     "n_params": 10790
+    }
+   },
+   "réservoir cisaillé en bande, k = 50": {
+    "0": {
+     "nmse": 1.3899552258111563e-07,
+     "train": 4.4620377721005234e-08,
+     "n_params": 24725
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "nmse": 1.1624389327991676e-06,
+     "train": 4.7325683696678567e-07,
+     "n_params": 45950
+    }
+   },
+   "réservoir cisaillé plein": {
+    "0": {
+     "nmse": 1.21437515705261e-05,
+     "train": 4.593820557676316e-06,
+     "n_params": 125750
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "nmse": 4.910584395498619e-08,
+     "train": 2.1860994357724137e-08,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "nmse": 3.20460876380302e-08,
+     "train": 1.4178210855843425e-08,
+     "n_params": 6445
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 30": {
+    "0": {
+     "nmse": 5.5130147043138635e-08,
+     "train": 2.5771428059040877e-08,
+     "n_params": 16035
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 3": {
+    "0": {
+     "nmse": 6.343394965627521e-08,
+     "train": 3.1539370373722584e-08,
+     "n_params": 2494
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 10": {
+    "0": {
+     "nmse": 3.845014182396677e-08,
+     "train": 1.7265287079044213e-08,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 3": {
+    "0": {
+     "nmse": 6.960201969161424e-08,
+     "train": 3.0298133635545255e-08,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 10": {
+    "0": {
+     "nmse": 5.200121659984642e-08,
+     "train": 2.5626401412871062e-08,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 3": {
+    "0": {
+     "nmse": 1.004840124424533e-07,
+     "train": 4.417939939867132e-08,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 10": {
+    "0": {
+     "nmse": 5.447151685694359e-08,
+     "train": 2.6715014898201578e-08,
+     "n_params": 5945
+    }
+   }
+  },
+  "NARMA10": {
+   "réservoir classique": {
+    "0": {
+     "nmse": 0.24986853598902237,
+     "train": 0.14838758654301573,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "0": {
+     "nmse": 0.010297194364303494,
+     "train": 0.0035897729326217374,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "0": {
+     "nmse": 0.027390277993903162,
+     "train": 0.013692700473124379,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "nmse": 0.008822676154744646,
+     "train": 0.004162661721507465,
+     "n_params": 1499
+    }
+   },
+   "réservoir cisaillé en bande, k = 2": {
+    "0": {
+     "nmse": 0.006738599189006982,
+     "train": 0.0026816353665185754,
+     "n_params": 1997
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "nmse": 0.006196279823685181,
+     "train": 0.0023231920837556933,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 5": {
+    "0": {
+     "nmse": 0.007373954592308812,
+     "train": 0.0019017831266758126,
+     "n_params": 3485
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "nmse": 0.00898638405078538,
+     "train": 0.0014173819713158595,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 20": {
+    "0": {
+     "nmse": 0.012554406405933163,
+     "train": 0.0009874415407355249,
+     "n_params": 10790
+    }
+   },
+   "réservoir cisaillé en bande, k = 50": {
+    "0": {
+     "nmse": 0.03326863682945371,
+     "train": 0.0007320063656911884,
+     "n_params": 24725
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "nmse": 0.04899764279458848,
+     "train": 0.0002968518764371782,
+     "n_params": 45950
+    }
+   },
+   "réservoir cisaillé plein": {
+    "0": {
+     "nmse": 0.10541062048234341,
+     "train": 0.00015519244496255423,
+     "n_params": 125750
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "nmse": 0.009325744204117862,
+     "train": 0.002197803756072902,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "nmse": 0.012353405341613305,
+     "train": 0.0013053366958822813,
+     "n_params": 6445
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 30": {
+    "0": {
+     "nmse": 0.026207447324905937,
+     "train": 0.000778969335409914,
+     "n_params": 16035
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 3": {
+    "0": {
+     "nmse": 0.005172826723448581,
+     "train": 0.0023805866884611068,
+     "n_params": 2494
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 10": {
+    "0": {
+     "nmse": 0.007272491617548016,
+     "train": 0.001442869186698342,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 3": {
+    "0": {
+     "nmse": 0.005749792551225577,
+     "train": 0.0023413226257550488,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 10": {
+    "0": {
+     "nmse": 0.007120162077583859,
+     "train": 0.0014460496606202192,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 3": {
+    "0": {
+     "nmse": 0.005606099776815367,
+     "train": 0.0022635804120284646,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 10": {
+    "0": {
+     "nmse": 0.00637115417873987,
+     "train": 0.0015388799637586076,
+     "n_params": 5945
+    }
+   }
+  },
+  "Mémoire (délai 15)": {
+   "réservoir classique": {
+    "0": {
+     "nmse": 0.2171076911352125,
+     "train": 0.15013860679703678,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "0": {
+     "nmse": 0.0018978282384157885,
+     "train": 0.0012005751351875059,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "0": {
+     "nmse": 0.0018995049151208617,
+     "train": 0.0013505670719595312,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "nmse": 0.0010785337654504812,
+     "train": 0.0006396937327250474,
+     "n_params": 1499
+    }
+   },
+   "réservoir cisaillé en bande, k = 2": {
+    "0": {
+     "nmse": 0.0012773839087236892,
+     "train": 0.0007113529752502387,
+     "n_params": 1997
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "nmse": 0.0012335533263871984,
+     "train": 0.0006893880268226582,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 5": {
+    "0": {
+     "nmse": 0.0012190898911988652,
+     "train": 0.0006121423673499421,
+     "n_params": 3485
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "nmse": 0.0010950455625351788,
+     "train": 0.00045539332060794455,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 20": {
+    "0": {
+     "nmse": 0.0014321565708572065,
+     "train": 0.0003966905665426989,
+     "n_params": 10790
+    }
+   },
+   "réservoir cisaillé en bande, k = 50": {
+    "0": {
+     "nmse": 0.0019934906743466606,
+     "train": 0.00025600226732891553,
+     "n_params": 24725
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "nmse": 0.004436314239979592,
+     "train": 0.00023230068574233546,
+     "n_params": 45950
+    }
+   },
+   "réservoir cisaillé plein": {
+    "0": {
+     "nmse": 0.09388776968565683,
+     "train": 0.0004798640174586392,
+     "n_params": 125750
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "nmse": 0.001264841108761773,
+     "train": 0.0006848422529183018,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "nmse": 0.0013705757795908246,
+     "train": 0.00048370994575576334,
+     "n_params": 6445
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 30": {
+    "0": {
+     "nmse": 0.0015556892982631313,
+     "train": 0.0003207857062734007,
+     "n_params": 16035
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 3": {
+    "0": {
+     "nmse": 0.0013290813944622402,
+     "train": 0.0008202377272007622,
+     "n_params": 2494
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 10": {
+    "0": {
+     "nmse": 0.0010081318932501785,
+     "train": 0.00046883303852544373,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 3": {
+    "0": {
+     "nmse": 0.0013521034943471688,
+     "train": 0.0007699917949919964,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 10": {
+    "0": {
+     "nmse": 0.0010876300872162182,
+     "train": 0.00048176035639342147,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 3": {
+    "0": {
+     "nmse": 0.0013797258767941347,
+     "train": 0.0007611197335512387,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 10": {
+    "0": {
+     "nmse": 0.0011287914093136202,
+     "train": 0.000503667644190771,
+     "n_params": 5945
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "réservoir classique": {
+    "0": {
+     "nmse": 0.0006952753314326641,
+     "train": 0.0003059969092893273,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "0": {
+     "nmse": 3.0004209455321874e-05,
+     "train": 8.059736193636394e-08,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "0": {
+     "nmse": 1.842956755194665e-05,
+     "train": 6.212078902914653e-07,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "nmse": 1.3022506223175376e-05,
+     "train": 1.983783434496076e-07,
+     "n_params": 1499
+    }
+   },
+   "réservoir cisaillé en bande, k = 2": {
+    "0": {
+     "nmse": 9.920618214318996e-06,
+     "train": 9.37922620794148e-08,
+     "n_params": 1997
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "nmse": 4.37655127352805e-06,
+     "train": 5.479575577212723e-08,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 5": {
+    "0": {
+     "nmse": 7.154705165579196e-07,
+     "train": 4.0983926709538246e-08,
+     "n_params": 3485
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "nmse": 2.1677703606270414e-06,
+     "train": 3.2385775180077855e-08,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 20": {
+    "0": {
+     "nmse": 1.733342281737316e-05,
+     "train": 2.5215387777790855e-08,
+     "n_params": 10790
+    }
+   },
+   "réservoir cisaillé en bande, k = 50": {
+    "0": {
+     "nmse": 7.58924184082277e-06,
+     "train": 2.180724123327448e-08,
+     "n_params": 24725
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "nmse": 2.339921304115039e-05,
+     "train": 1.2292436007172408e-07,
+     "n_params": 45950
+    }
+   },
+   "réservoir cisaillé plein": {
+    "0": {
+     "nmse": 5.129920043062379e-06,
+     "train": 2.4558925212621114e-07,
+     "n_params": 125750
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "nmse": 1.3730159374099485e-05,
+     "train": 4.16452076234463e-08,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "nmse": 6.820634785945588e-06,
+     "train": 3.21998725106103e-08,
+     "n_params": 6445
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 30": {
+    "0": {
+     "nmse": 7.919285670187755e-06,
+     "train": 1.894935933786165e-08,
+     "n_params": 16035
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 3": {
+    "0": {
+     "nmse": 1.0798027190998831e-05,
+     "train": 8.516422471752477e-08,
+     "n_params": 2494
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 10": {
+    "0": {
+     "nmse": 1.816988548395483e-05,
+     "train": 3.4051757395638996e-08,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 3": {
+    "0": {
+     "nmse": 1.7519312476228455e-05,
+     "train": 8.048551653458456e-08,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 10": {
+    "0": {
+     "nmse": 1.2465909533026556e-05,
+     "train": 5.101164309511016e-08,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 3": {
+    "0": {
+     "nmse": 4.969559896957673e-06,
+     "train": 8.674790500160721e-08,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 10": {
+    "0": {
+     "nmse": 4.7207623773644766e-06,
+     "train": 2.8384381311780245e-08,
+     "n_params": 5945
+    }
+   }
+  },
+  "Hénon (+3)": {
+   "réservoir classique": {
+    "0": {
+     "nmse": 0.481718096587231,
+     "train": 0.24485277482505238,
+     "n_params": 0
+    }
+   },
+   "accordé": {
+    "0": {
+     "nmse": 0.057722959777071196,
+     "train": 0.025847191054977632,
+     "n_params": 1500
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "0": {
+     "nmse": 0.023498532644041607,
+     "train": 0.012553543668607538,
+     "n_params": 1000
+    }
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "nmse": 0.033879935963974754,
+     "train": 0.014926464462608723,
+     "n_params": 1499
+    }
+   },
+   "réservoir cisaillé en bande, k = 2": {
+    "0": {
+     "nmse": 0.034332388810925374,
+     "train": 0.014805333665356387,
+     "n_params": 1997
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "0": {
+     "nmse": 0.04730768181804409,
+     "train": 0.017292731598132858,
+     "n_params": 2494
+    }
+   },
+   "réservoir cisaillé en bande, k = 5": {
+    "0": {
+     "nmse": 0.0396999785858317,
+     "train": 0.017413843095275026,
+     "n_params": 3485
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "nmse": 0.04699320725978335,
+     "train": 0.016567497461898076,
+     "n_params": 5945
+    }
+   },
+   "réservoir cisaillé en bande, k = 20": {
+    "0": {
+     "nmse": 0.06681875804754524,
+     "train": 0.011881957970380526,
+     "n_params": 10790
+    }
+   },
+   "réservoir cisaillé en bande, k = 50": {
+    "0": {
+     "nmse": 0.17711626215630877,
+     "train": 0.003391057787298531,
+     "n_params": 24725
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "nmse": 0.172102003602534,
+     "train": 0.001099571243273762,
+     "n_params": 45950
+    }
+   },
+   "réservoir cisaillé plein": {
+    "0": {
+     "nmse": 0.21903535226692658,
+     "train": 0.0009035998297066812,
+     "n_params": 125750
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "nmse": 0.12344306041427572,
+     "train": 0.032857020334531584,
+     "n_params": 2994
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "nmse": 0.21304999957874265,
+     "train": 0.011938862713091495,
+     "n_params": 6445
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 30": {
+    "0": {
+     "nmse": 0.2854771789078654,
+     "train": 0.0028692064079769153,
+     "n_params": 16035
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 3": {
+    "0": {
+     "nmse": 0.04975449176703888,
+     "train": 0.016778530566431454,
+     "n_params": 2494
+    }
+   },
+   "cisaillé creux (positions au hasard), k = 10": {
+    "0": {
+     "nmse": 0.0468466582357939,
+     "train": 0.019043633853217817,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 3": {
+    "0": {
+     "nmse": 0.03804771028106489,
+     "train": 0.013725258701851551,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans W₀ (au hasard), k = 10": {
+    "0": {
+     "nmse": 0.03340452853471274,
+     "train": 0.012571201340158081,
+     "n_params": 5945
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 3": {
+    "0": {
+     "nmse": 0.02311147310405884,
+     "train": 0.012185592174442842,
+     "n_params": 2494
+    }
+   },
+   "contrôle : coefficients appris dans le triangle de W₀, k = 10": {
+    "0": {
+     "nmse": 0.019932338366672495,
+     "train": 0.008982489686894564,
+     "n_params": 5945
+    }
+   }
+  }
+ }
+}

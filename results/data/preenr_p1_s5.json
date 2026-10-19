@@ -1,0 +1,4471 @@
+{
+ "graine": 5,
+ "amplitudes": [
+  0.4,
+  0.5
+ ],
+ "p1": {
+  "T1 tournée | a = 0.4": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 3.246120503816173,
+      "accord entraînement-validation": -0.7752596941076806,
+      "pas de Newton": 0.9247163595622144,
+      "directions principales": 1.0000000000000002,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.06338597324166163,
+      "part par paramètre": 0.00021128657747220545,
+      "signal sur bruit": 1.4540719614329662,
+      "accord entraînement-validation": -0.6659821340949058,
+      "pas de Newton": 0.6108249341287662,
+      "directions principales": 0.18359614024577214,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.31565043869308457,
+      "part par paramètre": 6.129134731904555e-05,
+      "signal sur bruit": 2.8377086572389953,
+      "accord entraînement-validation": -0.730014144675837,
+      "pas de Newton": 0.820607823226047,
+      "directions principales": 0.36923391376238046,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4754243026394229,
+      "part par paramètre": 9.231539857076174e-05,
+      "signal sur bruit": 2.9537520467029457,
+      "accord entraînement-validation": -0.7502150233308411,
+      "pas de Newton": 0.8816876854894162,
+      "directions principales": 0.5523542043324968,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.0821260098342978,
+      "part par paramètre": 0.00016624698347023845,
+      "signal sur bruit": 1.6788999835477592,
+      "accord entraînement-validation": -0.695848794187221,
+      "pas de Newton": 0.6621105341792531,
+      "directions principales": 0.1995252866104523,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.14124443189404415,
+      "part par paramètre": 0.00012335758244021324,
+      "signal sur bruit": 2.12682884127632,
+      "accord entraînement-validation": -0.7139981344923048,
+      "pas de Newton": 0.7485975929599494,
+      "directions principales": 0.2530381066038559,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5045746878792982,
+      "part par paramètre": 9.610946435796156e-05,
+      "signal sur bruit": 2.9017676740640646,
+      "accord entraînement-validation": -0.7721849637602118,
+      "pas de Newton": 0.8886651298531604,
+      "directions principales": 0.5906781884447521,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.054553882753109836,
+      "part par paramètre": 0.0002727694137655492,
+      "signal sur bruit": 1.3350759750701464,
+      "accord entraînement-validation": -0.6613934801706653,
+      "pas de Newton": 0.5677074293655447,
+      "directions principales": 0.1748934208441955,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 3.538372334210602,
+      "accord entraînement-validation": -0.7848978031953113,
+      "pas de Newton": 0.9257583225175293,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.009341717446860501,
+      "part par paramètre": 9.341717446860501e-05,
+      "signal sur bruit": 3.235149650616125,
+      "accord entraînement-validation": -0.7024371646612274,
+      "pas de Newton": 0.3439215609881717,
+      "directions principales": 0.010690587087729835,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.2761622806176197,
+      "part par paramètre": 5.5790359720731256e-05,
+      "signal sur bruit": 3.710219876859199,
+      "accord entraînement-validation": -0.7633915538584103,
+      "pas de Newton": 0.8013545871502618,
+      "directions principales": 0.2205631434481436,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4451553739644885,
+      "part par paramètre": 8.993037857868454e-05,
+      "signal sur bruit": 3.504506622012624,
+      "accord entraînement-validation": -0.7669833198856535,
+      "pas de Newton": 0.8772527319562113,
+      "directions principales": 0.46048078483554267,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.029163086693377246,
+      "part par paramètre": 9.919417242645321e-05,
+      "signal sur bruit": 3.4231729883564412,
+      "accord entraînement-validation": -0.7964444801217818,
+      "pas de Newton": 0.4728061122022942,
+      "directions principales": 0.029748475248205147,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09169274436641035,
+      "part par paramètre": 9.702935911789456e-05,
+      "signal sur bruit": 3.393134978050676,
+      "accord entraînement-validation": -0.7671234707896784,
+      "pas de Newton": 0.676421385146944,
+      "directions principales": 0.0944145681501756,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.4759877870529894,
+      "part par paramètre": 9.425500733722562e-05,
+      "signal sur bruit": 3.383023047664246,
+      "accord entraînement-validation": -0.7908559458184743,
+      "pas de Newton": 0.8856202671392633,
+      "directions principales": 0.5065990983524779,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.2480619251728058,
+      0.18288491666316986,
+      0.14672178030014038,
+      0.09982049465179443,
+      0.08738482743501663,
+      0.06942273676395416,
+      0.0468481071293354,
+      0.02851569652557373,
+      0.025355206802487373,
+      0.016795547679066658,
+      0.008499624207615852,
+      0.008217524737119675,
+      0.005193945951759815,
+      0.0038779901806265116,
+      0.002810358302667737,
+      0.001958245877176523,
+      0.001366982120089233,
+      0.0012104470515623689,
+      0.0010603760601952672,
+      0.000858134706504643
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009060272015631199,
+       "part 5 premières": 0.011034101247787476,
+       "hasard": 0.01,
+       "rapport 1re": 0.9060271978378296
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.29571205377578735,
+       "part 5 premières": 0.29353052377700806,
+       "hasard": 0.495,
+       "rapport 1re": 0.5973981022834778
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.42587345838546753,
+       "part 5 premières": 0.44530540704727173,
+       "hasard": 0.495,
+       "rapport 1re": 0.8603504300117493
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02957286685705185,
+       "part 5 premières": 0.030422484502196312,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0058797597885132
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09525257349014282,
+       "part 5 premières": 0.09428446739912033,
+       "hasard": 0.0945,
+       "rapport 1re": 1.00796377658844
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4565851092338562,
+       "part 5 premières": 0.49507418274879456,
+       "hasard": 0.505,
+       "rapport 1re": 0.904128909111023
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.24582436680793762,
+      0.1849687099456787,
+      0.14917467534542084,
+      0.10048623383045197,
+      0.08877632021903992,
+      0.06986439228057861,
+      0.04280632734298706,
+      0.02842569164931774,
+      0.02577987313270569,
+      0.01677549071609974,
+      0.008641433902084827,
+      0.008232108317315578,
+      0.0052557759918272495,
+      0.003928622230887413,
+      0.002452485030516982,
+      0.0017230313969776034,
+      0.0012469488428905606,
+      0.0010833352571353316,
+      0.0008742009522393346,
+      0.0008100796258077025
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009243271313607693,
+       "part 5 premières": 0.011036036536097527,
+       "hasard": 0.01,
+       "rapport 1re": 0.9243271350860596
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.29464617371559143,
+       "part 5 premières": 0.2931833267211914,
+       "hasard": 0.495,
+       "rapport 1re": 0.5952447652816772
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.428358256816864,
+       "part 5 premières": 0.4452705383300781,
+       "hasard": 0.495,
+       "rapport 1re": 0.8653702139854431
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029696809127926826,
+       "part 5 premières": 0.03041175939142704,
+       "hasard": 0.0294,
+       "rapport 1re": 1.010095477104187
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.095619335770607,
+       "part 5 premières": 0.09428183734416962,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0118448734283447
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.45885807275772095,
+       "part 5 premières": 0.49540120363235474,
+       "hasard": 0.505,
+       "rapport 1re": 0.908629834651947
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.25850361585617065,
+      0.17932704091072083,
+      0.15111786127090454,
+      0.10740382969379425,
+      0.0868648886680603,
+      0.06617750972509384,
+      0.04272686690092087,
+      0.025182010605931282,
+      0.022363653406500816,
+      0.015840742737054825,
+      0.00798049196600914,
+      0.0075832572765648365,
+      0.004939364735037088,
+      0.0036105099134147167,
+      0.0024574664421379566,
+      0.0017572366632521152,
+      0.001252974383533001,
+      0.001115950639359653,
+      0.0010056670289486647,
+      0.0008089753100648522
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009148179277762397,
+       "part 5 premières": 0.011071092068639711,
+       "hasard": 0.01,
+       "rapport 1re": 0.9148179277762397
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.34347540303562896,
+       "part 5 premières": 0.3175011484563347,
+       "hasard": 0.495,
+       "rapport 1re": 0.6938897031022807
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5502126915343376,
+       "part 5 premières": 0.552527339098005,
+       "hasard": 0.495,
+       "rapport 1re": 1.1115407909784598
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.032671920821481584,
+       "part 5 premières": 0.03139869756176309,
+       "hasard": 0.0294,
+       "rapport 1re": 1.1112898238599178
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.1035727108884541,
+       "part 5 premières": 0.0994337851931725,
+       "hasard": 0.0945,
+       "rapport 1re": 1.096007522629144
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4531038599195819,
+       "part 5 premières": 0.5026994594459013,
+       "hasard": 0.505,
+       "rapport 1re": 0.8972353661773899
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.2553991675376892,
+      0.18142443895339966,
+      0.15360260009765625,
+      0.10793502628803253,
+      0.08812206238508224,
+      0.06671445816755295,
+      0.039760105311870575,
+      0.02492637000977993,
+      0.022649984806776047,
+      0.01584777794778347,
+      0.008111638016998768,
+      0.007591638248413801,
+      0.0049897292628884315,
+      0.00364231551066041,
+      0.002249739598482847,
+      0.0015603624051436782,
+      0.0011422596871852875,
+      0.0010587599826976657,
+      0.0008232468389905989,
+      0.000746973673813045
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009242556601175834,
+       "part 5 premières": 0.011082363387378152,
+       "hasard": 0.01,
+       "rapport 1re": 0.9242556601175833
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.34327709973024056,
+       "part 5 premières": 0.3172224528129024,
+       "hasard": 0.495,
+       "rapport 1re": 0.6934890903641223
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5542459404593174,
+       "part 5 premières": 0.5525154862272341,
+       "hasard": 0.495,
+       "rapport 1re": 1.1196887686046817
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.0326244156808587,
+       "part 5 premières": 0.03137940632171919,
+       "hasard": 0.0294,
+       "rapport 1re": 1.109674002750296
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10375717356741904,
+       "part 5 premières": 0.09942279587055403,
+       "hasard": 0.0945,
+       "rapport 1re": 1.097959508649937
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.45394670712463014,
+       "part 5 premières": 0.502669734175774,
+       "hasard": 0.505,
+       "rapport 1re": 0.8989043705438221
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T2 cisaillée | a = 0.4": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.6742341008436605,
+      "accord entraînement-validation": 0.04013287615393175,
+      "pas de Newton": 0.9334878004535687,
+      "directions principales": 0.9999999999999998,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.09774883350058067,
+      "part par paramètre": 0.00032582944500193556,
+      "signal sur bruit": 0.7433836802681774,
+      "accord entraînement-validation": 0.17501821589507566,
+      "pas de Newton": 0.5641965545527853,
+      "directions principales": 0.19362848263672858,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.219543590571905,
+      "part par paramètre": 4.262982341202039e-05,
+      "signal sur bruit": 0.885648203929814,
+      "accord entraînement-validation": -0.014134498727001777,
+      "pas de Newton": 0.7351342571424961,
+      "directions principales": 0.384031526601952,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.5087550908095163,
+      "part par paramètre": 9.878739627369249e-05,
+      "signal sur bruit": 1.544612559241005,
+      "accord entraînement-validation": 0.08284755633462107,
+      "pas de Newton": 0.8927605753215092,
+      "directions principales": 0.5460499887528968,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.11549180039066544,
+      "part par paramètre": 0.00023378906961673166,
+      "signal sur bruit": 0.8229330929528094,
+      "accord entraînement-validation": 0.11897406045913009,
+      "pas de Newton": 0.6451370146422539,
+      "directions principales": 0.20917102337476204,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.17798127845520326,
+      "part par paramètre": 0.00015544216458969717,
+      "signal sur bruit": 1.052445654300338,
+      "accord entraînement-validation": 0.09933866546148654,
+      "pas de Newton": 0.7608814686101212,
+      "directions principales": 0.26000633242792753,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.6085997439074956,
+      "part par paramètre": 0.00011592376074428488,
+      "signal sur bruit": 1.5848589296592421,
+      "accord entraînement-validation": 0.05587177559195342,
+      "pas de Newton": 0.9008926134287971,
+      "directions principales": 0.6251660237198389,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.08934251518629922,
+      "part par paramètre": 0.0004467125759314961,
+      "signal sur bruit": 0.7065704014098722,
+      "accord entraînement-validation": 0.19865061328342354,
+      "pas de Newton": 0.4639744760405059,
+      "directions principales": 0.18516412352069622,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 1.9341012122933925,
+      "accord entraînement-validation": 0.03448148634948646,
+      "pas de Newton": 0.9376978341264814,
+      "directions principales": 1.0,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.009231042905227083,
+      "part par paramètre": 9.231042905227083e-05,
+      "signal sur bruit": 1.6657870700727004,
+      "accord entraînement-validation": 0.14005912361159278,
+      "pas de Newton": 0.33655958151115906,
+      "directions principales": 0.01070472654849943,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.14297480398158904,
+      "part par paramètre": 2.8883798784159403e-05,
+      "signal sur bruit": 1.0720992952663884,
+      "accord entraînement-validation": -0.05812521018160895,
+      "pas de Newton": 0.7087589145999019,
+      "directions principales": 0.2261295460879102,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4605601805480345,
+      "part par paramètre": 9.304246071677465e-05,
+      "signal sur bruit": 2.0667986852470714,
+      "accord entraînement-validation": 0.07529411027033626,
+      "pas de Newton": 0.8948427869482601,
+      "directions principales": 0.4441691080564464,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.02871473154334831,
+      "part par paramètre": 9.766915490934799e-05,
+      "signal sur bruit": 1.8817373317917594,
+      "accord entraînement-validation": 0.0528854332948899,
+      "pas de Newton": 0.5136851690074281,
+      "directions principales": 0.02985643574992782,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09733490884010845,
+      "part par paramètre": 0.0001029999035345063,
+      "signal sur bruit": 2.077465882220587,
+      "accord entraînement-validation": 0.07050675629102401,
+      "pas de Newton": 0.7245963744856119,
+      "directions principales": 0.09246034798342449,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.570200363342343,
+      "part par paramètre": 0.00011291096303808773,
+      "signal sur bruit": 2.0160360235750896,
+      "accord entraînement-validation": 0.04745758818787408,
+      "pas de Newton": 0.9030999890042046,
+      "directions principales": 0.5410607357263088,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.37686413526535034,
+      0.21026942133903503,
+      0.11176319420337677,
+      0.08238426595926285,
+      0.061204943805933,
+      0.04350375011563301,
+      0.034574899822473526,
+      0.02068505436182022,
+      0.013766855001449585,
+      0.01025762502104044,
+      0.009817324578762054,
+      0.004068025387823582,
+      0.0033017548266798258,
+      0.001987070543691516,
+      0.0015963397454470396,
+      0.0011782299261540174,
+      0.0010606871219351888,
+      0.0010257719550281763,
+      0.0008235047571361065,
+      0.0006956786382943392
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.012787668965756893,
+       "part 5 premières": 0.010436748154461384,
+       "hasard": 0.01,
+       "rapport 1re": 1.2787668704986572
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.22684837877750397,
+       "part 5 premières": 0.2768738269805908,
+       "hasard": 0.495,
+       "rapport 1re": 0.458279550075531
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4284648597240448,
+       "part 5 premières": 0.42541295289993286,
+       "hasard": 0.495,
+       "rapport 1re": 0.8655855655670166
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029819946736097336,
+       "part 5 premières": 0.03008367493748665,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0142838954925537
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08680379390716553,
+       "part 5 premières": 0.09235435724258423,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9185587167739868
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5469672679901123,
+       "part 5 premières": 0.549233078956604,
+       "hasard": 0.505,
+       "rapport 1re": 1.0831035375595093
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.37956497073173523,
+      0.21180041134357452,
+      0.11121682822704315,
+      0.08222722262144089,
+      0.06168681010603905,
+      0.04381236061453819,
+      0.033963125199079514,
+      0.020742816850543022,
+      0.01336852926760912,
+      0.010091029107570648,
+      0.008488203398883343,
+      0.0033754766918718815,
+      0.0033257787581533194,
+      0.0018175997538492084,
+      0.0013800812885165215,
+      0.0010804157936945558,
+      0.0010351922828704119,
+      0.0008781736250966787,
+      0.0007023391663096845,
+      0.0005918731330893934
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.012806955724954605,
+       "part 5 premières": 0.010474334470927715,
+       "hasard": 0.01,
+       "rapport 1re": 1.2806955575942993
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.22684331238269806,
+       "part 5 premières": 0.2776340842247009,
+       "hasard": 0.495,
+       "rapport 1re": 0.458269327878952
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4284261167049408,
+       "part 5 premières": 0.4251376688480377,
+       "hasard": 0.495,
+       "rapport 1re": 0.8655073046684265
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029790746048092842,
+       "part 5 premières": 0.030060911551117897,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0132906436920166
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08678297698497772,
+       "part 5 premières": 0.09224478155374527,
+       "hasard": 0.0945,
+       "rapport 1re": 0.918338418006897
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5469164848327637,
+       "part 5 premières": 0.5489320158958435,
+       "hasard": 0.505,
+       "rapport 1re": 1.0830029249191284
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.3924003839492798,
+      0.21296462416648865,
+      0.10979048907756805,
+      0.07812865078449249,
+      0.06371384114027023,
+      0.042779095470905304,
+      0.03182988241314888,
+      0.01835622265934944,
+      0.012425748631358147,
+      0.008592198602855206,
+      0.00850257370620966,
+      0.0032473322935402393,
+      0.0027775876224040985,
+      0.0015502164606004953,
+      0.0013034024741500616,
+      0.0010004451032727957,
+      0.0009337817318737507,
+      0.0008466517319902778,
+      0.0006887506460770965,
+      0.0005551609792746603
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009756102515038109,
+       "part 5 premières": 0.010311986888462483,
+       "hasard": 0.01,
+       "rapport 1re": 0.9756102515038109
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.24731015918112836,
+       "part 5 premières": 0.28943218992343855,
+       "hasard": 0.495,
+       "rapport 1re": 0.4996164831941987
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5531732257698325,
+       "part 5 premières": 0.5502395653853921,
+       "hasard": 0.495,
+       "rapport 1re": 1.1175216682218838
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.026022304099235297,
+       "part 5 premières": 0.030267468462708575,
+       "hasard": 0.0294,
+       "rapport 1re": 0.8851123843277312
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08867933713156681,
+       "part 5 premières": 0.10043504914295467,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9384056839319239
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5348012833614154,
+       "part 5 premières": 0.5445524026534877,
+       "hasard": 0.505,
+       "rapport 1re": 1.0590124422998326
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.39454030990600586,
+      0.2139793336391449,
+      0.1094420850276947,
+      0.07804065942764282,
+      0.06411313265562057,
+      0.043034378439188004,
+      0.03153789043426514,
+      0.018406568095088005,
+      0.01219599973410368,
+      0.008585426956415176,
+      0.007141989655792713,
+      0.002822650596499443,
+      0.0026162266731262207,
+      0.001466552261263132,
+      0.0011005742708221078,
+      0.0009950416861101985,
+      0.0008624166366644204,
+      0.0007324147736653686,
+      0.0005608354113064706,
+      0.0004942264058627188
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009776970134952092,
+       "part 5 premières": 0.010334485321913282,
+       "hasard": 0.01,
+       "rapport 1re": 0.9776970134952092
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.24737548114902988,
+       "part 5 premières": 0.2899160456318258,
+       "hasard": 0.495,
+       "rapport 1re": 0.49974844676571695
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5531978934556879,
+       "part 5 premières": 0.5502139717664037,
+       "hasard": 0.495,
+       "rapport 1re": 1.1175715019306827
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.026004940854162047,
+       "part 5 premières": 0.030242561807525815,
+       "hasard": 0.0294,
+       "rapport 1re": 0.8845217977606139
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08866226183612994,
+       "part 5 premières": 0.10032916681364008,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9382249929749199
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5346419897619811,
+       "part 5 premières": 0.5441190342137292,
+       "hasard": 0.505,
+       "rapport 1re": 1.0586970094296655
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T3 accordée | a = 0.4": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 2.659154465874004,
+      "accord entraînement-validation": -0.38043612041994446,
+      "pas de Newton": 0.9529315735761636,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.1871851666126022,
+      "part par paramètre": 0.0006239505553753407,
+      "signal sur bruit": 3.2526632800424986,
+      "accord entraînement-validation": -0.11808578836429762,
+      "pas de Newton": 0.5989951703653482,
+      "directions principales": 0.14159366806467427,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.36450463378519954,
+      "part par paramètre": 7.077759879324263e-05,
+      "signal sur bruit": 2.532119609208954,
+      "accord entraînement-validation": -0.47137973146801837,
+      "pas de Newton": 0.7997251323069524,
+      "directions principales": 0.3340427301257252,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.5362220725139759,
+      "part par paramètre": 0.0001041207907794128,
+      "signal sur bruit": 2.771660609282934,
+      "accord entraînement-validation": -0.3135578121351017,
+      "pas de Newton": 0.9277659068003248,
+      "directions principales": 0.5100237367565537,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.19961045075164,
+      "part par paramètre": 0.00040406973836364373,
+      "signal sur bruit": 3.1449336468463382,
+      "accord entraînement-validation": -0.14567230245470247,
+      "pas de Newton": 0.687790968379336,
+      "directions principales": 0.1579693576553184,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.2501378027699574,
+      "part par paramètre": 0.00021846096311786673,
+      "signal sur bruit": 2.9694817979751034,
+      "accord entraînement-validation": -0.21004192884388154,
+      "pas de Newton": 0.8189073867981276,
+      "directions principales": 0.21462940656622237,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.576371861647903,
+      "part par paramètre": 0.00010978511650436248,
+      "signal sur bruit": 2.707018623003454,
+      "accord entraînement-validation": -0.3549914438679787,
+      "pas de Newton": 0.9273075763344069,
+      "directions principales": 0.5708551895073599,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.17664770732685914,
+      "part par paramètre": 0.0008832385366342957,
+      "signal sur bruit": 3.2760103076309672,
+      "accord entraînement-validation": -0.080317110979948,
+      "pas de Newton": 0.4769552718698922,
+      "directions principales": 0.13223072316718262,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 2.555900973048883,
+      "accord entraînement-validation": -0.4239858080021105,
+      "pas de Newton": 0.9524240730230723,
+      "directions principales": 0.9999999999999993,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.012798238833502937,
+      "part par paramètre": 0.00012798238833502937,
+      "signal sur bruit": 2.9055388931140245,
+      "accord entraînement-validation": -0.5237527465444929,
+      "pas de Newton": 0.40219086436891105,
+      "directions principales": 0.010883050346571879,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.22816105345189933,
+      "part par paramètre": 4.6093142111494814e-05,
+      "signal sur bruit": 2.086585594551536,
+      "accord entraînement-validation": -0.6977757846713645,
+      "pas de Newton": 0.7865839533644979,
+      "directions principales": 0.2179801793989594,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.43671994161782535,
+      "part par paramètre": 8.822625083188391e-05,
+      "signal sur bruit": 2.576773950455888,
+      "accord entraînement-validation": -0.38980082048052783,
+      "pas de Newton": 0.9256780553420649,
+      "directions principales": 0.4363334601682717,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.027889329548386618,
+      "part par paramètre": 9.486166513056672e-05,
+      "signal sur bruit": 2.404756790925083,
+      "accord entraînement-validation": -0.44675030101235347,
+      "pas de Newton": 0.586174866570445,
+      "directions principales": 0.029736593186063937,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.08925716986164123,
+      "part par paramètre": 9.445203159962035e-05,
+      "signal sur bruit": 2.4242489379882652,
+      "accord entraînement-validation": -0.4053785056151027,
+      "pas de Newton": 0.7963961537142261,
+      "directions principales": 0.09511950957999449,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.4854837447810794,
+      "part par paramètre": 9.613539500615435e-05,
+      "signal sur bruit": 2.514051862781837,
+      "accord entraînement-validation": -0.4365216866087919,
+      "pas de Newton": 0.9247636549076248,
+      "directions principales": 0.5031248097859495,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.261730432510376,
+      0.2032804936170578,
+      0.16173754632472992,
+      0.10858254879713058,
+      0.07745987176895142,
+      0.05712409317493439,
+      0.042821891605854034,
+      0.021618492901325226,
+      0.016507588326931,
+      0.011280319653451443,
+      0.008341488428413868,
+      0.005608370527625084,
+      0.00491090165451169,
+      0.0034377239644527435,
+      0.0021387203596532345,
+      0.0012832736829295754,
+      0.000990495434962213,
+      0.0007569075096398592,
+      0.000700112315826118,
+      0.000586485315579921
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.012962873093783855,
+       "part 5 premières": 0.011488075368106365,
+       "hasard": 0.01,
+       "rapport 1re": 1.2962872982025146
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3603973388671875,
+       "part 5 premières": 0.28174927830696106,
+       "hasard": 0.495,
+       "rapport 1re": 0.7280754446983337
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4207029342651367,
+       "part 5 premières": 0.4316599369049072,
+       "hasard": 0.495,
+       "rapport 1re": 0.8499048948287964
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02856804057955742,
+       "part 5 premières": 0.029552292078733444,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9717020392417908
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09250837564468384,
+       "part 5 premières": 0.09482140839099884,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9789246320724487
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.47733569145202637,
+       "part 5 premières": 0.4943924844264984,
+       "hasard": 0.505,
+       "rapport 1re": 0.9452192187309265
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.2644515335559845,
+      0.20195816457271576,
+      0.16310690343379974,
+      0.10999651998281479,
+      0.07791061699390411,
+      0.05681790038943291,
+      0.043448373675346375,
+      0.02155190333724022,
+      0.016743775457143784,
+      0.009770428761839867,
+      0.008229544386267662,
+      0.005687222350388765,
+      0.0038748972583562136,
+      0.0022627462167292833,
+      0.0013052313588559628,
+      0.0011208171490579844,
+      0.000829030352178961,
+      0.000735658104531467,
+      0.0006930196541361511,
+      0.0005804511019960046
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.013089981861412525,
+       "part 5 premières": 0.01147385686635971,
+       "hasard": 0.01,
+       "rapport 1re": 1.3089982271194458
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3641299307346344,
+       "part 5 premières": 0.28117936849594116,
+       "hasard": 0.495,
+       "rapport 1re": 0.7356160283088684
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4196973443031311,
+       "part 5 premières": 0.43211206793785095,
+       "hasard": 0.495,
+       "rapport 1re": 0.8478733897209167
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02873796597123146,
+       "part 5 premières": 0.029579853639006615,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9774818420410156
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09276142716407776,
+       "part 5 premières": 0.09494663774967194,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9816024303436279
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.47632622718811035,
+       "part 5 premières": 0.493979275226593,
+       "hasard": 0.505,
+       "rapport 1re": 0.9432202577590942
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.2869475781917572,
+      0.19740350544452667,
+      0.16764092445373535,
+      0.10267901420593262,
+      0.07360310852527618,
+      0.05574452131986618,
+      0.039547573775053024,
+      0.019142482429742813,
+      0.01582968235015869,
+      0.009919502772390842,
+      0.007067615166306496,
+      0.004935407545417547,
+      0.0038632636424154043,
+      0.0026916491333395243,
+      0.0017384127713739872,
+      0.0010785554768517613,
+      0.0008676057332195342,
+      0.0006505978526547551,
+      0.000579061743337661,
+      0.0004943759413436055
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.012804492914700514,
+       "part 5 premières": 0.01214608058096805,
+       "hasard": 0.01,
+       "rapport 1re": 1.2804492914700514
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.383769256673707,
+       "part 5 premières": 0.29264922938024573,
+       "hasard": 0.495,
+       "rapport 1re": 0.7752914276236504
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5394761034079966,
+       "part 5 premières": 0.5548414731754604,
+       "hasard": 0.495,
+       "rapport 1re": 1.0898507139555487
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.028297324491357936,
+       "part 5 premières": 0.029927106923395876,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9624940303182972
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09242601549514032,
+       "part 5 premières": 0.09953180846792894,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9780530740226488
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4754358224827236,
+       "part 5 premières": 0.4957595107844196,
+       "hasard": 0.505,
+       "rapport 1re": 0.941457074223215
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.29053258895874023,
+      0.19418522715568542,
+      0.16944442689418793,
+      0.10395321249961853,
+      0.07354122400283813,
+      0.05566948652267456,
+      0.04013555124402046,
+      0.019180137664079666,
+      0.016067830845713615,
+      0.008526585064828396,
+      0.007073129992932081,
+      0.004916589707136154,
+      0.0030781130772083998,
+      0.0018469970673322678,
+      0.0011095970403403044,
+      0.0009388538310304284,
+      0.00070288305869326,
+      0.0006245251279324293,
+      0.0005590017535723746,
+      0.00048620442976243794
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.012849594915565078,
+       "part 5 premières": 0.012157746141282426,
+       "hasard": 0.01,
+       "rapport 1re": 1.2849594915565077
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3869663016225996,
+       "part 5 premières": 0.2929275017110706,
+       "hasard": 0.495,
+       "rapport 1re": 0.78175010428808
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5397693328436286,
+       "part 5 premières": 0.5556723813550859,
+       "hasard": 0.495,
+       "rapport 1re": 1.0904430966537952
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.028403925231816705,
+       "part 5 premières": 0.02997809922700508,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9661199058441057
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09234514324321559,
+       "part 5 premières": 0.09975737480819112,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9771972829969904
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.47412334549184554,
+       "part 5 premières": 0.4951429155838841,
+       "hasard": 0.505,
+       "rapport 1re": 0.9388581098848426
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T4 bande | a = 0.4": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.2289802595618005,
+      "accord entraînement-validation": 0.5105682079971208,
+      "pas de Newton": 0.9247178443719419,
+      "directions principales": 0.9999999999999998,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.05185540464061712,
+      "part par paramètre": 0.00017285134880205708,
+      "signal sur bruit": 1.0523013451854126,
+      "accord entraînement-validation": -0.1772608115571413,
+      "pas de Newton": 0.560128778517256,
+      "directions principales": 0.16133211079530926,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.09733963749569259,
+      "part par paramètre": 1.8900900484600503e-05,
+      "signal sur bruit": 0.4066454701667437,
+      "accord entraînement-validation": -0.005920047258854971,
+      "pas de Newton": 0.7242808639804743,
+      "directions principales": 0.3356532937387143,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.510430981639728,
+      "part par paramètre": 9.911281196887923e-05,
+      "signal sur bruit": 1.3068594126346276,
+      "accord entraînement-validation": 0.49977262218959423,
+      "pas de Newton": 0.8935467134566573,
+      "directions principales": 0.5306309167815988,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.06705095675544376,
+      "part par paramètre": 0.0001357306816911817,
+      "signal sur bruit": 1.039225535151275,
+      "accord entraînement-validation": -0.05625032459563565,
+      "pas de Newton": 0.674936576998192,
+      "directions principales": 0.17825654437420554,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.12963749750396297,
+      "part par paramètre": 0.00011322052183752225,
+      "signal sur bruit": 1.1378339880848647,
+      "accord entraînement-validation": 0.25508604027810833,
+      "pas de Newton": 0.7834667801612489,
+      "directions principales": 0.23068522179598708,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5116611427280446,
+      "part par paramètre": 9.745926528153231e-05,
+      "signal sur bruit": 1.2502348212605687,
+      "accord entraînement-validation": 0.48920491152939694,
+      "pas de Newton": 0.8944280633692381,
+      "directions principales": 0.551882267813642,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.03944613672613729,
+      "part par paramètre": 0.00019723068363068644,
+      "signal sur bruit": 0.9395757049222884,
+      "accord entraînement-validation": -0.40488187643109247,
+      "pas de Newton": 0.42094197999487887,
+      "directions principales": 0.15288219393298913,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 1.2447247886104336,
+      "accord entraînement-validation": 0.5471923429358885,
+      "pas de Newton": 0.9206286343848782,
+      "directions principales": 0.9999999999999998,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.01291886732117785,
+      "part par paramètre": 0.0001291886732117785,
+      "signal sur bruit": 1.701025505236081,
+      "accord entraînement-validation": 0.6475439445297076,
+      "pas de Newton": 0.3727630467074381,
+      "directions principales": 0.009906528860936596,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.06027095718738404,
+      "part par paramètre": 1.217595094694627e-05,
+      "signal sur bruit": 0.29329602053898535,
+      "accord entraînement-validation": 0.14712048457375648,
+      "pas de Newton": 0.6700487061926528,
+      "directions principales": 0.2196033423538964,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.49032632413587895,
+      "part par paramètre": 9.905582305775332e-05,
+      "signal sur bruit": 1.3510930536971972,
+      "accord entraînement-validation": 0.5760710116007881,
+      "pas de Newton": 0.8855997863720895,
+      "directions principales": 0.4403121475708156,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.02873844048184946,
+      "part par paramètre": 9.774979755731109e-05,
+      "signal sur bruit": 1.224856061467181,
+      "accord entraînement-validation": 0.4467869548485855,
+      "pas de Newton": 0.5880985563926338,
+      "directions principales": 0.029917230741711286,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09389516218322815,
+      "part par paramètre": 9.935995998225201e-05,
+      "signal sur bruit": 1.2535169235897365,
+      "accord entraînement-validation": 0.5382376484697243,
+      "pas de Newton": 0.7489933998237182,
+      "directions principales": 0.09111571299049669,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.4916070030601444,
+      "part par paramètre": 9.73479213980484e-05,
+      "signal sur bruit": 1.2857465978416873,
+      "accord entraînement-validation": 0.5629512395081878,
+      "pas de Newton": 0.886156937834334,
+      "directions principales": 0.4675412368039741,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.4680362939834595,
+      0.2345140129327774,
+      0.09336462616920471,
+      0.06295366585254669,
+      0.04691821336746216,
+      0.024402152746915817,
+      0.01679505780339241,
+      0.012532311491668224,
+      0.008131359703838825,
+      0.005338623188436031,
+      0.004499103873968124,
+      0.003710791002959013,
+      0.0015284287510439754,
+      0.0014915337087586522,
+      0.0012316693319007754,
+      0.00114720209967345,
+      0.0009664939716458321,
+      0.0009110360988415778,
+      0.0008244261844083667,
+      0.0007302599842660129
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00932916160672903,
+       "part 5 premières": 0.009938384406268597,
+       "hasard": 0.01,
+       "rapport 1re": 0.9329161643981934
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.25435131788253784,
+       "part 5 premières": 0.2507820725440979,
+       "hasard": 0.495,
+       "rapport 1re": 0.5138410329818726
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.45412933826446533,
+       "part 5 premières": 0.45024675130844116,
+       "hasard": 0.495,
+       "rapport 1re": 0.9174330234527588
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029088586568832397,
+       "part 5 premières": 0.028957342728972435,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9894077181816101
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09568116068840027,
+       "part 5 premières": 0.09155772626399994,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0124990940093994
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4861089587211609,
+       "part 5 premières": 0.47294989228248596,
+       "hasard": 0.505,
+       "rapport 1re": 0.9625920057296753
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.4705495834350586,
+      0.2367650270462036,
+      0.09435068070888519,
+      0.0636506974697113,
+      0.04701318219304085,
+      0.02424120530486107,
+      0.01690203696489334,
+      0.010480143129825592,
+      0.006085904315114021,
+      0.0051546404138207436,
+      0.003769481787458062,
+      0.0028837930876761675,
+      0.001544659142382443,
+      0.0013926642714068294,
+      0.0012163860956206918,
+      0.0010206714505329728,
+      0.0009722746326588094,
+      0.0008604010217823088,
+      0.0007530241273343563,
+      0.0007134965271688998
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009327597916126251,
+       "part 5 premières": 0.009910514578223228,
+       "hasard": 0.01,
+       "rapport 1re": 0.9327598214149475
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.2543119490146637,
+       "part 5 premières": 0.2517848610877991,
+       "hasard": 0.495,
+       "rapport 1re": 0.5137615203857422
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4542032778263092,
+       "part 5 premières": 0.4499244689941406,
+       "hasard": 0.495,
+       "rapport 1re": 0.9175823926925659
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029117945581674576,
+       "part 5 premières": 0.029008513316512108,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9904062747955322
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09572082757949829,
+       "part 5 premières": 0.09156079590320587,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0129188299179077
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.48614490032196045,
+       "part 5 premières": 0.473135769367218,
+       "hasard": 0.505,
+       "rapport 1re": 0.9626631736755371
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.4627876579761505,
+      0.23857980966567993,
+      0.09004144370555878,
+      0.06018713861703873,
+      0.05221203714609146,
+      0.026868801563978195,
+      0.01739668659865856,
+      0.012658241204917431,
+      0.008431395515799522,
+      0.005623837932944298,
+      0.004548016469925642,
+      0.00373754370957613,
+      0.0015326000284403563,
+      0.0013436482986435294,
+      0.0011788451811298728,
+      0.0009960731258615851,
+      0.0008790558204054832,
+      0.0008386268164031208,
+      0.0007313002133741975,
+      0.0006312471232376993
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00967486372525221,
+       "part 5 premières": 0.010409676057473612,
+       "hasard": 0.01,
+       "rapport 1re": 0.967486372525221
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.2754646459909005,
+       "part 5 premières": 0.25675360264965175,
+       "hasard": 0.495,
+       "rapport 1re": 0.5564942343250515
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5845232572386792,
+       "part 5 premières": 0.5932940541445817,
+       "hasard": 0.495,
+       "rapport 1re": 1.1808550651286447
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.031471127318110095,
+       "part 5 premières": 0.0305483072003268,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0704465074187108
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10495037692350598,
+       "part 5 premières": 0.10211954761045554,
+       "hasard": 0.0945,
+       "rapport 1re": 1.1105859991905394
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5150180895489948,
+       "part 5 premières": 0.49262276676181144,
+       "hasard": 0.505,
+       "rapport 1re": 1.0198378010871183
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.4649809002876282,
+      0.24052485823631287,
+      0.09095482528209686,
+      0.060758624225854874,
+      0.05250720679759979,
+      0.0268325824290514,
+      0.01756114885210991,
+      0.01134840864688158,
+      0.006066699977964163,
+      0.0056749372743070126,
+      0.003780018538236618,
+      0.002715873997658491,
+      0.0015212668804451823,
+      0.001239687204360962,
+      0.0011426798300817609,
+      0.0009195689344778657,
+      0.0008877268410287797,
+      0.0007522821542806923,
+      0.000665241212118417,
+      0.0006260254303924739
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009670910999215514,
+       "part 5 premières": 0.010379637685509448,
+       "hasard": 0.01,
+       "rapport 1re": 0.9670910999215514
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.2752363329812563,
+       "part 5 premières": 0.2575149975285784,
+       "hasard": 0.495,
+       "rapport 1re": 0.5560329959217299
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5843415985409903,
+       "part 5 premières": 0.5932870713716218,
+       "hasard": 0.495,
+       "rapport 1re": 1.1804880778605866
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.03147950043696898,
+       "part 5 premières": 0.030589277380067392,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0707313073798974
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.1049067177859147,
+       "part 5 premières": 0.10214535779418568,
+       "hasard": 0.0945,
+       "rapport 1re": 1.1101239977345472
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5150865970867768,
+       "part 5 premières": 0.4926711086882468,
+       "hasard": 0.505,
+       "rapport 1re": 1.0199734595777759
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T5 témoin | a = 0.4": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 0.798313798600354,
+      "accord entraînement-validation": -0.2761819643343344,
+      "pas de Newton": 0.9306843331163424,
+      "directions principales": 0.9999999999999997,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.12796378260288294,
+      "part par paramètre": 0.00042654594200960976,
+      "signal sur bruit": 0.8960314205907335,
+      "accord entraînement-validation": -0.5272452392619742,
+      "pas de Newton": 0.531275272487999,
+      "directions principales": 0.13052429236831312,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.25947731457740486,
+      "part par paramètre": 5.038394457813687e-05,
+      "signal sur bruit": 0.5597141134826881,
+      "accord entraînement-validation": -0.3426486849739122,
+      "pas de Newton": 0.7367108596065024,
+      "directions principales": 0.3401546907992046,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.5307842852165009,
+      "part par paramètre": 0.00010306490975077687,
+      "signal sur bruit": 0.8972843938721047,
+      "accord entraînement-validation": -0.3024641700645103,
+      "pas de Newton": 0.8876007654789693,
+      "directions principales": 0.49447091761646417,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.14204120230610412,
+      "part par paramètre": 0.0002875327981904942,
+      "signal sur bruit": 0.8612288286076744,
+      "accord entraînement-validation": -0.48461355434546377,
+      "pas de Newton": 0.592288989578344,
+      "directions principales": 0.14698595730768974,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.20291914365972252,
+      "part par paramètre": 0.00017722195952814195,
+      "signal sur bruit": 0.8507540356864702,
+      "accord entraînement-validation": -0.3986939459496948,
+      "pas de Newton": 0.7339514564933646,
+      "directions principales": 0.20519722083509323,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5646364217054587,
+      "part par paramètre": 0.00010754979461056356,
+      "signal sur bruit": 0.7880295867370797,
+      "accord entraînement-validation": -0.2876047685499934,
+      "pas de Newton": 0.893792936344091,
+      "directions principales": 0.5792536326336973,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.11642785996380084,
+      "part par paramètre": 0.0005821392998190042,
+      "signal sur bruit": 0.8806914459005318,
+      "accord entraînement-validation": -0.5885678284766044,
+      "pas de Newton": 0.42681163386223203,
+      "directions principales": 0.12133555459120896,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 0.7885940727416194,
+      "accord entraînement-validation": -0.2600995708929969,
+      "pas de Newton": 0.9318062944286505,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.013056005408465528,
+      "part par paramètre": 0.0001305600540846553,
+      "signal sur bruit": 1.087145732041307,
+      "accord entraînement-validation": -0.24066977817077695,
+      "pas de Newton": 0.31091837943823275,
+      "directions principales": 0.01029278795020612,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.1618990098621075,
+      "part par paramètre": 3.270687067921364e-05,
+      "signal sur bruit": 0.4316669203973632,
+      "accord entraînement-validation": -0.30081570209294173,
+      "pas de Newton": 0.7099562037742063,
+      "directions principales": 0.23834614444731908,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4689559646320722,
+      "part par paramètre": 9.473857871354994e-05,
+      "signal sur bruit": 0.9020598843143047,
+      "accord entraînement-validation": -0.26711554207094107,
+      "pas de Newton": 0.8873512087260692,
+      "directions principales": 0.4316479381415199,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.028988399680929165,
+      "part par paramètre": 9.859999891472505e-05,
+      "signal sur bruit": 0.7826121467731233,
+      "accord entraînement-validation": -0.3356788467546252,
+      "pas de Newton": 0.4531980707751479,
+      "directions principales": 0.02923151300838723,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09788819698681107,
+      "part par paramètre": 0.00010358539363683712,
+      "signal sur bruit": 0.8135279395224541,
+      "accord entraînement-validation": -0.307151057492951,
+      "pas de Newton": 0.7012573742681512,
+      "directions principales": 0.09538277428803313,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5072687802529572,
+      "part par paramètre": 0.00010044926341642717,
+      "signal sur bruit": 0.7670650066095059,
+      "accord entraînement-validation": -0.25623287093022723,
+      "pas de Newton": 0.8938642858182644,
+      "directions principales": 0.5184151795391948,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.2738000452518463,
+      0.2222026139497757,
+      0.11794565618038177,
+      0.10602788627147675,
+      0.08510328084230423,
+      0.05389629676938057,
+      0.03829521685838699,
+      0.0325671024620533,
+      0.020960461348295212,
+      0.010726965963840485,
+      0.00741221709176898,
+      0.005506798624992371,
+      0.003794910153374076,
+      0.0031910089310258627,
+      0.002139741089195013,
+      0.0016543901292607188,
+      0.0012046040501445532,
+      0.0009570224792696536,
+      0.0008470173343084753,
+      0.000834265083540231
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.007131192367523909,
+       "part 5 premières": 0.0095546068623662,
+       "hasard": 0.01,
+       "rapport 1re": 0.7131192684173584
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3735358417034149,
+       "part 5 premières": 0.3043695390224457,
+       "hasard": 0.495,
+       "rapport 1re": 0.7546178698539734
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.41781824827194214,
+       "part 5 premières": 0.40862974524497986,
+       "hasard": 0.495,
+       "rapport 1re": 0.8440772891044617
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.030979642644524574,
+       "part 5 premières": 0.028843646869063377,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0537292957305908
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09272819757461548,
+       "part 5 premières": 0.09454239904880524,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9812507629394531
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5818122625350952,
+       "part 5 premières": 0.5255179405212402,
+       "hasard": 0.505,
+       "rapport 1re": 1.1521035432815552
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.27450472116470337,
+      0.22266820073127747,
+      0.1183684691786766,
+      0.10658683627843857,
+      0.08554336428642273,
+      0.054166171699762344,
+      0.038498591631650925,
+      0.032641638070344925,
+      0.020699575543403625,
+      0.010735238902270794,
+      0.007206224370747805,
+      0.00529188197106123,
+      0.0036776328925043344,
+      0.0022942102514207363,
+      0.001811688533052802,
+      0.0013320581056177616,
+      0.0009719366207718849,
+      0.0008520886767655611,
+      0.000839229382108897,
+      0.0006956437136977911
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.0071595199406147,
+       "part 5 premières": 0.009549884125590324,
+       "hasard": 0.01,
+       "rapport 1re": 0.7159520387649536
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.37321263551712036,
+       "part 5 premières": 0.30445194244384766,
+       "hasard": 0.495,
+       "rapport 1re": 0.753964900970459
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4178246557712555,
+       "part 5 premières": 0.40859848260879517,
+       "hasard": 0.495,
+       "rapport 1re": 0.8440902233123779
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.030993007123470306,
+       "part 5 premières": 0.02885482832789421,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0541839599609375
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09276196360588074,
+       "part 5 premières": 0.09454414248466492,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9816080927848816
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5824583172798157,
+       "part 5 premières": 0.5255283713340759,
+       "hasard": 0.505,
+       "rapport 1re": 1.1533827781677246
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.2917444407939911,
+      0.22640562057495117,
+      0.11533550173044205,
+      0.11410069465637207,
+      0.07945336401462555,
+      0.046862754970788956,
+      0.03531799837946892,
+      0.03079112619161606,
+      0.01890907622873783,
+      0.00856630876660347,
+      0.006539565976709127,
+      0.004500922281295061,
+      0.0034192001912742853,
+      0.0026019529905170202,
+      0.0018172516720369458,
+      0.001408276497386396,
+      0.000980954966507852,
+      0.0007701844442635775,
+      0.0007032394059933722,
+      0.0006614891462959349
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.006819679063783127,
+       "part 5 premières": 0.009687637592970295,
+       "hasard": 0.01,
+       "rapport 1re": 0.6819679063783126
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.37848740594839786,
+       "part 5 premières": 0.3133294008989869,
+       "hasard": 0.495,
+       "rapport 1re": 0.7646210221179754
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5306936284436738,
+       "part 5 premières": 0.5264480981019036,
+       "hasard": 0.495,
+       "rapport 1re": 1.0721083402902503
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.032624080332154845,
+       "part 5 premières": 0.03009617729168723,
+       "hasard": 0.0294,
+       "rapport 1re": 1.1096625963317974
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.0951039419792929,
+       "part 5 premières": 0.09955914115589463,
+       "hasard": 0.0945,
+       "rapport 1re": 1.006390920415798
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5726353740605412,
+       "part 5 premières": 0.5363957114544278,
+       "hasard": 0.505,
+       "rapport 1re": 1.13393143378325
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.292193204164505,
+      0.22697673738002777,
+      0.11559592932462692,
+      0.11464114487171173,
+      0.07979033142328262,
+      0.04705072566866875,
+      0.03543601557612419,
+      0.030851874500513077,
+      0.018730439245700836,
+      0.00855612475425005,
+      0.0063316416926681995,
+      0.004429987166076899,
+      0.0033008032478392124,
+      0.0019425245700404048,
+      0.00150862371083349,
+      0.0011141672730445862,
+      0.0007755383849143982,
+      0.0007094779866747558,
+      0.0006683781393803656,
+      0.0005920690600760281
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00684078463220636,
+       "part 5 premières": 0.009684010456225342,
+       "hasard": 0.01,
+       "rapport 1re": 0.684078463220636
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.378498253653913,
+       "part 5 premières": 0.3134033919175359,
+       "hasard": 0.495,
+       "rapport 1re": 0.7646429366745717
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5307428212172809,
+       "part 5 premières": 0.5263598831846613,
+       "hasard": 0.495,
+       "rapport 1re": 1.0722077196308706
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.03266433087614966,
+       "part 5 premières": 0.030116117279216797,
+       "hasard": 0.0294,
+       "rapport 1re": 1.1110316624540701
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.0951445806649511,
+       "part 5 premières": 0.0995524116674625,
+       "hasard": 0.0945,
+       "rapport 1re": 1.006820959417472
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5735178807550236,
+       "part 5 premières": 0.5364300639870118,
+       "hasard": 0.505,
+       "rapport 1re": 1.135678971792126
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T1 tournée | a = 0.5": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.3718195740485333,
+      "accord entraînement-validation": -0.2962390542199743,
+      "pas de Newton": 0.9070885574331816,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.08639400968944226,
+      "part par paramètre": 0.00028798003229814085,
+      "signal sur bruit": 0.6756658900092865,
+      "accord entraînement-validation": 0.5522966399750203,
+      "pas de Newton": 0.5537075834275922,
+      "directions principales": 0.15057858936970897,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.3552886930002965,
+      "part par paramètre": 6.898809572821291e-05,
+      "signal sur bruit": 1.168185573352387,
+      "accord entraînement-validation": -0.14371627609437035,
+      "pas de Newton": 0.7929197244716959,
+      "directions principales": 0.3610734480279808,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4694061838395496,
+      "part par paramètre": 9.114683181350477e-05,
+      "signal sur bruit": 1.2804276929316365,
+      "accord entraînement-validation": -0.13588815960295228,
+      "pas de Newton": 0.8663527069752429,
+      "directions principales": 0.49644910355343735,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.10643082952329534,
+      "part par paramètre": 0.0002154470233265088,
+      "signal sur bruit": 0.7661846377813735,
+      "accord entraînement-validation": 0.40271135287551174,
+      "pas de Newton": 0.6075699226075937,
+      "directions principales": 0.16640621033454173,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.1601754803189902,
+      "part par paramètre": 0.00013989124918689102,
+      "signal sur bruit": 0.906966627910964,
+      "accord entraînement-validation": 0.19156513369278366,
+      "pas de Newton": 0.7209290991405238,
+      "directions principales": 0.22006435304498412,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.548690345927227,
+      "part par paramètre": 0.00010451244684328133,
+      "signal sur bruit": 1.2867357765447762,
+      "accord entraînement-validation": -0.20839695299248198,
+      "pas de Newton": 0.868232032798265,
+      "directions principales": 0.5763903011080768,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.07807931576944319,
+      "part par paramètre": 0.0003903965788472159,
+      "signal sur bruit": 0.6402556565151349,
+      "accord entraînement-validation": 0.6160362570302232,
+      "pas de Newton": 0.4943689375648855,
+      "directions principales": 0.1418774109987898,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 1.5187933978682073,
+      "accord entraînement-validation": -0.420101615425539,
+      "pas de Newton": 0.9098098171827261,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.009018882060270288,
+      "part par paramètre": 9.018882060270288e-05,
+      "signal sur bruit": 1.4057510301819052,
+      "accord entraînement-validation": -0.31718888801781553,
+      "pas de Newton": 0.22493764021750623,
+      "directions principales": 0.010492196776892056,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.30068679656777064,
+      "part par paramètre": 6.074480738742841e-05,
+      "signal sur bruit": 1.5215651897204223,
+      "accord entraînement-validation": -0.4721556434978861,
+      "pas de Newton": 0.7822983780189234,
+      "directions principales": 0.24111850025859569,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.42446912707757645,
+      "part par paramètre": 8.575133880355079e-05,
+      "signal sur bruit": 1.5995318845309694,
+      "accord entraînement-validation": -0.38035890894682406,
+      "pas de Newton": 0.8659237150075376,
+      "directions principales": 0.4158040836632182,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.030752660439020953,
+      "part par paramètre": 0.00010460088584701004,
+      "signal sur bruit": 1.6716751292543761,
+      "accord entraînement-validation": -0.4953887795190057,
+      "pas de Newton": 0.4297841197899574,
+      "directions principales": 0.028125385198130615,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.08904905373510003,
+      "part par paramètre": 9.423180289428574e-05,
+      "signal sur bruit": 1.5020662538921956,
+      "accord entraînement-validation": -0.4263553782827553,
+      "pas de Newton": 0.6759255464297085,
+      "directions principales": 0.09024139043849289,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5104680242103039,
+      "part par paramètre": 0.00010108277707134731,
+      "signal sur bruit": 1.545672127023787,
+      "accord entraînement-validation": -0.42797710035822856,
+      "pas de Newton": 0.8685771233882563,
+      "directions principales": 0.5072117509032785,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.24615578353405,
+      0.22597341239452362,
+      0.15166281163692474,
+      0.09054753184318542,
+      0.07272881269454956,
+      0.06374357640743256,
+      0.04394453018903732,
+      0.034073278307914734,
+      0.020229214802384377,
+      0.01027593482285738,
+      0.007779950276017189,
+      0.004965810105204582,
+      0.0037131868302822113,
+      0.003038998693227768,
+      0.002388463821262121,
+      0.0020375740714371204,
+      0.0013725290773436427,
+      0.0013029895490035415,
+      0.0011263018241152167,
+      0.0009482067544013262
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.008000186644494534,
+       "part 5 premières": 0.010161789134144783,
+       "hasard": 0.01,
+       "rapport 1re": 0.8000186681747437
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3910781741142273,
+       "part 5 premières": 0.31297817826271057,
+       "hasard": 0.495,
+       "rapport 1re": 0.7900568842887878
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.36098483204841614,
+       "part 5 premières": 0.39070335030555725,
+       "hasard": 0.495,
+       "rapport 1re": 0.7292622923851013
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.028028102591633797,
+       "part 5 premières": 0.029032956808805466,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9533368349075317
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08210152387619019,
+       "part 5 premières": 0.08937151730060577,
+       "hasard": 0.0945,
+       "rapport 1re": 0.8687992095947266
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.46095767617225647,
+       "part 5 premières": 0.500724732875824,
+       "hasard": 0.505,
+       "rapport 1re": 0.9127874970436096
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.24732807278633118,
+      0.22711610794067383,
+      0.1524723321199417,
+      0.09103260189294815,
+      0.07220356911420822,
+      0.06344309449195862,
+      0.043658386915922165,
+      0.03397157043218613,
+      0.020328450947999954,
+      0.010282475501298904,
+      0.007744495291262865,
+      0.0048042237758636475,
+      0.003394489176571369,
+      0.002850571181625128,
+      0.0021638437174260616,
+      0.0013803746551275253,
+      0.0013126388657838106,
+      0.0011325766099616885,
+      0.0009541070321574807,
+      0.0008013982442207634
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.008005449548363686,
+       "part 5 premières": 0.010164858773350716,
+       "hasard": 0.01,
+       "rapport 1re": 0.8005449771881104
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3916131854057312,
+       "part 5 premières": 0.3125045895576477,
+       "hasard": 0.495,
+       "rapport 1re": 0.7911377549171448
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.3604636490345001,
+       "part 5 premières": 0.39038795232772827,
+       "hasard": 0.495,
+       "rapport 1re": 0.728209376335144
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.028021764010190964,
+       "part 5 premières": 0.029131297022104263,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9531211853027344
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08207444846630096,
+       "part 5 premières": 0.0894697830080986,
+       "hasard": 0.0945,
+       "rapport 1re": 0.8685126900672913
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.460750013589859,
+       "part 5 premières": 0.5009892582893372,
+       "hasard": 0.505,
+       "rapport 1re": 0.9123762845993042
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.27138131856918335,
+      0.2349451631307602,
+      0.1541038304567337,
+      0.08295735716819763,
+      0.0739491730928421,
+      0.05633433163166046,
+      0.03992827236652374,
+      0.0278118085116148,
+      0.016993127763271332,
+      0.008533152751624584,
+      0.006204447243362665,
+      0.004021603148430586,
+      0.002891012467443943,
+      0.002593499608337879,
+      0.0019834369886666536,
+      0.001526202424429357,
+      0.001197581528685987,
+      0.001094258390367031,
+      0.000920582446269691,
+      0.0007892668945714831
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009133922899606631,
+       "part 5 premières": 0.010824273754553233,
+       "hasard": 0.01,
+       "rapport 1re": 0.9133922899606631
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.425400211716176,
+       "part 5 premières": 0.32360234003307775,
+       "hasard": 0.495,
+       "rapport 1re": 0.8593943671033858
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.47663141766979744,
+       "part 5 premières": 0.5197382752106965,
+       "hasard": 0.495,
+       "rapport 1re": 0.9628917528682777
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02706631873965102,
+       "part 5 premières": 0.030809867657204372,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9206230863826877
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.0895044144436181,
+       "part 5 premières": 0.09856856177785994,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9471366607790276
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4685219717720827,
+       "part 5 premières": 0.4992736927888025,
+       "hasard": 0.505,
+       "rapport 1re": 0.9277662807367975
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.2725345194339752,
+      0.23567277193069458,
+      0.15476113557815552,
+      0.08328703790903091,
+      0.07317627966403961,
+      0.056371577084064484,
+      0.03964110091328621,
+      0.02780349925160408,
+      0.017061583697795868,
+      0.008536946028470993,
+      0.006168031599372625,
+      0.0039683678187429905,
+      0.002727710409089923,
+      0.0023598549887537956,
+      0.0017322479980066419,
+      0.001228770473971963,
+      0.0011052624322474003,
+      0.0009247116395272315,
+      0.0007931810687296093,
+      0.0006233043968677521
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00913431725177831,
+       "part 5 premières": 0.010824401301772998,
+       "hasard": 0.01,
+       "rapport 1re": 0.9134317251778309
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.42541019004597946,
+       "part 5 premières": 0.3234371217843617,
+       "hasard": 0.495,
+       "rapport 1re": 0.8594145253454131
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4766284280168618,
+       "part 5 premières": 0.5195006632723046,
+       "hasard": 0.495,
+       "rapport 1re": 0.9628857131653773
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.027056785682943153,
+       "part 5 premières": 0.030855301418781473,
+       "hasard": 0.0294,
+       "rapport 1re": 0.9202988327531685
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08950729590763767,
+       "part 5 premières": 0.09861665539049022,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9471671524617743
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.46853184466883013,
+       "part 5 premières": 0.4994169215517032,
+       "hasard": 0.505,
+       "rapport 1re": 0.9277858310273864
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T2 cisaillée | a = 0.5": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.907712956204542,
+      "accord entraînement-validation": -0.4660937870959137,
+      "pas de Newton": 0.9151870810912,
+      "directions principales": 1.0000000000000002,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.18426233605507375,
+      "part par paramètre": 0.0006142077868502458,
+      "signal sur bruit": 1.4514956113566537,
+      "accord entraînement-validation": 0.21826949205510934,
+      "pas de Newton": 0.441083522505806,
+      "directions principales": 0.13636735252574889,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.40815343986825176,
+      "part par paramètre": 7.925309512004889e-05,
+      "signal sur bruit": 1.73870720119266,
+      "accord entraînement-validation": -0.5251205096241099,
+      "pas de Newton": 0.6473439233703943,
+      "directions principales": 0.33184074553130266,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.5352797102359974,
+      "part par paramètre": 0.00010393780781281503,
+      "signal sur bruit": 1.856808302671347,
+      "accord entraînement-validation": -0.3703913916366026,
+      "pas de Newton": 0.8577407379894316,
+      "directions principales": 0.49838203988115504,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.2037699703874937,
+      "part par paramètre": 0.00041248981859816537,
+      "signal sur bruit": 1.51188593628908,
+      "accord entraînement-validation": 0.025591465059565156,
+      "pas de Newton": 0.5445031349034873,
+      "directions principales": 0.15273316364715656,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.26165027249658657,
+      "part par paramètre": 0.00022851552183107996,
+      "signal sur bruit": 1.6237815628407968,
+      "accord entraînement-validation": -0.17672683642585915,
+      "pas de Newton": 0.6803890508365679,
+      "directions principales": 0.21056245037412827,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5933353035665585,
+      "part par paramètre": 0.00011301624829839209,
+      "signal sur bruit": 1.8710658322274134,
+      "accord entraînement-validation": -0.3874456793438823,
+      "pas de Newton": 0.8702523475360302,
+      "directions principales": 0.5584962357331934,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.17651384490948743,
+      "part par paramètre": 0.0008825692245474372,
+      "signal sur bruit": 1.434414177255943,
+      "accord entraînement-validation": 0.28301844554045164,
+      "pas de Newton": 0.3460265761891331,
+      "directions principales": 0.12734736128210306,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 2.0529083537304373,
+      "accord entraînement-validation": -0.5430108105271673,
+      "pas de Newton": 0.9241323065479499,
+      "directions principales": 0.9999999999999998,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.00940937634189446,
+      "part par paramètre": 9.409376341894459e-05,
+      "signal sur bruit": 1.9918318023725596,
+      "accord entraînement-validation": -0.3646657702051199,
+      "pas de Newton": 0.2632777996516601,
+      "directions principales": 0.010643825509232013,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.2812914261239813,
+      "part par paramètre": 5.682655073211743e-05,
+      "signal sur bruit": 2.0739704687623983,
+      "accord entraînement-validation": -0.8062262067556216,
+      "pas de Newton": 0.6291368628129337,
+      "directions principales": 0.22974986122961524,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.43566714887523106,
+      "part par paramètre": 8.80135654293396e-05,
+      "signal sur bruit": 2.171402996161497,
+      "accord entraînement-validation": -0.520719696586069,
+      "pas de Newton": 0.8693176225508644,
+      "directions principales": 0.42580274778555605,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.033098462323280245,
+      "part par paramètre": 0.0001125798038206811,
+      "signal sur bruit": 2.3251583408077923,
+      "accord entraînement-validation": -0.5445072979681959,
+      "pas de Newton": 0.47570031904890614,
+      "directions principales": 0.029142822264460903,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.10338537820073182,
+      "part par paramètre": 0.00010940251661453103,
+      "signal sur bruit": 2.235727072480939,
+      "accord entraînement-validation": -0.5659148537914542,
+      "pas de Newton": 0.6693206307608263,
+      "directions principales": 0.09528554688852503,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5061669295596798,
+      "part par paramètre": 0.00010023107516033263,
+      "signal sur bruit": 2.1479611921495643,
+      "accord entraînement-validation": -0.5226046223873486,
+      "pas de Newton": 0.8804545765792757,
+      "directions principales": 0.49179281139886716,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.3138599395751953,
+      0.23008568584918976,
+      0.09856334328651428,
+      0.09299924224615097,
+      0.07175557315349579,
+      0.0520840585231781,
+      0.04769310727715492,
+      0.030126972123980522,
+      0.01609843038022518,
+      0.011140643619000912,
+      0.008955873548984528,
+      0.005697821266949177,
+      0.0039726607501506805,
+      0.0024991934187710285,
+      0.0017940683756023645,
+      0.0010199863463640213,
+      0.0008188000065274537,
+      0.0006609851843677461,
+      0.0005867503932677209,
+      0.0005643474287353456
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.007822588086128235,
+       "part 5 premières": 0.009778177365660667,
+       "hasard": 0.01,
+       "rapport 1re": 0.7822588086128235
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.30904215574264526,
+       "part 5 premières": 0.2860584855079651,
+       "hasard": 0.495,
+       "rapport 1re": 0.6243276000022888
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.42745256423950195,
+       "part 5 premières": 0.4047818183898926,
+       "hasard": 0.495,
+       "rapport 1re": 0.863540530204773
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.03094102442264557,
+       "part 5 premières": 0.029079917818307877,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0524157285690308
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10503015667200089,
+       "part 5 premières": 0.0941161960363388,
+       "hasard": 0.0945,
+       "rapport 1re": 1.111430287361145
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5088324546813965,
+       "part 5 premières": 0.4946461617946625,
+       "hasard": 0.505,
+       "rapport 1re": 1.0075889825820923
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.3122858703136444,
+      0.2311290055513382,
+      0.09956304728984833,
+      0.09357652813196182,
+      0.0724770575761795,
+      0.05251418054103851,
+      0.04765851050615311,
+      0.030113255605101585,
+      0.01626264676451683,
+      0.011251750402152538,
+      0.008560089394450188,
+      0.0057498998939991,
+      0.0035413492005318403,
+      0.001899898867122829,
+      0.001300490228459239,
+      0.0009137815213762224,
+      0.0007171717006713152,
+      0.0006243470124900341,
+      0.0005867811851203442,
+      0.0005349410930648446
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00783453043550253,
+       "part 5 premières": 0.009783046320080757,
+       "hasard": 0.01,
+       "rapport 1re": 0.7834530472755432
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.30695363879203796,
+       "part 5 premières": 0.2861250936985016,
+       "hasard": 0.495,
+       "rapport 1re": 0.6201083660125732
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.42841464281082153,
+       "part 5 premières": 0.4046720564365387,
+       "hasard": 0.495,
+       "rapport 1re": 0.8654841184616089
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.030871234834194183,
+       "part 5 premières": 0.029050910845398903,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0500420331954956
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10518069565296173,
+       "part 5 premières": 0.09407739341259003,
+       "hasard": 0.0945,
+       "rapport 1re": 1.113023281097412
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5101137161254883,
+       "part 5 premières": 0.49469536542892456,
+       "hasard": 0.505,
+       "rapport 1re": 1.0101262331008911
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.33624163269996643,
+      0.23618611693382263,
+      0.093843974173069,
+      0.09046504646539688,
+      0.07059844583272934,
+      0.047938164323568344,
+      0.04529415816068649,
+      0.026383252814412117,
+      0.014197364449501038,
+      0.009282674640417099,
+      0.007078574039041996,
+      0.004717044532299042,
+      0.0032873370219022036,
+      0.0020930746104568243,
+      0.0015349430032074451,
+      0.0009321732213720679,
+      0.000723941542673856,
+      0.0005722386413253844,
+      0.0005411627353169024,
+      0.00047611782792955637
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.006578864030798288,
+       "part 5 premières": 0.00908752613106088,
+       "hasard": 0.01,
+       "rapport 1re": 0.6578864030798288
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3106086112456546,
+       "part 5 premières": 0.2936268372278059,
+       "hasard": 0.495,
+       "rapport 1re": 0.6274921439306154
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5136345604649668,
+       "part 5 premières": 0.5099820712420635,
+       "hasard": 0.495,
+       "rapport 1re": 1.0376455766969026
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.031600241130033575,
+       "part 5 premières": 0.029028163919499295,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0748381336746113
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10227089589937556,
+       "part 5 premières": 0.09763948977102507,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0822317026388948
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5376331784601962,
+       "part 5 premières": 0.5171759244849883,
+       "hasard": 0.505,
+       "rapport 1re": 1.0646201553667252
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.334224134683609,
+      0.23751485347747803,
+      0.09447237849235535,
+      0.09136040508747101,
+      0.07129810005426407,
+      0.04825463518500328,
+      0.04524790495634079,
+      0.026246439665555954,
+      0.014337806031107903,
+      0.009365517646074295,
+      0.00679031852632761,
+      0.004758528433740139,
+      0.003041802439838648,
+      0.0016337697161361575,
+      0.0011144974268972874,
+      0.0007970473379828036,
+      0.0006559166358783841,
+      0.0005474816425703466,
+      0.0004960481310263276,
+      0.00046163072693161666
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.006538344623740862,
+       "part 5 premières": 0.009095137863043369,
+       "hasard": 0.01,
+       "rapport 1re": 0.6538344623740862
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.3090604874986881,
+       "part 5 premières": 0.29355622193078623,
+       "hasard": 0.495,
+       "rapport 1re": 0.6243646212094709
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.514962493740357,
+       "part 5 premières": 0.509842247891196,
+       "hasard": 0.495,
+       "rapport 1re": 1.0403282701825394
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.031627231949026655,
+       "part 5 premières": 0.029014685448886447,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0757561887424032
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10257967268830107,
+       "part 5 premières": 0.09759074702740529,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0854991818867838
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5379014724276787,
+       "part 5 premières": 0.5171376740084348,
+       "hasard": 0.505,
+       "rapport 1re": 1.0651514305498588
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T3 accordée | a = 0.5": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.2329507452397168,
+      "accord entraînement-validation": -0.4645064514283928,
+      "pas de Newton": 0.8872571926800668,
+      "directions principales": 1.0000000000000002,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.03127130227015353,
+      "part par paramètre": 0.0001042376742338451,
+      "signal sur bruit": 0.36397757603521586,
+      "accord entraînement-validation": 0.07585636273330285,
+      "pas de Newton": 0.4644729164939991,
+      "directions principales": 0.19789124707349523,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.31965716776234576,
+      "part par paramètre": 6.206935296356229e-05,
+      "signal sur bruit": 0.9679036468675885,
+      "accord entraînement-validation": -0.5320580048720008,
+      "pas de Newton": 0.7036382787810217,
+      "directions principales": 0.42205594765674476,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4073958003205636,
+      "part par paramètre": 7.910598064476963e-05,
+      "signal sur bruit": 1.228637187010901,
+      "accord entraînement-validation": -0.35659839586468833,
+      "pas de Newton": 0.8229599613675007,
+      "directions principales": 0.48580814792592586,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.04776371781236785,
+      "part par paramètre": 9.668768787928715e-05,
+      "signal sur bruit": 0.47670690857027487,
+      "accord entraînement-validation": -0.047035243822380356,
+      "pas de Newton": 0.5232436611983504,
+      "directions principales": 0.21373119448890554,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.1089309342665928,
+      "part par paramètre": 9.513618713239545e-05,
+      "signal sur bruit": 0.7416469120810079,
+      "accord entraînement-validation": -0.24483909229733433,
+      "pas de Newton": 0.6481840295147621,
+      "directions principales": 0.2652694025523442,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5724989932363542,
+      "part par paramètre": 0.00010904742728311509,
+      "signal sur bruit": 1.255605593955753,
+      "accord entraînement-validation": -0.47742297995914973,
+      "pas de Newton": 0.8282625135549855,
+      "directions principales": 0.6121773395933128,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.021989174786708365,
+      "part par paramètre": 0.00010994587393354183,
+      "signal sur bruit": 0.28157844802289833,
+      "accord entraînement-validation": 0.19384947622611318,
+      "pas de Newton": 0.39065056180671404,
+      "directions principales": 0.18950926154939565,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 1.3343124479627964,
+      "accord entraînement-validation": -0.5044170751354524,
+      "pas de Newton": 0.8857600965550295,
+      "directions principales": 1.0000000000000002,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.009490822845872743,
+      "part par paramètre": 9.490822845872743e-05,
+      "signal sur bruit": 1.1865284209009166,
+      "accord entraînement-validation": -0.5085444371759325,
+      "pas de Newton": 0.2294337103231019,
+      "directions principales": 0.010566691660886366,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.3043606321133714,
+      "part par paramètre": 6.148699638653967e-05,
+      "signal sur bruit": 1.1804507548003345,
+      "accord entraînement-validation": -0.6587232548671715,
+      "pas de Newton": 0.6667136299636721,
+      "directions principales": 0.265037965771682,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.3940719423527884,
+      "part par paramètre": 7.961049340460372e-05,
+      "signal sur bruit": 1.520395995828464,
+      "accord entraînement-validation": -0.4424606611092187,
+      "pas de Newton": 0.813344745602883,
+      "directions principales": 0.3716644476049073,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.026354046766341663,
+      "part par paramètre": 8.963961485150226e-05,
+      "signal sur bruit": 1.1661311933170675,
+      "accord entraînement-validation": -0.4831841737045768,
+      "pas de Newton": 0.3681954710880582,
+      "directions principales": 0.029138206140417698,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.08889652060949689,
+      "part par paramètre": 9.407039217936179e-05,
+      "signal sur bruit": 1.263972262243754,
+      "accord entraînement-validation": -0.4909292117135934,
+      "pas de Newton": 0.5822930611829119,
+      "directions principales": 0.0924582855651503,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5628872444531344,
+      "part par paramètre": 0.00011146282068378899,
+      "signal sur bruit": 1.456907287063152,
+      "accord entraînement-validation": -0.5539016290519885,
+      "pas de Newton": 0.8195700328203777,
+      "directions principales": 0.5193741626699564,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.35528048872947693,
+      0.22125700116157532,
+      0.13888125121593475,
+      0.0901993066072464,
+      0.06586672365665436,
+      0.040071167051792145,
+      0.02386912703514099,
+      0.015385385602712631,
+      0.012154875323176384,
+      0.008166029118001461,
+      0.006232788320630789,
+      0.004498413298279047,
+      0.002408789936453104,
+      0.0016689302865415812,
+      0.0014394238824024796,
+      0.0013263244181871414,
+      0.0009622718207538128,
+      0.0007581871468573809,
+      0.0006613585283048451,
+      0.0005930611514486372
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009898082353174686,
+       "part 5 premières": 0.010424798354506493,
+       "hasard": 0.01,
+       "rapport 1re": 0.9898082613945007
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.43923714756965637,
+       "part 5 premières": 0.3256682753562927,
+       "hasard": 0.495,
+       "rapport 1re": 0.8873477578163147
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.3019663691520691,
+       "part 5 premières": 0.35022807121276855,
+       "hasard": 0.495,
+       "rapport 1re": 0.6100330352783203
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029908498749136925,
+       "part 5 premières": 0.030152644962072372,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0172958374023438
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08928714692592621,
+       "part 5 premières": 0.09389858692884445,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9448375701904297
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.49408140778541565,
+       "part 5 premières": 0.5261221528053284,
+       "hasard": 0.505,
+       "rapport 1re": 0.9783790111541748
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.357117235660553,
+      0.22227716445922852,
+      0.13759653270244598,
+      0.09031271934509277,
+      0.06619569659233093,
+      0.03966110944747925,
+      0.02393827587366104,
+      0.01492262352257967,
+      0.012220767326653004,
+      0.008217808790504932,
+      0.0059885368682444096,
+      0.004515145439654589,
+      0.002312494209036231,
+      0.001612722291611135,
+      0.0013895109295845032,
+      0.0010129492729902267,
+      0.0007827312801964581,
+      0.0007018622709438205,
+      0.0006194583256728947,
+      0.0005069928010925651
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.009881971403956413,
+       "part 5 premières": 0.01040959358215332,
+       "hasard": 0.01,
+       "rapport 1re": 0.9881971478462219
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.43885016441345215,
+       "part 5 premières": 0.3255411982536316,
+       "hasard": 0.495,
+       "rapport 1re": 0.8865659832954407
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.30207571387290955,
+       "part 5 premières": 0.35020893812179565,
+       "hasard": 0.495,
+       "rapport 1re": 0.6102539896965027
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029946673661470413,
+       "part 5 premières": 0.030163004994392395,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0185943841934204
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08935365825891495,
+       "part 5 premières": 0.09392319619655609,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9455413818359375
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.49425485730171204,
+       "part 5 premières": 0.5258933305740356,
+       "hasard": 0.505,
+       "rapport 1re": 0.9787225127220154
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.3752994239330292,
+      0.217534139752388,
+      0.14302517473697662,
+      0.09274177253246307,
+      0.059737421572208405,
+      0.033685311675071716,
+      0.023433031514286995,
+      0.013146582990884781,
+      0.011019757948815823,
+      0.007386691402643919,
+      0.0047113895416259766,
+      0.0038149654865264893,
+      0.0020761112682521343,
+      0.001364664756692946,
+      0.0010844997595995665,
+      0.0010074444580823183,
+      0.0007584657287225127,
+      0.0006136919837445021,
+      0.0005438787629827857,
+      0.0004659794212784618
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.011439186547907697,
+       "part 5 premières": 0.011480020386605604,
+       "hasard": 0.01,
+       "rapport 1re": 1.1439186547907696
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.4599705634869553,
+       "part 5 premières": 0.3339467900257852,
+       "hasard": 0.495,
+       "rapport 1re": 0.9292334615898087
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4320696888753375,
+       "part 5 premières": 0.4931015431986146,
+       "hasard": 0.495,
+       "rapport 1re": 0.8728680583340152
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.0310972877829776,
+       "part 5 premières": 0.031203765261620033,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0577308769720273
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09457227029514553,
+       "part 5 premières": 0.10055358203482381,
+       "hasard": 0.0945,
+       "rapport 1re": 1.000764765027995
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.4948723102508026,
+       "part 5 premières": 0.5183609992292223,
+       "hasard": 0.505,
+       "rapport 1re": 0.9799451688134705
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.3769317865371704,
+      0.2184167057275772,
+      0.1417585164308548,
+      0.09276419132947922,
+      0.06006084382534027,
+      0.03327406197786331,
+      0.023519737645983696,
+      0.012712727300822735,
+      0.011088902130723,
+      0.007399687543511391,
+      0.004564633592963219,
+      0.0038325455971062183,
+      0.0020093549974262714,
+      0.0013434524880722165,
+      0.001076576649211347,
+      0.000793230370618403,
+      0.0006419704295694828,
+      0.0005506458110176027,
+      0.0004974462208338082,
+      0.00041375920409336686
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.011433447060795772,
+       "part 5 premières": 0.011465656207412429,
+       "hasard": 0.01,
+       "rapport 1re": 1.1433447060795772
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.4596591049147767,
+       "part 5 premières": 0.33395487111875316,
+       "hasard": 0.495,
+       "rapport 1re": 0.9286042523530842
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.432110792047124,
+       "part 5 premières": 0.49314198016740285,
+       "hasard": 0.495,
+       "rapport 1re": 0.8729510950446949
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.03112706360466659,
+       "part 5 premières": 0.03119221650009087,
+       "hasard": 0.0294,
+       "rapport 1re": 1.0587436600226732
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09464148383593754,
+       "part 5 premières": 0.10054339040422042,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0014971834490745
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.49486922428576235,
+       "part 5 premières": 0.5181929800896141,
+       "hasard": 0.505,
+       "rapport 1re": 0.9799390579916086
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T4 bande | a = 0.5": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 3.6515300376877824,
+      "accord entraînement-validation": -0.26600518025454495,
+      "pas de Newton": 0.9130758427572805,
+      "directions principales": 0.9999999999999998,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.08828561855675458,
+      "part par paramètre": 0.0002942853951891819,
+      "signal sur bruit": 2.7086217033366706,
+      "accord entraînement-validation": -0.6258984173205625,
+      "pas de Newton": 0.446237601520348,
+      "directions principales": 0.14214008923206234,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.3755921003674959,
+      "part par paramètre": 7.293050492572736e-05,
+      "signal sur bruit": 3.50203920990605,
+      "accord entraînement-validation": -0.4404321930204853,
+      "pas de Newton": 0.6561814902416319,
+      "directions principales": 0.3447834510595787,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.45248975528760427,
+      "part par paramètre": 8.786208840536005e-05,
+      "signal sur bruit": 3.4020265481308316,
+      "accord entraînement-validation": -0.23752372086921206,
+      "pas de Newton": 0.8573398639291309,
+      "directions principales": 0.5083897560317028,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.10261992316407931,
+      "part par paramètre": 0.00020773263798396622,
+      "signal sur bruit": 2.7874268960097828,
+      "accord entraînement-validation": -0.562608633934284,
+      "pas de Newton": 0.5241493772079534,
+      "directions principales": 0.15797796325816463,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.16199706424563595,
+      "part par paramètre": 0.00014148215217959473,
+      "signal sur bruit": 3.1106234563404573,
+      "accord entraînement-validation": -0.4471458438422697,
+      "pas de Newton": 0.6756651190258033,
+      "directions principales": 0.21253313172687602,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5755770789265482,
+      "part par paramètre": 0.0001096337293193425,
+      "signal sur bruit": 3.6371980592765873,
+      "accord entraînement-validation": -0.3253031638887515,
+      "pas de Newton": 0.860524483641517,
+      "directions principales": 0.5830230856031609,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.07874094896290101,
+      "part par paramètre": 0.0003937047448145051,
+      "signal sur bruit": 2.612682478229036,
+      "accord entraînement-validation": -0.6598186681852055,
+      "pas de Newton": 0.36800725685358654,
+      "directions principales": 0.13309799406689263,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 3.779992121517161,
+      "accord entraînement-validation": -0.22220059166777711,
+      "pas de Newton": 0.9129272802666138,
+      "directions principales": 1.0000000000000004,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.010360462220814822,
+      "part par paramètre": 0.00010360462220814822,
+      "signal sur bruit": 3.885751458206005,
+      "accord entraînement-validation": -0.2947617833520325,
+      "pas de Newton": 0.2771636170656699,
+      "directions principales": 0.010277443739691028,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.3222233215189771,
+      "part par paramètre": 6.509562050888426e-05,
+      "signal sur bruit": 3.8496317596528282,
+      "accord entraînement-validation": -0.36834913581277773,
+      "pas de Newton": 0.6210306835250254,
+      "directions principales": 0.24059324490480086,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.4056934972893443,
+      "part par paramètre": 8.195828228067562e-05,
+      "signal sur bruit": 3.633286364830808,
+      "accord entraînement-validation": -0.11654220306601011,
+      "pas de Newton": 0.8562003474817287,
+      "directions principales": 0.43605824581280084,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.025919934435701633,
+      "part par paramètre": 8.816304229830488e-05,
+      "signal sur bruit": 3.5761332722174752,
+      "accord entraînement-validation": -0.1854188468108057,
+      "pas de Newton": 0.42366015833648313,
+      "directions principales": 0.02875092488590238,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09037210021330067,
+      "part par paramètre": 9.563185207756684e-05,
+      "signal sur bruit": 3.7946010202435376,
+      "accord entraînement-validation": -0.18604290456720893,
+      "pas de Newton": 0.6458158072985888,
+      "directions principales": 0.0916480812663965,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.539301219786485,
+      "part par paramètre": 0.00010679232074979901,
+      "signal sur bruit": 3.8782172020702608,
+      "accord entraînement-validation": -0.25542678482109565,
+      "pas de Newton": 0.8598295427612265,
+      "directions principales": 0.5175435885497649,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.4267648756504059,
+      0.27536630630493164,
+      0.08097044378519058,
+      0.060194339603185654,
+      0.03812692314386368,
+      0.029506297782063484,
+      0.024168381467461586,
+      0.01659565605223179,
+      0.01091874111443758,
+      0.009314674884080887,
+      0.005336496513336897,
+      0.0028898236341774464,
+      0.0022331071086227894,
+      0.0017393636517226696,
+      0.0015637822216376662,
+      0.001090878969989717,
+      0.0008615801925770938,
+      0.0007880293997004628,
+      0.0007157742511481047,
+      0.0006762881530448794
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.010305010713636875,
+       "part 5 premières": 0.010082554072141647,
+       "hasard": 0.01,
+       "rapport 1re": 1.030501127243042
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.35207924246788025,
+       "part 5 premières": 0.279426634311676,
+       "hasard": 0.495,
+       "rapport 1re": 0.7112711668014526
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.4084218442440033,
+       "part 5 premières": 0.4270692765712738,
+       "hasard": 0.495,
+       "rapport 1re": 0.8250946402549744
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.022722816094756126,
+       "part 5 premières": 0.02959153614938259,
+       "hasard": 0.0294,
+       "rapport 1re": 0.7728849053382874
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08559488505125046,
+       "part 5 premières": 0.0912342444062233,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9057660102844238
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5353196859359741,
+       "part 5 premières": 0.53062504529953,
+       "hasard": 0.505,
+       "rapport 1re": 1.0600390434265137
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.4270375669002533,
+      0.27713674306869507,
+      0.08133979886770248,
+      0.060528866946697235,
+      0.03757885470986366,
+      0.02912238799035549,
+      0.023870404809713364,
+      0.01669057458639145,
+      0.010998250916600227,
+      0.009319854900240898,
+      0.005337930750101805,
+      0.0026830551214516163,
+      0.002018445637077093,
+      0.0015782914124429226,
+      0.0011038384400308132,
+      0.0008734606672078371,
+      0.0008040184620767832,
+      0.000732852378860116,
+      0.000682548969052732,
+      0.000669035071041435
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.010328357107937336,
+       "part 5 premières": 0.010140311904251575,
+       "hasard": 0.01,
+       "rapport 1re": 1.0328357219696045
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.35201025009155273,
+       "part 5 premières": 0.27937403321266174,
+       "hasard": 0.495,
+       "rapport 1re": 0.7111318111419678
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.40869081020355225,
+       "part 5 premières": 0.42795127630233765,
+       "hasard": 0.495,
+       "rapport 1re": 0.8256379961967468
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02271423116326332,
+       "part 5 premières": 0.029554829001426697,
+       "hasard": 0.0294,
+       "rapport 1re": 0.7725929021835327
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08558062463998795,
+       "part 5 premières": 0.09142620861530304,
+       "hasard": 0.0945,
+       "rapport 1re": 0.9056150913238525
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5351506471633911,
+       "part 5 premières": 0.531110405921936,
+       "hasard": 0.505,
+       "rapport 1re": 1.059704303741455
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.43588364124298096,
+      0.28699326515197754,
+      0.07788699865341187,
+      0.05681842938065529,
+      0.03707093372941017,
+      0.02684354968369007,
+      0.02146797440946102,
+      0.015088079497218132,
+      0.009723075665533543,
+      0.008339770138263702,
+      0.004623667802661657,
+      0.0024302727542817593,
+      0.0019342456944286823,
+      0.0014553319197148085,
+      0.0013071721186861396,
+      0.0009447672637179494,
+      0.0007246711174957454,
+      0.0006693772156722844,
+      0.0006166722741909325,
+      0.0005491943447850645
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00877871138059412,
+       "part 5 premières": 0.009985358437435919,
+       "hasard": 0.01,
+       "rapport 1re": 0.877871138059412
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.355265811487113,
+       "part 5 premières": 0.2886580426102141,
+       "hasard": 0.495,
+       "rapport 1re": 0.7177087100749757
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5263419749122282,
+       "part 5 premières": 0.5462557541488188,
+       "hasard": 0.495,
+       "rapport 1re": 1.0633171210348045
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.023552760454939113,
+       "part 5 premières": 0.0298793707121152,
+       "hasard": 0.0294,
+       "rapport 1re": 0.8011143011884052
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09533614600476498,
+       "part 5 premières": 0.09954845729660804,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0088481058705288
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.543313925551032,
+       "part 5 premières": 0.5371425214113825,
+       "hasard": 0.505,
+       "rapport 1re": 1.075869159506994
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.43624329566955566,
+      0.28875571489334106,
+      0.07799091190099716,
+      0.0570339635014534,
+      0.036308277398347855,
+      0.02652117609977722,
+      0.021328620612621307,
+      0.015116064809262753,
+      0.009791959077119827,
+      0.008366825990378857,
+      0.004596387036144733,
+      0.002301013097167015,
+      0.0018310906598344445,
+      0.001321788178756833,
+      0.000956702686380595,
+      0.0007300368743017316,
+      0.0006848664488643408,
+      0.000644390587694943,
+      0.0005609579384326935,
+      0.0005523064755834639
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.00878578182594659,
+       "part 5 premières": 0.010016361800303731,
+       "hasard": 0.01,
+       "rapport 1re": 0.878578182594659
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.35505621450712777,
+       "part 5 premières": 0.28886665093888275,
+       "hasard": 0.495,
+       "rapport 1re": 0.7172852818325813
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5265041372509772,
+       "part 5 premières": 0.5465657672364982,
+       "hasard": 0.495,
+       "rapport 1re": 1.0636447217191458
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.023561720038931654,
+       "part 5 premières": 0.0298055297572234,
+       "hasard": 0.0294,
+       "rapport 1re": 0.8014190489432536
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.09528888777152268,
+       "part 5 premières": 0.09977560102774978,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0083480187462717
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5433012208821499,
+       "part 5 premières": 0.5373523370095779,
+       "hasard": 0.505,
+       "rapport 1re": 1.0758440017468316
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  },
+  "T5 témoin | a = 0.5": {
+   "signaux": {
+    "complet": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 9.80392156862745e-05,
+      "signal sur bruit": 1.4676987838567637,
+      "accord entraînement-validation": 0.014285967621660553,
+      "pas de Newton": 0.9472137367757073,
+      "directions principales": 0.9999999999999997,
+      "dimension": 10200
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.06189136420512761,
+      "part par paramètre": 0.00020630454735042536,
+      "signal sur bruit": 0.8098137694544778,
+      "accord entraînement-validation": 0.01911493861212499,
+      "pas de Newton": 0.6254533672540743,
+      "directions principales": 0.14233277200804798,
+      "dimension": 300
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.2530297941980064,
+      "part par paramètre": 4.9131998873399305e-05,
+      "signal sur bruit": 1.0617345782308771,
+      "accord entraînement-validation": 0.0491341888286268,
+      "pas de Newton": 0.8148815775808383,
+      "directions principales": 0.3355081843595132,
+      "dimension": 5150
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.5082412157038994,
+      "part par paramètre": 9.868761469978628e-05,
+      "signal sur bruit": 1.591806750000452,
+      "accord entraînement-validation": 0.02049581931630799,
+      "pas de Newton": 0.9189040151449177,
+      "directions principales": 0.49601623039863735,
+      "dimension": 5150
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.07627827132987225,
+      "part par paramètre": 0.00015440945613334463,
+      "signal sur bruit": 0.8639163494365886,
+      "accord entraînement-validation": 0.01859743726844483,
+      "pas de Newton": 0.6926307924046462,
+      "directions principales": 0.15849043466786056,
+      "dimension": 494
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.13737785400551283,
+      "part par paramètre": 0.00011998065852009854,
+      "signal sur bruit": 1.109203733136577,
+      "accord entraînement-validation": 0.03179624188636209,
+      "pas de Newton": 0.8066486002826376,
+      "directions principales": 0.20995749775480904,
+      "dimension": 1145
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5375512360360093,
+      "part par paramètre": 0.00010239071162590653,
+      "signal sur bruit": 1.420062159450256,
+      "accord entraînement-validation": -0.004609374305525241,
+      "pas de Newton": 0.9189429123300364,
+      "directions principales": 0.5697822927554959,
+      "dimension": 5250
+     },
+     "réservoir à biais et entrées appris (sans g)": {
+      "part captée": 0.050838835381098436,
+      "part par paramètre": 0.00025419417690549217,
+      "signal sur bruit": 0.7198436251088637,
+      "accord entraînement-validation": 0.026849834933132952,
+      "pas de Newton": 0.5464660563600644,
+      "directions principales": 0.13370175026039502,
+      "dimension": 200
+     }
+    },
+    "récurrent": {
+     "RNN": {
+      "part captée": 1.0,
+      "part par paramètre": 0.0001,
+      "signal sur bruit": 1.5541830557152638,
+      "accord entraînement-validation": 0.013300343014046995,
+      "pas de Newton": 0.9425049880541454,
+      "directions principales": 0.9999999999999997,
+      "dimension": 10000
+     },
+     "réservoir accordé (valeurs singulières)": {
+      "part captée": 0.011644522801843539,
+      "part par paramètre": 0.00011644522801843539,
+      "signal sur bruit": 1.9050070973440474,
+      "accord entraînement-validation": -0.05953393658249971,
+      "pas de Newton": 0.35806297930046505,
+      "directions principales": 0.00987204720163512,
+      "dimension": 100
+     },
+     "réservoir tourné (rotations)": {
+      "part captée": 0.2130206822126881,
+      "part par paramètre": 4.303448125508851e-05,
+      "signal sur bruit": 1.2057242354743913,
+      "accord entraînement-validation": 0.07640549268242564,
+      "pas de Newton": 0.7700632841404227,
+      "directions principales": 0.22580155432837276,
+      "dimension": 4950
+     },
+     "Iwasawa : cisaillement (N)": {
+      "part captée": 0.48190170160033124,
+      "part par paramètre": 9.735387911117803e-05,
+      "signal sur bruit": 1.839462270548803,
+      "accord entraînement-validation": 0.020485690582791594,
+      "pas de Newton": 0.9092117242963209,
+      "directions principales": 0.4232314110025556,
+      "dimension": 4950
+     },
+     "réservoir cisaillé en bande, k = 3": {
+      "part captée": 0.0268020194009813,
+      "part par paramètre": 9.116333129585476e-05,
+      "signal sur bruit": 1.4397981020592074,
+      "accord entraînement-validation": -0.014651218037305527,
+      "pas de Newton": 0.5369761331584726,
+      "directions principales": 0.029295715731497418,
+      "dimension": 294
+     },
+     "réservoir cisaillé en bande, k = 10": {
+      "part captée": 0.09117420923891334,
+      "part par paramètre": 9.648064469726279e-05,
+      "signal sur bruit": 1.625822271876162,
+      "accord entraînement-validation": 0.04481194294728061,
+      "pas de Newton": 0.7583417998173012,
+      "directions principales": 0.08922004423882683,
+      "dimension": 945
+     },
+     "Jordan-Chevalley + partie nilpotente apprise": {
+      "part captée": 0.5127816210752061,
+      "part par paramètre": 0.00010154091506439724,
+      "signal sur bruit": 1.5806671550812836,
+      "accord entraînement-validation": -0.012450107964788489,
+      "pas de Newton": 0.9096103553598345,
+      "directions principales": 0.5039482928068029,
+      "dimension": 5050
+     }
+    }
+   },
+   "pca": {
+    "G brut": {
+     "spectre": [
+      0.2169787883758545,
+      0.20325317978858948,
+      0.15573111176490784,
+      0.13344211876392365,
+      0.0738651379942894,
+      0.056677818298339844,
+      0.04547666385769844,
+      0.03158828988671303,
+      0.023868929594755173,
+      0.012594911269843578,
+      0.008873450569808483,
+      0.00839876476675272,
+      0.004389164503663778,
+      0.0035574936773627996,
+      0.0025322497822344303,
+      0.0021189663093537092,
+      0.0013748429482802749,
+      0.001160715357400477,
+      0.000942459621001035,
+      0.0008197900606319308
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.008335893973708153,
+       "part 5 premières": 0.009812651202082634,
+       "hasard": 0.01,
+       "rapport 1re": 0.8335894346237183
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.31359243392944336,
+       "part 5 premières": 0.29844099283218384,
+       "hasard": 0.495,
+       "rapport 1re": 0.6335200667381287
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.3905411660671234,
+       "part 5 premières": 0.39605024456977844,
+       "hasard": 0.495,
+       "rapport 1re": 0.788972020149231
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.02967914193868637,
+       "part 5 premières": 0.028470385819673538,
+       "hasard": 0.0294,
+       "rapport 1re": 1.009494662284851
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08328834176063538,
+       "part 5 premières": 0.08628404140472412,
+       "hasard": 0.0945,
+       "rapport 1re": 0.8813581466674805
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5042956471443176,
+       "part 5 premières": 0.4978589415550232,
+       "hasard": 0.505,
+       "rapport 1re": 0.9986052513122559
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "G brut, centrée": {
+     "spectre": [
+      0.21731939911842346,
+      0.2041538506746292,
+      0.15677252411842346,
+      0.13445334136486053,
+      0.07441078871488571,
+      0.0559031218290329,
+      0.04547574743628502,
+      0.03185174614191055,
+      0.023779047653079033,
+      0.012649644166231155,
+      0.008946437388658524,
+      0.008441649377346039,
+      0.0035896014887839556,
+      0.0025974740274250507,
+      0.0023361602798104286,
+      0.0015153373824432492,
+      0.0011819410137832165,
+      0.0009861232247203588,
+      0.0008697435259819031,
+      0.000819970213342458
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.008176297880709171,
+       "part 5 premières": 0.00979533139616251,
+       "hasard": 0.01,
+       "rapport 1re": 0.8176298141479492
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.31298962235450745,
+       "part 5 premières": 0.29875651001930237,
+       "hasard": 0.495,
+       "rapport 1re": 0.6323022842407227
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.3897451162338257,
+       "part 5 premières": 0.3958101272583008,
+       "hasard": 0.495,
+       "rapport 1re": 0.7873638868331909
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.029653919860720634,
+       "part 5 premières": 0.028491411358118057,
+       "hasard": 0.0294,
+       "rapport 1re": 1.008636713027954
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.08344435691833496,
+       "part 5 premières": 0.08628824353218079,
+       "hasard": 0.0945,
+       "rapport 1re": 0.8830090761184692
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5083678364753723,
+       "part 5 premières": 0.49774470925331116,
+       "hasard": 0.505,
+       "rapport 1re": 1.006669044494629
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1)": {
+     "spectre": [
+      0.22586728632450104,
+      0.21199415624141693,
+      0.1623212844133377,
+      0.12035726755857468,
+      0.0774812251329422,
+      0.05556285008788109,
+      0.04308364540338516,
+      0.02794654481112957,
+      0.021503956988453865,
+      0.012182464823126793,
+      0.008442599326372147,
+      0.007498756982386112,
+      0.003763481741771102,
+      0.003284319769591093,
+      0.0023305679205805063,
+      0.0018978974549099803,
+      0.0011908621527254581,
+      0.0010055971797555685,
+      0.0008771010907366872,
+      0.0007305974722839892
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.010028150194321543,
+       "part 5 premières": 0.01033550105150506,
+       "hasard": 0.01,
+       "rapport 1re": 1.0028150194321543
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.332315539995028,
+       "part 5 premières": 0.31627707272668304,
+       "hasard": 0.495,
+       "rapport 1re": 0.6713445252424808
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5450211353224109,
+       "part 5 premières": 0.5403380139340026,
+       "hasard": 0.495,
+       "rapport 1re": 1.1010527986311331
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.034647925837372945,
+       "part 5 premières": 0.032519675191736035,
+       "hasard": 0.0294,
+       "rapport 1re": 1.178500878822209
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.10329679226974939,
+       "part 5 premières": 0.10164604946396658,
+       "hasard": 0.0945,
+       "rapport 1re": 1.093087748886237
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5398042087908399,
+       "part 5 premières": 0.4980748943509348,
+       "hasard": 0.505,
+       "rapport 1re": 1.068919225328396
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    },
+    "M⁻¹G (ε = 0.1), centrée": {
+     "spectre": [
+      0.22739970684051514,
+      0.21186375617980957,
+      0.16319766640663147,
+      0.12104478478431702,
+      0.07806192338466644,
+      0.054871782660484314,
+      0.04295733943581581,
+      0.02815490961074829,
+      0.02142776921391487,
+      0.012168290093541145,
+      0.008504215627908707,
+      0.007535408716648817,
+      0.0033091262448579073,
+      0.0023657907731831074,
+      0.002078869380056858,
+      0.0012997299199923873,
+      0.0010219765827059746,
+      0.0009010153007693589,
+      0.0008009524899534881,
+      0.0007027965039014816
+     ],
+     "alignement": {
+      "RNN": {
+       "part 1re": 1.0,
+       "part 5 premières": 1.0,
+       "hasard": 1.0,
+       "rapport 1re": 1.0
+      },
+      "réservoir accordé (valeurs singulières)": {
+       "part 1re": 0.01005380394299375,
+       "part 5 premières": 0.010330308908537455,
+       "hasard": 0.01,
+       "rapport 1re": 1.005380394299375
+      },
+      "réservoir tourné (rotations)": {
+       "part 1re": 0.331813080299345,
+       "part 5 premières": 0.3162787865213534,
+       "hasard": 0.495,
+       "rapport 1re": 0.6703294551501918
+      },
+      "Iwasawa : cisaillement (N)": {
+       "part 1re": 0.5432452967855459,
+       "part 5 premières": 0.5401319015411208,
+       "hasard": 0.495,
+       "rapport 1re": 1.0974652460314058
+      },
+      "réservoir cisaillé en bande, k = 3": {
+       "part 1re": 0.034494474108277856,
+       "part 5 premières": 0.032526842103409045,
+       "hasard": 0.0294,
+       "rapport 1re": 1.1732814322543488
+      },
+      "réservoir cisaillé en bande, k = 10": {
+       "part 1re": 0.1032425554701766,
+       "part 5 premières": 0.10161822544288993,
+       "hasard": 0.0945,
+       "rapport 1re": 1.0925138144992232
+      },
+      "Jordan-Chevalley + partie nilpotente apprise": {
+       "part 1re": 0.5414913940108113,
+       "part 5 premières": 0.49807722371223606,
+       "hasard": 0.505,
+       "rapport 1re": 1.0722601861600223
+      },
+      "réservoir à biais et entrées appris (sans g)": {
+       "part 1re": 0.0,
+       "part 5 premières": 0.0,
+       "hasard": 0.0,
+       "rapport 1re": 0.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "bases": {
+  "RNN": {
+   "ok": true,
+   "dimension": null
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "ok": true,
+   "orthonormalité": 4.386358831709458e-09,
+   "stabilité": 4.265719620982481e-09,
+   "dimension": 100,
+   "paramètres": 100
+  },
+  "réservoir tourné (rotations)": {
+   "ok": true,
+   "orthonormalité": 3.1640109421360307e-09,
+   "stabilité": 2.559402077423228e-08,
+   "dimension": 4950,
+   "paramètres": 4950
+  },
+  "Iwasawa : cisaillement (N)": {
+   "ok": true,
+   "orthonormalité": 2.7250258716193798e-08,
+   "stabilité": 3.0007132796499234e-08,
+   "dimension": 4950,
+   "paramètres": 4950
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "ok": true,
+   "orthonormalité": 3.159144412734349e-08,
+   "stabilité": 1.363924638213101e-08,
+   "dimension": 294,
+   "paramètres": 294
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "ok": true,
+   "orthonormalité": 2.5715045537388903e-08,
+   "stabilité": 1.5701872098235135e-08,
+   "dimension": 945,
+   "paramètres": 945
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "ok": true,
+   "orthonormalité": 3.545374660518519e-09,
+   "stabilité": 2.549441337841766e-08,
+   "dimension": 5050,
+   "paramètres": 5150
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "ok": true,
+   "dimension": null
+  }
+ }
+}

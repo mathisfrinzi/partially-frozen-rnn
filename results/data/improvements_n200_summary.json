@@ -1,0 +1,447 @@
+{
+ "Mackey-Glass (+15)": {
+  "meilleur RNN": "RNN, lr global × 0.3",
+  "modèles": {
+   "réservoir classique": {
+    "nmse": [
+     0.00012670480604646094
+    ],
+    "paramètres": 0,
+    "vs RNN": 0.7281873929655367,
+    "vs RNN se": NaN,
+    "vs accordé": 1.4510053778121483,
+    "vs accordé se": NaN
+   },
+   "RNN": {
+    "nmse": [
+     3.767069633734168e-05
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.20139795267130356,
+    "vs RNN se": NaN,
+    "vs accordé": 0.9242159375179152,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.3": {
+    "nmse": [
+     2.369221665803188e-05
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.0,
+    "vs RNN se": NaN,
+    "vs accordé": 0.7228179848466117,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.1": {
+    "nmse": [
+     2.9845521006536324e-05
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.10027346919831437,
+    "vs RNN se": NaN,
+    "vs accordé": 0.823091454044926,
+    "vs accordé se": NaN
+   },
+   "RNN freiné": {
+    "nmse": [
+     4.9641776001474726e-06
+    ],
+    "paramètres": 40400,
+    "vs RNN": -0.6787583849011414,
+    "vs RNN se": NaN,
+    "vs accordé": 0.04405959994547038,
+    "vs accordé se": NaN
+   },
+   "réservoir corrigé de rang 4": {
+    "nmse": [
+     3.800031634986051e-06
+    ],
+    "paramètres": 2000,
+    "vs RNN": -0.7948184833747529,
+    "vs RNN se": NaN,
+    "vs accordé": -0.07200049852814121,
+    "vs accordé se": NaN
+   },
+   "réservoir sculpté intégral, dense": {
+    "nmse": [
+     5.904749049551651e-06
+    ],
+    "paramètres": 40400,
+    "vs RNN": -0.6034042505482625,
+    "vs RNN se": NaN,
+    "vs accordé": 0.1194137342983491,
+    "vs accordé se": NaN
+   },
+   "réservoir accordé": {
+    "nmse": [
+     4.485260903547001e-06
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.7228179848466117,
+    "vs RNN se": NaN,
+    "vs accordé": 0.0,
+    "vs accordé se": NaN
+   },
+   "accordé borné": {
+    "nmse": [
+     5.532929465269837e-06
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.6316505616872968,
+    "vs RNN se": NaN,
+    "vs accordé": 0.09116742315931486,
+    "vs accordé se": NaN
+   },
+   "accordé + fuite": {
+    "nmse": [
+     3.698831016272665e-06
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.806541204760356,
+    "vs RNN se": NaN,
+    "vs accordé": -0.08372321991374428,
+    "vs accordé se": NaN
+   },
+   "accordé, valeurs propres": {
+    "nmse": [
+     6.614115851475754e-06
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.5541338978204792,
+    "vs RNN se": NaN,
+    "vs accordé": 0.16868408702613252,
+    "vs accordé se": NaN
+   },
+   "accordé paramétrique (8 coef.)": {
+    "nmse": [
+     1.0291833768983029e-05
+    ],
+    "paramètres": 408,
+    "vs RNN": -0.3621129324928179,
+    "vs RNN se": NaN,
+    "vs accordé": 0.36070505235379385,
+    "vs accordé se": NaN
+   },
+   "accordé profond (2 × N/2)": {
+    "nmse": [
+     1.9653924434215127e-05
+    ],
+    "paramètres": 10500,
+    "vs RNN": -0.0811564135410031,
+    "vs RNN se": NaN,
+    "vs accordé": 0.6416615713056086,
+    "vs accordé se": NaN
+   },
+   "accordé + rang 4": {
+    "nmse": [
+     4.157441626089858e-06
+    ],
+    "paramètres": 2200,
+    "vs RNN": -0.7557795353949158,
+    "vs RNN se": NaN,
+    "vs accordé": -0.032961550548304096,
+    "vs accordé se": NaN
+   },
+   "accordé sélectif": {
+    "nmse": [
+     3.5842066342510975e-06
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.8202126561135823,
+    "vs RNN se": NaN,
+    "vs accordé": -0.09739467126697064,
+    "vs accordé se": NaN
+   }
+  }
+ },
+ "NARMA10": {
+  "meilleur RNN": "RNN, lr global × 0.1",
+  "modèles": {
+   "réservoir classique": {
+    "nmse": [
+     0.23914323639616442
+    ],
+    "paramètres": 0,
+    "vs RNN": 1.0683019639999316,
+    "vs RNN se": NaN,
+    "vs accordé": 1.229983242759279,
+    "vs accordé se": NaN
+   },
+   "RNN": {
+    "nmse": [
+     0.09711426786410658
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.6769269020228448,
+    "vs RNN se": NaN,
+    "vs accordé": 0.838608180782192,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.3": {
+    "nmse": [
+     0.03654782656053662
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.25250541689529254,
+    "vs RNN se": NaN,
+    "vs accordé": 0.4141866956546399,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.1": {
+    "nmse": [
+     0.02043412935962638
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.0,
+    "vs RNN se": NaN,
+    "vs accordé": 0.16168127875934735,
+    "vs accordé se": NaN
+   },
+   "RNN freiné": {
+    "nmse": [
+     0.012778783622929325
+    ],
+    "paramètres": 40400,
+    "vs RNN": -0.2038666218848994,
+    "vs RNN se": NaN,
+    "vs accordé": -0.04218534312555207,
+    "vs accordé se": NaN
+   },
+   "réservoir corrigé de rang 4": {
+    "nmse": [
+     0.007440038243882654
+    ],
+    "paramètres": 2000,
+    "vs RNN": -0.43878097043701864,
+    "vs RNN se": NaN,
+    "vs accordé": -0.27709969167767134,
+    "vs accordé se": NaN
+   },
+   "réservoir sculpté intégral, dense": {
+    "nmse": [
+     0.00848952131565036
+    ],
+    "paramètres": 40400,
+    "vs RNN": -0.38147293528172443,
+    "vs RNN se": NaN,
+    "vs accordé": -0.21979165652237714,
+    "vs accordé se": NaN
+   },
+   "réservoir accordé": {
+    "nmse": [
+     0.014082341103572364
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.1616812787593473,
+    "vs RNN se": NaN,
+    "vs accordé": 0.0,
+    "vs accordé se": NaN
+   },
+   "accordé borné": {
+    "nmse": [
+     0.015612338523370456
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.11688817883671501,
+    "vs RNN se": NaN,
+    "vs accordé": 0.04479309992263226,
+    "vs accordé se": NaN
+   },
+   "accordé + fuite": {
+    "nmse": [
+     0.012857888458418896
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.2011864844265499,
+    "vs RNN se": NaN,
+    "vs accordé": -0.03950520566720259,
+    "vs accordé se": NaN
+   },
+   "accordé, valeurs propres": {
+    "nmse": [
+     0.022406426935429383
+    ],
+    "paramètres": 800,
+    "vs RNN": 0.04001646844344998,
+    "vs RNN se": NaN,
+    "vs accordé": 0.20169774720279732,
+    "vs accordé se": NaN
+   },
+   "accordé paramétrique (8 coef.)": {
+    "nmse": [
+     0.024725853041352233
+    ],
+    "paramètres": 408,
+    "vs RNN": 0.0827951452931191,
+    "vs RNN se": NaN,
+    "vs accordé": 0.24447642405246636,
+    "vs accordé se": NaN
+   },
+   "accordé profond (2 × N/2)": {
+    "nmse": [
+     0.01452229712870228
+    ],
+    "paramètres": 10500,
+    "vs RNN": -0.1483208201320081,
+    "vs RNN se": NaN,
+    "vs accordé": 0.013360458627339249,
+    "vs accordé se": NaN
+   },
+   "accordé + rang 4": {
+    "nmse": [
+     0.011335905210483499
+    ],
+    "paramètres": 2200,
+    "vs RNN": -0.25589993264923155,
+    "vs RNN se": NaN,
+    "vs accordé": -0.09421865388988421,
+    "vs accordé se": NaN
+   },
+   "accordé sélectif": {
+    "nmse": [
+     0.009092616987556956
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.3516672408955559,
+    "vs RNN se": NaN,
+    "vs accordé": -0.18998596213620858,
+    "vs accordé se": NaN
+   }
+  }
+ },
+ "Mémoire (délai 15)": {
+  "meilleur RNN": "RNN, lr global × 0.3",
+  "modèles": {
+   "réservoir classique": {
+    "nmse": [
+     0.4371866948201028
+    ],
+    "paramètres": 0,
+    "vs RNN": 1.7197843725227586,
+    "vs RNN se": NaN,
+    "vs accordé": 2.377679688078623,
+    "vs accordé se": NaN
+   },
+   "RNN": {
+    "nmse": [
+     0.07316472953337852
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.9434192076913933,
+    "vs RNN se": NaN,
+    "vs accordé": 1.6013145232472579,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.3": {
+    "nmse": [
+     0.008334557819922215
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.0,
+    "vs RNN se": NaN,
+    "vs accordé": 0.6578953155558644,
+    "vs accordé se": NaN
+   },
+   "RNN, lr global × 0.1": {
+    "nmse": [
+     0.015930134531542062
+    ],
+    "paramètres": 40400,
+    "vs RNN": 0.281336879679259,
+    "vs RNN se": NaN,
+    "vs accordé": 0.9392321952351235,
+    "vs accordé se": NaN
+   },
+   "RNN freiné": {
+    "nmse": [
+     0.0017650532583985592
+    ],
+    "paramètres": 40400,
+    "vs RNN": -0.6741247495517895,
+    "vs RNN se": NaN,
+    "vs accordé": -0.01622943399592501,
+    "vs accordé se": NaN
+   },
+   "réservoir corrigé de rang 4": {
+    "nmse": [
+     0.001369865805794916
+    ],
+    "paramètres": 2000,
+    "vs RNN": -0.7842045387258687,
+    "vs RNN se": NaN,
+    "vs accordé": -0.12630922317000423,
+    "vs accordé se": NaN
+   },
+   "réservoir sculpté intégral, dense": {
+    "nmse": [
+     0.0005891473893194455
+    ],
+    "paramètres": 40400,
+    "vs RNN": -1.1506586062581396,
+    "vs RNN se": NaN,
+    "vs accordé": -0.4927632907022753,
+    "vs accordé se": NaN
+   },
+   "réservoir accordé": {
+    "nmse": [
+     0.0018322606227255335
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.6578953155558644,
+    "vs RNN se": NaN,
+    "vs accordé": 0.0,
+    "vs accordé se": NaN
+   },
+   "accordé borné": {
+    "nmse": [
+     0.0018582187112644343
+    ],
+    "paramètres": 600,
+    "vs RNN": -0.6517857349220424,
+    "vs RNN se": NaN,
+    "vs accordé": 0.006109580633821979,
+    "vs accordé se": NaN
+   },
+   "accordé + fuite": {
+    "nmse": [
+     0.0018347493892615799
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.6573058119898678,
+    "vs RNN se": NaN,
+    "vs accordé": 0.0005895035659966304,
+    "vs accordé se": NaN
+   },
+   "accordé, valeurs propres": {
+    "nmse": [
+     0.004728646493018454
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.24614571581423025,
+    "vs RNN se": NaN,
+    "vs accordé": 0.41174959974163416,
+    "vs accordé se": NaN
+   },
+   "accordé paramétrique (8 coef.)": {
+    "nmse": [
+     0.005668558982561763
+    ],
+    "paramètres": 408,
+    "vs RNN": -0.16740989387402494,
+    "vs RNN se": NaN,
+    "vs accordé": 0.49048542168183956,
+    "vs accordé se": NaN
+   },
+   "accordé sélectif": {
+    "nmse": [
+     0.0020153613758860786
+    ],
+    "paramètres": 800,
+    "vs RNN": -0.616529632683547,
+    "vs RNN se": NaN,
+    "vs accordé": 0.04136568287231749,
+    "vs accordé se": NaN
+   }
+  }
+ }
+}

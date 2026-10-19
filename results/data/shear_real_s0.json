@@ -1,0 +1,378 @@
+{
+ "args": {
+  "mode": "real",
+  "steps": 1500
+ },
+ "results": {
+  "Silverbox": {
+   "infos": {
+    "unité": "mV",
+    "points d'entraînement": 65062
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.009660539983041713,
+       "rmse": 5.337133315967713
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.03896055788533956,
+       "rmse": 10.556439972052956
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.012101245793975283,
+       "rmse": 4.731302217319785
+      }
+     },
+     "n_params": 1499,
+     "secondes": 164.6
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0037837629941764573,
+       "rmse": 3.3401757041013336
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.023857606039775252,
+       "rmse": 8.260728151085813
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.005554015255399723,
+       "rmse": 3.2053036866161473
+      }
+     },
+     "n_params": 5945,
+     "secondes": 154.3
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.006896512905740459,
+       "rmse": 4.509434951661569
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.025167275653359095,
+       "rmse": 8.484436466730376
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.008056499435812825,
+       "rmse": 3.8604580667888673
+      }
+     },
+     "n_params": 15535,
+     "secondes": 158.5
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.014046668832319432,
+       "rmse": 6.435673778099096
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.04397530427428651,
+       "rmse": 11.21525946741894
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.017360984106714765,
+       "rmse": 5.666994858899291
+      }
+     },
+     "n_params": 45950,
+     "secondes": 160.6
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.007369928387461293,
+       "rmse": 4.661642708355598
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.030512349378559258,
+       "rmse": 9.342061527607232
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.010065533330287594,
+       "rmse": 4.315032236178833
+      }
+     },
+     "n_params": 2994,
+     "secondes": 151.1
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.0033568433245664375,
+       "rmse": 3.1461026305888424
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.023231848373444112,
+       "rmse": 8.151673589063828
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.004836733242780223,
+       "rmse": 2.991174272532413
+      }
+     },
+     "n_params": 6445,
+     "secondes": 154.5
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.003655240075007029,
+       "rmse": 3.282957823069381
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.023052760017424734,
+       "rmse": 8.120193223503373
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.0053252157971696405,
+       "rmse": 3.1385876009756224
+      }
+     },
+     "n_params": 6945,
+     "secondes": 228.4
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "0": {
+     "tests": {
+      "multisinus": {
+       "nmse": 0.010186132489400687,
+       "rmse": 5.480396879150836
+      },
+      "flèche (avec extrapolation)": {
+       "nmse": 0.04853391663196515,
+       "rmse": 11.782231968592631
+      },
+      "flèche (sans extrapolation)": {
+       "nmse": 0.013548454707123132,
+       "rmse": 5.0062269151652545
+      }
+     },
+     "n_params": 6945,
+     "secondes": 198.5
+    }
+   }
+  },
+  "Wiener-Hammerstein (2009)": {
+   "infos": {
+    "unité": "mV",
+    "points d'entraînement": 100000
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0026558408668566295,
+       "rmse": 12.569209376937069
+      }
+     },
+     "n_params": 1499,
+     "secondes": 172.8
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0010047699681359767,
+       "rmse": 7.7310816320132725
+      }
+     },
+     "n_params": 5945,
+     "secondes": 171.7
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0018022437481662967,
+       "rmse": 10.354132062029969
+      }
+     },
+     "n_params": 15535,
+     "secondes": 170.2
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.002888636215945654,
+       "rmse": 13.108510974578396
+      }
+     },
+     "n_params": 45950,
+     "secondes": 175.3
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0011660048561158778,
+       "rmse": 8.328314474708261
+      }
+     },
+     "n_params": 2994,
+     "secondes": 172.9
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0009644090270080709,
+       "rmse": 7.574213965997717
+      }
+     },
+     "n_params": 6445,
+     "secondes": 173.4
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0011744627343676618,
+       "rmse": 8.358465546911066
+      }
+     },
+     "n_params": 6945,
+     "secondes": 253.9
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "0": {
+     "tests": {
+      "test WH": {
+       "nmse": 0.0011779843127933045,
+       "rmse": 8.370987425721996
+      }
+     },
+     "n_params": 6945,
+     "secondes": 226.2
+    }
+   }
+  },
+  "Cascaded Tanks": {
+   "infos": {
+    "unité": "V",
+    "points d'entraînement": 1024
+   },
+   "réservoir cisaillé en bande, k = 1": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.0744314897598797,
+       "rmse": 2.1974733117256178
+      }
+     },
+     "n_params": 1499,
+     "secondes": 101.0
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 3.713750894412277,
+       "rmse": 4.0854568682333765
+      }
+     },
+     "n_params": 5945,
+     "secondes": 97.3
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 2.8191463409471953,
+       "rmse": 3.5595332608424863
+      }
+     },
+     "n_params": 15535,
+     "secondes": 97.8
+    }
+   },
+   "réservoir cisaillé en bande, k = 100": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 507209.73999776336,
+       "rmse": 1509.8299549985354
+      }
+     },
+     "n_params": 45950,
+     "secondes": 95.6
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.9306308337730658,
+       "rmse": 2.9456684562097033
+      }
+     },
+     "n_params": 2994,
+     "secondes": 96.7
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 5.996068225135047,
+       "rmse": 5.191197213232065
+      }
+     },
+     "n_params": 6445,
+     "secondes": 97.4
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 1.1717792508928162,
+       "rmse": 2.294865023877362
+      }
+     },
+     "n_params": 6945,
+     "secondes": 138.5
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "0": {
+     "tests": {
+      "test Cascaded_Tanks": {
+       "nmse": 0.7973996207145536,
+       "rmse": 1.8930943421254465
+      }
+     },
+     "n_params": 6945,
+     "secondes": 122.5
+    }
+   }
+  }
+ }
+}

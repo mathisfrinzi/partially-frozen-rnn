@@ -1,0 +1,544 @@
+{
+ "args": {
+  "mode": "gated",
+  "n": 200,
+  "steps": 1500
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "portes z et r apprises, candidat cisaillé (−33 %)": {
+    "2": {
+     "nmse": 1.4058868217575764e-06,
+     "train": 9.012569391742165e-07,
+     "n_params": 83145
+    }
+   },
+   "porte z apprise, porte r et candidat cisaillés (−66 %)": {
+    "2": {
+     "nmse": 9.785751941298066e-07,
+     "train": 6.321022805548881e-07,
+     "n_params": 45090
+    }
+   },
+   "portes cisaillées, candidat appris entier (−66 %)": {
+    "2": {
+     "nmse": 3.9049405222420145e-05,
+     "train": 2.0636108004068068e-05,
+     "n_params": 45090
+    }
+   },
+   "portes et candidat cisaillés (−99 %)": {
+    "2": {
+     "nmse": 1.3634469213806771e-06,
+     "train": 9.015627195435564e-07,
+     "n_params": 7035
+    }
+   },
+   "portes et candidat cisaillés, avec amplitudes g": {
+    "2": {
+     "nmse": 2.2291989850974946e-06,
+     "train": 1.5260211629126206e-06,
+     "n_params": 7635
+    }
+   },
+   "portes neurone par neurone, candidat cisaillé (−99 %)": {
+    "2": {
+     "nmse": 1.2585468158134305e-06,
+     "train": 8.129633434590172e-07,
+     "n_params": 3545
+    }
+   },
+   "porte d'entrée (type minGRU), candidat cisaillé": {
+    "2": {
+     "nmse": 1.4862192257972874e-06,
+     "train": 9.338720226971593e-07,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire à porte d'entrée, candidat cisaillé": {
+    "2": {
+     "nmse": 9.976954792108787e-05,
+     "train": 5.720260398721309e-05,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire cisaillée, sans porte": {
+    "2": {
+     "nmse": 2.215333719146558e-05,
+     "train": 1.396539641942358e-05,
+     "n_params": 2345
+    }
+   },
+   "entraîné sur les entrées seulement": {
+    "2": {
+     "nmse": 3.7778420749541255e-06,
+     "train": 2.277004586603155e-06,
+     "n_params": 800
+    }
+   },
+   "entraîné sur les portes seulement": {
+    "2": {
+     "nmse": 2.3972502208417766e-05,
+     "train": 1.561328854381707e-05,
+     "n_params": 4290
+    }
+   },
+   "entraîné sur la récurrence seulement": {
+    "2": {
+     "nmse": 2.3584683071245423e-05,
+     "train": 1.3540351857580636e-05,
+     "n_params": 1945
+    }
+   },
+   "entraîné sur les entrées et la récurrence": {
+    "2": {
+     "nmse": 1.4196132911126293e-06,
+     "train": 9.128424248493373e-07,
+     "n_params": 2745
+    }
+   },
+   "entraîné sur les entrées et les portes": {
+    "2": {
+     "nmse": 2.1606757608934746e-06,
+     "train": 1.2042643082723685e-06,
+     "n_params": 5090
+    }
+   },
+   "portes z et r apprises, candidat figé (−33 %)": {
+    "2": {
+     "nmse": 9.472167844198117e-07,
+     "train": 5.63307421898984e-07,
+     "n_params": 81200
+    }
+   }
+  },
+  "NARMA10": {
+   "portes z et r apprises, candidat cisaillé (−33 %)": {
+    "2": {
+     "nmse": 0.013614559387684851,
+     "train": 0.0010838808310378919,
+     "n_params": 83145
+    }
+   },
+   "porte z apprise, porte r et candidat cisaillés (−66 %)": {
+    "2": {
+     "nmse": 0.01320075568474026,
+     "train": 0.0012646396671553734,
+     "n_params": 45090
+    }
+   },
+   "portes cisaillées, candidat appris entier (−66 %)": {
+    "2": {
+     "nmse": 0.07287269837956906,
+     "train": 0.0006694924462172692,
+     "n_params": 45090
+    }
+   },
+   "portes et candidat cisaillés (−99 %)": {
+    "2": {
+     "nmse": 0.0056803048921058065,
+     "train": 0.002450322654801677,
+     "n_params": 7035
+    }
+   },
+   "portes et candidat cisaillés, avec amplitudes g": {
+    "2": {
+     "nmse": 0.007597124971384622,
+     "train": 0.0020759922134712524,
+     "n_params": 7635
+    }
+   },
+   "portes neurone par neurone, candidat cisaillé (−99 %)": {
+    "2": {
+     "nmse": 0.006231710068061632,
+     "train": 0.002642101842036323,
+     "n_params": 3545
+    }
+   },
+   "porte d'entrée (type minGRU), candidat cisaillé": {
+    "2": {
+     "nmse": 0.006773398668834554,
+     "train": 0.002773659754042348,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire à porte d'entrée, candidat cisaillé": {
+    "2": {
+     "nmse": 0.0019395377976090713,
+     "train": 0.0011630474091883385,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire cisaillée, sans porte": {
+    "2": {
+     "nmse": 0.005681135220687848,
+     "train": 0.0037813702412917514,
+     "n_params": 2345
+    }
+   },
+   "entraîné sur les entrées seulement": {
+    "2": {
+     "nmse": 0.04792366267882801,
+     "train": 0.030995370949830882,
+     "n_params": 800
+    }
+   },
+   "entraîné sur les portes seulement": {
+    "2": {
+     "nmse": 0.10982519152817842,
+     "train": 0.08215437642514634,
+     "n_params": 4290
+    }
+   },
+   "entraîné sur la récurrence seulement": {
+    "2": {
+     "nmse": 0.24996989795819882,
+     "train": 0.052222590545396845,
+     "n_params": 1945
+    }
+   },
+   "entraîné sur les entrées et la récurrence": {
+    "2": {
+     "nmse": 0.006752673336371919,
+     "train": 0.0029399757825397696,
+     "n_params": 2745
+    }
+   },
+   "entraîné sur les entrées et les portes": {
+    "2": {
+     "nmse": 0.022957954549064158,
+     "train": 0.014280880444944282,
+     "n_params": 5090
+    }
+   },
+   "portes z et r apprises, candidat figé (−33 %)": {
+    "2": {
+     "nmse": 0.02063530612952112,
+     "train": 0.0026592999088561452,
+     "n_params": 81200
+    }
+   }
+  },
+  "Mémoire (délai 15)": {
+   "portes z et r apprises, candidat cisaillé (−33 %)": {
+    "2": {
+     "nmse": 0.00115887638640781,
+     "train": 0.0003846369031508576,
+     "n_params": 83145
+    }
+   },
+   "porte z apprise, porte r et candidat cisaillés (−66 %)": {
+    "2": {
+     "nmse": 0.0014494340230546206,
+     "train": 0.0007543792745972782,
+     "n_params": 45090
+    }
+   },
+   "portes cisaillées, candidat appris entier (−66 %)": {
+    "2": {
+     "nmse": 0.01297785036367545,
+     "train": 0.000781508139639221,
+     "n_params": 45090
+    }
+   },
+   "portes et candidat cisaillés (−99 %)": {
+    "2": {
+     "nmse": 0.001428403239091957,
+     "train": 0.0008439018612399075,
+     "n_params": 7035
+    }
+   },
+   "portes et candidat cisaillés, avec amplitudes g": {
+    "2": {
+     "nmse": 0.0014707460037818902,
+     "train": 0.0008649207965016131,
+     "n_params": 7635
+    }
+   },
+   "portes neurone par neurone, candidat cisaillé (−99 %)": {
+    "2": {
+     "nmse": 0.0014255301218536636,
+     "train": 0.0008575316489377365,
+     "n_params": 3545
+    }
+   },
+   "porte d'entrée (type minGRU), candidat cisaillé": {
+    "2": {
+     "nmse": 0.0014349954488992094,
+     "train": 0.0008948174715612539,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire à porte d'entrée, candidat cisaillé": {
+    "2": {
+     "nmse": 5.606000329609169e-05,
+     "train": 4.33705929397432e-05,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire cisaillée, sans porte": {
+    "2": {
+     "nmse": 0.00033015963924030973,
+     "train": 0.00022269044636433422,
+     "n_params": 2345
+    }
+   },
+   "entraîné sur les entrées seulement": {
+    "2": {
+     "nmse": 0.013719697652114615,
+     "train": 0.011493608923125884,
+     "n_params": 800
+    }
+   },
+   "entraîné sur les portes seulement": {
+    "2": {
+     "nmse": 0.3811267294149129,
+     "train": 0.3060983898091726,
+     "n_params": 4290
+    }
+   },
+   "entraîné sur la récurrence seulement": {
+    "2": {
+     "nmse": 0.01739589780959993,
+     "train": 0.009493941752463724,
+     "n_params": 1945
+    }
+   },
+   "entraîné sur les entrées et la récurrence": {
+    "2": {
+     "nmse": 0.001413210042897616,
+     "train": 0.0008660447913852543,
+     "n_params": 2745
+    }
+   },
+   "entraîné sur les entrées et les portes": {
+    "2": {
+     "nmse": 0.005158335231700227,
+     "train": 0.0042881305201113475,
+     "n_params": 5090
+    }
+   },
+   "portes z et r apprises, candidat figé (−33 %)": {
+    "2": {
+     "nmse": 0.005389896084153937,
+     "train": 0.001990458866129048,
+     "n_params": 81200
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "portes z et r apprises, candidat cisaillé (−33 %)": {
+    "2": {
+     "nmse": 3.1139854728474875e-05,
+     "train": 5.458513832686528e-06,
+     "n_params": 83145
+    }
+   },
+   "porte z apprise, porte r et candidat cisaillés (−66 %)": {
+    "2": {
+     "nmse": 5.5080232737275484e-05,
+     "train": 4.002376444927792e-06,
+     "n_params": 45090
+    }
+   },
+   "portes cisaillées, candidat appris entier (−66 %)": {
+    "2": {
+     "nmse": 2.854011363578189e-05,
+     "train": 9.042229852387224e-06,
+     "n_params": 45090
+    }
+   },
+   "portes et candidat cisaillés (−99 %)": {
+    "2": {
+     "nmse": 1.3877116847679835e-05,
+     "train": 1.6038323117838316e-06,
+     "n_params": 7035
+    }
+   },
+   "portes et candidat cisaillés, avec amplitudes g": {
+    "2": {
+     "nmse": 4.540791797213798e-06,
+     "train": 1.6241097648835006e-06,
+     "n_params": 7635
+    }
+   },
+   "portes neurone par neurone, candidat cisaillé (−99 %)": {
+    "2": {
+     "nmse": 1.1624873934991392e-05,
+     "train": 1.584879613817113e-06,
+     "n_params": 3545
+    }
+   },
+   "porte d'entrée (type minGRU), candidat cisaillé": {
+    "2": {
+     "nmse": 2.3248774360466383e-05,
+     "train": 1.8680037973652828e-06,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire à porte d'entrée, candidat cisaillé": {
+    "2": {
+     "nmse": 0.00041873333329808267,
+     "train": 0.00010860792560333519,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire cisaillée, sans porte": {
+    "2": {
+     "nmse": 0.0003929528216028153,
+     "train": 0.0001586219115680361,
+     "n_params": 2345
+    }
+   },
+   "entraîné sur les entrées seulement": {
+    "2": {
+     "nmse": 1.9372871266322974e-05,
+     "train": 6.074932518501938e-06,
+     "n_params": 800
+    }
+   },
+   "entraîné sur les portes seulement": {
+    "2": {
+     "nmse": 0.0006368207824433857,
+     "train": 0.0002930382938636934,
+     "n_params": 4290
+    }
+   },
+   "entraîné sur la récurrence seulement": {
+    "2": {
+     "nmse": 7.416602124208788e-05,
+     "train": 2.4773136228020873e-05,
+     "n_params": 1945
+    }
+   },
+   "entraîné sur les entrées et la récurrence": {
+    "2": {
+     "nmse": 1.518200374622876e-05,
+     "train": 1.5615251204070568e-06,
+     "n_params": 2745
+    }
+   },
+   "entraîné sur les entrées et les portes": {
+    "2": {
+     "nmse": 4.057418061244006e-05,
+     "train": 1.2510611648916344e-05,
+     "n_params": 5090
+    }
+   },
+   "portes z et r apprises, candidat figé (−33 %)": {
+    "2": {
+     "nmse": 0.00019392508972935829,
+     "train": 2.1205750577850646e-05,
+     "n_params": 81200
+    }
+   }
+  },
+  "Hénon (+3)": {
+   "portes z et r apprises, candidat cisaillé (−33 %)": {
+    "2": {
+     "nmse": 0.0019463633895737834,
+     "train": 0.0007107396467546876,
+     "n_params": 83145
+    }
+   },
+   "porte z apprise, porte r et candidat cisaillés (−66 %)": {
+    "2": {
+     "nmse": 0.0056373504145461545,
+     "train": 0.0022687375696970103,
+     "n_params": 45090
+    }
+   },
+   "portes cisaillées, candidat appris entier (−66 %)": {
+    "2": {
+     "nmse": 0.06673876084425698,
+     "train": 0.0028676833895076846,
+     "n_params": 45090
+    }
+   },
+   "portes et candidat cisaillés (−99 %)": {
+    "2": {
+     "nmse": 0.009113586766825128,
+     "train": 0.006419822810814963,
+     "n_params": 7035
+    }
+   },
+   "portes et candidat cisaillés, avec amplitudes g": {
+    "2": {
+     "nmse": 0.013433087457271961,
+     "train": 0.00657216263732635,
+     "n_params": 7635
+    }
+   },
+   "portes neurone par neurone, candidat cisaillé (−99 %)": {
+    "2": {
+     "nmse": 0.008114890693253137,
+     "train": 0.006228280781199669,
+     "n_params": 3545
+    }
+   },
+   "porte d'entrée (type minGRU), candidat cisaillé": {
+    "2": {
+     "nmse": 0.014242238724611415,
+     "train": 0.010180357165904907,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire à porte d'entrée, candidat cisaillé": {
+    "2": {
+     "nmse": 0.14205007073524256,
+     "train": 0.06659925327053004,
+     "n_params": 2745
+    }
+   },
+   "récurrence linéaire cisaillée, sans porte": {
+    "2": {
+     "nmse": 0.6970155845534468,
+     "train": 0.2082590255638989,
+     "n_params": 2345
+    }
+   },
+   "entraîné sur les entrées seulement": {
+    "2": {
+     "nmse": 0.021046802031622135,
+     "train": 0.014977436753737304,
+     "n_params": 800
+    }
+   },
+   "entraîné sur les portes seulement": {
+    "2": {
+     "nmse": 0.3488228630230489,
+     "train": 0.2661790749281916,
+     "n_params": 4290
+    }
+   },
+   "entraîné sur la récurrence seulement": {
+    "2": {
+     "nmse": 0.930144753807679,
+     "train": 0.2463551131014622,
+     "n_params": 1945
+    }
+   },
+   "entraîné sur les entrées et la récurrence": {
+    "2": {
+     "nmse": 0.008658792319438741,
+     "train": 0.006720208809102419,
+     "n_params": 2745
+    }
+   },
+   "entraîné sur les entrées et les portes": {
+    "2": {
+     "nmse": 0.015681469132986063,
+     "train": 0.012125985014312961,
+     "n_params": 5090
+    }
+   },
+   "portes z et r apprises, candidat figé (−33 %)": {
+    "2": {
+     "nmse": 0.0035235048242646147,
+     "train": 0.002293697071729751,
+     "n_params": 81200
+    }
+   }
+  }
+ }
+}

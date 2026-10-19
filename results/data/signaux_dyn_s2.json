@@ -1,0 +1,1444 @@
+{
+ "args": {
+  "n": 100,
+  "switch": 500,
+  "pilot": 100
+ },
+ "cells": {
+  "Mackey-Glass (+15)": {
+   "0": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 16.65418468457504,
+     "accord entraînement-validation": -0.11347369470271558,
+     "pas de Newton": 0.6122465975111901,
+     "directions principales": 1.0,
+     "dimension": 10200,
+     "gain": -3.626011562841672,
+     "entraînement pilote": 2.7715745275974157
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.17563707292340458,
+     "part par paramètre": 0.000585456909744682,
+     "signal sur bruit": 24.29534895576244,
+     "accord entraînement-validation": 0.7734736554064012,
+     "pas de Newton": 0.46340564153100205,
+     "directions principales": 0.30931193325068707,
+     "dimension": 300,
+     "gain": -3.6959893376258792,
+     "entraînement pilote": 2.819838798084209
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5175180739697429,
+     "part par paramètre": 0.00010048894640189182,
+     "signal sur bruit": 18.767886225591322,
+     "accord entraînement-validation": -0.03677673002160571,
+     "pas de Newton": 0.5441262404688415,
+     "directions principales": 0.513123863446153,
+     "dimension": 5150,
+     "gain": -3.9930962630030558,
+     "entraînement pilote": 3.3305421523488286
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.23301878337376125,
+     "part par paramètre": 0.00020350985447490066,
+     "signal sur bruit": 20.980966579406328,
+     "accord entraînement-validation": 0.36434465673540944,
+     "pas de Newton": 0.5032043336940061,
+     "directions principales": 0.36182963459395534,
+     "dimension": 1145,
+     "gain": -4.349493023834247,
+     "entraînement pilote": 3.3530629793138544
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.16937706278981993,
+     "part par paramètre": 0.0008468853139490996,
+     "signal sur bruit": 24.866013977191248,
+     "accord entraînement-validation": 0.8507423049092324,
+     "pas de Newton": 0.4538032565175669,
+     "directions principales": 0.30295713636820343,
+     "dimension": 200,
+     "gain": -3.3069602861440903,
+     "entraînement pilote": 2.843780420018385
+    }
+   },
+   "30": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 3.328349005927336,
+     "accord entraînement-validation": 0.3182194477022802,
+     "pas de Newton": 0.42790568249197325,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -3.816153997656814,
+     "entraînement pilote": 2.7815250147477446
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.029980360291058227,
+     "part par paramètre": 9.993453430352743e-05,
+     "signal sur bruit": 3.969648134519227,
+     "accord entraînement-validation": -0.49584051317921074,
+     "pas de Newton": 0.3134398304359099,
+     "directions principales": 0.18620147743638404,
+     "dimension": 300,
+     "gain": -3.4243393632782237,
+     "entraînement pilote": 2.1662826325483726
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5394748780413091,
+     "part par paramètre": 0.00010475240350316682,
+     "signal sur bruit": 3.0668143275873616,
+     "accord entraînement-validation": 0.3897122113696714,
+     "pas de Newton": 0.393574324681221,
+     "directions principales": 0.585025253652968,
+     "dimension": 5150,
+     "gain": -3.7806150608675044,
+     "entraînement pilote": 2.9858814823125766
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.09917288092239827,
+     "part par paramètre": 8.66138698012212e-05,
+     "signal sur bruit": 3.133377564128075,
+     "accord entraînement-validation": 0.09795031143749183,
+     "pas de Newton": 0.3514451242584449,
+     "directions principales": 0.255105648507743,
+     "dimension": 1145,
+     "gain": -3.859769236321218,
+     "entraînement pilote": 2.6183125754782086
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.025160685926861794,
+     "part par paramètre": 0.00012580342963430897,
+     "signal sur bruit": 4.280082974434378,
+     "accord entraînement-validation": -0.6758897937200425,
+     "pas de Newton": 0.2961861073993319,
+     "directions principales": 0.18008324378802745,
+     "dimension": 200,
+     "gain": -2.865740771429008,
+     "entraînement pilote": 2.3636460888029247
+    }
+   },
+   "100": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 48.79017276402229,
+     "accord entraînement-validation": 0.9933511492986403,
+     "pas de Newton": 0.7472604530617087,
+     "directions principales": 1.0,
+     "dimension": 10200,
+     "gain": -3.6187146089405595,
+     "entraînement pilote": 2.972340135458958
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.01786047843122551,
+     "part par paramètre": 5.953492810408503e-05,
+     "signal sur bruit": 16.44737162671939,
+     "accord entraînement-validation": 0.9516191739070373,
+     "pas de Newton": 0.5354142225071706,
+     "directions principales": 0.15645062437990645,
+     "dimension": 300,
+     "gain": -3.0198428309678724,
+     "entraînement pilote": 2.9969566000291255
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5688479624827074,
+     "part par paramètre": 0.0001104559150451859,
+     "signal sur bruit": 51.03200283598573,
+     "accord entraînement-validation": 0.9935134366438476,
+     "pas de Newton": 0.7082166305948708,
+     "directions principales": 0.5629930449524434,
+     "dimension": 5150,
+     "gain": -3.795914729640275,
+     "entraînement pilote": 3.058134580938731
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.09455650006407049,
+     "part par paramètre": 8.258209612582575e-05,
+     "signal sur bruit": 37.12064604283179,
+     "accord entraînement-validation": 0.9867867441943475,
+     "pas de Newton": 0.6453880033629116,
+     "directions principales": 0.2202834865808621,
+     "dimension": 1145,
+     "gain": -3.4111552917657217,
+     "entraînement pilote": 3.010729987684227
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.010836873732800003,
+     "part par paramètre": 5.418436866400002e-05,
+     "signal sur bruit": 11.857972331329519,
+     "accord entraînement-validation": 0.9295522289836988,
+     "pas de Newton": 0.4847087243564935,
+     "directions principales": 0.14441414072102216,
+     "dimension": 200,
+     "gain": -3.0225497751348263,
+     "entraînement pilote": 3.0045804463234522
+    }
+   },
+   "300": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 3.3025346578894323,
+     "accord entraînement-validation": 0.16698436568367644,
+     "pas de Newton": 0.7972825610989369,
+     "directions principales": 0.9999999999999994,
+     "dimension": 10200,
+     "gain": -3.687643630329709,
+     "entraînement pilote": 3.1065835339580063
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.027825267792622996,
+     "part par paramètre": 9.275089264207665e-05,
+     "signal sur bruit": 1.5508415617364157,
+     "accord entraînement-validation": 0.34820048213619914,
+     "pas de Newton": 0.4575571720149654,
+     "directions principales": 0.08471956536947736,
+     "dimension": 300,
+     "gain": -3.5599158378398514,
+     "entraînement pilote": 3.3366051951038918
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.4963529298424646,
+     "part par paramètre": 9.637920967814847e-05,
+     "signal sur bruit": 3.8123556727221226,
+     "accord entraînement-validation": 0.1685612666632956,
+     "pas de Newton": 0.7139857813250969,
+     "directions principales": 0.4297967578441617,
+     "dimension": 5150,
+     "gain": -4.054058473098654,
+     "entraînement pilote": 3.437570326240229
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.09280514893580456,
+     "part par paramètre": 8.105253182166338e-05,
+     "signal sur bruit": 2.425128788690357,
+     "accord entraînement-validation": 0.19585431287386518,
+     "pas de Newton": 0.5894414779939828,
+     "directions principales": 0.15068681430492314,
+     "dimension": 1145,
+     "gain": -3.6748616290211964,
+     "entraînement pilote": 3.3966081664893917
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.017927719003701707,
+     "part par paramètre": 8.963859501850854e-05,
+     "signal sur bruit": 1.4499435649636505,
+     "accord entraînement-validation": 0.383388721967269,
+     "pas de Newton": 0.39412427105331366,
+     "directions principales": 0.06656139903624761,
+     "dimension": 200,
+     "gain": -3.505836439494992,
+     "entraînement pilote": 3.3418728787674414
+    }
+   },
+   "1000": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 1.1925920658439346,
+     "accord entraînement-validation": -0.30647538902758586,
+     "pas de Newton": 0.7805816241894923,
+     "directions principales": 0.9999999999999993,
+     "dimension": 10200,
+     "gain": -3.8754731799466096,
+     "entraînement pilote": 3.5162972848731644
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.0883376678937762,
+     "part par paramètre": 0.000294458892979254,
+     "signal sur bruit": 1.1779369192793352,
+     "accord entraînement-validation": -0.5218005854055788,
+     "pas de Newton": 0.36629039984115713,
+     "directions principales": 0.09362370279214931,
+     "dimension": 300,
+     "gain": -4.005507181480748,
+     "entraînement pilote": 3.8657396016049477
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.4084281345334852,
+     "part par paramètre": 7.930643388999712e-05,
+     "signal sur bruit": 1.3086166001515847,
+     "accord entraînement-validation": -0.3504165942027832,
+     "pas de Newton": 0.7158875651913665,
+     "directions principales": 0.3907994168812778,
+     "dimension": 5150,
+     "gain": -4.001653730699024,
+     "entraînement pilote": 3.75118533671582
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.15765476690291716,
+     "part par paramètre": 0.00013768975275363945,
+     "signal sur bruit": 1.266587559621998,
+     "accord entraînement-validation": -0.46960165286089894,
+     "pas de Newton": 0.5305514522070258,
+     "directions principales": 0.15442307149836587,
+     "dimension": 1145,
+     "gain": -3.997659814364399,
+     "entraînement pilote": 3.8116331760060587
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.07105187896685775,
+     "part par paramètre": 0.0003552593948342887,
+     "signal sur bruit": 1.465412660631179,
+     "accord entraînement-validation": -0.6453012740701224,
+     "pas de Newton": 0.331906704345479,
+     "directions principales": 0.0673966985720462,
+     "dimension": 200,
+     "gain": -4.010194027581442,
+     "entraînement pilote": 3.905495219082712
+    }
+   }
+  },
+  "NARMA10": {
+   "0": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 0.38582057310298623,
+     "accord entraînement-validation": -0.2147931861005126,
+     "pas de Newton": 0.8092444617269201,
+     "directions principales": 1.0000000000000007,
+     "dimension": 10200,
+     "gain": -1.551650763379152,
+     "entraînement pilote": 0.8128496999575722
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.05158506257414937,
+     "part par paramètre": 0.0001719502085804979,
+     "signal sur bruit": 0.04492368000242122,
+     "accord entraînement-validation": -0.5039046711776456,
+     "pas de Newton": 0.3132360195364826,
+     "directions principales": 0.21988626129639507,
+     "dimension": 300,
+     "gain": -1.1530390003720357,
+     "entraînement pilote": 0.6626712078296737
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.2829890033849091,
+     "part par paramètre": 5.494932104561342e-05,
+     "signal sur bruit": 0.17197541292264046,
+     "accord entraînement-validation": -0.477364547640271,
+     "pas de Newton": 0.5745708859272665,
+     "directions principales": 0.45057940556290754,
+     "dimension": 5150,
+     "gain": -1.171261207472976,
+     "entraînement pilote": 0.7684054442578584
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.1342564360286241,
+     "part par paramètre": 0.00011725452928264114,
+     "signal sur bruit": 0.10776897210967186,
+     "accord entraînement-validation": -0.36497355435989703,
+     "pas de Newton": 0.5348965552163185,
+     "directions principales": 0.2778591681722178,
+     "dimension": 1145,
+     "gain": -1.6641374782620157,
+     "entraînement pilote": 0.8240877042441273
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.04493061761428158,
+     "part par paramètre": 0.00022465308807140792,
+     "signal sur bruit": 0.039541503476664346,
+     "accord entraînement-validation": -0.56439150210211,
+     "pas de Newton": 0.2589669598309964,
+     "directions principales": 0.21338815479437767,
+     "dimension": 200,
+     "gain": -0.7128500455351087,
+     "entraînement pilote": 0.5691449942103283
+    }
+   },
+   "30": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 0.9784037287758687,
+     "accord entraînement-validation": -0.0957735739740001,
+     "pas de Newton": 0.9215314989569506,
+     "directions principales": 1.0000000000000002,
+     "dimension": 10200,
+     "gain": -1.4644086407823875,
+     "entraînement pilote": 0.8395391243143118
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.30961696396531624,
+     "part par paramètre": 0.0010320565465510541,
+     "signal sur bruit": 2.1593277187699207,
+     "accord entraînement-validation": -0.39351115016284555,
+     "pas de Newton": 0.6744253799270247,
+     "directions principales": 0.1973093109910386,
+     "dimension": 300,
+     "gain": -1.1687605219093211,
+     "entraînement pilote": 0.725002997919416
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.49719039212290206,
+     "part par paramètre": 9.654182371318487e-05,
+     "signal sur bruit": 0.9693482357652826,
+     "accord entraînement-validation": -0.275110501811284,
+     "pas de Newton": 0.8307408674078526,
+     "directions principales": 0.5083092053799253,
+     "dimension": 5150,
+     "gain": -1.5254676741551645,
+     "entraînement pilote": 0.794528423929186
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.36593782709751316,
+     "part par paramètre": 0.00031959635554367963,
+     "signal sur bruit": 1.6457473462210461,
+     "accord entraînement-validation": -0.2434160424871403,
+     "pas de Newton": 0.7604591125650271,
+     "directions principales": 0.2663747231249096,
+     "dimension": 1145,
+     "gain": -1.728535596205978,
+     "entraînement pilote": 0.7927678237310468
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.3000589288051577,
+     "part par paramètre": 0.0015002946440257885,
+     "signal sur bruit": 2.200150932085571,
+     "accord entraînement-validation": -0.45135165519563536,
+     "pas de Newton": 0.6136515272330585,
+     "directions principales": 0.1910101777013143,
+     "dimension": 200,
+     "gain": -1.0725849781526382,
+     "entraînement pilote": 0.6745679948905523
+    }
+   },
+   "100": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 2.077083121120154,
+     "accord entraînement-validation": 0.07282955524604508,
+     "pas de Newton": 0.9455327388338883,
+     "directions principales": 0.9999999999999994,
+     "dimension": 10200,
+     "gain": -1.4843256334386092,
+     "entraînement pilote": 1.0503197653603071
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.35432309512688676,
+     "part par paramètre": 0.0011810769837562892,
+     "signal sur bruit": 3.4011660331419673,
+     "accord entraînement-validation": 0.4115246910645018,
+     "pas de Newton": 0.8665521261320009,
+     "directions principales": 0.14817107624238154,
+     "dimension": 300,
+     "gain": -1.4543121146240152,
+     "entraînement pilote": 1.0275969662401345
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.47940162665932673,
+     "part par paramètre": 9.308769449695665e-05,
+     "signal sur bruit": 2.1897557820100917,
+     "accord entraînement-validation": 0.08512707642589112,
+     "pas de Newton": 0.9161909105495128,
+     "directions principales": 0.47164747828018233,
+     "dimension": 5150,
+     "gain": -1.6351158375091976,
+     "entraînement pilote": 1.2308992317640626
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.41066664500757094,
+     "part par paramètre": 0.0003586608253341231,
+     "signal sur bruit": 3.1615683659032077,
+     "accord entraînement-validation": 0.31899300685031995,
+     "pas de Newton": 0.8905064415743428,
+     "directions principales": 0.20688453595066586,
+     "dimension": 1145,
+     "gain": -1.6968060425582168,
+     "entraînement pilote": 1.057110838943167
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.34894657818690145,
+     "part par paramètre": 0.0017447328909345073,
+     "signal sur bruit": 3.5517959096039657,
+     "accord entraînement-validation": 0.460714037583557,
+     "pas de Newton": 0.8569865063446287,
+     "directions principales": 0.14056971735510032,
+     "dimension": 200,
+     "gain": -1.421834027496236,
+     "entraînement pilote": 1.042208208060305
+    }
+   },
+   "300": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 1.0931835689316514,
+     "accord entraînement-validation": 0.41355235945917396,
+     "pas de Newton": 0.8231679970716947,
+     "directions principales": 1.0000000000000002,
+     "dimension": 10200,
+     "gain": -1.4598514716902569,
+     "entraînement pilote": 1.5408432267080958
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.07163854989770235,
+     "part par paramètre": 0.0002387951663256745,
+     "signal sur bruit": 0.6408780124870831,
+     "accord entraînement-validation": 0.20462036564795377,
+     "pas de Newton": 0.36791490541002747,
+     "directions principales": 0.08114657955146906,
+     "dimension": 300,
+     "gain": -1.6228927121743957,
+     "entraînement pilote": 1.6934845127028961
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.15534895360355652,
+     "part par paramètre": 3.0164845359913887e-05,
+     "signal sur bruit": 0.9590158035691954,
+     "accord entraînement-validation": 0.36948885122868413,
+     "pas de Newton": 0.6676771447103274,
+     "directions principales": 0.2509316977361934,
+     "dimension": 5150,
+     "gain": -1.7124888998060008,
+     "entraînement pilote": 1.6815567736343826
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.1429457821766586,
+     "part par paramètre": 0.00012484347788354464,
+     "signal sur bruit": 0.8173431437740304,
+     "accord entraînement-validation": 0.2977904792058198,
+     "pas de Newton": 0.5625461512925021,
+     "directions principales": 0.1548684512920993,
+     "dimension": 1145,
+     "gain": -1.6865893765260336,
+     "entraînement pilote": 1.7303622652261754
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.05962957253340686,
+     "part par paramètre": 0.0002981478626670343,
+     "signal sur bruit": 0.6450062058781909,
+     "accord entraînement-validation": 0.16065109592913696,
+     "pas de Newton": 0.30844053182697406,
+     "directions principales": 0.06513844018600864,
+     "dimension": 200,
+     "gain": -1.5553992500707035,
+     "entraînement pilote": 1.749971891748159
+    }
+   },
+   "1000": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 2.067159953030577,
+     "accord entraînement-validation": 0.5056270918456924,
+     "pas de Newton": 0.8369043098340702,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -1.4940883492344923,
+     "entraînement pilote": 1.7846709982217515
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.10484778827090405,
+     "part par paramètre": 0.00034949262756968016,
+     "signal sur bruit": 1.84801414251217,
+     "accord entraînement-validation": 0.5246295193549767,
+     "pas de Newton": 0.39498747087488556,
+     "directions principales": 0.07921097653824329,
+     "dimension": 300,
+     "gain": -1.62486811261804,
+     "entraînement pilote": 2.1236004685704297
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.1890796812773995,
+     "part par paramètre": 3.671450121891252e-05,
+     "signal sur bruit": 2.018974661295143,
+     "accord entraînement-validation": 0.3056093692728015,
+     "pas de Newton": 0.6899307231215854,
+     "directions principales": 0.24566457660492586,
+     "dimension": 5150,
+     "gain": -1.5483104994812908,
+     "entraînement pilote": 1.784749770943429
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.1770363629677357,
+     "part par paramètre": 0.00015461691088885214,
+     "signal sur bruit": 1.9599210437433143,
+     "accord entraînement-validation": 0.5189614240036052,
+     "pas de Newton": 0.5893842150942145,
+     "directions principales": 0.15246308184608343,
+     "dimension": 1145,
+     "gain": -1.6438325930057163,
+     "entraînement pilote": 2.0813212248786237
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.09582174771655898,
+     "part par paramètre": 0.00047910873858279487,
+     "signal sur bruit": 2.0736186391719444,
+     "accord entraînement-validation": 0.5341354686919632,
+     "pas de Newton": 0.3500577635375526,
+     "directions principales": 0.061756564848793126,
+     "dimension": 200,
+     "gain": -1.6441642879892329,
+     "entraînement pilote": 2.204082974857794
+    }
+   }
+  },
+  "Mémoire (délai 15)": {
+   "0": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 1.5045362647462437,
+     "accord entraînement-validation": -0.3110445647058699,
+     "pas de Newton": 0.9415985057279509,
+     "directions principales": 1.0,
+     "dimension": 10200,
+     "gain": -2.0414965415541078,
+     "entraînement pilote": 1.0101246580160839
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.4732042936704616,
+     "part par paramètre": 0.0015773476455682052,
+     "signal sur bruit": 4.522871237598481,
+     "accord entraînement-validation": -0.8698301802199878,
+     "pas de Newton": 0.5962501033877429,
+     "directions principales": 0.21491385288723058,
+     "dimension": 300,
+     "gain": -1.8233866004089399,
+     "entraînement pilote": 0.45419891052618416
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.6039354231184421,
+     "part par paramètre": 0.00011726901419775574,
+     "signal sur bruit": 1.9305175019833904,
+     "accord entraînement-validation": -0.5273212156996876,
+     "pas de Newton": 0.7698738452273888,
+     "directions principales": 0.4585661538832568,
+     "dimension": 5150,
+     "gain": -0.9919773087598683,
+     "entraînement pilote": 0.22360969541685052
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.5061577726013081,
+     "part par paramètre": 0.0004420591900448106,
+     "signal sur bruit": 3.788802153063407,
+     "accord entraînement-validation": -0.731816348065657,
+     "pas de Newton": 0.7476166826593165,
+     "directions principales": 0.25958818109796244,
+     "dimension": 1145,
+     "gain": -2.253182542946863,
+     "entraînement pilote": 0.2915543044688055
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.4669353387107785,
+     "part par paramètre": 0.0023346766935538926,
+     "signal sur bruit": 4.739646234054545,
+     "accord entraînement-validation": -0.905236693703326,
+     "pas de Newton": 0.5268133559880877,
+     "directions principales": 0.20708776025675252,
+     "dimension": 200,
+     "gain": -0.6375792708993762,
+     "entraînement pilote": 0.24979096627278105
+    }
+   },
+   "30": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 13.02299779431064,
+     "accord entraînement-validation": 0.6386534458147226,
+     "pas de Newton": 0.9624453619667935,
+     "directions principales": 1.0000000000000002,
+     "dimension": 10200,
+     "gain": -2.057757729037305,
+     "entraînement pilote": 0.6915016594049839
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.03219162338991151,
+     "part par paramètre": 0.00010730541129970503,
+     "signal sur bruit": 4.136183789658166,
+     "accord entraînement-validation": -0.20713706657881503,
+     "pas de Newton": 0.7348089724990603,
+     "directions principales": 0.12679541000717953,
+     "dimension": 300,
+     "gain": -1.239879001670761,
+     "entraînement pilote": 0.08492935980625425
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.4885043598394119,
+     "part par paramètre": 9.485521550279843e-05,
+     "signal sur bruit": 15.017438641197511,
+     "accord entraînement-validation": 0.6528093627103129,
+     "pas de Newton": 0.9098440801166225,
+     "directions principales": 0.42441897936621426,
+     "dimension": 5150,
+     "gain": -0.8867717088775331,
+     "entraînement pilote": 0.19374158801847902
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.08566279138231349,
+     "part par paramètre": 7.48146649627192e-05,
+     "signal sur bruit": 7.086079253659691,
+     "accord entraînement-validation": 0.3478288334027416,
+     "pas de Newton": 0.8508810132614529,
+     "directions principales": 0.18079032618676588,
+     "dimension": 1145,
+     "gain": -2.1356553520353367,
+     "entraînement pilote": 0.2554109820617095
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.0273601349896782,
+     "part par paramètre": 0.000136800674948391,
+     "signal sur bruit": 3.886995516765818,
+     "accord entraînement-validation": -0.47242829943718634,
+     "pas de Newton": 0.6273426463821598,
+     "directions principales": 0.11674198703189513,
+     "dimension": 200,
+     "gain": -0.0979074342416317,
+     "entraînement pilote": 0.07821864328112414
+    }
+   },
+   "100": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 6.4025267071982555,
+     "accord entraînement-validation": 0.38719840412298817,
+     "pas de Newton": 0.9864453544631041,
+     "directions principales": 1.0,
+     "dimension": 10200,
+     "gain": -2.0598329991437696,
+     "entraînement pilote": 1.2976386882726587
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.046337235296405835,
+     "part par paramètre": 0.00015445745098801946,
+     "signal sur bruit": 3.4397866525661307,
+     "accord entraînement-validation": -0.050068018279284296,
+     "pas de Newton": 0.8173326291326555,
+     "directions principales": 0.07208156648638345,
+     "dimension": 300,
+     "gain": -1.6177138089635559,
+     "entraînement pilote": 0.5766222748972512
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.11733081271048006,
+     "part par paramètre": 2.2782682079704864e-05,
+     "signal sur bruit": 2.634109031654573,
+     "accord entraînement-validation": -0.2554041659309312,
+     "pas de Newton": 0.9385723522415653,
+     "directions principales": 0.2610958783531696,
+     "dimension": 5150,
+     "gain": -1.1999857494561987,
+     "entraînement pilote": 0.7682053907025457
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.12489917700927915,
+     "part par paramètre": 0.00010908225066312589,
+     "signal sur bruit": 4.947210175324705,
+     "accord entraînement-validation": 0.2018030820546297,
+     "pas de Newton": 0.9251361544293472,
+     "directions principales": 0.14605272738451466,
+     "dimension": 1145,
+     "gain": -2.1217056705035713,
+     "entraînement pilote": 0.9486079310942396
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.01846698871178714,
+     "part par paramètre": 9.23349435589357e-05,
+     "signal sur bruit": 1.658974936215053,
+     "accord entraînement-validation": -0.6012233912470122,
+     "pas de Newton": 0.6548747826559798,
+     "directions principales": 0.054035859103484185,
+     "dimension": 200,
+     "gain": -0.5567121868790811,
+     "entraînement pilote": 0.5572330430695644
+    }
+   },
+   "300": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 15.142016910417341,
+     "accord entraînement-validation": 0.7699741541441609,
+     "pas de Newton": 0.9582864019381124,
+     "directions principales": 1.0,
+     "dimension": 10200,
+     "gain": -2.1487787813019046,
+     "entraînement pilote": 1.5118134936466379
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.13737109758326896,
+     "part par paramètre": 0.0004579036586108965,
+     "signal sur bruit": 10.033115794738526,
+     "accord entraînement-validation": 0.7187805506294939,
+     "pas de Newton": 0.8126311033577077,
+     "directions principales": 0.19415535099044565,
+     "dimension": 300,
+     "gain": -2.2986529676160505,
+     "entraînement pilote": 1.7604069706505219
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.22195045609943742,
+     "part par paramètre": 4.309717594163833e-05,
+     "signal sur bruit": 8.002004350008038,
+     "accord entraînement-validation": 0.5994324129055121,
+     "pas de Newton": 0.8473818436618858,
+     "directions principales": 0.42039312558991637,
+     "dimension": 5150,
+     "gain": -2.2529924912698447,
+     "entraînement pilote": 1.8980789050804223
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.17453569077698036,
+     "part par paramètre": 0.00015243291770915314,
+     "signal sur bruit": 10.272901244874031,
+     "accord entraînement-validation": 0.6932971384610788,
+     "pas de Newton": 0.9090575065766173,
+     "directions principales": 0.25405240157777814,
+     "dimension": 1145,
+     "gain": -2.2970681541076896,
+     "entraînement pilote": 1.7722911071972804
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.09304979196638624,
+     "part par paramètre": 0.0004652489598319312,
+     "signal sur bruit": 7.761308685651526,
+     "accord entraînement-validation": 0.618019717275858,
+     "pas de Newton": 0.7302477661549677,
+     "directions principales": 0.17781461356708594,
+     "dimension": 200,
+     "gain": -2.2435408708911986,
+     "entraînement pilote": 1.9249989306904616
+    }
+   },
+   "1000": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 12.089481953922292,
+     "accord entraînement-validation": 0.7584514668206984,
+     "pas de Newton": 0.9295178549019921,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -2.29287728457934,
+     "entraînement pilote": 1.6247492485218529
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.08192962280956537,
+     "part par paramètre": 0.0002730987426985512,
+     "signal sur bruit": 3.6837442512419174,
+     "accord entraînement-validation": 0.5109195286201109,
+     "pas de Newton": 0.717285914879948,
+     "directions principales": 0.2535023098723088,
+     "dimension": 300,
+     "gain": -2.4076166735760656,
+     "entraînement pilote": 1.9028299813005318
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.1345800020253678,
+     "part par paramètre": 2.6132039228226756e-05,
+     "signal sur bruit": 3.6783952217162263,
+     "accord entraînement-validation": 0.43938965214471803,
+     "pas de Newton": 0.7262192042714949,
+     "directions principales": 0.4425843500110599,
+     "dimension": 5150,
+     "gain": -2.480661647480476,
+     "entraînement pilote": 2.0822970087176795
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.14645618785847145,
+     "part par paramètre": 0.00012790933437421088,
+     "signal sur bruit": 5.697865117670038,
+     "accord entraînement-validation": 0.5666838276277862,
+     "pas de Newton": 0.88129002077837,
+     "directions principales": 0.31183724718029515,
+     "dimension": 1145,
+     "gain": -2.448575412030689,
+     "entraînement pilote": 1.9223642465579847
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.05716622064095822,
+     "part par paramètre": 0.00028583110320479113,
+     "signal sur bruit": 2.9132429206001884,
+     "accord entraînement-validation": 0.46188655802069395,
+     "pas de Newton": 0.5409051071995106,
+     "directions principales": 0.23947134369288192,
+     "dimension": 200,
+     "gain": -2.424649844498697,
+     "entraînement pilote": 2.026375473220589
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "0": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 3.5127856431330398,
+     "accord entraînement-validation": 0.8633859324631862,
+     "pas de Newton": 0.33118735080384554,
+     "directions principales": 0.9999999999999997,
+     "dimension": 10200,
+     "gain": -3.704547685617428,
+     "entraînement pilote": 2.2723929072464153
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.20920667486033903,
+     "part par paramètre": 0.0006973555828677968,
+     "signal sur bruit": 2.090621700427959,
+     "accord entraînement-validation": 0.3048973721725097,
+     "pas de Newton": 0.20007413545285027,
+     "directions principales": 0.26189008312666795,
+     "dimension": 300,
+     "gain": -3.178489205985834,
+     "entraînement pilote": 2.9501067835703445
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5419494467661589,
+     "part par paramètre": 0.00010523290228469104,
+     "signal sur bruit": 3.0322624954590744,
+     "accord entraînement-validation": 0.7826923244459212,
+     "pas de Newton": 0.28227969966134336,
+     "directions principales": 0.4737029272815443,
+     "dimension": 5150,
+     "gain": -3.432035792394916,
+     "entraînement pilote": 3.6591734906937488
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.27333286568022447,
+     "part par paramètre": 0.0002387186599827288,
+     "signal sur bruit": 2.3707153907616285,
+     "accord entraînement-validation": 0.5184854757787878,
+     "pas de Newton": 0.2617866625955362,
+     "directions principales": 0.32417460011240296,
+     "dimension": 1145,
+     "gain": -3.5716625324336,
+     "entraînement pilote": 2.8865291274609146
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.2008714724013067,
+     "part par paramètre": 0.0010043573620065335,
+     "signal sur bruit": 2.048031890009937,
+     "accord entraînement-validation": 0.2570345644115722,
+     "pas de Newton": 0.13096796869859387,
+     "directions principales": 0.25475319768600857,
+     "dimension": 200,
+     "gain": -3.4689109740260435,
+     "entraînement pilote": 3.3049940876059862
+    }
+   },
+   "30": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 5.560370038702686,
+     "accord entraînement-validation": 0.8128588680697649,
+     "pas de Newton": 0.6195154876928917,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -3.465374211595721,
+     "entraînement pilote": 2.7535122851637484
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.02487487512705693,
+     "part par paramètre": 8.29162504235231e-05,
+     "signal sur bruit": 2.4164830376255875,
+     "accord entraînement-validation": -0.04615479214179461,
+     "pas de Newton": 0.3190745133441599,
+     "directions principales": 0.12489751477580183,
+     "dimension": 300,
+     "gain": -2.867748015670968,
+     "entraînement pilote": 2.5273656584959947
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5324228059955209,
+     "part par paramètre": 0.00010338306912534387,
+     "signal sur bruit": 5.658793268245501,
+     "accord entraînement-validation": 0.786756882968685,
+     "pas de Newton": 0.5017076713804278,
+     "directions principales": 0.4831151460059363,
+     "dimension": 5150,
+     "gain": -3.262241513344512,
+     "entraînement pilote": 2.5233524133283467
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.09770963082205306,
+     "part par paramètre": 8.533592211533017e-05,
+     "signal sur bruit": 4.171297709395463,
+     "accord entraînement-validation": 0.5916399377292146,
+     "pas de Newton": 0.4124053172245124,
+     "directions principales": 0.19362415738563546,
+     "dimension": 1145,
+     "gain": -3.181179105890987,
+     "entraînement pilote": 2.2433782827761704
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.018247885338001795,
+     "part par paramètre": 9.123942669000898e-05,
+     "signal sur bruit": 1.9818927099125632,
+     "accord entraînement-validation": -0.36602392437921427,
+     "pas de Newton": 0.2578021508820254,
+     "directions principales": 0.11602635624672628,
+     "dimension": 200,
+     "gain": -2.3144114618097946,
+     "entraînement pilote": 2.3988742647957784
+    }
+   },
+   "100": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 38.253552365519724,
+     "accord entraînement-validation": 0.9866886589215363,
+     "pas de Newton": 0.628868743632653,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -3.7472583763835794,
+     "entraînement pilote": 2.9781829736487984
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.026516660937474873,
+     "part par paramètre": 8.838886979158291e-05,
+     "signal sur bruit": 8.590742475439027,
+     "accord entraînement-validation": 0.9694573853119896,
+     "pas de Newton": 0.3774160730253244,
+     "directions principales": 0.19182570336433244,
+     "dimension": 300,
+     "gain": -3.0141380678364076,
+     "entraînement pilote": 2.8348421807632254
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5216661302077501,
+     "part par paramètre": 0.00010129439421509711,
+     "signal sur bruit": 36.45814027719646,
+     "accord entraînement-validation": 0.9918897221289994,
+     "pas de Newton": 0.4544631301981739,
+     "directions principales": 0.4936691775746259,
+     "dimension": 5150,
+     "gain": -3.5088329521464776,
+     "entraînement pilote": 3.113228157245176
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.084101150885652,
+     "part par paramètre": 7.345078679969607e-05,
+     "signal sur bruit": 18.670456974134414,
+     "accord entraînement-validation": 0.9773631793239257,
+     "pas de Newton": 0.45065655981610236,
+     "directions principales": 0.25031997396999606,
+     "dimension": 1145,
+     "gain": -3.5334221241346673,
+     "entraînement pilote": 2.8450203899213133
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.020198447242016252,
+     "part par paramètre": 0.00010099223621008126,
+     "signal sur bruit": 6.895430226787557,
+     "accord entraînement-validation": 0.9702590653837379,
+     "pas de Newton": 0.3527467268879319,
+     "directions principales": 0.18389845899560192,
+     "dimension": 200,
+     "gain": -2.645852164227586,
+     "entraînement pilote": 2.6609099221315486
+    }
+   },
+   "300": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 5.894342512077875,
+     "accord entraînement-validation": 0.6130865759843409,
+     "pas de Newton": 0.7211718702663368,
+     "directions principales": 0.9999999999999993,
+     "dimension": 10200,
+     "gain": -3.609817225388257,
+     "entraînement pilote": 2.900706182301541
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.07699905136767199,
+     "part par paramètre": 0.0002566635045589066,
+     "signal sur bruit": 1.83077579545766,
+     "accord entraînement-validation": 0.56827839451653,
+     "pas de Newton": 0.487716016478348,
+     "directions principales": 0.18954084507721486,
+     "dimension": 300,
+     "gain": -3.4825810325231426,
+     "entraînement pilote": 3.3012434746348474
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.39145727979987693,
+     "part par paramètre": 7.601112229123824e-05,
+     "signal sur bruit": 4.740313487784569,
+     "accord entraînement-validation": 0.733450094276323,
+     "pas de Newton": 0.6474445396331304,
+     "directions principales": 0.42838065485724447,
+     "dimension": 5150,
+     "gain": -3.8855484945233383,
+     "entraînement pilote": 3.3567246656619525
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.14796873999612864,
+     "part par paramètre": 0.0001292303406079726,
+     "signal sur bruit": 2.825418049940647,
+     "accord entraînement-validation": 0.5814563731421124,
+     "pas de Newton": 0.5787947860628538,
+     "directions principales": 0.25418135836703365,
+     "dimension": 1145,
+     "gain": -3.613165051767707,
+     "entraînement pilote": 3.283073542550203
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.06753282180565319,
+     "part par paramètre": 0.00033766410902826596,
+     "signal sur bruit": 1.649067396687052,
+     "accord entraînement-validation": 0.5903008400951838,
+     "pas de Newton": 0.3640420653178726,
+     "directions principales": 0.1824007040896481,
+     "dimension": 200,
+     "gain": -3.491515286190242,
+     "entraînement pilote": 3.3942234911643556
+    }
+   },
+   "1000": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 4.969177727680315,
+     "accord entraînement-validation": 0.42671129657088214,
+     "pas de Newton": 0.7302100829300444,
+     "directions principales": 1.0000000000000002,
+     "dimension": 10200,
+     "gain": -3.2584900893911137,
+     "entraînement pilote": 2.457152741581351
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.0947292733155154,
+     "part par paramètre": 0.0003157642443850513,
+     "signal sur bruit": 2.779091715418283,
+     "accord entraînement-validation": 0.8411205415826712,
+     "pas de Newton": 0.48786540402084855,
+     "directions principales": 0.19065437132038393,
+     "dimension": 300,
+     "gain": -3.9278406022352734,
+     "entraînement pilote": 3.6356992647211626
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.21130862749338894,
+     "part par paramètre": 4.1030801455026976e-05,
+     "signal sur bruit": 2.7711928500663574,
+     "accord entraînement-validation": 0.6777624762585974,
+     "pas de Newton": 0.6401984901203481,
+     "directions principales": 0.3708330346415071,
+     "dimension": 5150,
+     "gain": -3.9452701808695925,
+     "entraînement pilote": 3.4633211036188163
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.17175470100378304,
+     "part par paramètre": 0.00015000410568015985,
+     "signal sur bruit": 3.5600208516161005,
+     "accord entraînement-validation": 0.6030295520741042,
+     "pas de Newton": 0.6151630238534931,
+     "directions principales": 0.25429784107190045,
+     "dimension": 1145,
+     "gain": -3.980959160364746,
+     "entraînement pilote": 3.491637689412868
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.08679040761107625,
+     "part par paramètre": 0.0004339520380553812,
+     "signal sur bruit": 2.761888633305022,
+     "accord entraînement-validation": 0.8900363825795118,
+     "pas de Newton": 0.3781727309252372,
+     "directions principales": 0.17682370329340544,
+     "dimension": 200,
+     "gain": -3.8798434720743384,
+     "entraînement pilote": 3.707678761107551
+    }
+   }
+  },
+  "Hénon (+3)": {
+   "0": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 1.2766377449135164,
+     "accord entraînement-validation": 0.2645101951856526,
+     "pas de Newton": 0.7188327817959674,
+     "directions principales": 0.9999999999999994,
+     "dimension": 10200,
+     "gain": -0.9123678197239672,
+     "entraînement pilote": 0.09525470179055498
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.11924775419705771,
+     "part par paramètre": 0.00039749251399019236,
+     "signal sur bruit": 0.8982205745523499,
+     "accord entraînement-validation": -0.6009849743869746,
+     "pas de Newton": 0.2990760403849358,
+     "directions principales": 0.19760883508762692,
+     "dimension": 300,
+     "gain": -0.7524465686017844,
+     "entraînement pilote": 0.1678627488867062
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.4649877671840084,
+     "part par paramètre": 9.02888868318463e-05,
+     "signal sur bruit": 1.212147090840201,
+     "accord entraînement-validation": 0.21648117794432753,
+     "pas de Newton": 0.5205117166865486,
+     "directions principales": 0.4704726880421949,
+     "dimension": 5150,
+     "gain": -1.16783685923721,
+     "entraînement pilote": 0.40556488072237057
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.1957635616617921,
+     "part par paramètre": 0.00017097254293606297,
+     "signal sur bruit": 1.078698871461846,
+     "accord entraînement-validation": -0.14306781052506737,
+     "pas de Newton": 0.4099528536772601,
+     "directions principales": 0.25382845221136996,
+     "dimension": 1145,
+     "gain": -0.8900223797425051,
+     "entraînement pilote": 0.16933727241093724
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.10999850356494673,
+     "part par paramètre": 0.0005499925178247336,
+     "signal sur bruit": 0.8630625804360813,
+     "accord entraînement-validation": -0.7117370372857889,
+     "pas de Newton": 0.26647070559346464,
+     "directions principales": 0.19063970509664696,
+     "dimension": 200,
+     "gain": -0.8738073262287173,
+     "entraînement pilote": 0.22150936509618957
+    }
+   },
+   "30": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 1.8511014378076613,
+     "accord entraînement-validation": -0.23386494358978555,
+     "pas de Newton": 0.9053680116966514,
+     "directions principales": 0.9999999999999998,
+     "dimension": 10200,
+     "gain": -0.6412019124461642,
+     "entraînement pilote": 0.10544611156828107
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.13377030767584358,
+     "part par paramètre": 0.00044590102558614525,
+     "signal sur bruit": 3.5889367105687655,
+     "accord entraînement-validation": -0.8338664887987061,
+     "pas de Newton": 0.5425495113859703,
+     "directions principales": 0.1346440684075389,
+     "dimension": 300,
+     "gain": -0.7488779758754344,
+     "entraînement pilote": 0.16649145562881965
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.5339867295042113,
+     "part par paramètre": 0.00010368674359305075,
+     "signal sur bruit": 1.916097887562541,
+     "accord entraînement-validation": -0.2570574976295126,
+     "pas de Newton": 0.8202962269132493,
+     "directions principales": 0.518441406802124,
+     "dimension": 5150,
+     "gain": -1.1222646352748735,
+     "entraînement pilote": 0.27379754433305437
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.18167826418177957,
+     "part par paramètre": 0.00015867097308452365,
+     "signal sur bruit": 2.646951318045269,
+     "accord entraînement-validation": -0.5828321455477689,
+     "pas de Newton": 0.6773175496704084,
+     "directions principales": 0.18655486523173087,
+     "dimension": 1145,
+     "gain": -0.8145375603656771,
+     "entraînement pilote": 0.18357018334220182
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.12875703424435359,
+     "part par paramètre": 0.0006437851712217679,
+     "signal sur bruit": 3.792076203409573,
+     "accord entraînement-validation": -0.8661564520318977,
+     "pas de Newton": 0.5095158135382911,
+     "directions principales": 0.128592743740507,
+     "dimension": 200,
+     "gain": -0.8056283267893353,
+     "entraînement pilote": 0.18861150927785328
+    }
+   },
+   "100": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 3.0865712107988474,
+     "accord entraînement-validation": 0.3534710278639859,
+     "pas de Newton": 0.9771949400335941,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -0.8940661792874764,
+     "entraînement pilote": 0.2285328383355416
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.04961200260839339,
+     "part par paramètre": 0.00016537334202797795,
+     "signal sur bruit": 3.644345529439311,
+     "accord entraînement-validation": 0.17992837274051351,
+     "pas de Newton": 0.8052066912728656,
+     "directions principales": 0.058191815118448675,
+     "dimension": 300,
+     "gain": -0.5542774864206057,
+     "entraînement pilote": 0.2237675196967077
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.44552116592246394,
+     "part par paramètre": 8.650896425678911e-05,
+     "signal sur bruit": 2.4263255050993497,
+     "accord entraînement-validation": 0.25526375464182655,
+     "pas de Newton": 0.9632000149142534,
+     "directions principales": 0.5211798864813292,
+     "dimension": 5150,
+     "gain": -1.0221446157679437,
+     "entraînement pilote": 0.23478687559091826
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.1259671416362998,
+     "part par paramètre": 0.0001100149708613972,
+     "signal sur bruit": 3.3218716741638588,
+     "accord entraînement-validation": 0.34603647043985386,
+     "pas de Newton": 0.900294404624524,
+     "directions principales": 0.13401116189281614,
+     "dimension": 1145,
+     "gain": -0.9428073373100742,
+     "entraînement pilote": 0.23674764512641808
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.03902839272898191,
+     "part par paramètre": 0.00019514196364490955,
+     "signal sur bruit": 3.229469145454614,
+     "accord entraînement-validation": 0.04138449141967654,
+     "pas de Newton": 0.761116425831653,
+     "directions principales": 0.05178832287314321,
+     "dimension": 200,
+     "gain": -0.6472543833625942,
+     "entraînement pilote": 0.23481193945988713
+    }
+   },
+   "300": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 9.561117155563469,
+     "accord entraînement-validation": 0.6993448529135529,
+     "pas de Newton": 0.9799704646325567,
+     "directions principales": 1.0000000000000004,
+     "dimension": 10200,
+     "gain": -1.0986107156700209,
+     "entraînement pilote": 0.6070566968959586
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.041643174776809115,
+     "part par paramètre": 0.00013881058258936372,
+     "signal sur bruit": 10.930588625556586,
+     "accord entraînement-validation": 0.7717054400637788,
+     "pas de Newton": 0.7713464253254024,
+     "directions principales": 0.036603292042764926,
+     "dimension": 300,
+     "gain": -0.7664703482276538,
+     "entraînement pilote": 0.7482856866095349
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.3619853603811261,
+     "part par paramètre": 7.028841949148079e-05,
+     "signal sur bruit": 6.912964138965098,
+     "accord entraînement-validation": 0.5626939177393244,
+     "pas de Newton": 0.967270376924094,
+     "directions principales": 0.48057379889957613,
+     "dimension": 5150,
+     "gain": -1.082548102053516,
+     "entraînement pilote": 0.5408283805700096
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.11963943126977776,
+     "part par paramètre": 0.00010448858626181464,
+     "signal sur bruit": 9.914482750730942,
+     "accord entraînement-validation": 0.720129243972717,
+     "pas de Newton": 0.9065259605458793,
+     "directions principales": 0.11688942000941918,
+     "dimension": 1145,
+     "gain": -0.9461337302548308,
+     "entraînement pilote": 0.6905763652834778
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.025376977213400514,
+     "part par paramètre": 0.00012688488606700258,
+     "signal sur bruit": 8.81807568818065,
+     "accord entraînement-validation": 0.7371058933079471,
+     "pas de Newton": 0.7270913269648281,
+     "directions principales": 0.027678406329006183,
+     "dimension": 200,
+     "gain": -0.7561965871268191,
+     "entraînement pilote": 0.7833633692892792
+    }
+   },
+   "1000": {
+    "RNN": {
+     "part captée": 1.0,
+     "part par paramètre": 9.80392156862745e-05,
+     "signal sur bruit": 5.326449181499779,
+     "accord entraînement-validation": 0.6169785992496972,
+     "pas de Newton": 0.966725740326294,
+     "directions principales": 1.0000000000000007,
+     "dimension": 10200,
+     "gain": -1.5780440951328611,
+     "entraînement pilote": 0.8854732408235964
+    },
+    "réservoir accordé (valeurs singulières)": {
+     "part captée": 0.0562608737047867,
+     "part par paramètre": 0.00018753624568262233,
+     "signal sur bruit": 8.40939530840618,
+     "accord entraînement-validation": 0.7761319603400704,
+     "pas de Newton": 0.747333766628922,
+     "directions principales": 0.04370243073494736,
+     "dimension": 300,
+     "gain": -1.2088311815832344,
+     "entraînement pilote": 1.3677641005425287
+    },
+    "réservoir tourné (rotations)": {
+     "part captée": 0.4924916419792613,
+     "part par paramètre": 9.562944504451676e-05,
+     "signal sur bruit": 6.013827886112176,
+     "accord entraînement-validation": 0.6218296572024992,
+     "pas de Newton": 0.9487133130701266,
+     "directions principales": 0.44553612659350456,
+     "dimension": 5150,
+     "gain": -1.6435666042442592,
+     "entraînement pilote": 0.7826691489949246
+    },
+    "réservoir cisaillé en bande, k = 10": {
+     "part captée": 0.12287542150332705,
+     "part par paramètre": 0.0001073147786055258,
+     "signal sur bruit": 5.632343102033871,
+     "accord entraînement-validation": 0.6578507344964888,
+     "pas de Newton": 0.8718738208732845,
+     "directions principales": 0.1223349968667842,
+     "dimension": 1145,
+     "gain": -1.1805883360468636,
+     "entraînement pilote": 1.0346104053144236
+    },
+    "réservoir à biais et entrées appris (sans g)": {
+     "part captée": 0.035843229430140115,
+     "part par paramètre": 0.0001792161471507006,
+     "signal sur bruit": 7.807772441418827,
+     "accord entraînement-validation": 0.7912337167453286,
+     "pas de Newton": 0.6889765926230556,
+     "directions principales": 0.031201462456487285,
+     "dimension": 200,
+     "gain": -1.2229909728802617,
+     "entraînement pilote": 1.3373069081864541
+    }
+   }
+  }
+ }
+}

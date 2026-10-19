@@ -1,0 +1,75 @@
+{
+ "graine": 3,
+ "p2": {
+  "Mackey-Glass (+15)": {
+   "premières": -4.406470877264853,
+   "aléatoires": -4.776065717865668,
+   "bande k = 10": -4.562707425472254,
+   "post-hoc": {
+    "RNN entraîné": -4.159101835619635,
+    "part de ΔW dans les 1 000 premières": 0.393585107238618,
+    "hasard": 0.1,
+    "rang stable de ΔW": 3.2875591277236076,
+    "Henrici W₀": 0.7354852560736431,
+    "Henrici W₀ + ΔW": 0.7214577637762345,
+    "ratio de participation de C": 1.2707109451293945
+   }
+  },
+  "NARMA10": {
+   "premières": -2.0211834861168367,
+   "aléatoires": -1.9863061255510057,
+   "bande k = 10": -2.0886806392470336,
+   "post-hoc": {
+    "RNN entraîné": -1.3927481247953535,
+    "part de ΔW dans les 1 000 premières": 0.25460014029144695,
+    "hasard": 0.1,
+    "rang stable de ΔW": 6.289187766595521,
+    "Henrici W₀": 0.7354852560736431,
+    "Henrici W₀ + ΔW": 0.7081364161058715,
+    "ratio de participation de C": 1.731324553489685
+   }
+  },
+  "Mémoire (délai 15)": {
+   "premières": -2.810828808406521,
+   "aléatoires": -2.918961018739723,
+   "bande k = 10": -2.9772889928006157,
+   "post-hoc": {
+    "RNN entraîné": -2.5898662337881397,
+    "part de ΔW dans les 1 000 premières": 0.25027951619161104,
+    "hasard": 0.1,
+    "rang stable de ΔW": 3.8703228370330924,
+    "Henrici W₀": 0.7354852560736431,
+    "Henrici W₀ + ΔW": 0.7329129336149192,
+    "ratio de participation de C": 4.16784143447876
+   }
+  },
+  "Lorenz (+10)": {
+   "premières": -4.362159805591739,
+   "aléatoires": -3.885509819116654,
+   "bande k = 10": -4.391115497158205,
+   "post-hoc": {
+    "RNN entraîné": -4.151646495833374,
+    "part de ΔW dans les 1 000 premières": 0.44884992969388815,
+    "hasard": 0.1,
+    "rang stable de ΔW": 2.157186914824628,
+    "Henrici W₀": 0.7354852560736431,
+    "Henrici W₀ + ΔW": 0.7436736195583495,
+    "ratio de participation de C": 1.3478847742080688
+   }
+  },
+  "Hénon (+3)": {
+   "premières": -1.8123350951811585,
+   "aléatoires": -1.8285353622843057,
+   "bande k = 10": -1.8765130741667955,
+   "post-hoc": {
+    "RNN entraîné": -1.6908243004468186,
+    "part de ΔW dans les 1 000 premières": 0.3610338539268151,
+    "hasard": 0.1,
+    "rang stable de ΔW": 2.4625922416901846,
+    "Henrici W₀": 0.7354852560736431,
+    "Henrici W₀ + ΔW": 0.7933658801977669,
+    "ratio de participation de C": 2.89411997795105
+   }
+  }
+ }
+}

@@ -1,0 +1,537 @@
+{
+ "Silverbox — multisinus": {
+  "réservoir cisaillé en bande, k = 1": {
+   "rmse": 4.896704713919512,
+   "se": 0.2272545852679158,
+   "nmse": 0.008097648442325975,
+   "paramètres": 1499,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 2.9276831626947497,
+   "se": 0.20637218141336164,
+   "nmse": 0.0028793189300926987,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 3.9281347830461257,
+   "se": 0.335184552618174,
+   "nmse": 0.005156632282407329,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 100": {
+   "rmse": 6.782882463181139,
+   "se": 0.17386352651621453,
+   "nmse": 0.015582351104275903,
+   "paramètres": 45950,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 3.6289461513729524,
+   "se": 0.5185166161872098,
+   "nmse": 0.004299065518517805,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 2.8537824480805014,
+   "se": 0.15013289883001396,
+   "nmse": 0.0027471256027179493,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 2.916911995461191,
+   "se": 0.18306776699550212,
+   "nmse": 0.002863747884188256,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 5.141821473480469,
+   "se": 0.21301866612121106,
+   "nmse": 0.008935298516461295,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "réservoir classique": {
+   "rmse": 28.972320030499493,
+   "se": 0.3375474009145384,
+   "nmse": 0.28459920797955923,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "réservoir accordé": {
+   "rmse": 4.2541981463725485,
+   "se": 0.17077467414061345,
+   "nmse": 0.0061178243960184715,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 13.271556818602894,
+   "se": 0.8855185385447051,
+   "nmse": 0.05918907228851446,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 3.6354119572858443,
+   "se": 0.3696758408638214,
+   "nmse": 0.004392762075065417,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé": {
+   "rmse": 10.82151037381702,
+   "se": 0.24724541351006454,
+   "nmse": 0.039673489912709,
+   "paramètres": 125750,
+   "graines": 3
+  },
+  "GRU, init soignée": {
+   "rmse": 4.949168842564987,
+   "se": 0.7243280694286771,
+   "nmse": 0.007933928584556016,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU": {
+   "rmse": 7.837518631434609,
+   "se": 0.05672663100185752,
+   "nmse": 0.020830373683537216,
+   "paramètres": 251750,
+   "graines": 3
+  }
+ },
+ "Silverbox — flèche (avec extrapolation)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "rmse": 10.335058841266694,
+   "se": 0.11095076081339748,
+   "nmse": 0.037335045939224806,
+   "paramètres": 1499,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 8.133400567812195,
+   "se": 0.16281346801069577,
+   "nmse": 0.023109040603759876,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 8.706598107270942,
+   "se": 0.1634745433122621,
+   "nmse": 0.02648401552911028,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 100": {
+   "rmse": 12.875688878337039,
+   "se": 1.3017983707747964,
+   "nmse": 0.05683991022761176,
+   "paramètres": 45950,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 9.094119725724587,
+   "se": 0.1307473742512018,
+   "nmse": 0.028902334000310618,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 8.117841167948143,
+   "se": 0.07857071493708001,
+   "nmse": 0.02303507357147924,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 8.053382717908177,
+   "se": 0.19819607362588482,
+   "nmse": 0.022647283601519314,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 11.417550364837643,
+   "se": 0.22108706394345037,
+   "nmse": 0.045541700059746594,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "réservoir classique": {
+   "rmse": 33.74717030520299,
+   "se": 0.38428812807809953,
+   "nmse": 0.3980640612646186,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "réservoir accordé": {
+   "rmse": 9.927675163608692,
+   "se": 0.1389788297840557,
+   "nmse": 0.03444410653337763,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 17.228603622430366,
+   "se": 0.5202576447287734,
+   "nmse": 0.10358350324927507,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 9.097191136761923,
+   "se": 0.12587155212884626,
+   "nmse": 0.02892259752656246,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé": {
+   "rmse": 15.382060340905625,
+   "se": 0.23578009637972322,
+   "nmse": 0.08268305035706199,
+   "paramètres": 125750,
+   "graines": 3
+  },
+  "GRU, init soignée": {
+   "rmse": 7.64271631239088,
+   "se": 0.7167553766701997,
+   "nmse": 0.020046318712298332,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU": {
+   "rmse": 14.806594949434555,
+   "se": 0.0567908370690335,
+   "nmse": 0.07664570924807089,
+   "paramètres": 251750,
+   "graines": 3
+  }
+ },
+ "Silverbox — flèche (sans extrapolation)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "rmse": 4.389210835994075,
+   "se": 0.18197687926648887,
+   "nmse": 0.01037923850289972,
+   "paramètres": 1499,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 2.7848252613460076,
+   "se": 0.21037832100784395,
+   "nmse": 0.0041468377073912085,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 3.5509543420713925,
+   "se": 0.16333597621132045,
+   "nmse": 0.006788080745532816,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 100": {
+   "rmse": 8.160612597932262,
+   "se": 1.9235409784632265,
+   "nmse": 0.032449102525264485,
+   "paramètres": 45950,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 3.5216715541912635,
+   "se": 0.40006213674193547,
+   "nmse": 0.006542595151831206,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 2.7250866563435583,
+   "se": 0.13630940979646877,
+   "nmse": 0.003994897847754165,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 2.75837692245101,
+   "se": 0.1905149529832163,
+   "nmse": 0.0040756067187707285,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 4.761498230394568,
+   "se": 0.17671425609890695,
+   "nmse": 0.012221790147678595,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "réservoir classique": {
+   "rmse": 26.299099926870383,
+   "se": 0.67211785318428,
+   "nmse": 0.37341149657729067,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "réservoir accordé": {
+   "rmse": 4.032796297133644,
+   "se": 0.16011534738719818,
+   "nmse": 0.008763610875332544,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 11.17919175232561,
+   "se": 0.6280646807123379,
+   "nmse": 0.06712608485424496,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 3.55513538655841,
+   "se": 0.28740258979503824,
+   "nmse": 0.006745564146978501,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé": {
+   "rmse": 10.413636523233889,
+   "se": 0.3785273756081077,
+   "nmse": 0.058465489814011305,
+   "paramètres": 125750,
+   "graines": 3
+  },
+  "GRU, init soignée": {
+   "rmse": 4.075479417740115,
+   "se": 0.5603096692384456,
+   "nmse": 0.008620614662971614,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU": {
+   "rmse": 7.138464159819414,
+   "se": 0.0925379349893885,
+   "nmse": 0.0275380718683199,
+   "paramètres": 251750,
+   "graines": 3
+  }
+ },
+ "Wiener-Hammerstein (2009) — test WH": {
+  "réservoir cisaillé en bande, k = 1": {
+   "rmse": 12.772092048454695,
+   "se": 0.10239349502671026,
+   "nmse": 0.0027419157271022254,
+   "paramètres": 1499,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 7.844438539316363,
+   "se": 0.21522915399546555,
+   "nmse": 0.0010329132301921567,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 9.418531349672262,
+   "se": 0.514014448948341,
+   "nmse": 0.0014824529602890004,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 100": {
+   "rmse": 13.077564622577848,
+   "se": 0.18284548471611342,
+   "nmse": 0.0028738866354188213,
+   "paramètres": 45950,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 8.742301986249585,
+   "se": 0.20982864505071133,
+   "nmse": 0.001283304950992072,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 7.643030716187905,
+   "se": 0.06831415148757032,
+   "nmse": 0.0009818572511466584,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 7.746612724362122,
+   "se": 0.32129710655007854,
+   "nmse": 0.001005394567192895,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 7.805589067286743,
+   "se": 0.28546259091578774,
+   "nmse": 0.0010215495334241727,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "réservoir classique": {
+   "rmse": 83.442591981689,
+   "se": 3.1288026975845757,
+   "nmse": 0.11670989842562135,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "réservoir accordé": {
+   "rmse": 11.786073780913936,
+   "se": 0.028380553616808815,
+   "nmse": 0.002335174846145098,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 22.609472093666312,
+   "se": 0.9255339214200248,
+   "nmse": 0.008564976586651988,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 9.815769857546377,
+   "se": 0.07759121253106532,
+   "nmse": 0.0016194975628819935,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé": {
+   "rmse": 18.305451935895544,
+   "se": 1.1384984929261261,
+   "nmse": 0.005590810252420282,
+   "paramètres": 125750,
+   "graines": 3
+  },
+  "GRU, init soignée": {
+   "rmse": 3.170527710301036,
+   "se": 0.20380460307908688,
+   "nmse": 0.0001675384349616066,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU": {
+   "rmse": 22.273133312185863,
+   "se": 0.053559952132178644,
+   "nmse": 0.008339571552543711,
+   "paramètres": 251750,
+   "graines": 3
+  }
+ },
+ "Cascaded Tanks — test Cascaded_Tanks": {
+  "réservoir cisaillé en bande, k = 1": {
+   "rmse": 1.7217965695059736,
+   "se": 0.31830111666094235,
+   "nmse": 0.6104241416060188,
+   "paramètres": 1499,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "rmse": 4.264524179256255,
+   "se": 0.7510357111841262,
+   "nmse": 3.8020425894595853,
+   "paramètres": 5945,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 30": {
+   "rmse": 3.379347501499938,
+   "se": 0.8633323251360596,
+   "nmse": 2.178606730355959,
+   "paramètres": 15535,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 100": {
+   "rmse": 597.1989289425943,
+   "se": 460.7859649754779,
+   "nmse": 11268.333949095593,
+   "paramètres": 45950,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 3": {
+   "rmse": 2.4651995948551755,
+   "se": 0.2425185336391567,
+   "nmse": 1.3274703849877856,
+   "paramètres": 2994,
+   "graines": 3
+  },
+  "cisaillé en bande avec amplitudes (A et N), k = 10": {
+   "rmse": 4.811067385872845,
+   "se": 0.19035494719509552,
+   "nmse": 5.134367785117991,
+   "paramètres": 6445,
+   "graines": 3
+  },
+  "cisaillé à porte d'entrée (minGRU), k = 10": {
+   "rmse": 4.30743831448206,
+   "se": 1.0065987547655666,
+   "nmse": 3.589349180304367,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "cisaillé linéaire à porte d'entrée, k = 10": {
+   "rmse": 3.1947739758630234,
+   "se": 0.6895609391913088,
+   "nmse": 2.037054839567617,
+   "paramètres": 6945,
+   "graines": 3
+  },
+  "réservoir classique": {
+   "rmse": 2.498785758747579,
+   "se": 0.09522342847673275,
+   "nmse": 1.385256739421665,
+   "paramètres": 0,
+   "graines": 3
+  },
+  "réservoir accordé": {
+   "rmse": 1.68556155703629,
+   "se": 0.19595933382327307,
+   "nmse": 0.6136107742405859,
+   "paramètres": 1500,
+   "graines": 3
+  },
+  "k = 0 (biais et entrées appris, sans g)": {
+   "rmse": 3.0279298163950337,
+   "se": 0.20567834166913082,
+   "nmse": 2.0218804539504447,
+   "paramètres": 1000,
+   "graines": 3
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "rmse": 3.5435163406939076,
+   "se": 0.7904473942847329,
+   "nmse": 2.550984512189049,
+   "paramètres": 2494,
+   "graines": 3
+  },
+  "réservoir cisaillé": {
+   "rmse": 439.79446627906464,
+   "se": 74.61503113039592,
+   "nmse": 40516.163307137715,
+   "paramètres": 125750,
+   "graines": 3
+  },
+  "GRU, init soignée": {
+   "rmse": 38.09753869885369,
+   "se": 34.013987260690925,
+   "nmse": 31.563003652236677,
+   "paramètres": 754500,
+   "graines": 3
+  },
+  "LRU": {
+   "rmse": 1.9994495530417327,
+   "se": 0.1977150290380613,
+   "nmse": 0.87235002716099,
+   "paramètres": 251750,
+   "graines": 3
+  }
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "jeux": {
+  "JapaneseVowels": {
+   "infos": {
+    "classes": 9,
+    "entraînement": 216,
+    "validation": 54,
+    "test": 370,
+    "longueur": 29,
+    "dimensions": 12,
+    "époques": 100,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.9738738738738739,
+    "RNN": 0.972072072072072,
+    "GRU, init soignée": 0.9576576576576578,
+    "LRU": 0.9747747747747747,
+    "réservoir accordé": 0.9801801801801803,
+    "réservoir accordé linéaire (type LRU)": 0.981081081081081
+   },
+   "erreur type": {
+    "réservoir classique": 0.003926935985171767,
+    "RNN": 0.0009009009009009287,
+    "GRU, init soignée": 0.0009009009009008917,
+    "LRU": 0.0023835597396978402,
+    "réservoir accordé": 0.0018018018018018207,
+    "réservoir accordé linéaire (type LRU)": 0.0027027027027027124
+   }
+  },
+  "SpokenArabicDigits": {
+   "infos": {
+    "classes": 10,
+    "entraînement": 5279,
+    "validation": 1320,
+    "test": 2199,
+    "longueur": 93,
+    "dimensions": 13,
+    "époques": 4,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.7615582840685159,
+    "RNN": 0.874488403819918,
+    "GRU, init soignée": 0.9719569501288464,
+    "LRU": 0.9279975746551462,
+    "réservoir accordé": 0.8808549340609367,
+    "réservoir accordé linéaire (type LRU)": 0.8999545247839927
+   },
+   "erreur type": {
+    "réservoir classique": 0.001935295639654953,
+    "RNN": 0.02024030294158061,
+    "GRU, init soignée": 0.0012951347196176219,
+    "LRU": 0.0022329725424672293,
+    "réservoir accordé": 0.007770808317705807,
+    "réservoir accordé linéaire (type LRU)": 0.001639632230770328
+   }
+  },
+  "CharacterTrajectories": {
+   "infos": {
+    "classes": 20,
+    "entraînement": 1138,
+    "validation": 284,
+    "test": 1436,
+    "longueur": 182,
+    "dimensions": 3,
+    "époques": 18,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.7732126276694521,
+    "RNN": 0.7755338904363974,
+    "GRU, init soignée": 0.9605385329619313,
+    "LRU": 0.9431290622098422,
+    "réservoir accordé": 0.9018105849582173,
+    "réservoir accordé linéaire (type LRU)": 0.9387186629526463
+   },
+   "erreur type": {
+    "réservoir classique": 0.012394325974199141,
+    "RNN": 0.023698489965503687,
+    "GRU, init soignée": 0.00890288250267648,
+    "LRU": 0.007546781897404317,
+    "réservoir accordé": 0.0006963788300835548,
+    "réservoir accordé linéaire (type LRU)": 0.005527335608073672
+   }
+  },
+  "UWaveGestureLibrary": {
+   "infos": {
+    "classes": 8,
+    "entraînement": 96,
+    "validation": 24,
+    "test": 320,
+    "longueur": 315,
+    "dimensions": 3,
+    "époques": 150,
+    "lot": 24
+   },
+   "précision": {
+    "réservoir classique": 0.496875,
+    "RNN": 0.6072916666666667,
+    "GRU, init soignée": 0.7875,
+    "LRU": 0.5947916666666666,
+    "réservoir accordé": 0.6020833333333333,
+    "réservoir accordé linéaire (type LRU)": 0.60625
+   },
+   "erreur type": {
+    "réservoir classique": 0.004773516348912347,
+    "RNN": 0.014471295822343529,
+    "GRU, init soignée": 0.009021097956087904,
+    "LRU": 0.013541666666666665,
+    "réservoir accordé": 0.00993686668142653,
+    "réservoir accordé linéaire (type LRU)": 0.020491995388443745
+   }
+  },
+  "ArticularyWordRecognition": {
+   "infos": {
+    "classes": 25,
+    "entraînement": 225,
+    "validation": 50,
+    "test": 300,
+    "longueur": 144,
+    "dimensions": 9,
+    "époques": 86,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.7822222222222223,
+    "RNN": 0.8766666666666666,
+    "GRU, init soignée": 0.9288888888888889,
+    "LRU": 0.8555555555555555,
+    "réservoir accordé": 0.8777777777777778,
+    "réservoir accordé linéaire (type LRU)": 0.86
+   },
+   "erreur type": {
+    "réservoir classique": 0.004843221048378541,
+    "RNN": 0.008388704928078621,
+    "GRU, init soignée": 0.008012336167697745,
+    "LRU": 0.0061864048475888875,
+    "réservoir accordé": 0.006758625033664684,
+    "réservoir accordé linéaire (type LRU)": 0.00962250448649376
+   }
+  },
+  "Epilepsy": {
+   "infos": {
+    "classes": 4,
+    "entraînement": 110,
+    "validation": 27,
+    "test": 138,
+    "longueur": 206,
+    "dimensions": 3,
+    "époques": 150,
+    "lot": 27
+   },
+   "précision": {
+    "réservoir classique": 0.5917874396135265,
+    "RNN": 0.9227053140096618,
+    "GRU, init soignée": 0.8961352657004831,
+    "LRU": 0.8333333333333334,
+    "réservoir accordé": 0.8888888888888888,
+    "réservoir accordé linéaire (type LRU)": 0.8260869565217391
+   },
+   "erreur type": {
+    "réservoir classique": 0.0024154589371980415,
+    "RNN": 0.01052874140951852,
+    "GRU, init soignée": 0.025562814599657896,
+    "LRU": 0.011069023417767707,
+    "réservoir accordé": 0.015839223488652174,
+    "réservoir accordé linéaire (type LRU)": 0.01508453622801546
+   }
+  },
+  "NATOPS": {
+   "infos": {
+    "classes": 6,
+    "entraînement": 144,
+    "validation": 36,
+    "test": 180,
+    "longueur": 51,
+    "dimensions": 24,
+    "époques": 150,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.7888888888888889,
+    "RNN": 0.8833333333333333,
+    "GRU, init soignée": 0.898148148148148,
+    "LRU": 0.8814814814814814,
+    "réservoir accordé": 0.8666666666666667,
+    "réservoir accordé linéaire (type LRU)": 0.8814814814814814
+   },
+   "erreur type": {
+    "réservoir classique": 0.00320750149549791,
+    "RNN": 0.008486251286955267,
+    "GRU, init soignée": 0.011264375056107808,
+    "LRU": 0.011264375056107806,
+    "réservoir accordé": 0.005555555555555537,
+    "réservoir accordé linéaire (type LRU)": 0.0018518518518518456
+   }
+  },
+  "BasicMotions": {
+   "infos": {
+    "classes": 4,
+    "entraînement": 32,
+    "validation": 8,
+    "test": 40,
+    "longueur": 100,
+    "dimensions": 6,
+    "époques": 150,
+    "lot": 8
+   },
+   "précision": {
+    "réservoir classique": 0.6333333333333333,
+    "RNN": 0.8166666666666668,
+    "GRU, init soignée": 0.9833333333333334,
+    "LRU": 0.8166666666666668,
+    "réservoir accordé": 0.7833333333333333,
+    "réservoir accordé linéaire (type LRU)": 0.8166666666666668
+   },
+   "erreur type": {
+    "réservoir classique": 0.022047927592204943,
+    "RNN": 0.06009252125773318,
+    "GRU, init soignée": 0.008333333333333342,
+    "LRU": 0.016666666666666646,
+    "réservoir accordé": 0.008333333333333342,
+    "réservoir accordé linéaire (type LRU)": 0.016666666666666646
+   }
+  },
+  "Libras": {
+   "infos": {
+    "classes": 15,
+    "entraînement": 150,
+    "validation": 30,
+    "test": 180,
+    "longueur": 45,
+    "dimensions": 2,
+    "époques": 150,
+    "lot": 32
+   },
+   "précision": {
+    "réservoir classique": 0.5055555555555555,
+    "RNN": 0.6148148148148148,
+    "GRU, init soignée": 0.7166666666666667,
+    "LRU": 0.737037037037037,
+    "réservoir accordé": 0.6185185185185186,
+    "réservoir accordé linéaire (type LRU)": 0.7444444444444445
+   },
+   "erreur type": {
+    "réservoir classique": 0.012830005981991686,
+    "RNN": 0.01582222915799541,
+    "GRU, init soignée": 0.02796234976026205,
+    "LRU": 0.006676946806414807,
+    "réservoir accordé": 0.012143404674633328,
+    "réservoir accordé linéaire (type LRU)": 0.01111111111111111
+   }
+  },
+  "RacketSports": {
+   "infos": {
+    "classes": 4,
+    "entraînement": 120,
+    "validation": 31,
+    "test": 152,
+    "longueur": 30,
+    "dimensions": 6,
+    "époques": 150,
+    "lot": 30
+   },
+   "précision": {
+    "réservoir classique": 0.6885964912280702,
+    "RNN": 0.7565789473684209,
+    "GRU, init soignée": 0.7280701754385964,
+    "LRU": 0.7719298245614036,
+    "réservoir accordé": 0.7741228070175438,
+    "réservoir accordé linéaire (type LRU)": 0.7456140350877193
+   },
+   "erreur type": {
+    "réservoir classique": 0.03230464882161455,
+    "RNN": 0.01899178517071137,
+    "GRU, init soignée": 0.004385964912280679,
+    "LRU": 0.0058020862084749835,
+    "réservoir accordé": 0.024420019135219375,
+    "réservoir accordé linéaire (type LRU)": 0.025290707444453497
+   }
+  }
+ },
+ "rang moyen": {
+  "réservoir classique": 5.8,
+  "RNN": 3.3,
+  "GRU, init soignée": 2.2,
+  "LRU": 3.1,
+  "réservoir accordé": 3.4,
+  "réservoir accordé linéaire (type LRU)": 3.2
+ },
+ "précision moyenne": {
+  "réservoir classique": 0.6995903716453438,
+  "RNN": 0.8100151775854618,
+  "GRU, init soignée": 0.8828895618924552,
+  "LRU": 0.8336696976941906,
+  "réservoir accordé": 0.8174237024735398,
+  "réservoir accordé linéaire (type LRU)": 0.8300297853019771
+ }
+}

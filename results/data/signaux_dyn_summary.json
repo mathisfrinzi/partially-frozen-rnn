@@ -1,0 +1,2896 @@
+{
+ "tâches": [
+  "Mackey-Glass (+15)",
+  "NARMA10",
+  "Mémoire (délai 15)",
+  "Lorenz (+10)",
+  "Hénon (+3)"
+ ],
+ "t": [
+  0,
+  30,
+  100,
+  300,
+  1000
+ ],
+ "graines": 3,
+ "meilleure": {
+  "0": {
+   "Mackey-Glass (+15)": {
+    "RNN": -3.699693468284773,
+    "accordé": -3.7173330161766907,
+    "tourné": -3.8692906443052553,
+    "cisaillé": -4.2030063292509,
+    "biais et entrées": -3.5516711998064157
+   },
+   "NARMA10": {
+    "RNN": -1.4598668800163355,
+    "accordé": -1.1839943066800995,
+    "tourné": -1.3382877351585492,
+    "cisaillé": -1.626774074423901,
+    "biais et entrées": -0.8307065682631491
+   },
+   "Mémoire (délai 15)": {
+    "RNN": -1.9998561624319728,
+    "accordé": -1.7884477588741445,
+    "tourné": -1.2286540703952005,
+    "cisaillé": -2.2383811123483266,
+    "biais et entrées": -1.125345562895843
+   },
+   "Lorenz (+10)": {
+    "RNN": -3.7047853464748424,
+    "accordé": -3.197196853308776,
+    "tourné": -3.3279417216312766,
+    "cisaillé": -3.672756512501971,
+    "biais et entrées": -3.5985147749299498
+   },
+   "Hénon (+3)": {
+    "RNN": -0.7618426759718914,
+    "accordé": -0.7710044256638646,
+    "tourné": -1.175138823576315,
+    "cisaillé": -0.9292363917683217,
+    "biais et entrées": -0.9148006195113728
+   }
+  },
+  "30": {
+   "Mackey-Glass (+15)": {
+    "RNN": -3.7809843390635387,
+    "accordé": -3.551900749187757,
+    "tourné": -3.774958424670803,
+    "cisaillé": -3.7444508735010817,
+    "biais et entrées": -2.9771640002502533
+   },
+   "NARMA10": {
+    "RNN": -1.424202159140477,
+    "accordé": -1.2374591056149622,
+    "tourné": -1.4679523653255195,
+    "cisaillé": -1.6440321785046388,
+    "biais et entrées": -1.0597210471551692
+   },
+   "Mémoire (délai 15)": {
+    "RNN": -2.0604378964109533,
+    "accordé": -1.5388779359880786,
+    "tourné": -1.049585287273075,
+    "cisaillé": -2.143831565338866,
+    "biais et entrées": -0.21776772084267415
+   },
+   "Lorenz (+10)": {
+    "RNN": -3.621802735917685,
+    "accordé": -2.655230480936183,
+    "tourné": -3.0582626167172635,
+    "cisaillé": -3.37936460894068,
+    "biais et entrées": -2.387300470209802
+   },
+   "Hénon (+3)": {
+    "RNN": -0.6306510147569302,
+    "accordé": -0.722690746983516,
+    "tourné": -1.0982860431242465,
+    "cisaillé": -0.8833477619176818,
+    "biais et entrées": -0.814702154132852
+   }
+  },
+  "100": {
+   "Mackey-Glass (+15)": {
+    "RNN": -3.7261548893931677,
+    "accordé": -3.132027813727303,
+    "tourné": -3.9030988159107616,
+    "cisaillé": -3.562903487791669,
+    "biais et entrées": -3.108628368414699
+   },
+   "NARMA10": {
+    "RNN": -1.42661438877047,
+    "accordé": -1.3932068967634343,
+    "tourné": -1.545817159559476,
+    "cisaillé": -1.6147053480239577,
+    "biais et entrées": -1.3134550253018666
+   },
+   "Mémoire (délai 15)": {
+    "RNN": -2.0357500102285995,
+    "accordé": -1.9831949255333594,
+    "tourné": -1.2829683384210322,
+    "cisaillé": -2.1233412791465973,
+    "biais et entrées": -0.847215370357134
+   },
+   "Lorenz (+10)": {
+    "RNN": -3.6912327681975667,
+    "accordé": -3.051577262674677,
+    "tourné": -3.4633318300540092,
+    "cisaillé": -3.516311627043318,
+    "biais et entrées": -2.6705478753786847
+   },
+   "Hénon (+3)": {
+    "RNN": -0.7060194122331911,
+    "accordé": -0.5641205869168291,
+    "tourné": -0.8791368257771106,
+    "cisaillé": -0.8026605797505549,
+    "biais et entrées": -0.6614805519845364
+   }
+  },
+  "300": {
+   "Mackey-Glass (+15)": {
+    "RNN": -3.7615928116308894,
+    "accordé": -3.6151746549945134,
+    "tourné": -4.06122703239854,
+    "cisaillé": -3.734935555467297,
+    "biais et entrées": -3.5746781394474723
+   },
+   "NARMA10": {
+    "RNN": -1.4627979753536307,
+    "accordé": -1.5421948902848808,
+    "tourné": -1.6352181813746416,
+    "cisaillé": -1.6169006231210752,
+    "biais et entrées": -1.462502807739705
+   },
+   "Mémoire (délai 15)": {
+    "RNN": -2.1231575721162828,
+    "accordé": -2.2890093348080747,
+    "tourné": -2.199542170878809,
+    "cisaillé": -2.2774906430198096,
+    "biais et entrées": -2.2611799203729617
+   },
+   "Lorenz (+10)": {
+    "RNN": -3.528438656977924,
+    "accordé": -3.532890922902356,
+    "tourné": -3.7456593052450864,
+    "cisaillé": -3.7128751188157376,
+    "biais et entrées": -3.521997542350377
+   },
+   "Hénon (+3)": {
+    "RNN": -0.9042023973827328,
+    "accordé": -0.6599876714906737,
+    "tourné": -0.8777463409049092,
+    "cisaillé": -0.800401821929036,
+    "biais et entrées": -0.6671064592126937
+   }
+  },
+  "1000": {
+   "Mackey-Glass (+15)": {
+    "RNN": -3.9384183981695204,
+    "accordé": -4.019183389175024,
+    "tourné": -4.012674685279445,
+    "cisaillé": -4.041815398537107,
+    "biais et entrées": -4.013673570088038
+   },
+   "NARMA10": {
+    "RNN": -1.440150631487245,
+    "accordé": -1.5337680966430813,
+    "tourné": -1.5515641878356499,
+    "cisaillé": -1.5569266315891612,
+    "biais et entrées": -1.5530472844760794
+   },
+   "Mémoire (délai 15)": {
+    "RNN": -2.331008713742632,
+    "accordé": -2.4100753352934707,
+    "tourné": -2.526481764165103,
+    "cisaillé": -2.4589896203441133,
+    "biais et entrées": -2.4811513606310904
+   },
+   "Lorenz (+10)": {
+    "RNN": -3.625886766977653,
+    "accordé": -3.9988313986880404,
+    "tourné": -3.9060966114786595,
+    "cisaillé": -4.016192877419063,
+    "biais et entrées": -3.7881264987684085
+   },
+   "Hénon (+3)": {
+    "RNN": -1.3100807712367375,
+    "accordé": -1.0745373438717039,
+    "tourné": -1.3495015086406672,
+    "cisaillé": -1.0623405281877627,
+    "biais et entrées": -1.0883370906715946
+   }
+  }
+ },
+ "choix": {
+  "0": {
+   "part captée": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.3953487714069634,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.28848633926535183
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.0097270419531261
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.2644082305788939,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5033128609661266
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     },
+     "r": -0.19242211602626036,
+     "p": 0.47
+    }
+   },
+   "part par paramètre": {
+    "3 familles": {
+     "bons": 0,
+     "regret": 0.4516160982795676,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.485673313074209
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.44277976774380146
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.44993335347418206
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.4755596591931952
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4041343979124503
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.5854093921335108,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.651335129444484
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.7960675061607518
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.1130355494524835
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.10627057154489261
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.2603382040649421
+      }
+     },
+     "r": -0.1924221160262601,
+     "p": 0.459
+    }
+   },
+   "signal sur bruit": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.2242620487120281,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.44277976774380146
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.3902402929295311,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5033128609661266
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.7960675061607518
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     },
+     "r": -0.10574201937365486,
+     "p": 0.6685
+    }
+   },
+   "accord entraînement-validation": {
+    "3 familles": {
+     "bons": 3,
+     "regret": 0.16609762078898074,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.485673313074209
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.2885440559859528,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.485673313074209
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.3768436248435658
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     },
+     "r": 0.026491693953610906,
+     "p": 0.9195
+    }
+   },
+   "pas de Newton": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.3953487714069634,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.28848633926535183
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.0097270419531261
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.2644082305788939,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5033128609661266
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     },
+     "r": 0.02556648028742389,
+     "p": 0.932
+    }
+   },
+   "directions principales": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.3953487714069634,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.28848633926535183
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.0097270419531261
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.2644082305788939,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5033128609661266
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     },
+     "r": 0.06222517574795386,
+     "p": 0.8235
+    }
+   },
+   "entraînement pilote": {
+    "3 familles": {
+     "bons": 3,
+     "regret": 0.13570609516326781,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.16908368016289127,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.10627057154489261
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     },
+     "r": 0.35739090814180363,
+     "p": 0.178
+    }
+   },
+   "taille": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.3953487714069634,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3337156849456444
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.28848633926535183
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.0097270419531261
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.34481479087069467
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.2644082305788939,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5033128609661266
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.16690719440756552
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.23852494991635376
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.41329614760442357
+      }
+     }
+    }
+   },
+   "hasard": {
+    "3 familles": {
+     "regret": 0.29871511868271,
+     "bons": 1.6666666666666667
+    },
+    "5 structures": {
+     "regret": 0.3530360558288512,
+     "bons": 1.0
+    }
+   }
+  },
+  "30": {
+   "part captée": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.3182856166936653,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.17607981317911925
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.094246278065791
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.15417174333187816,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4676350283673163
+      }
+     },
+     "r": 0.3566749554597486,
+     "p": 0.145
+    }
+   },
+   "part par paramètre": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.42225122527713826,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.4065730728896766
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.6049536293507873
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.7241341280044971
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3755952961407305
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.5426753659584541,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.0060259143927359204
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.5843111313494695
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.6049536293507873
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 1.2345022657078832
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.28358388899139453
+      }
+     },
+     "r": 0.35667495545974826,
+     "p": 0.1255
+    }
+   },
+   "signal sur bruit": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.26526560734737387,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.22305767548304578
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.4065730728896766
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3755952961407305
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.4281822177645382,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.8038203388132854
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.4065730728896766
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.5635401192004217
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.28358388899139453
+      }
+     },
+     "r": 0.458410033400385,
+     "p": 0.079
+    }
+   },
+   "accord entraînement-validation": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.04461153509660916,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.22305767548304578
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.3634234364899363,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.8038203388132854
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "RNN",
+       "regret": 0.24243812697700529
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4676350283673163
+      }
+     },
+     "r": 0.24666212911175228,
+     "p": 0.4965
+    }
+   },
+   "pas de Newton": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.3182856166936653,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.17607981317911925
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.094246278065791
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.15417174333187816,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4676350283673163
+      }
+     },
+     "r": 0.35417393453487617,
+     "p": 0.1145
+    }
+   },
+   "directions principales": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.3182856166936653,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.17607981317911925
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.094246278065791
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.15417174333187816,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4676350283673163
+      }
+     },
+     "r": 0.28118907903128226,
+     "p": 0.3055
+    }
+   },
+   "entraînement pilote": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.06422039844468327,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.061849920536962075,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.0060259143927359204
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     },
+     "r": 0.5830694634836342,
+     "p": 0.023
+    }
+   },
+   "taille": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.3182856166936653,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.17607981317911925
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 1.094246278065791
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.3211019922234164
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.15417174333187816,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2198300193641618
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08339366892791267
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4676350283673163
+      }
+     }
+    }
+   },
+   "hasard": {
+    "3 familles": {
+     "regret": 0.2780791811808899,
+     "bons": 1.6666666666666667
+    },
+    "5 structures": {
+     "regret": 0.42078880111360756,
+     "bons": 1.0
+    }
+   }
+  },
+  "100": {
+   "part captée": {
+    "3 familles": {
+     "bons": 3,
+     "regret": 0.024373597090758103,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.12514871364659977,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17694392651759383
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.18809095925348762
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17311741354391952
+      }
+     },
+     "r": 0.7044113766723898,
+     "p": 0.0025
+    }
+   },
+   "part par paramètre": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.14592816814467033,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.22149845126052337
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.1401463536132379
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3150162388602815
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.3316049780909838,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.7710710021834584
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.30125032272209107
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.1401463536132379
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.2279009381435575
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21765627379257424
+      }
+     },
+     "r": 0.7044113766723905,
+     "p": 0.0
+    }
+   },
+   "signal sur bruit": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.11789889742202275,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.22149845126052337
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3150162388602815
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.16020997711127932,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17694392651759383
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.22149845126052337
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3150162388602815
+      }
+     },
+     "r": 0.7844960302151287,
+     "p": 0.0
+    }
+   },
+   "accord entraînement-validation": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.07019089885527759,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.22149845126052337
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.07647624602655567
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.15797198866551318,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.30125032272209107
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "RNN",
+       "regret": 0.2279009381435575
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17311741354391952
+      }
+     },
+     "r": 0.7449811699120668,
+     "p": 0.015
+    }
+   },
+   "pas de Newton": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.19244818523587112,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.8403729407255651
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.12514871364659977,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17694392651759383
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.18809095925348762
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17311741354391952
+      }
+     },
+     "r": 0.6221545391558395,
+     "p": 0.0015
+    }
+   },
+   "directions principales": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.19244818523587112,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.8403729407255651
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.12514871364659977,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17694392651759383
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.18809095925348762
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17311741354391952
+      }
+     },
+     "r": -0.017713440132054257,
+     "p": 0.95
+    }
+   },
+   "entraînement pilote": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.25545143300792744,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.8403729407255651
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.3150162388602815
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 2,
+     "regret": 0.07482714623501074,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21765627379257424
+      }
+     },
+     "r": 0.5582436523437745,
+     "p": 0.05
+    }
+   },
+   "taille": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.19244818523587112,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.06888818846448164
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.8403729407255651
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.05297979698930888
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.12514871364659977,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17694392651759383
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.18809095925348762
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.08759126891799784
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17311741354391952
+      }
+     }
+    }
+   },
+   "hasard": {
+    "3 familles": {
+     "regret": 0.2194252607074098,
+     "bons": 1.6666666666666667
+    },
+    "5 structures": {
+     "regret": 0.32208294991703845,
+     "bons": 1.0
+    }
+   }
+  },
+  "300": {
+   "part captée": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.017893432785853137,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.08946716392926568
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.17102536754952324,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.299634220767651
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21722064826716236
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      }
+     },
+     "r": 0.2861685828191812,
+     "p": 0.2455
+    }
+   },
+   "part par paramètre": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.19392054405015074,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.44605237740402703
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.09302329108976082
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21276838234273043
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.2177586694142355
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.22400439353015064,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.4865488929510682
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.1727153736349365
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.22366176289470951
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.23709593817003904
+      }
+     },
+     "r": 0.2861685828191813,
+     "p": 0.3025
+    }
+   },
+   "signal sur bruit": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.1387294593720188,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.44605237740402703
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0183175582535664
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.011518691788265034
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.2177586694142355
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.24915194405521027,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.44605237740402703
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21722064826716236
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "RNN",
+       "regret": 0.24421472589205906
+      }
+     },
+     "r": -0.25863389092603306,
+     "p": 0.2375
+    }
+   },
+   "accord entraînement-validation": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.1387294593720188,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.44605237740402703
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0183175582535664
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.011518691788265034
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.2177586694142355
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.20428405685737377,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.44605237740402703
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.23709593817003904
+      }
+     },
+     "r": -0.27697829803460816,
+     "p": 0.2675
+    }
+   },
+   "pas de Newton": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.0023037383576530067,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.011518691788265034
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.17102536754952324,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.299634220767651
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21722064826716236
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      }
+     },
+     "r": 0.34005278748701034,
+     "p": 0.137
+    }
+   },
+   "directions principales": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.017893432785853137,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.08946716392926568
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.17102536754952324,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.299634220767651
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21722064826716236
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      }
+     },
+     "r": 0.4540320260158161,
+     "p": 0.0615
+    }
+   },
+   "entraînement pilote": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.06510867831941351,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0183175582535664
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.08946716392926568
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.2177586694142355
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.13226049782695962,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.1727153736349365
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.027829414435112998
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.22366176289470951
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "RNN",
+       "regret": 0.23709593817003904
+      }
+     },
+     "r": 0.31650476070243183,
+     "p": 0.16
+    }
+   },
+   "taille": {
+    "3 familles": {
+     "bons": 4,
+     "regret": 0.017893432785853137,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.08946716392926568
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.17102536754952324,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.299634220767651
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.17242020602101094
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir accordé (valeurs singulières)",
+       "regret": 0.16585176269179192
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.21722064826716236
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "RNN",
+       "regret": 0.0
+      }
+     }
+    }
+   },
+   "hasard": {
+    "3 familles": {
+     "regret": 0.10168842110388772,
+     "bons": 1.6666666666666667
+    },
+    "5 structures": {
+     "regret": 0.14430690823301087,
+     "bons": 1.0
+    }
+   }
+  },
+  "1000": {
+   "part captée": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.028919884590315314,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.029140713257661766
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.005362443753511359
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11009626594040345
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.1690745797474628,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.10339700036758659
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11677600010191624
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.39030611044141006
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.039420737403929706
+      }
+     },
+     "r": 0.38497923607421003,
+     "p": 0.1835
+    }
+   },
+   "part par paramètre": {
+    "3 familles": {
+     "bons": 0,
+     "regret": 0.0909045233359563,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.022632009362083316
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.02315853494607989
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.11640642887163244
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.01736147873102256
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.27496416476896335
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.11331647514317815,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.028141828449069095
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.003879347113081799
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.04533040353401274
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2280663786506545
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.26116441796907264
+      }
+     },
+     "r": 0.3849792360742106,
+     "p": 0.026
+    }
+   },
+   "signal sur bruit": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.0915830036567736,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.005362443753511359
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.06749214382098989
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11009626594040345
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.27496416476896335
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.19837228147678787,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.028141828449069095
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11677600010191624
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.39030611044141006
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.26116441796907264
+      }
+     },
+     "r": -0.5311579231126343,
+     "p": 0.072
+    }
+   },
+   "accord entraînement-validation": {
+    "3 familles": {
+     "bons": 0,
+     "regret": 0.08242340710494349,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.029140713257661766
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.02315853494607989
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.06749214382098989
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.01736147873102256
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.27496416476896335
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.15839603890457338,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.10339700036758659
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.003879347113081799
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2280663786506545
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.26116441796907264
+      }
+     },
+     "r": -0.15366873847745602,
+     "p": 0.33
+    }
+   },
+   "pas de Newton": {
+    "3 familles": {
+     "bons": 1,
+     "regret": 0.04241831335451329,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.029140713257661766
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.005362443753511359
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.06749214382098989
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11009626594040345
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.1690745797474628,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.10339700036758659
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11677600010191624
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.39030611044141006
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.039420737403929706
+      }
+     },
+     "r": -0.3813722769195337,
+     "p": 0.0535
+    }
+   },
+   "directions principales": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.028919884590315314,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.029140713257661766
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.005362443753511359
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11009626594040345
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.1690745797474628,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.10339700036758659
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11677600010191624
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.39030611044141006
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.039420737403929706
+      }
+     },
+     "r": 0.5063018898597724,
+     "p": 0.082
+    }
+   },
+   "entraînement pilote": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.06415094181542531,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.022632009362083316
+      },
+      "NARMA10": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.02315853494607989
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir cisaillé en bande, k = 10",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.0
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.27496416476896335
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 1,
+     "regret": 0.10701034379635374,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.028141828449069095
+      },
+      "NARMA10": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.003879347113081799
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir à biais et entrées appris (sans g)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.2280663786506545
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir accordé (valeurs singulières)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.27496416476896335
+      }
+     },
+     "r": 0.013321074714904277,
+     "p": 0.9675
+    }
+   },
+   "taille": {
+    "3 familles": {
+     "bons": 2,
+     "regret": 0.028919884590315314,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.029140713257661766
+      },
+      "NARMA10": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.005362443753511359
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      },
+      "Lorenz (+10)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11009626594040345
+      },
+      "Hénon (+3)": {
+       "choisie": "réservoir tourné (rotations)",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.0
+      }
+     }
+    },
+    "5 structures": {
+     "bons": 0,
+     "regret": 0.1690745797474628,
+     "choix": {
+      "Mackey-Glass (+15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.10339700036758659
+      },
+      "NARMA10": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.11677600010191624
+      },
+      "Mémoire (délai 15)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.19547305042247132
+      },
+      "Lorenz (+10)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir cisaillé en bande, k = 10",
+       "regret": 0.39030611044141006
+      },
+      "Hénon (+3)": {
+       "choisie": "RNN",
+       "meilleure": "réservoir tourné (rotations)",
+       "regret": 0.039420737403929706
+      }
+     }
+    }
+   },
+   "hasard": {
+    "3 familles": {
+     "regret": 0.06358501092701693,
+     "bons": 1.6666666666666667
+    },
+    "5 structures": {
+     "regret": 0.09462921753433831,
+     "bons": 1.0
+    }
+   }
+  }
+ }
+}

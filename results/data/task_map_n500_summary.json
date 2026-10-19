@@ -1,0 +1,426 @@
+{
+ "tâches": {
+  "Lorenz (+10)": {
+   "famille": "chaos",
+   "nmse": {
+    "réservoir classique": 0.0005285510255905397,
+    "RNN, lr global × 0.1": 4.569655010030832e-05,
+    "GRU, init soignée": 2.2079904575297073e-07,
+    "LRU": 0.012225358137435166,
+    "réservoir accordé": 4.171495817545631e-05,
+    "réservoir accordé linéaire (type LRU)": 0.004578413269161522,
+    "réservoir accordé à portes": 2.682336271237811e-05,
+    "accordé sélectif": 3.738535654055323e-05,
+    "régression linéaire (fenêtre)": 0.11841339976265539
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 2.2762946203528593,
+    "erreur type": 0.04252743334511978
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -3.4531090378219904
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 2.0845160301490133,
+    "erreur type": 0.17131562460848343
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.19177859020384633,
+    "erreur type": 0.13460516129831168
+   }
+  },
+  "Hénon (+3)": {
+   "famille": "chaos",
+   "nmse": {
+    "réservoir classique": 0.5242991550195413,
+    "RNN, lr global × 0.1": 0.863800479806008,
+    "GRU, init soignée": 0.000836697862749371,
+    "LRU": 0.023524741983022724,
+    "réservoir accordé": 0.06430912061153773,
+    "réservoir accordé linéaire (type LRU)": 0.07313255282201271,
+    "réservoir accordé à portes": 0.036519584432951294,
+    "accordé sélectif": 0.028596944061493126,
+    "régression linéaire (fenêtre)": 0.8007358281766004
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 1.8857039112774026,
+    "erreur type": 0.03873704935563627
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -1.0952166901347014
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 1.639957167295556,
+    "erreur type": 0.0533083722105262
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.24574674398184645,
+    "erreur type": 0.015478696163357133
+   }
+  },
+  "Lorenz-96, 40 entrées (+5)": {
+   "famille": "chaos, grande dimension",
+   "nmse": {
+    "réservoir classique": 0.6606018353878205,
+    "RNN, lr global × 0.1": 0.6365982915008741,
+    "GRU, init soignée": 0.44763937300779744,
+    "LRU": 0.5187265689902607,
+    "réservoir accordé": 0.5486478936053939,
+    "réservoir accordé linéaire (type LRU)": 0.553424612040082,
+    "réservoir accordé à portes": 0.5331799305191938,
+    "accordé sélectif": 0.528780301578362,
+    "régression linéaire (fenêtre)": 0.24091923774267116
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.08836543740747349,
+    "erreur type": 0.001256348123334669
+   },
+   "contre la régression linéaire": {
+    "résultat": "perd",
+    "écart log10": 0.35742223576223764
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.07594551495823243,
+    "erreur type": 0.005926263008076928
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.01241992244924107,
+    "erreur type": 0.005247142299573367
+   }
+  },
+  "Wiener-Hammerstein": {
+   "famille": "identification",
+   "nmse": {
+    "réservoir classique": 0.058282249903561845,
+    "RNN, lr global × 0.1": 0.015486138386971916,
+    "GRU, init soignée": 0.0005889396366442748,
+    "LRU": 0.008252736880703744,
+    "réservoir accordé": 0.0013478609658107747,
+    "réservoir accordé linéaire (type LRU)": 0.005628094515166167,
+    "réservoir accordé à portes": 0.0011604994530021954,
+    "accordé sélectif": 0.002104053774588351,
+    "régression linéaire (fenêtre)": 0.008097811742022407
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.35957431221860015,
+    "erreur type": 0.07390892430462416
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -0.7787225797860483
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.29457415602433484,
+    "erreur type": 0.08540219294768871
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.06500015619426532,
+    "erreur type": 0.014248952362723626
+   }
+  },
+  "Égalisation de canal": {
+   "famille": "télécoms",
+   "nmse": {
+    "réservoir classique": 0.012992009675869977,
+    "RNN, lr global × 0.1": 0.010301481629551443,
+    "GRU, init soignée": 0.004912503947308288,
+    "LRU": 0.010790382235842918,
+    "réservoir accordé": 0.003642123565455542,
+    "réservoir accordé linéaire (type LRU)": 0.008655484055412211,
+    "réservoir accordé à portes": 0.0035924835507833517,
+    "accordé sélectif": 0.0036679653349218325,
+    "régression linéaire (fenêtre)": 0.012095441262684189
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "gagne",
+    "écart log10": -0.12994823643516806,
+    "erreur type": 0.027837578094410283
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -0.5212670408892423
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "gagne",
+    "écart log10": -0.13590812408015696,
+    "erreur type": 0.024713287334723413
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.005959887644988893,
+    "erreur type": 0.007173707300449078
+   }
+  },
+  "Canal sans fil, CSI (+5)": {
+   "famille": "télécoms (contrôle)",
+   "nmse": {
+    "réservoir classique": 0.04309594154774466,
+    "RNN, lr global × 0.1": 0.045341677980277856,
+    "GRU, init soignée": 0.14696452928686815,
+    "LRU": 0.01525531832577382,
+    "réservoir accordé": 0.04001331123672946,
+    "réservoir accordé linéaire (type LRU)": 0.019867208693194346,
+    "réservoir accordé à portes": 0.045488058503628456,
+    "accordé sélectif": 0.05371370548827367,
+    "régression linéaire (fenêtre)": 0.008256831222994681
+   },
+   "meilleur existant": "LRU",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.41878321790423234,
+    "erreur type": 0.05128923052428413
+   },
+   "contre la régression linéaire": {
+    "résultat": "perd",
+    "écart log10": 0.6853910848826885
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.47447612660860417,
+    "erreur type": 0.04931199674379441
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.055692908704371824,
+    "erreur type": 0.010604076477470418
+   }
+  },
+  "Amplificateur de puissance": {
+   "famille": "télécoms",
+   "nmse": {
+    "réservoir classique": 0.20040177165766074,
+    "RNN, lr global × 0.1": 0.2637455627542553,
+    "GRU, init soignée": 0.2571813219585117,
+    "LRU": 0.6788833593989181,
+    "réservoir accordé": 0.003484536259013704,
+    "réservoir accordé linéaire (type LRU)": 0.7459256703437864,
+    "réservoir accordé à portes": 0.003932427068525112,
+    "accordé sélectif": 0.0037954250626130955,
+    "régression linéaire (fenêtre)": 0.4733934173177058
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "gagne",
+    "écart log10": -1.8680944363275989,
+    "erreur type": 0.021906126102142667
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -2.133077226621207
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "gagne",
+    "écart log10": -1.8155787474727922,
+    "erreur type": 0.02028554672468666
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.05251568885480662,
+    "erreur type": 0.007795733615205553
+   }
+  },
+  "Mackey-Glass, entrée bruitée 20 %": {
+   "famille": "bruit",
+   "nmse": {
+    "réservoir classique": 0.031604796435935535,
+    "RNN, lr global × 0.1": 0.015032064741317195,
+    "GRU, init soignée": 0.01580402610639707,
+    "LRU": 0.03286090211736214,
+    "réservoir accordé": 0.021571591883831297,
+    "réservoir accordé linéaire (type LRU)": 0.029842858320260457,
+    "réservoir accordé à portes": 0.021654565605739945,
+    "accordé sélectif": 0.018564546070328296,
+    "régression linéaire (fenêtre)": 0.24491900536877315
+   },
+   "meilleur existant": "RNN, lr global × 0.1",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.15686355766043927,
+    "erreur type": 0.03458001532959874
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -1.055140291858848
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.1585308385810101,
+    "erreur type": 0.03614023983403019
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.0016672809205708166,
+    "erreur type": 0.014194555366680217
+   }
+  },
+  "Mackey-Glass, 300 pas": {
+   "famille": "peu de données",
+   "nmse": {
+    "réservoir classique": 0.0008000005208329945,
+    "RNN, lr global × 0.1": 0.00014790327256442688,
+    "GRU, init soignée": 3.9452434332581295e-05,
+    "LRU": 0.006974806099361723,
+    "réservoir accordé": 2.945657116355847e-05,
+    "réservoir accordé linéaire (type LRU)": 0.012983962471863604,
+    "réservoir accordé à portes": 3.2199318806675884e-05,
+    "accordé sélectif": 2.4711910038399748e-05,
+    "régression linéaire (fenêtre)": 0.35652801554820945
+   },
+   "meilleur existant": "GRU, init soignée",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "égalité",
+    "écart log10": -0.12689161341282565,
+    "erreur type": 0.1378176862864864
+   },
+   "contre la régression linéaire": {
+    "résultat": "gagne",
+    "écart log10": -4.082911469652499
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "égalité",
+    "écart log10": -0.08822712156636303,
+    "erreur type": 0.11635975151960164
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.038664491846462624,
+    "erreur type": 0.07595898676506663
+   }
+  },
+  "NARMA10, 300 pas": {
+   "famille": "peu de données",
+   "nmse": {
+    "réservoir classique": 0.5317006814954152,
+    "RNN, lr global × 0.1": 0.32193103212801716,
+    "GRU, init soignée": 0.4619906015591514,
+    "LRU": 0.12849014544886805,
+    "réservoir accordé": 0.23285004503868278,
+    "réservoir accordé linéaire (type LRU)": 0.11140226576836414,
+    "réservoir accordé à portes": 0.21816323760405704,
+    "accordé sélectif": 0.19447864752648972,
+    "régression linéaire (fenêtre)": 0.20945037308642284
+   },
+   "meilleur existant": "LRU",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.258206505540357,
+    "erreur type": 0.05729665014067875
+   },
+   "contre la régression linéaire": {
+    "résultat": "égalité",
+    "écart log10": 0.045995187980458395
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.22991174930297417,
+    "erreur type": 0.045121883567936054
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": -0.028294756237382868,
+    "erreur type": 0.014057047680111942
+   }
+  },
+  "Mémoire (délai 30)": {
+   "famille": "mémoire longue",
+   "nmse": {
+    "réservoir classique": 1.176657205886405,
+    "RNN, lr global × 0.1": 1.3165059106910308,
+    "GRU, init soignée": 1.3660514647979904,
+    "LRU": 0.24931957912314104,
+    "réservoir accordé": 0.1788229369650678,
+    "réservoir accordé linéaire (type LRU)": 0.11743036767610768,
+    "réservoir accordé à portes": 0.28530947659252537,
+    "accordé sélectif": 0.7404282205207778,
+    "régression linéaire (fenêtre)": 1.2292104212869929e-19
+   },
+   "meilleur existant": "LRU",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "gagne",
+    "écart log10": -0.14433316168730528,
+    "erreur type": 0.05336145758114121
+   },
+   "contre la régression linéaire": {
+    "résultat": "perd",
+    "écart log10": 18.162796989836863
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "égalité",
+    "écart log10": 0.05855981195887081,
+    "erreur type": 0.08288150500204253
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.20289297364617612,
+    "erreur type": 0.0401277637968313
+   }
+  },
+  "Mémoire (délai 60)": {
+   "famille": "mémoire longue",
+   "nmse": {
+    "réservoir classique": 1.2398104982696487,
+    "RNN, lr global × 0.1": 1.662926564370148,
+    "GRU, init soignée": 1.5078600742146107,
+    "LRU": 1.3690842264643477,
+    "réservoir accordé": 1.983043732087721,
+    "réservoir accordé linéaire (type LRU)": 0.8795996715608685,
+    "réservoir accordé à portes": 2.0293518775031285,
+    "accordé sélectif": 1.9827497417606363,
+    "régression linéaire (fenêtre)": 1.2783110352442004e-19
+   },
+   "meilleur existant": "LRU",
+   "seeds": 3,
+   "contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.16090212493228973,
+    "erreur type": 0.00811843496398039
+   },
+   "contre la régression linéaire": {
+    "résultat": "perd",
+    "écart log10": 19.190695753752863
+   },
+   "portes contre le meilleur existant": {
+    "résultat": "perd",
+    "écart log10": 0.1709271907536107,
+    "erreur type": 0.0024266214906298023
+   },
+   "portes contre le réservoir accordé": {
+    "écart log10": 0.010025065821320974,
+    "erreur type": 0.009475527587392485
+   }
+  }
+ },
+ "victoires": {
+  "accordé contre le meilleur existant": [
+   3,
+   12
+  ],
+  "accordé contre la régression linéaire": [
+   7,
+   12
+  ],
+  "portes contre le meilleur existant": [
+   2,
+   12
+  ]
+ }
+}

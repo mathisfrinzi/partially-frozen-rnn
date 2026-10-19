@@ -1,0 +1,678 @@
+{
+ "Mackey-Glass (+15)": {
+  "GRU": {
+   "nmse": 1.355862286921512e-07,
+   "écart à la référence": 0.036922716434388825,
+   "se": 0.019346468507412902,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.0026857516708353076,
+    "rec_init": "ortho"
+   },
+   "n_params": 754500
+  },
+  "LRU": {
+   "nmse": 8.606086664789378e-06,
+   "écart à la référence": 1.8395128505495584,
+   "se": 0.03795409178140851,
+   "essai retenu": "4",
+   "cfg": {
+    "lr": 0.0008061015201098791,
+    "layers": 1,
+    "r_min": 0.4196907117686975,
+    "r_max": 0.9241925643854555
+   },
+   "n_params": 251750
+  },
+  "réservoir accordé": {
+   "nmse": 6.989328810865012e-08,
+   "écart à la référence": -0.2508573924326676,
+   "se": 0.06234293025336767,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "mult": 1.0,
+    "lr_mult_in": 1.0,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 1500
+  },
+  "réservoir accordé à porte d'entrée": {
+   "nmse": 5.9497780364927235e-08,
+   "écart à la référence": -0.32079210047855045,
+   "se": 0.06419346163021557,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 2500
+  },
+  "GRU, taille cherchée": {
+   "nmse": 1.245354127946185e-07,
+   "écart à la référence": 0.0,
+   "se": 0.0,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "rec_init": "ortho",
+    "n": 500
+   },
+   "n_params": 754500
+  },
+  "LRU, taille cherchée": {
+   "nmse": 5.4472354989830184e-05,
+   "écart à la référence": 2.6408832867848075,
+   "se": 0.04472331203065169,
+   "essai retenu": "9",
+   "cfg": {
+    "lr": 0.004024163775058723,
+    "layers": 2,
+    "r_min": 0.619061181585079,
+    "r_max": 0.9060696464766707,
+    "n": 100
+   },
+   "n_params": 40500
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": 6.410024763885951e-08,
+   "écart à la référence": -0.28843315730550323,
+   "se": 0.09040662110336391,
+   "essai retenu": "9",
+   "cfg": {
+    "lr": 0.003504444871898136,
+    "lr_mult_in": 1.3056576667434276,
+    "rho": 1.051150317951771,
+    "in_scale": 0.6094624458570661,
+    "density": 0.1
+   },
+   "n_params": 1000
+  },
+  "cisaillé en bande (k cherché)": {
+   "nmse": 4.1765787575002804e-08,
+   "écart à la référence": -0.4744721893553331,
+   "se": 0.04404049483334872,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "band": 10,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 5945
+  },
+  "cisaillé en bande + g (k cherché)": {
+   "nmse": 3.741120931411699e-08,
+   "écart à la référence": -0.5222911176831513,
+   "se": 0.039567586459867764,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "band": 10,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 6445
+  },
+  "cisaillé à porte d'entrée (k cherché)": {
+   "nmse": 6.113315890516905e-08,
+   "écart à la référence": -0.3090160271744297,
+   "se": 0.054598770137402705,
+   "essai retenu": "8",
+   "cfg": {
+    "lr": 0.0015933274786063619,
+    "band": 3,
+    "rho": 1.026912572105575,
+    "in_scale": 0.4463591676805342,
+    "density": 0.05
+   },
+   "n_params": 3494
+  },
+  "cisaillé linéaire à porte d'entrée (k cherché)": {
+   "nmse": 2.400294285481017e-06,
+   "écart à la référence": 1.284971626540563,
+   "se": 0.048482772484886326,
+   "essai retenu": "6",
+   "cfg": {
+    "lr": 0.001552859101539723,
+    "band": 30,
+    "rho": 0.92041799287701,
+    "in_scale": 1.5663822777547958,
+    "density": 0.3
+   },
+   "n_params": 16535
+  }
+ },
+ "NARMA10": {
+  "GRU": {
+   "nmse": 0.09331940392103767,
+   "écart à la référence": 0.8348274688538704,
+   "se": 0.02322041904464579,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.00557115821267549,
+    "rec_init": "ortho"
+   },
+   "n_params": 754500
+  },
+  "LRU": {
+   "nmse": 0.013650372008849236,
+   "écart à la référence": 0.0,
+   "se": 0.0,
+   "essai retenu": "11",
+   "cfg": {
+    "lr": 0.0010748875419716,
+    "layers": 1,
+    "r_min": 0.5957635030831246,
+    "r_max": 0.9033218868054682
+   },
+   "n_params": 251750
+  },
+  "réservoir accordé": {
+   "nmse": 0.008021614202414332,
+   "écart à la référence": -0.23088271635446125,
+   "se": 0.03165280730565474,
+   "essai retenu": "3",
+   "cfg": {
+    "lr": 0.0007252116353112082,
+    "mult": 6.780164840384721,
+    "lr_mult_in": 1.0466391868960483,
+    "rho": 0.7267320551845495,
+    "in_scale": 0.11054749710714684,
+    "density": 0.05
+   },
+   "n_params": 1500
+  },
+  "réservoir accordé à porte d'entrée": {
+   "nmse": 0.008086711220818594,
+   "écart à la référence": -0.22737255262949532,
+   "se": 0.0292479815199854,
+   "essai retenu": "4",
+   "cfg": {
+    "lr": 0.0008889509848912658,
+    "rho": 1.090791663643428,
+    "in_scale": 0.11631263223805156,
+    "density": 0.3
+   },
+   "n_params": 2500
+  },
+  "GRU, taille cherchée": {
+   "nmse": 0.06758932838994433,
+   "écart à la référence": 0.6947336438271583,
+   "se": 0.04968778102013327,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.0017030421457390338,
+    "rec_init": "default",
+    "n": 40
+   },
+   "n_params": 5160
+  },
+  "LRU, taille cherchée": {
+   "nmse": 0.017041079108016617,
+   "écart à la référence": 0.0963526053179014,
+   "se": 0.016006462420418116,
+   "essai retenu": "7",
+   "cfg": {
+    "lr": 0.0026000517467783726,
+    "layers": 1,
+    "r_min": 0.5544822720782256,
+    "r_max": 0.939959328611025,
+    "n": 40
+   },
+   "n_params": 1740
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": 0.015644809757516562,
+   "écart à la référence": 0.059225799234303086,
+   "se": 0.014877520269124662,
+   "essai retenu": "11",
+   "cfg": {
+    "lr": 0.000558627747141727,
+    "lr_mult_in": 0.9883454512644074,
+    "rho": 1.025467970963685,
+    "in_scale": 0.10774551650312758,
+    "density": 0.05
+   },
+   "n_params": 1000
+  },
+  "cisaillé en bande (k cherché)": {
+   "nmse": 0.0065797778392181925,
+   "écart à la référence": -0.3169332569489292,
+   "se": 0.026727151563546662,
+   "essai retenu": "6",
+   "cfg": {
+    "lr": 0.0006147222849956182,
+    "band": 10,
+    "rho": 0.6123719161971991,
+    "in_scale": 0.3051095157518588,
+    "density": 0.05
+   },
+   "n_params": 5945
+  },
+  "cisaillé en bande + g (k cherché)": {
+   "nmse": 0.00717141189859426,
+   "écart à la référence": -0.27953981977523484,
+   "se": 0.025538340336381967,
+   "essai retenu": "9",
+   "cfg": {
+    "lr": 0.002871281486590778,
+    "band": 1,
+    "rho": 1.0934982886124898,
+    "in_scale": 0.120332206435232,
+    "density": 1.0
+   },
+   "n_params": 1999
+  },
+  "cisaillé à porte d'entrée (k cherché)": {
+   "nmse": 0.0037547142612309988,
+   "écart à la référence": -0.560567595007071,
+   "se": 0.013203078765126483,
+   "essai retenu": "1",
+   "cfg": {
+    "lr": 0.003964551755306693,
+    "band": 3,
+    "rho": 0.7682153987922326,
+    "in_scale": 0.1744917651418935,
+    "density": 0.05
+   },
+   "n_params": 3494
+  },
+  "cisaillé linéaire à porte d'entrée (k cherché)": {
+   "nmse": 0.0016374748416531468,
+   "écart à la référence": -0.9209698510487712,
+   "se": 0.021752824304410914,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "band": 10,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 6945
+  }
+ },
+ "Mémoire (délai 15)": {
+  "GRU": {
+   "nmse": 0.5358431682871502,
+   "écart à la référence": 3.7196704053709553,
+   "se": 0.05203921176939808,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "rec_init": "ortho"
+   },
+   "n_params": 754500
+  },
+  "LRU": {
+   "nmse": 0.00023435872054647995,
+   "écart à la référence": 0.36051382567167056,
+   "se": 0.0834536589503821,
+   "essai retenu": "9",
+   "cfg": {
+    "lr": 0.006105526787264963,
+    "layers": 2,
+    "r_min": 0.8171287032531251,
+    "r_max": 0.9419148933383029
+   },
+   "n_params": 1002500
+  },
+  "réservoir accordé": {
+   "nmse": 0.0006476406233306927,
+   "écart à la référence": 0.8019667894144961,
+   "se": 0.04910352483100752,
+   "essai retenu": "11",
+   "cfg": {
+    "lr": 0.002392859855541484,
+    "mult": 2.5257806117587442,
+    "lr_mult_in": 0.3466809600246672,
+    "rho": 1.1043683103725654,
+    "in_scale": 0.10368072076363717,
+    "density": 1.0
+   },
+   "n_params": 1500
+  },
+  "réservoir accordé à porte d'entrée": {
+   "nmse": 0.0004751690384653954,
+   "écart à la référence": 0.6674808420139677,
+   "se": 0.04158663907248436,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.005166300287975695,
+    "rho": 0.6230237798972363,
+    "in_scale": 0.1899601269625385,
+    "density": 0.3
+   },
+   "n_params": 2500
+  },
+  "GRU, taille cherchée": {
+   "nmse": 0.006082281541748469,
+   "écart à la référence": 1.7746992265692818,
+   "se": 0.1720506285915125,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.004503336146326043,
+    "rec_init": "ortho",
+    "n": 20
+   },
+   "n_params": 1380
+  },
+  "LRU, taille cherchée": {
+   "nmse": 0.00010218032805944117,
+   "écart à la référence": 0.0,
+   "se": 0.0,
+   "essai retenu": "2",
+   "cfg": {
+    "lr": 0.007123879776712769,
+    "layers": 2,
+    "r_min": 0.8940752227435692,
+    "r_max": 0.9187440911188723,
+    "n": 200
+   },
+   "n_params": 161000
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": 0.0007518469652267202,
+   "écart à la référence": 0.8667621583775645,
+   "se": 0.05896010837030056,
+   "essai retenu": "5",
+   "cfg": {
+    "lr": 0.003003614119748118,
+    "lr_mult_in": 1.510302526698232,
+    "rho": 0.9345005231043185,
+    "in_scale": 0.14768075940595826,
+    "density": 0.3
+   },
+   "n_params": 1000
+  },
+  "cisaillé en bande (k cherché)": {
+   "nmse": 0.000733849941570984,
+   "écart à la référence": 0.8562399712980809,
+   "se": 0.045927645771602646,
+   "essai retenu": "5",
+   "cfg": {
+    "lr": 0.0066937024598690735,
+    "band": 3,
+    "rho": 0.9656958530837374,
+    "in_scale": 0.23412055433392726,
+    "density": 0.05
+   },
+   "n_params": 2494
+  },
+  "cisaillé en bande + g (k cherché)": {
+   "nmse": 0.0009249472652959613,
+   "écart à la référence": 0.956749680000361,
+   "se": 0.04004016061069503,
+   "essai retenu": "10",
+   "cfg": {
+    "lr": 0.0005052376310515051,
+    "band": 10,
+    "rho": 0.6284616821216399,
+    "in_scale": 0.2305303865830435,
+    "density": 1.0
+   },
+   "n_params": 6445
+  },
+  "cisaillé à porte d'entrée (k cherché)": {
+   "nmse": 0.0005927222675191062,
+   "écart à la référence": 0.763483950523802,
+   "se": 0.05145720697203676,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.0011397661276103888,
+    "band": 3,
+    "rho": 0.7485745595508853,
+    "in_scale": 0.2673352175005863,
+    "density": 1.0
+   },
+   "n_params": 3494
+  },
+  "cisaillé linéaire à porte d'entrée (k cherché)": {
+   "nmse": 4.4070582308323335e-06,
+   "écart à la référence": -1.3652185037738156,
+   "se": 0.046846177448209333,
+   "essai retenu": "10",
+   "cfg": {
+    "lr": 0.006126893594328783,
+    "band": 30,
+    "rho": 0.7012341808553801,
+    "in_scale": 0.10003029801687352,
+    "density": 1.0
+   },
+   "n_params": 16535
+  }
+ },
+ "Hénon (+3)": {
+  "réservoir accordé": {
+   "nmse": 0.00630576109942518,
+   "écart à la référence": 0.6236242097360083,
+   "se": 0.1917805293431946,
+   "essai retenu": "2",
+   "cfg": {
+    "lr": 0.004607437361669628,
+    "mult": 2.7045790077787384,
+    "lr_mult_in": 2.433284108296262,
+    "rho": 0.6852512598027679,
+    "in_scale": 1.6791399028966045,
+    "density": 1.0
+   },
+   "n_params": 1500
+  },
+  "GRU, taille cherchée": {
+   "nmse": 0.0015000761399571504,
+   "écart à la référence": 0.0,
+   "se": 0.0,
+   "essai retenu": "1",
+   "cfg": {
+    "lr": 0.004824889597733184,
+    "rec_init": "ortho",
+    "n": 40
+   },
+   "n_params": 5160
+  },
+  "LRU, taille cherchée": {
+   "nmse": 0.018203499546842625,
+   "écart à la référence": 1.0840415840420943,
+   "se": 0.1622306776877323,
+   "essai retenu": "7",
+   "cfg": {
+    "lr": 0.0007379866434370534,
+    "layers": 2,
+    "r_min": 0.4156751196299756,
+    "r_max": 0.9514020324188766,
+    "n": 40
+   },
+   "n_params": 6600
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": 0.006209430462761701,
+   "écart à la référence": 0.6169384646628551,
+   "se": 0.1396187559493128,
+   "essai retenu": "5",
+   "cfg": {
+    "lr": 0.0032543226633287054,
+    "lr_mult_in": 0.30697369343849945,
+    "rho": 0.7122735007953813,
+    "in_scale": 1.7498954147692798,
+    "density": 0.1
+   },
+   "n_params": 1000
+  },
+  "cisaillé en bande (k cherché)": {
+   "nmse": 0.0022967876480083018,
+   "écart à la référence": 0.18500754061231756,
+   "se": 0.19195369308286744,
+   "essai retenu": "5",
+   "cfg": {
+    "lr": 0.009155046660326958,
+    "band": 30,
+    "rho": 0.650767405815632,
+    "in_scale": 0.9272870181212026,
+    "density": 0.1
+   },
+   "n_params": 15535
+  },
+  "cisaillé en bande + g (k cherché)": {
+   "nmse": 0.0036808877922202064,
+   "écart à la référence": 0.3898392753913913,
+   "se": 0.20679355914411424,
+   "essai retenu": "2",
+   "cfg": {
+    "lr": 0.008735474121117448,
+    "band": 10,
+    "rho": 0.9221163050215921,
+    "in_scale": 1.9974450456736046,
+    "density": 0.1
+   },
+   "n_params": 6445
+  },
+  "cisaillé à porte d'entrée (k cherché)": {
+   "nmse": 0.007911551718088189,
+   "écart à la référence": 0.7221483681541062,
+   "se": 0.18465234203581876,
+   "essai retenu": "5",
+   "cfg": {
+    "lr": 0.0010587668712328986,
+    "band": 10,
+    "rho": 0.6843981867471425,
+    "in_scale": 1.2405164052936775,
+    "density": 0.3
+   },
+   "n_params": 6945
+  },
+  "cisaillé linéaire à porte d'entrée (k cherché)": {
+   "nmse": 0.043677412882713054,
+   "écart à la référence": 1.4641436028893362,
+   "se": 0.18666644113572928,
+   "essai retenu": "0",
+   "cfg": {
+    "lr": 0.0036498396340917784,
+    "band": 3,
+    "rho": 0.6457250387359633,
+    "in_scale": 0.10518582555706958,
+    "density": 0.05
+   },
+   "n_params": 3494
+  }
+ },
+ "Lorenz (+10)": {
+  "réservoir accordé": {
+   "nmse": 2.4495727237869536e-05,
+   "écart à la référence": 2.0137830565434425,
+   "se": 0.25898855647112856,
+   "essai retenu": "7",
+   "cfg": {
+    "lr": 0.0004762226359906032,
+    "mult": 1.5734376246653028,
+    "lr_mult_in": 1.5157229710173539,
+    "rho": 0.9150988863828978,
+    "in_scale": 1.0764521328568408,
+    "density": 1.0
+   },
+   "n_params": 1500
+  },
+  "GRU, taille cherchée": {
+   "nmse": 2.373052142280451e-07,
+   "écart à la référence": 0.0,
+   "se": 0.0,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "rec_init": "ortho",
+    "n": 500
+   },
+   "n_params": 754500
+  },
+  "LRU, taille cherchée": {
+   "nmse": 0.0004955063709087905,
+   "écart à la référence": 3.319741961812602,
+   "se": 0.09144733905092876,
+   "essai retenu": "6",
+   "cfg": {
+    "lr": 0.0006226771633712967,
+    "layers": 2,
+    "r_min": 0.8512985450840117,
+    "r_max": 0.9593909762428222,
+    "n": 200
+   },
+   "n_params": 161000
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": 1.874721569606466e-05,
+   "écart à la référence": 1.8976294952609174,
+   "se": 0.09865506969515479,
+   "essai retenu": "défaut",
+   "cfg": {
+    "lr": 0.002,
+    "lr_mult_in": 1.0,
+    "rho": 0.9,
+    "in_scale": 0.5,
+    "density": 0.1
+   },
+   "n_params": 1000
+  },
+  "cisaillé en bande (k cherché)": {
+   "nmse": 3.7474159508450703e-06,
+   "écart à la référence": 1.19842462009891,
+   "se": 0.11698841443215702,
+   "essai retenu": "4",
+   "cfg": {
+    "lr": 0.0005451787267493606,
+    "band": 3,
+    "rho": 0.6921609312434722,
+    "in_scale": 0.8297781346638681,
+    "density": 0.05
+   },
+   "n_params": 2494
+  },
+  "cisaillé en bande + g (k cherché)": {
+   "nmse": 5.238808107949023e-06,
+   "écart à la référence": 1.34392521005806,
+   "se": 0.20174699105620927,
+   "essai retenu": "2",
+   "cfg": {
+    "lr": 0.0005019005291872961,
+    "band": 100,
+    "rho": 0.6922290189972576,
+    "in_scale": 0.47000073628547206,
+    "density": 0.3
+   },
+   "n_params": 46450
+  },
+  "cisaillé à porte d'entrée (k cherché)": {
+   "nmse": 8.779690576829382e-06,
+   "écart à la référence": 1.5681719293794185,
+   "se": 0.0887164594903584,
+   "essai retenu": "3",
+   "cfg": {
+    "lr": 0.008083187009701237,
+    "band": 3,
+    "rho": 0.6981648307995629,
+    "in_scale": 1.3245074317582175,
+    "density": 0.3
+   },
+   "n_params": 3494
+  },
+  "cisaillé linéaire à porte d'entrée (k cherché)": {
+   "nmse": 0.0001825063389540592,
+   "écart à la référence": 2.885970672383348,
+   "se": 0.10771403182524807,
+   "essai retenu": "7",
+   "cfg": {
+    "lr": 0.004077743280103136,
+    "band": 10,
+    "rho": 0.934237024504363,
+    "in_scale": 0.10092317442451938,
+    "density": 0.05
+   },
+   "n_params": 6945
+  }
+ }
+}

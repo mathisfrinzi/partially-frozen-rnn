@@ -1,0 +1,206 @@
+{
+ "Mackey-Glass (+15)": {
+  "1 · Mélanger": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "RNN ralenti × 0.1",
+   "nmse": 2.9457982536106403e-05,
+   "deuxième": "mélange fixe α = 0.1"
+  },
+  "2 · Sculpté": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "réservoir sculpté, dense (lr des scores ÷ 5)",
+   "nmse": 2.9037233012607148e-05,
+   "deuxième": "RNN freiné"
+  },
+  "3-4 · Tourné ou accordé": {
+   "protocole": "100 neurones, 1 500 pas",
+   "meilleur": "RNN freiné",
+   "nmse": 3.206642462849688e-05,
+   "deuxième": "réservoir tourné (W_in tourné)"
+  },
+  "4.2 · Contrôles du spectre de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir accordé",
+   "nmse": 7.505230940828116e-08,
+   "deuxième": "accordé, spectre de départ plat"
+  },
+  "1-4 · Toutes les familles à 500 neurones, combinaisons": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir accordé",
+   "nmse": 7.505230940828116e-08,
+   "deuxième": "réservoir accordé, dense"
+  },
+  "4.4 · Variantes de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé sélectif",
+   "nmse": 4.369065297409087e-08,
+   "deuxième": "accordé + gains par neurone"
+  },
+  "4.5-4.6 · Portes et récurrence linéaire": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé sélectif",
+   "nmse": 4.37e-08,
+   "deuxième": "réservoir accordé à portes, type LSTM"
+  },
+  "8.2 · Face aux modèles existants": {
+   "protocole": "500 neurones, 4 000 pas, 3 seeds",
+   "meilleur": "accordé sélectif",
+   "nmse": 3.9612928979700934e-08,
+   "deuxième": "réservoir accordé à portes"
+  },
+  "8.2 · Même budget de recherche": {
+   "protocole": "500 neurones, 1 500 pas, 5 seeds, choix sur validation",
+   "meilleur": "réservoir accordé à porte d'entrée",
+   "nmse": 6.039407060447902e-08,
+   "deuxième": "réservoir à biais et entrées appris (sans g)"
+  },
+  "4.7 · Grandir": {
+   "protocole": "2 000 et 16 000 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir corrigé de rang 4 (N = 2 000)",
+   "nmse": 3.3098548010728235e-09,
+   "deuxième": "réservoir sculpté intégral, dense (N = 2 000)"
+  },
+  "4.8 · Un réservoir, plusieurs tâches": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds, toutes tâches apprises",
+   "meilleur": "accordé, tout par tâche",
+   "nmse": 7.507941940278306e-08,
+   "deuxième": "accordé, entrées partagées"
+  }
+ },
+ "NARMA10": {
+  "1 · Mélanger": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "RNN freiné",
+   "nmse": 0.008233557417486038,
+   "deuxième": "mélange réglé (α appris)"
+  },
+  "2 · Sculpté": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "réservoir sculpté intégral, dense",
+   "nmse": 0.00779703814243093,
+   "deuxième": "RNN freiné"
+  },
+  "3-4 · Tourné ou accordé": {
+   "protocole": "100 neurones, 1 500 pas",
+   "meilleur": "RNN freiné",
+   "nmse": 0.008233557417486038,
+   "deuxième": "réservoir accordé"
+  },
+  "4.2 · Contrôles du spectre de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir accordé",
+   "nmse": 0.010208277209442921,
+   "deuxième": "accordé, spectre de départ plat"
+  },
+  "1-4 · Toutes les familles à 500 neurones, combinaisons": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé intégral",
+   "nmse": 0.009811740418124505,
+   "deuxième": "réservoir accordé, dense"
+  },
+  "4.4 · Variantes de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé sélectif",
+   "nmse": 0.009514287523702538,
+   "deuxième": "accordé + fuite"
+  },
+  "4.5-4.6 · Portes et récurrence linéaire": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir accordé à portes",
+   "nmse": 0.008509999999999998,
+   "deuxième": "réservoir accordé à portes légères"
+  },
+  "8.2 · Face aux modèles existants": {
+   "protocole": "500 neurones, 4 000 pas, 3 seeds",
+   "meilleur": "réservoir accordé à portes",
+   "nmse": 0.008482044288986697,
+   "deuxième": "réservoir accordé à porte d'entrée"
+  },
+  "8.2 · Même budget de recherche": {
+   "protocole": "500 neurones, 1 500 pas, 5 seeds, choix sur validation",
+   "meilleur": "réservoir accordé à porte d'entrée",
+   "nmse": 0.008141156883706707,
+   "deuxième": "réservoir accordé"
+  },
+  "4.7 · Grandir": {
+   "protocole": "2 000 et 16 000 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé rapide (Fourier) (N = 16 000)",
+   "nmse": 0.013466666666666667,
+   "deuxième": "réservoir accordé (N = 2 000)"
+  },
+  "4.8 · Un réservoir, plusieurs tâches": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds, toutes tâches apprises",
+   "meilleur": "accordé, tout par tâche",
+   "nmse": 0.01039401577292897,
+   "deuxième": "accordé, entrées partagées"
+  }
+ },
+ "Mémoire (délai 15)": {
+  "1 · Mélanger": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "mélange réglé (α appris)",
+   "nmse": 0.0010448716681661144,
+   "deuxième": "RNN freiné"
+  },
+  "2 · Sculpté": {
+   "protocole": "100 neurones, 1 500 pas, 8 seeds (5 mémoire)",
+   "meilleur": "réservoir sculpté intégral, dense",
+   "nmse": 0.0006041349812366177,
+   "deuxième": "réservoir sculpté, dense (lr des scores ÷ 5)"
+  },
+  "3-4 · Tourné ou accordé": {
+   "protocole": "100 neurones, 1 500 pas",
+   "meilleur": "RNN freiné",
+   "nmse": 0.0011171716585300947,
+   "deuxième": "RNN"
+  },
+  "4.2 · Contrôles du spectre de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "accordé, spectre de départ plat",
+   "nmse": 0.0015335573425163396,
+   "deuxième": "accordé, 10 directions sur 500"
+  },
+  "1-4 · Toutes les familles à 500 neurones, combinaisons": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir sculpté intégral, dense",
+   "nmse": 0.0006029834810383494,
+   "deuxième": "accordé + sculpté intégral, dense"
+  },
+  "4.4 · Variantes de l'accordé": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir sculpté intégral, dense",
+   "nmse": 0.0006029834810383494,
+   "deuxième": "accordé + rang 4"
+  },
+  "4.5-4.6 · Portes et récurrence linéaire": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir accordé à portes",
+   "nmse": 0.0016366666666666667,
+   "deuxième": "réservoir accordé à portes légères"
+  },
+  "8.2 · Face aux modèles existants": {
+   "protocole": "500 neurones, 4 000 pas, 3 seeds",
+   "meilleur": "réservoir sculpté intégral, dense",
+   "nmse": 0.00018483597449277887,
+   "deuxième": "réservoir accordé à portes"
+  },
+  "8.2 · Même budget de recherche": {
+   "protocole": "500 neurones, 1 500 pas, 5 seeds, choix sur validation",
+   "meilleur": "LRU, taille cherchée",
+   "nmse": 0.00010564702732594263,
+   "deuxième": "LRU"
+  },
+  "4.7 · Grandir": {
+   "protocole": "2 000 et 16 000 neurones, 1 500 pas, 3 seeds",
+   "meilleur": "réservoir sculpté intégral, dense (N = 2 000)",
+   "nmse": 0.0010363558760374356,
+   "deuxième": "réservoir corrigé de rang 4 (N = 2 000)"
+  },
+  "4.8 · Un réservoir, plusieurs tâches": {
+   "protocole": "500 neurones, 1 500 pas, 3 seeds, toutes tâches apprises",
+   "meilleur": "accordé, tout par tâche",
+   "nmse": 0.001860634015525317,
+   "deuxième": "accordé séquentiel, un réglage"
+  }
+ }
+}

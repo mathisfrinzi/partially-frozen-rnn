@@ -1,0 +1,170 @@
+{
+ "args": {
+  "mode": "freshreal",
+  "steps": 1500
+ },
+ "results": {
+  "EMPS": {
+   "infos": {
+    "unité": "m",
+    "points d'entraînement": 24841
+   },
+   "réservoir classique": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 6476.686849829173,
+       "rmse": 6.649108619964477
+      }
+     },
+     "n_params": 0,
+     "secondes": 32.9
+    }
+   },
+   "accordé": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 1170.455539213983,
+       "rmse": 2.8266005469823012
+      }
+     },
+     "n_params": 1500,
+     "secondes": 116.6
+    }
+   },
+   "k = 0 (biais et entrées appris, sans g)": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 4100.537006933886,
+       "rmse": 5.290629459724023
+      }
+     },
+     "n_params": 1000,
+     "secondes": 103.5
+    }
+   },
+   "réservoir cisaillé en bande, k = 3": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 803.9989096373242,
+       "rmse": 2.342689375240811
+      }
+     },
+     "n_params": 2494,
+     "secondes": 110.3
+    }
+   },
+   "réservoir cisaillé en bande, k = 10": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 151.9080587096373,
+       "rmse": 1.0183038480058921
+      }
+     },
+     "n_params": 5945,
+     "secondes": 113.2
+    }
+   },
+   "réservoir cisaillé en bande, k = 30": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 2.7182306510095353,
+       "rmse": 0.13621662969922269
+      }
+     },
+     "n_params": 15535,
+     "secondes": 112.0
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 3": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 78.69125602305901,
+       "rmse": 0.732909273200105
+      }
+     },
+     "n_params": 2994,
+     "secondes": 113.2
+    }
+   },
+   "cisaillé en bande avec amplitudes (A et N), k = 10": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 232.53924439416082,
+       "rmse": 1.2598971876329605
+      }
+     },
+     "n_params": 6445,
+     "secondes": 116.0
+    }
+   },
+   "cisaillé à porte d'entrée (minGRU), k = 10": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 206.07849973977676,
+       "rmse": 1.1860508798433713
+      }
+     },
+     "n_params": 6945,
+     "secondes": 162.1
+    }
+   },
+   "cisaillé linéaire à porte d'entrée, k = 10": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 13.60327244077953,
+       "rmse": 0.30472541419496935
+      }
+     },
+     "n_params": 6945,
+     "secondes": 149.8
+    }
+   },
+   "GRU, 100 unités": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 185.9786023811831,
+       "rmse": 1.126726393772916
+      }
+     },
+     "n_params": 30900,
+     "secondes": 10.7
+    }
+   },
+   "GRU, 500 unités": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 2.6021174582839106,
+       "rmse": 0.13327553245569093
+      }
+     },
+     "n_params": 754500,
+     "secondes": 25.8
+    }
+   },
+   "LRU, 200 unités": {
+    "2": {
+     "tests": {
+      "test (impulsions)": {
+       "nmse": 300.0295284189021,
+       "rmse": 1.4310966915613699
+      }
+     },
+     "n_params": 40700,
+     "secondes": 158.3
+    }
+   }
+  }
+ }
+}
