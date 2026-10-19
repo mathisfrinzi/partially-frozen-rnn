@@ -2,6 +2,8 @@
 
 *Entre un réservoir et un RNN : partir d'une récurrence aléatoire figée, et n'apprendre qu'une pièce choisie.*
 
+**Français** · [English version](README.en.md)
+
 [![tests](https://github.com/mathisfrinzi/partially-frozen-rnn/actions/workflows/tests.yml/badge.svg)](.github/workflows/tests.yml)
 
 Un **réservoir** (Echo State Network) tire sa matrice récurrente au hasard et n'apprend que sa lecture. Un **RNN** apprend
