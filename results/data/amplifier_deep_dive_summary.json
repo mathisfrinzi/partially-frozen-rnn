@@ -1,0 +1,92 @@
+{
+ "tailles": {
+  "3000": {
+   "polynôme à mémoire généralisé (GMP)": {
+    "test": 2.248928585058364
+   },
+   "régression linéaire (fenêtre)": {
+    "test": 0.46070959351202767
+   },
+   "réservoir accordé": {
+    "test": 0.002024311152464892,
+    "entraînement": 0.0005277138562382797,
+    "paramètres": 2000,
+    "seeds": 3
+   },
+   "GRU, init soignée, lr 2e-3": {
+    "test": 0.10487146355387714,
+    "entraînement": 0.00016433791942049159,
+    "paramètres": 756000,
+    "seeds": 3
+   },
+   "RNN, lr standard": {
+    "test": 0.11606447157721576,
+    "entraînement": 8.529515228299556e-05,
+    "paramètres": 251500,
+    "seeds": 3
+   },
+   "réservoir accordé à portes": {
+    "test": 0.002617515622134652,
+    "entraînement": 0.0003656210205987285,
+    "paramètres": 6000,
+    "seeds": 3
+   },
+   "réservoir accordé, entrées enrichies": {
+    "test": 0.00450609517400499,
+    "entraînement": 0.0006885128802394228,
+    "paramètres": 3000,
+    "seeds": 3
+   },
+   "GRU, entrées enrichies": {
+    "test": 0.051935162219476715,
+    "entraînement": 0.0001708398718640682,
+    "paramètres": 759000,
+    "seeds": 3
+   }
+  },
+  "20000": {
+   "polynôme à mémoire généralisé (GMP)": {
+    "test": 0.09596096074620825
+   },
+   "régression linéaire (fenêtre)": {
+    "test": 0.45689165230357953
+   },
+   "réservoir accordé": {
+    "test": 0.0011087612689853587,
+    "entraînement": 0.0007550296011749677,
+    "paramètres": 2000,
+    "seeds": 3
+   },
+   "GRU, init soignée, lr 2e-3": {
+    "test": 0.006823113602919866,
+    "entraînement": 6.464554291632195e-05,
+    "paramètres": 756000,
+    "seeds": 3
+   },
+   "RNN, lr standard": {
+    "test": 0.012854423228851886,
+    "entraînement": 0.00028175072609351554,
+    "paramètres": 251500,
+    "seeds": 3
+   },
+   "réservoir accordé à portes": {
+    "test": 0.0010730383504937372,
+    "entraînement": 0.0006798275893114136,
+    "paramètres": 6000,
+    "seeds": 3
+   },
+   "réservoir accordé, entrées enrichies": {
+    "test": 0.0015837224709665432,
+    "entraînement": 0.0012619954437001236,
+    "paramètres": 3000,
+    "seeds": 3
+   },
+   "GRU, entrées enrichies": {
+    "test": 0.001945826924600972,
+    "entraînement": 9.973543704088041e-05,
+    "paramètres": 759000,
+    "seeds": 3
+   }
+  }
+ }
+}

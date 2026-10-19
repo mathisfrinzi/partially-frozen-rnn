@@ -1,0 +1,116 @@
+{
+ "Lorenz (+10)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.0005236755972171122,
+    0.00028130531590142414,
+    0.00031491835601550464
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 299
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.00014413108065529706,
+    0.0005151941127805648,
+    0.00036882390949445653
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.00016397174659762292,
+    0.0002351268254521226,
+    9.414782542265334e-05
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 1145
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.00016868049295434576,
+    0.0004131644595666432,
+    0.00019821379307242295
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 694
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": [
+    0.00030779468907143946,
+    0.00030801399240598903,
+    0.0002806124630112706
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 200
+  }
+ },
+ "Hénon (+3)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.031982552386184984,
+    0.038214247172099564,
+    0.038559796693696226
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 299
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.042100466101509006,
+    0.042502415598265765,
+    0.04791253936138877
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.016070321663564428,
+    0.026764782038192183,
+    0.014131521204666672
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 1145
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.018711494688796137,
+    0.028258425407286958,
+    0.08339719207007726
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 694
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": [
+    0.03949076367839054,
+    0.03470695530245816,
+    0.026853060350597834
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 200
+  }
+ }
+}

@@ -1,0 +1,1745 @@
+{
+ "cellules": [
+  "T1 tournée | a = 0.1",
+  "T2 cisaillée | a = 0.1",
+  "T3 accordée | a = 0.1",
+  "T4 bande | a = 0.1",
+  "T5 témoin | a = 0.1",
+  "T1 tournée | a = 0.5",
+  "T2 cisaillée | a = 0.5",
+  "T3 accordée | a = 0.5",
+  "T4 bande | a = 0.5",
+  "T5 témoin | a = 0.5"
+ ],
+ "vérité terrain": {
+  "T1 tournée | a = 0.1": {
+   "gain": {
+    "RNN": -2.5371104087769836,
+    "réservoir accordé (valeurs singulières)": -2.507763803570764,
+    "réservoir tourné (rotations)": -2.661149691869418,
+    "Iwasawa : cisaillement (N)": -2.5878184344036805,
+    "réservoir cisaillé en bande, k = 3": -2.5125825185765787,
+    "réservoir cisaillé en bande, k = 10": -2.5935510968214435,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.5841260486642152,
+    "réservoir à biais et entrées appris (sans g)": -2.461464078297866
+   },
+   "contrôles": {
+    "oracle": -2.986915275667048,
+    "classique": -2.9318673226947145,
+    "distance relative": 0.10000000000000002,
+    "rayon spectral enseignant": 0.8999999999999958
+   },
+   "attendue": "réservoir tourné (rotations)",
+   "meilleure": "réservoir tourné (rotations)",
+   "meilleure parmi les six": "réservoir tourné (rotations)"
+  },
+  "T2 cisaillée | a = 0.1": {
+   "gain": {
+    "RNN": -2.570203944585405,
+    "réservoir accordé (valeurs singulières)": -2.619558915657203,
+    "réservoir tourné (rotations)": -2.693620369057523,
+    "Iwasawa : cisaillement (N)": -2.607547744215062,
+    "réservoir cisaillé en bande, k = 3": -2.608550763726871,
+    "réservoir cisaillé en bande, k = 10": -2.6458893947130915,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.5952961187006083,
+    "réservoir à biais et entrées appris (sans g)": -2.5568313661618283
+   },
+   "contrôles": {
+    "oracle": -3.0073962384118076,
+    "classique": -2.796612425188568,
+    "distance relative": 0.10000000000000002,
+    "rayon spectral enseignant": 0.8979835953593583
+   },
+   "attendue": "Iwasawa : cisaillement (N)",
+   "meilleure": "réservoir tourné (rotations)",
+   "meilleure parmi les six": "réservoir tourné (rotations)"
+  },
+  "T3 accordée | a = 0.1": {
+   "gain": {
+    "RNN": -2.6026727543320143,
+    "réservoir accordé (valeurs singulières)": -2.6584231724028133,
+    "réservoir tourné (rotations)": -2.6982408016045567,
+    "Iwasawa : cisaillement (N)": -2.672198056394285,
+    "réservoir cisaillé en bande, k = 3": -2.6666729222604064,
+    "réservoir cisaillé en bande, k = 10": -2.6860537662805193,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.6259319421794807,
+    "réservoir à biais et entrées appris (sans g)": -2.5772672956805693
+   },
+   "contrôles": {
+    "oracle": -2.950047831162495,
+    "classique": -2.7592148310837827,
+    "distance relative": 0.10000000000000002,
+    "rayon spectral enseignant": 0.9231382843105042
+   },
+   "attendue": "réservoir accordé (valeurs singulières)",
+   "meilleure": "réservoir tourné (rotations)",
+   "meilleure parmi les six": "réservoir tourné (rotations)"
+  },
+  "T4 bande | a = 0.1": {
+   "gain": {
+    "RNN": -2.61558927646221,
+    "réservoir accordé (valeurs singulières)": -2.6650245727108968,
+    "réservoir tourné (rotations)": -2.728751220189908,
+    "Iwasawa : cisaillement (N)": -2.6836044425086154,
+    "réservoir cisaillé en bande, k = 3": -2.6846846208416597,
+    "réservoir cisaillé en bande, k = 10": -2.742172211901387,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.6828360963586078,
+    "réservoir à biais et entrées appris (sans g)": -2.6339183738993204
+   },
+   "contrôles": {
+    "oracle": -2.984238363306217,
+    "classique": -2.864434664791983,
+    "distance relative": 0.09999999999999999,
+    "rayon spectral enseignant": 0.9122170066124524
+   },
+   "attendue": "réservoir cisaillé en bande, k = 10",
+   "meilleure": "réservoir cisaillé en bande, k = 10",
+   "meilleure parmi les six": "réservoir cisaillé en bande, k = 10"
+  },
+  "T5 témoin | a = 0.1": {
+   "gain": {
+    "RNN": -2.611122747382403,
+    "réservoir accordé (valeurs singulières)": -2.6978451699349315,
+    "réservoir tourné (rotations)": -2.7166653997061054,
+    "Iwasawa : cisaillement (N)": -2.680852795191878,
+    "réservoir cisaillé en bande, k = 3": -2.677685866613937,
+    "réservoir cisaillé en bande, k = 10": -2.6806073473252514,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.633245546579417,
+    "réservoir à biais et entrées appris (sans g)": -2.579227111723533
+   },
+   "contrôles": {
+    "oracle": -2.998180119003747,
+    "classique": -2.8083981932354245,
+    "distance relative": 0.10000000000000002,
+    "rayon spectral enseignant": 0.9176948960580741
+   },
+   "attendue": "RNN",
+   "meilleure": "réservoir tourné (rotations)",
+   "meilleure parmi les six": "réservoir tourné (rotations)"
+  },
+  "T1 tournée | a = 0.5": {
+   "gain": {
+    "RNN": -2.521285934938188,
+    "réservoir accordé (valeurs singulières)": -2.405636660004115,
+    "réservoir tourné (rotations)": -2.6226385001815005,
+    "Iwasawa : cisaillement (N)": -2.5710028008595596,
+    "réservoir cisaillé en bande, k = 3": -2.4437836691201045,
+    "réservoir cisaillé en bande, k = 10": -2.5458395311183306,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.555247545362793,
+    "réservoir à biais et entrées appris (sans g)": -2.3794078875145526
+   },
+   "contrôles": {
+    "oracle": -2.9873062756770836,
+    "classique": -2.443299089333881,
+    "distance relative": 0.49999999999999983,
+    "rayon spectral enseignant": 0.8999999999999954
+   },
+   "attendue": "réservoir tourné (rotations)",
+   "meilleure": "réservoir tourné (rotations)",
+   "meilleure parmi les six": "réservoir tourné (rotations)"
+  },
+  "T2 cisaillée | a = 0.5": {
+   "gain": {
+    "RNN": -1.6504993422839782,
+    "réservoir accordé (valeurs singulières)": -1.79026488876037,
+    "réservoir tourné (rotations)": -1.8113846282338517,
+    "Iwasawa : cisaillement (N)": -1.7989919388389322,
+    "réservoir cisaillé en bande, k = 3": -1.847479938934102,
+    "réservoir cisaillé en bande, k = 10": -1.8679098896990425,
+    "Jordan-Chevalley + partie nilpotente apprise": -1.7060605057981686,
+    "réservoir à biais et entrées appris (sans g)": -1.525705988130282
+   },
+   "contrôles": {
+    "oracle": -2.992866025616841,
+    "classique": -1.2912942747146519,
+    "distance relative": 0.5,
+    "rayon spectral enseignant": 0.9922285544427676
+   },
+   "attendue": "Iwasawa : cisaillement (N)",
+   "meilleure": "réservoir cisaillé en bande, k = 10",
+   "meilleure parmi les six": "réservoir cisaillé en bande, k = 10"
+  },
+  "T3 accordée | a = 0.5": {
+   "gain": {
+    "RNN": -0.40509879021521567,
+    "réservoir accordé (valeurs singulières)": -0.9334887508151555,
+    "réservoir tourné (rotations)": -0.6581227950849581,
+    "Iwasawa : cisaillement (N)": -0.4765987207719699,
+    "réservoir cisaillé en bande, k = 3": -0.835760943687097,
+    "réservoir cisaillé en bande, k = 10": -0.5746681809183825,
+    "Jordan-Chevalley + partie nilpotente apprise": -0.47686617965707123,
+    "réservoir à biais et entrées appris (sans g)": -0.5078854576958513
+   },
+   "contrôles": {
+    "oracle": -2.991292355622006,
+    "classique": -0.4481096865056348,
+    "distance relative": 0.5,
+    "rayon spectral enseignant": 1.1555395233358474
+   },
+   "attendue": "réservoir accordé (valeurs singulières)",
+   "meilleure": "réservoir accordé (valeurs singulières)",
+   "meilleure parmi les six": "réservoir accordé (valeurs singulières)"
+  },
+  "T4 bande | a = 0.5": {
+   "gain": {
+    "RNN": -2.061586920445794,
+    "réservoir accordé (valeurs singulières)": -1.9902043411907562,
+    "réservoir tourné (rotations)": -2.0931988505157544,
+    "Iwasawa : cisaillement (N)": -2.1069343239020175,
+    "réservoir cisaillé en bande, k = 3": -2.0948966736582357,
+    "réservoir cisaillé en bande, k = 10": -2.181023825209767,
+    "Jordan-Chevalley + partie nilpotente apprise": -2.0989905260834756,
+    "réservoir à biais et entrées appris (sans g)": -1.808760048393875
+   },
+   "contrôles": {
+    "oracle": -2.966424201298157,
+    "classique": -1.7267651582562251,
+    "distance relative": 0.5,
+    "rayon spectral enseignant": 1.005941670200164
+   },
+   "attendue": "réservoir cisaillé en bande, k = 10",
+   "meilleure": "réservoir cisaillé en bande, k = 10",
+   "meilleure parmi les six": "réservoir cisaillé en bande, k = 10"
+  },
+  "T5 témoin | a = 0.5": {
+   "gain": {
+    "RNN": -1.3091321400166531,
+    "réservoir accordé (valeurs singulières)": -1.6279220212798677,
+    "réservoir tourné (rotations)": -1.4432393744257652,
+    "Iwasawa : cisaillement (N)": -1.4437823411963893,
+    "réservoir cisaillé en bande, k = 3": -1.6231895180307714,
+    "réservoir cisaillé en bande, k = 10": -1.5880165338049208,
+    "Jordan-Chevalley + partie nilpotente apprise": -1.3827250946024658,
+    "réservoir à biais et entrées appris (sans g)": -1.3291523780255088
+   },
+   "contrôles": {
+    "oracle": -2.9987026820393807,
+    "classique": -1.2638698230429075,
+    "distance relative": 0.5,
+    "rayon spectral enseignant": 1.0749777045250435
+   },
+   "attendue": "RNN",
+   "meilleure": "réservoir accordé (valeurs singulières)",
+   "meilleure parmi les six": "réservoir accordé (valeurs singulières)"
+  }
+ },
+ "calibrage": {
+  "T1 tournée | a = 0.1": true,
+  "T2 cisaillée | a = 0.1": false,
+  "T3 accordée | a = 0.1": false,
+  "T4 bande | a = 0.1": true,
+  "T5 témoin | a = 0.1": false,
+  "T1 tournée | a = 0.5": true,
+  "T2 cisaillée | a = 0.5": false,
+  "T3 accordée | a = 0.5": true,
+  "T4 bande | a = 0.5": true,
+  "T5 témoin | a = 0.5": false
+ },
+ "signaux": {
+  "complet : part captée": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5047619047619049
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3142857142857143
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.8095238095238096
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.31428571428571433
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.8285714285714286
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.961904761904762
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14027375111880125,
+   "interaction": {
+    "r": 0.14075296412183894,
+    "p": 0.171
+   }
+  },
+  "complet : part par paramètre": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.7904761904761907
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07406145340031989,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.04761904761904762
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.039817629201743365,
+     "attendue": true,
+     "graines d'accord": true,
+     "rho": -0.44761904761904764
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07714763919049039,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3333333333333333
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.018820229771173924,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.20000000000000004
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.21700184017738566,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.961904761904762
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07764500093867244,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.10476190476190478
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": true,
+     "rho": 0.7142857142857144
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.19081948401901072,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.2571428571428572
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.8476190476190477
+    }
+   },
+   "attendues trouvées": 2,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.08486991649974507,
+   "interaction": {
+    "r": 0.1407529641218393,
+    "p": 0.392
+   }
+  },
+  "complet : signal sur bruit": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.1619047619047619
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.08607262484246103,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.039817629201743365,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.12380952380952381
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.14285714285714288
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.03581260451422752,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.10476190476190479
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.27619047619047626
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.19999999999999998
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.23809523809523805
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.6
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.18413968008347847,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.2571428571428572
+    }
+   },
+   "attendues trouvées": 3,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.11819392054251346,
+   "interaction": {
+    "r": -0.002263511743202748,
+    "p": 0.9775
+   }
+  },
+  "complet : accord entraînement-validation": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5047619047619049
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07406145340031989,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.08571428571428573
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.039817629201743365,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.23809523809523814
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07714763919049039,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.1619047619047619
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.03581260451422752,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.31428571428571433
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.27619047619047626
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.06891795086011032,
+     "attendue": true,
+     "graines d'accord": true,
+     "rho": -0.12380952380952381
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.45689003004318557,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5428571428571428
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.2571428571428572
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    }
+   },
+   "attendues trouvées": 2,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.12242921310376804,
+   "interaction": {
+    "r": -0.05548540109599515,
+    "p": 0.6155
+   }
+  },
+  "complet : pas de Newton": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.06666666666666667
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666668
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.37142857142857144
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.7904761904761904
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3333333333333334
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.923809523809524
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.6571428571428571
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.9047619047619048
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14027375111880125,
+   "interaction": {
+    "r": -0.3517973015130941,
+    "p": 0.0565
+   }
+  },
+  "complet : directions principales": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5047619047619049
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.02857142857142857
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.0593361155427794,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.02857142857142857
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3142857142857143
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.7904761904761907
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.35238095238095246
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.8857142857142858
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.961904761904762
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14035058573380202,
+   "interaction": {
+    "r": 0.2675508467725317,
+    "p": 0.0445
+   }
+  },
+  "récurrent : part captée": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5047619047619049
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3142857142857143
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.8095238095238096
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.31428571428571433
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.8285714285714286
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.961904761904762
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14027375111880125,
+   "interaction": {
+    "r": 0.1403118824041511,
+    "p": 0.3445
+   }
+  },
+  "récurrent : part par paramètre": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.4285714285714286
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.08607262484246103,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.7142857142857144
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.039817629201743365,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.44761904761904764
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.02857142857142858
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5238095238095238
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.14285714285714288
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07764500093867244,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2571428571428572
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.580952380952381
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.19081948401901072,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.14285714285714288
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.10476190476190476
+    }
+   },
+   "attendues trouvées": 4,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.06985514352459377,
+   "interaction": {
+    "r": 0.14031188240415246,
+    "p": 0.3305
+   }
+  },
+  "récurrent : signal sur bruit": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.07333125746573765,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.009523809523809537
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.08607262484246103,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.6190476190476191
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.031567879344150285,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.1619047619047619
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.12380952380952381
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.03581260451422752,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.0857142857142857
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.0516356993219409,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.12380952380952381
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07764500093867244,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.35238095238095246
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.23809523809523805
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.07408950130774938,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.1619047619047619
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.18413968008347847,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.009523809523809526
+    }
+   },
+   "attendues trouvées": 3,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.06142942478184177,
+   "interaction": {
+    "r": 0.2605891451212133,
+    "p": 0.0355
+   }
+  },
+  "récurrent : accord entraînement-validation": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.07333125746573765,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.028571428571428564
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.04773097434443141,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.08571428571428574
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.039817629201743365,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.37142857142857144
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.07714763919049039,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2571428571428572
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03605805238085402,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.3714285714285715
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.40952380952380957
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.06891795086011032,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.028571428571428564
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.45689003004318557,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.20000000000000004
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.07408950130774938,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.10476190476190479
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5238095238095238
+    }
+   },
+   "attendues trouvées": 3,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.0873983034794302,
+   "interaction": {
+    "r": 0.2080987323355131,
+    "p": 0.3325
+   }
+  },
+  "récurrent : pas de Newton": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.06666666666666667
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666668
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3142857142857143
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.7904761904761904
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3333333333333334
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.923809523809524
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.6380952380952382
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.9047619047619048
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14027375111880125,
+   "interaction": {
+    "r": 0.09252359974150917,
+    "p": 0.5835
+   }
+  },
+  "récurrent : directions principales": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.5047619047619049
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.46666666666666673
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.02857142857142857
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.0593361155427794,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.02857142857142857
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3142857142857143
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.7904761904761907
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.35238095238095246
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.8857142857142858
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.48571428571428577
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.942857142857143
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14035058573380202,
+   "interaction": {
+    "r": -0.057996904317680245,
+    "p": 0.689
+   }
+  },
+  "PCA G brut : alignement / hasard": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.6190476190476191
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.561904761904762
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.031567879344150285,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2571428571428572
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2952380952380953
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5619047619047619
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.21700184017738566,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5238095238095238
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.020429950764940585,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666665
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.3904761904761904
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.08612715155153117,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.0857142857142857
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.2571428571428572
+    }
+   },
+   "attendues trouvées": 1,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.07488245830130369,
+   "interaction": {
+    "r": 0.006901282573038958,
+    "p": 0.96
+   }
+  },
+  "PCA G brut, centrée : alignement / hasard": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.6190476190476191
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5428571428571428
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.031567879344150285,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2571428571428572
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.2952380952380953
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5619047619047619
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.21700184017738566,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5238095238095238
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.020429950764940585,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.06666666666666665
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.3904761904761904
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 3",
+     "regret": 0.08612715155153117,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.0857142857142857
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.2571428571428572
+    }
+   },
+   "attendues trouvées": 1,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.07488245830130369,
+   "interaction": {
+    "r": 0.009077388179205614,
+    "p": 0.9585
+   }
+  },
+  "PCA M⁻¹G (ε = 0.1) : alignement / hasard": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.6190476190476192
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.08607262484246103,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.580952380952381
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.02604274521027161,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.1619047619047619
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.009523809523809518
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03605805238085402,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5047619047619047
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.0516356993219409,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.10476190476190476
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.06891795086011032,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.047619047619047596
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.19081948401901072,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.21904761904761905
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03990548747494693,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.21904761904761907
+    }
+   },
+   "attendues trouvées": 3,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.07114057018010216,
+   "interaction": {
+    "r": 0.09120636851945511,
+    "p": 0.539
+   }
+  },
+  "PCA M⁻¹G (ε = 0.1), centrée : alignement / hasard": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.1533858882986543,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.6190476190476192
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.08607262484246103,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": -0.580952380952381
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.02604274521027161,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.1619047619047619
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.05856776939277175,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.10476190476190476
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03605805238085402,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": -0.5047619047619047
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.0516356993219409,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.10476190476190476
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Iwasawa : cisaillement (N)",
+     "regret": 0.06891795086011032,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.047619047619047596
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.0,
+     "attendue": true,
+     "graines d'accord": false,
+     "rho": 0.06666666666666667
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir accordé (valeurs singulières)",
+     "regret": 0.19081948401901072,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.21904761904761905
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03990548747494693,
+     "attendue": false,
+     "graines d'accord": false,
+     "rho": 0.21904761904761907
+    }
+   },
+   "attendues trouvées": 3,
+   "sur": 8,
+   "verdict": "partiel",
+   "T5 choix constant": 0,
+   "T5 cellules": 2,
+   "regret moyen": 0.07114057018010216,
+   "interaction": {
+    "r": 0.10218883017327679,
+    "p": 0.484
+   }
+  },
+  "taille": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07702364320520294,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.550782483869826
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.09832425035691461,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.3768511731740915
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.07230885942507603,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.028988551782622423
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.0593361155427794,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.08696565534786727
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08341985312668854,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.2608969660436018
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.06739095481870727,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.8116794499134278
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.1618493839008739,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.34786262139146906
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.45662257115808425,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.8116794499134278
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.08203329912629131,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": 0.4058397249567139
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "Jordan-Chevalley + partie nilpotente apprise",
+     "regret": 0.2451969266774019,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": -0.9856107606091623
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.14035058573380202
+  },
+  "choix naïf": {
+   "cellules": {
+    "T1 tournée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.06759859504797472,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T2 cisaillée | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.04773097434443141,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T3 accordée | a = 0.1": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.0,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T4 bande | a = 0.1": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.013420991711479147,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T5 témoin | a = 0.1": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.03605805238085402,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T1 tournée | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.07679896906316985,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T2 cisaillée | a = 0.5": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.05652526146519077,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T3 accordée | a = 0.5": {
+     "choisie": "réservoir cisaillé en bande, k = 10",
+     "regret": 0.358820569896773,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T4 bande | a = 0.5": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.08782497469401251,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    },
+    "T5 témoin | a = 0.5": {
+     "choisie": "réservoir tourné (rotations)",
+     "regret": 0.18468264685410252,
+     "attendue": false,
+     "graines d'accord": true,
+     "rho": null
+    }
+   },
+   "attendues trouvées": 0,
+   "sur": 8,
+   "verdict": "N",
+   "T5 choix constant": 2,
+   "T5 cellules": 2,
+   "regret moyen": 0.0929461035457988
+  }
+ },
+ "verdict": "invalidé : même sur des tâches géométriques, le gradient au départ ne dit pas quelle structure apprendre"
+}

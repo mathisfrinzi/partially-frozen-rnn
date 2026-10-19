@@ -1,0 +1,1143 @@
+{
+ "args": {
+  "n": 500,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": null,
+  "report": false,
+  "tag": "",
+  "only": null
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 1.584303816127852e-05,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 1.5096570822912912e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 7.14e-06,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 5.832354236644921e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 7.32e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.000817,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 1.8399332262385033e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 2.41e-06,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 1.89e-06,
+     "n_params": 251000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 5.8020622712163325e-08,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 8.1e-08,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 8.61e-08,
+     "n_params": 1500
+    }
+   },
+   "GRU, init soign\u00e9e": {
+    "0": {
+     "nmse": 1.1630686121554934e-07,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 9.84e-08,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 1.23e-07,
+     "n_params": 754500
+    }
+   },
+   "forme 1 : duo crois\u00e9, lu c\u00f4t\u00e9 RNN": {
+    "0": {
+     "nmse": 0.43588424151201305,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.195,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.0291,
+     "n_params": 751000
+    }
+   },
+   "forme 2 : duo crois\u00e9, lu c\u00f4t\u00e9 r\u00e9servoir": {
+    "0": {
+     "nmse": 0.1425928494120536,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.0608,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.108,
+     "n_params": 751000
+    }
+   },
+   "forme 3 : relais al\u00e9atoire": {
+    "0": {
+     "nmse": 3.8055835563228946e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 3.99e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 3.98e-05,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris": {
+    "0": {
+     "nmse": 4.434750183202752e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 4.66e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 4.9e-05,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 3.2912899673595382e-06,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 3.69e-06,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 1.12e-06,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 3.782883833709037e-08,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 2.19e-08,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 1.54e-08,
+     "n_params": 1500
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 3.7141090377961926e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 2.66e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.000223,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris (type DT-RNN)": {
+    "0": {
+     "nmse": 0.0014643833217279374,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 0.271,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.175,
+     "n_params": 501500
+    }
+   },
+   "forme 3 : relais al\u00e9atoire, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 2.55e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 1.76e-06,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 2.07e-06,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 4.39e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 3.78e-06,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 3.05e-06,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 7e-06,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 9.11e-06,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 7.99e-06,
+     "n_params": 501500
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.25,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.252,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.223,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.26,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.175,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.161,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0707,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.115,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0974,
+     "n_params": 251000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0103,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.00982,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0105,
+     "n_params": 1500
+    }
+   },
+   "GRU, init soign\u00e9e": {
+    "0": {
+     "nmse": 0.167,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.144,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.151,
+     "n_params": 754500
+    }
+   },
+   "forme 1 : duo crois\u00e9, lu c\u00f4t\u00e9 RNN": {
+    "0": {
+     "nmse": 0.568,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.672,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.663,
+     "n_params": 751000
+    }
+   },
+   "forme 2 : duo crois\u00e9, lu c\u00f4t\u00e9 r\u00e9servoir": {
+    "0": {
+     "nmse": 0.648,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.656,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.652,
+     "n_params": 751000
+    }
+   },
+   "forme 3 : relais al\u00e9atoire": {
+    "0": {
+     "nmse": 0.181,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.2,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.16,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris": {
+    "0": {
+     "nmse": 0.218,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.24,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.268,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.119,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.125,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.102,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.00848,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.008,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0088,
+     "n_params": 1500
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.122,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.383,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.125,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris (type DT-RNN)": {
+    "0": {
+     "nmse": 0.675,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 0.678,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.681,
+     "n_params": 501500
+    }
+   },
+   "forme 3 : relais al\u00e9atoire, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0321,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0345,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0323,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0493,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0372,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0224,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0781,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 0.0924,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.0721,
+     "n_params": 501500
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.217,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.19625862676111358,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.24863283768484942,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.11765096993554848,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.113045038723387,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.11659072659786912,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.03881634318290411,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.03616935661368963,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.046334731867882416,
+     "n_params": 251000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0018978282384157885,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.0018665185089977148,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0018182832485419537,
+     "n_params": 1500
+    }
+   },
+   "GRU, init soign\u00e9e": {
+    "0": {
+     "nmse": 0.588330436319259,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.5310470766640303,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.5428575585868433,
+     "n_params": 754500
+    }
+   },
+   "forme 1 : duo crois\u00e9, lu c\u00f4t\u00e9 RNN": {
+    "0": {
+     "nmse": 0.10987451492613734,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.09570663748210549,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 1.0048608350835224,
+     "n_params": 751000
+    }
+   },
+   "forme 2 : duo crois\u00e9, lu c\u00f4t\u00e9 r\u00e9servoir": {
+    "0": {
+     "nmse": 1.0161816667954147,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.09736126593219159,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.10600596622816137,
+     "n_params": 751000
+    }
+   },
+   "forme 3 : relais al\u00e9atoire": {
+    "0": {
+     "nmse": 1.242620461058963,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 1.1216288846786586,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 5.921265182363026,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris": {
+    "0": {
+     "nmse": 1.3030954089543416,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.7690796534656258,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 1.2467641946519528,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.24604049716171264,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.2257295022595783,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.2994596514522032,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.0019263870402878415,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.0018455967418513754,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0017051006692964474,
+     "n_params": 1500
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.12060817473607754,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.11426556892748958,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.12273199266786235,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris (type DT-RNN)": {
+    "0": {
+     "nmse": 1.0121510317640654,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 1.0024025586839682,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 1.0420562156736715,
+     "n_params": 501500
+    }
+   },
+   "forme 3 : relais al\u00e9atoire, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.024706866440508343,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.02190350096859827,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.025245860274772297,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.05247661085497948,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.05184384431159133,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.04583146921232304,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.04572587864657376,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 0.046164008450657115,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.043896955494708276,
+     "n_params": 501500
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.0006952753314326641,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.0009676362384494595,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00021947841453242512,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.010438167431706107,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 3.336305748607333e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0004154782750458786,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 1.5764593797593534e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 5.224269731814344e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.00011586222518658646,
+     "n_params": 251000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 3.0004209455321874e-05,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 4.8396295977758465e-05,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 4.998976841445883e-05,
+     "n_params": 1500
+    }
+   },
+   "GRU, init soign\u00e9e": {
+    "0": {
+     "nmse": 1.3238745137464908e-07,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 2.635310835316469e-07,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 3.0854101735643784e-07,
+     "n_params": 754500
+    }
+   },
+   "forme 1 : duo crois\u00e9, lu c\u00f4t\u00e9 RNN": {
+    "0": {
+     "nmse": 0.04874129386389813,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.00046834904776906866,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.31559933498501624,
+     "n_params": 751000
+    }
+   },
+   "forme 2 : duo crois\u00e9, lu c\u00f4t\u00e9 r\u00e9servoir": {
+    "0": {
+     "nmse": 0.0014566933473603987,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.0005666090186788879,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.04282141170967039,
+     "n_params": 751000
+    }
+   },
+   "forme 3 : relais al\u00e9atoire": {
+    "0": {
+     "nmse": 0.0002572938512602109,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.00010825522511049761,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 8.002465989502876e-05,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris": {
+    "0": {
+     "nmse": 0.00025289038522141057,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 7.938508101175019e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.00019749585813284642,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.0001487358613245944,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.00016633745943186548,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 2.8076819670557696e-05,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 1.774995820233398e-05,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 1.4243000532592246e-05,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 1.9093420073105344e-05,
+     "n_params": 1500
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 6.411206786930654e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.003036572863825604,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 11.607689859568367,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris (type DT-RNN)": {
+    "0": {
+     "nmse": 0.006019562808401251,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 1.5957324751501856,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.017641445875609608,
+     "n_params": 501500
+    }
+   },
+   "forme 3 : relais al\u00e9atoire, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 1.7430320808658316e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 1.9596981313712713e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 4.6981237806219215e-06,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 4.360358788207189e-06,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 2.0117724065928218e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 2.906323289088812e-05,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 1.7750149955853553e-06,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 1.915463263656145e-05,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 6.678103410948759e-06,
+     "n_params": 501500
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.481718096587231,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.5377459018895505,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.5563747374563917,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.22211419359706489,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.2560447080372625,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.23590555196833038,
+     "n_params": 251000
+    }
+   },
+   "RNN, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.961183113912708,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.8773598204934118,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.7642869579910321,
+     "n_params": 251000
+    }
+   },
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.057722959777071196,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.059130278971217726,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.07792183890742693,
+     "n_params": 1500
+    }
+   },
+   "GRU, init soign\u00e9e": {
+    "0": {
+     "nmse": 0.0006724051073115274,
+     "n_params": 754500
+    },
+    "1": {
+     "nmse": 0.0009178447195880326,
+     "n_params": 754500
+    },
+    "2": {
+     "nmse": 0.0009490864250510478,
+     "n_params": 754500
+    }
+   },
+   "forme 1 : duo crois\u00e9, lu c\u00f4t\u00e9 RNN": {
+    "0": {
+     "nmse": 0.4241914452926615,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.5291744223846678,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.36654043698630245,
+     "n_params": 751000
+    }
+   },
+   "forme 2 : duo crois\u00e9, lu c\u00f4t\u00e9 r\u00e9servoir": {
+    "0": {
+     "nmse": 0.7368114403822656,
+     "n_params": 751000
+    },
+    "1": {
+     "nmse": 0.18814637691136868,
+     "n_params": 751000
+    },
+    "2": {
+     "nmse": 0.7546670318844289,
+     "n_params": 751000
+    }
+   },
+   "forme 3 : relais al\u00e9atoire": {
+    "0": {
+     "nmse": 7.504497480522251e-05,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 6.026006025238435e-05,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0001339799675805574,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris": {
+    "0": {
+     "nmse": 0.00017676182253297413,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0001028742222014187,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0011275919445604824,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.5132145752406551,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6042154241542794,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.6483840248305344,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.027118538250171825,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.020501448788922575,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.020490237096443917,
+     "n_params": 1500
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.14639012570179188,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.22238844674346142,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.19067490476973906,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris (type DT-RNN)": {
+    "0": {
+     "nmse": 0.00021600479903778475,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 6.794023227009842e-05,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.00018218647320891198,
+     "n_params": 501500
+    }
+   },
+   "forme 3 : relais al\u00e9atoire, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.001549062723479519,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.004276127227603942,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0014087214450318236,
+     "n_params": 251000
+    }
+   },
+   "forme 4 : relais appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.00395836769004665,
+     "n_params": 251000
+    },
+    "1": {
+     "nmse": 0.0034644652439325186,
+     "n_params": 251000
+    },
+    "2": {
+     "nmse": 0.0032419206156752787,
+     "n_params": 251000
+    }
+   },
+   "contr\u00f4le : relais tout appris, lr \u00d7 0.1": {
+    "0": {
+     "nmse": 0.0007086741642720141,
+     "n_params": 501500
+    },
+    "1": {
+     "nmse": 0.0004084714063799538,
+     "n_params": 501500
+    },
+    "2": {
+     "nmse": 0.0010308166518773385,
+     "n_params": 501500
+    }
+   }
+  }
+ }
+}

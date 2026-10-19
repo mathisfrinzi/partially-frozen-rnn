@@ -1,0 +1,452 @@
+{
+ "Mackey-Glass (+15)": {
+  "réservoir classique": {
+   "nmse": [
+    1.584303816127852e-05,
+    1.5096570822912912e-05,
+    7.142380156300314e-06
+   ],
+   "vs accordé": 2.208432461855246,
+   "se": 0.15254209351272524,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "nmse": [
+    5.8020622712163325e-08,
+    8.102738477981993e-08,
+    8.610892073286023e-08
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 1500
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "nmse": [
+    8.846011094144203e-06,
+    8.032844891140783e-06,
+    9.353746451085728e-06
+   ],
+   "vs accordé": 2.071780033594506,
+   "se": 0.056859458497476124,
+   "verdict": "moins bien",
+   "paramètres": 126750
+  },
+  "Iwasawa : cisaillement (N)": {
+   "nmse": [
+    1.21437515705261e-05,
+    1.1136783983054885e-05,
+    9.381234043123122e-06
+   ],
+   "vs accordé": 2.165370095790036,
+   "se": 0.08298188320977563,
+   "verdict": "moins bien",
+   "paramètres": 125750
+  },
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    1.3140327125699467e-07,
+    1.3903842196820283e-07,
+    1.342916877565467e-07
+   ],
+   "vs accordé": 0.260842595204247,
+   "se": 0.04859073214043812,
+   "verdict": "moins bien",
+   "paramètres": 1499
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    1.0011737341607322e-07,
+    6.464602450423244e-08,
+    9.635849942966837e-08
+   ],
+   "vs accordé": 0.06255964819234829,
+   "se": 0.09695401083211838,
+   "verdict": "égal",
+   "paramètres": 2494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    3.871231179686602e-08,
+    4.824191261367915e-08,
+    3.480669538324235e-08
+   ],
+   "vs accordé": -0.26477531212076244,
+   "se": 0.06587191322723158,
+   "verdict": "mieux",
+   "paramètres": 5945
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    7.547771676811355e-08,
+    7.266129107218915e-08,
+    7.39968539288871e-08
+   ],
+   "vs accordé": 0.0003575888196595915,
+   "se": 0.057189457098848,
+   "verdict": "égal",
+   "paramètres": 3494
+  }
+ },
+ "NARMA10": {
+  "réservoir classique": {
+   "nmse": [
+    0.24986853598902237,
+    0.2517819809513305,
+    0.22257018363621206
+   ],
+   "vs accordé": 1.3732923145039895,
+   "se": 0.024726242117039415,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "nmse": [
+    0.010297194364303494,
+    0.009816831990851125,
+    0.010510805273174143
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 1500
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "nmse": [
+    0.11691879885857871,
+    0.11716299082637337,
+    0.11760373296102458
+   ],
+   "vs accordé": 1.0602565475953671,
+   "se": 0.00848362142914431,
+   "verdict": "moins bien",
+   "paramètres": 126750
+  },
+  "Iwasawa : cisaillement (N)": {
+   "nmse": [
+    0.10541062048234341,
+    0.1010013125929229,
+    0.10915666610286427
+   ],
+   "vs accordé": 1.0129784638127843,
+   "se": 0.001830558240604026,
+   "verdict": "moins bien",
+   "paramètres": 125750
+  },
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.008822676154744646,
+    0.009771051029419855,
+    0.008225360058069687
+   ],
+   "vs accordé": -0.058543240455171675,
+   "se": 0.030455732045847308,
+   "verdict": "égal",
+   "paramètres": 1499
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.006196279823685181,
+    0.006070229913812171,
+    0.007208901225836275
+   ],
+   "vs accordé": -0.1977070070544991,
+   "se": 0.01730977897406476,
+   "verdict": "mieux",
+   "paramètres": 2494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.00898638405078538,
+    0.006815501778729746,
+    0.008067568312970492
+   ],
+   "vs accordé": -0.11083359896222093,
+   "se": 0.028748620452839935,
+   "verdict": "mieux",
+   "paramètres": 5945
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.011724302098139216,
+    0.015149702568876306,
+    0.015972213297745032
+   ],
+   "vs accordé": 0.1421766496993557,
+   "se": 0.04294790013921626,
+   "verdict": "moins bien",
+   "paramètres": 3494
+  }
+ },
+ "Mémoire (délai 15)": {
+  "réservoir classique": {
+   "nmse": [
+    0.2171076911352125,
+    0.19625862676111358,
+    0.24863283768484942
+   ],
+   "vs accordé": 2.0720372360864667,
+   "se": 0.03363449204625829,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "nmse": [
+    0.0018978282384157885,
+    0.0018665185089977148,
+    0.0018182832485419537
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 1500
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "nmse": [
+    0.08869220568736093,
+    0.08790643160856157,
+    0.08858406999210305
+   ],
+   "vs accordé": 1.6767703312316848,
+   "se": 0.005547326094576722,
+   "verdict": "moins bien",
+   "paramètres": 126750
+  },
+  "Iwasawa : cisaillement (N)": {
+   "nmse": [
+    0.09388776968565683,
+    0.08694351300233376,
+    0.0845965385177187
+   ],
+   "vs accordé": 1.6767493522679386,
+   "se": 0.008802632725630626,
+   "verdict": "moins bien",
+   "paramètres": 125750
+  },
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.0010785337654504812,
+    0.0010803029765159063,
+    0.0011102988211643368
+   ],
+   "vs accordé": -0.23237718183554404,
+   "se": 0.009362406895435804,
+   "verdict": "mieux",
+   "paramètres": 1499
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.0012335533263871984,
+    0.0013599837362584224,
+    0.0012382823413335153
+   ],
+   "vs accordé": -0.16381313992004132,
+   "se": 0.014398258109198517,
+   "verdict": "mieux",
+   "paramètres": 2494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.0010950455625351788,
+    0.0011979847193118827,
+    0.0011695351878758188
+   ],
+   "vs accordé": -0.20768466059882595,
+   "se": 0.015572355281233987,
+   "verdict": "mieux",
+   "paramètres": 5945
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.0024329496666858795,
+    0.002512606887860186,
+    0.002116696960715508
+   ],
+   "vs accordé": 0.10098853784050077,
+   "se": 0.01853670166309134,
+   "verdict": "moins bien",
+   "paramètres": 3494
+  }
+ },
+ "Lorenz (+10)": {
+  "réservoir classique": {
+   "nmse": [
+    0.0006952753314326641,
+    0.0009676362384494595,
+    0.00021947841453242512
+   ],
+   "vs accordé": 1.1027951073758266,
+   "se": 0.23088431348497876,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "nmse": [
+    3.0004209455321874e-05,
+    4.8396295977758465e-05,
+    4.998976841445883e-05
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 1500
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "nmse": [
+    2.4571964995656858e-05,
+    9.252432326606472e-06,
+    4.5074887246480994e-06
+   ],
+   "vs accordé": -0.6167483277228542,
+   "se": 0.2812545961276375,
+   "verdict": "mieux",
+   "paramètres": 126750
+  },
+  "Iwasawa : cisaillement (N)": {
+   "nmse": [
+    5.129920043062379e-06,
+    4.336390481518624e-06,
+    3.325794823739754e-05
+   ],
+   "vs accordé": -0.6639136686226816,
+   "se": 0.25658653520544467,
+   "verdict": "mieux",
+   "paramètres": 125750
+  },
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    1.3022506223175376e-05,
+    1.8410910464879458e-06,
+    1.3553997652396204e-05
+   ],
+   "vs accordé": -0.7830127305865294,
+   "se": 0.3237800179699729,
+   "verdict": "mieux",
+   "paramètres": 1499
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    4.37655127352805e-06,
+    3.82445008924357e-06,
+    1.8585438646682043e-05
+   ],
+   "vs accordé": -0.7893338678223918,
+   "se": 0.19554418054338674,
+   "verdict": "mieux",
+   "paramètres": 2494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    2.1677703606270414e-06,
+    1.5790272174294866e-06,
+    6.0142952502041626e-06
+   ],
+   "vs accordé": -1.1824292677037032,
+   "se": 0.16489535926666637,
+   "verdict": "mieux",
+   "paramètres": 5945
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    3.3097135601488444e-05,
+    1.4534171879249913e-05,
+    4.294106796606311e-06
+   ],
+   "vs accordé": -0.5152739650008046,
+   "se": 0.3200499738862553,
+   "verdict": "égal",
+   "paramètres": 3494
+  }
+ },
+ "Hénon (+3)": {
+  "réservoir classique": {
+   "nmse": [
+    0.481718096587231,
+    0.5377459018895505,
+    0.5563747374563917
+   ],
+   "vs accordé": 0.9113065868806819,
+   "se": 0.030748592865652714,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "réservoir accordé (valeurs singulières)": {
+   "nmse": [
+    0.057722959777071196,
+    0.059130278971217726,
+    0.07792183890742693
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 1500
+  },
+  "Jordan-Chevalley + partie nilpotente apprise": {
+   "nmse": [
+    0.2577183756560019,
+    0.35563419556513154,
+    0.3086248394331961
+   ],
+   "vs accordé": 0.6755873543460459,
+   "se": 0.05393620103371145,
+   "verdict": "moins bien",
+   "paramètres": 126750
+  },
+  "Iwasawa : cisaillement (N)": {
+   "nmse": [
+    0.21903535226692658,
+    0.21641300805427055,
+    0.21811332313655876
+   ],
+   "vs accordé": 0.5298873530191329,
+   "se": 0.04167907854498133,
+   "verdict": "moins bien",
+   "paramètres": 125750
+  },
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.033879935963974754,
+    0.03929168884208034,
+    0.035486403234615806
+   ],
+   "vs accordé": -0.2501708175423984,
+   "se": 0.04828838581738424,
+   "verdict": "mieux",
+   "paramètres": 1499
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.04730768181804409,
+    0.040093032728194394,
+    0.04356865009084053
+   ],
+   "vs accordé": -0.16921434428504126,
+   "se": 0.047940333861559284,
+   "verdict": "mieux",
+   "paramètres": 2494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.04699320725978335,
+    0.0484153956251607,
+    0.05462104424830933
+   ],
+   "vs accordé": -0.11014638085236583,
+   "se": 0.02208807802765616,
+   "verdict": "mieux",
+   "paramètres": 5945
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.3040079656194563,
+    0.2433260345737984,
+    0.3461064568439847
+   ],
+   "vs accordé": 0.6611551768085925,
+   "se": 0.03167285660710151,
+   "verdict": "moins bien",
+   "paramètres": 3494
+  }
+ }
+}

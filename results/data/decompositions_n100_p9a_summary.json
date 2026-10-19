@@ -1,0 +1,173 @@
+{
+ "Mackey-Glass (+15)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    8.310807557870465e-05,
+    5.33706963326651e-05,
+    5.299455496572021e-05
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 299
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    3.620932460727828e-05,
+    2.688468446293789e-05,
+    6.273133307587898e-05
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    2.9777660119786432e-05,
+    4.14447385698059e-05,
+    3.2406591930132644e-05
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 1145
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    4.544399602688353e-05,
+    6.895843999871705e-05,
+    4.389947384541014e-05
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 694
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": [
+    0.0001100368192427227,
+    7.240935698604438e-05,
+    0.00026887604202290765
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 200
+  }
+ },
+ "NARMA10": {
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.01876194297290144,
+    0.015707912570913297,
+    0.017882303571343638
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 299
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.013034012017255955,
+    0.014761930902130578,
+    0.01116902048961756
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.011926119252250594,
+    0.01190173773172815,
+    0.007922184720692086
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 1145
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.017121757573889507,
+    0.012801437055913906,
+    0.014369541327923703
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 694
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": [
+    0.09274855015811077,
+    0.054097575386610246,
+    0.1227886530087116
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 200
+  }
+ },
+ "Mémoire (délai 15)": {
+  "réservoir cisaillé en bande, k = 1": {
+   "nmse": [
+    0.0019606808267208656,
+    0.002019033105729999,
+    0.0018657234017572038
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 299
+  },
+  "réservoir cisaillé en bande, k = 3": {
+   "nmse": [
+    0.001546924975371779,
+    0.0016460355163573283,
+    0.0015479714900226626
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 494
+  },
+  "réservoir cisaillé en bande, k = 10": {
+   "nmse": [
+    0.0014571037411549186,
+    0.0016285126464620622,
+    0.0012788400875561126
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 1145
+  },
+  "réservoir nilpotent en bande, k = 3": {
+   "nmse": [
+    0.002024541811365741,
+    0.0016566017744496597,
+    0.0016092992969419203
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 694
+  },
+  "réservoir à biais et entrées appris (sans g)": {
+   "nmse": [
+    0.03341646039947324,
+    0.015553904138344158,
+    0.07817092432964592
+   ],
+   "vs accordé": NaN,
+   "se": NaN,
+   "verdict": "égal",
+   "paramètres": 200
+  }
+ }
+}

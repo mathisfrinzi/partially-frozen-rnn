@@ -1,0 +1,232 @@
+{
+ "Mackey-Glass (+15)": {
+  "réservoir accordé": {
+   "nmse": [
+    9.833712270857849e-05,
+    0.0001049457777335041,
+    6.646666065349187e-05
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 300
+  },
+  "contrôle : réservoir classique, readout carré": {
+   "nmse": [
+    6.641027878919043e-05,
+    4.08340711890455e-05,
+    6.473726160856692e-05
+   ],
+   "vs accordé": -0.19729133916760225,
+   "se": 0.11581330721298666,
+   "verdict": "égal",
+   "paramètres": 0
+  },
+  "contrôle : réservoir accordé, readout carré": {
+   "nmse": [
+    1.331790692240926e-05,
+    8.080994670741184e-06,
+    1.0501608590908673e-05
+   ],
+   "vs accordé": -0.9277099013529252,
+   "se": 0.09488332372796496,
+   "verdict": "mieux",
+   "paramètres": 300
+  },
+  "contrôle : RNN, readout carré": {
+   "nmse": [
+    2.8078170073960287e-05,
+    3.224544548163267e-05,
+    2.5425133561682986e-05
+   ],
+   "vs accordé": -0.49139530090188765,
+   "se": 0.038151939000267296,
+   "verdict": "mieux",
+   "paramètres": 10200
+  }
+ },
+ "NARMA10": {
+  "réservoir accordé": {
+   "nmse": [
+    0.021742874429158413,
+    0.023208614234255423,
+    0.02519391135364036
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 300
+  },
+  "contrôle : réservoir classique, readout carré": {
+   "nmse": [
+    0.22549814288616027,
+    0.13147833574357015,
+    0.25580194247039656
+   ],
+   "vs accordé": 0.9252130803985734,
+   "se": 0.08604520062207996,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "contrôle : réservoir accordé, readout carré": {
+   "nmse": [
+    0.017212134356822402,
+    0.011917197133577799,
+    0.014361646653665783
+   ],
+   "vs accordé": -0.21168289205810828,
+   "se": 0.05663644312996655,
+   "verdict": "mieux",
+   "paramètres": 300
+  },
+  "contrôle : RNN, readout carré": {
+   "nmse": [
+    0.046802590959995956,
+    0.0434846859981097,
+    0.04790688979373586
+   ],
+   "vs accordé": 0.2949141488033679,
+   "se": 0.019109343186222594,
+   "verdict": "moins bien",
+   "paramètres": 10200
+  }
+ },
+ "Mémoire (délai 15)": {
+  "réservoir accordé": {
+   "nmse": [
+    0.0028343970468631863,
+    0.0030890431352558283,
+    0.002900627177752714
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 300
+  },
+  "contrôle : réservoir classique, readout carré": {
+   "nmse": [
+    0.9778545383510733,
+    0.6098081263734336,
+    0.8642864176480177
+   ],
+   "vs accordé": 2.435782859946578,
+   "se": 0.07257122935436228,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "contrôle : réservoir accordé, readout carré": {
+   "nmse": [
+    0.003576295360516653,
+    0.0032876576859082905,
+    0.00418544011749503
+   ],
+   "vs accordé": 0.09576151086330924,
+   "se": 0.038247839691587814,
+   "verdict": "moins bien",
+   "paramètres": 300
+  },
+  "contrôle : RNN, readout carré": {
+   "nmse": [
+    0.003431866123085528,
+    0.0023331345520291886,
+    0.002824476581717136
+   ],
+   "vs accordé": -0.0167894900654744,
+   "se": 0.059222960790772695,
+   "verdict": "égal",
+   "paramètres": 10200
+  }
+ },
+ "Lorenz (+10)": {
+  "réservoir accordé": {
+   "nmse": [
+    0.0007204068547022594,
+    0.000476304949419818,
+    0.0006866892198208505
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 300
+  },
+  "contrôle : réservoir classique, readout carré": {
+   "nmse": [
+    0.00018204998948894273,
+    0.00032781096337511085,
+    0.00067641625030869
+   ],
+   "vs accordé": -0.25539833185571004,
+   "se": 0.17680413040746032,
+   "verdict": "égal",
+   "paramètres": 0
+  },
+  "contrôle : réservoir accordé, readout carré": {
+   "nmse": [
+    0.00012551099273807155,
+    7.860920323873168e-05,
+    4.671833323059139e-05
+   ],
+   "vs accordé": -0.9028602204411276,
+   "se": 0.1323805006527882,
+   "verdict": "mieux",
+   "paramètres": 300
+  },
+  "contrôle : RNN, readout carré": {
+   "nmse": [
+    0.0001574447932246829,
+    0.0004031541773421775,
+    0.0001637656743536461
+   ],
+   "vs accordé": -0.4518002718455902,
+   "se": 0.1900086230752947,
+   "verdict": "mieux",
+   "paramètres": 10200
+  }
+ },
+ "Hénon (+3)": {
+  "réservoir accordé": {
+   "nmse": [
+    0.04004743175811701,
+    0.0423448522800762,
+    0.04396246101590849
+   ],
+   "vs accordé": 0.0,
+   "se": 0.0,
+   "verdict": "égal",
+   "paramètres": 300
+  },
+  "contrôle : réservoir classique, readout carré": {
+   "nmse": [
+    0.5119466081319975,
+    0.6072185656171193,
+    0.5557343649049643
+   ],
+   "vs accordé": 1.1216598920659886,
+   "se": 0.017498705831784842,
+   "verdict": "moins bien",
+   "paramètres": 0
+  },
+  "contrôle : réservoir accordé, readout carré": {
+   "nmse": [
+    0.010316691080803905,
+    0.018459320342564124,
+    0.009651784361042696
+   ],
+   "vs accordé": -0.5360311816683527,
+   "se": 0.08998430891929597,
+   "verdict": "mieux",
+   "paramètres": 300
+  },
+  "contrôle : RNN, readout carré": {
+   "nmse": [
+    0.0020363446611884727,
+    0.008119977518864303,
+    0.006225503261246331
+   ],
+   "vs accordé": -0.9532922367495359,
+   "se": 0.17440730826242168,
+   "verdict": "mieux",
+   "paramètres": 10200
+  }
+ }
+}

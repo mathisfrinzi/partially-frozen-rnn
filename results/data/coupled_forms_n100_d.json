@@ -1,0 +1,306 @@
+{
+ "args": {
+  "n": 100,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": null,
+  "report": false,
+  "tag": "_d",
+  "only": [
+   "readout carr\u00e9",
+   "r\u00e9servoir accord\u00e9"
+  ]
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 9.833712270857849e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0001049457777335041,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 6.646666065349187e-05,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 6.641027878919043e-05,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 4.08340711890455e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 6.473726160856692e-05,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 1.331790692240926e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 8.080994670741184e-06,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 1.0501608590908673e-05,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 2.8078170073960287e-05,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 3.224544548163267e-05,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 2.5425133561682986e-05,
+     "n_params": 10200
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.021742874429158413,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.023208614234255423,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.02519391135364036,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.22549814288616027,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.13147833574357015,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.25580194247039656,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.017212134356822402,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.011917197133577799,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.014361646653665783,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.046802590959995956,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.0434846859981097,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.04790688979373586,
+     "n_params": 10200
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0028343970468631863,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0030890431352558283,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.002900627177752714,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.9778545383510733,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6098081263734336,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.8642864176480177,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.003576295360516653,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0032876576859082905,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.00418544011749503,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.003431866123085528,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.0023331345520291886,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.002824476581717136,
+     "n_params": 10200
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.0007204068547022594,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.000476304949419818,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0006866892198208505,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.00018204998948894273,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.00032781096337511085,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00067641625030869,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.00012551099273807155,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 7.860920323873168e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 4.671833323059139e-05,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.0001574447932246829,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.0004031541773421775,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.0001637656743536461,
+     "n_params": 10200
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir accord\u00e9": {
+    "0": {
+     "nmse": 0.04004743175811701,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0423448522800762,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.04396246101590849,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir classique, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.5119466081319975,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6072185656171193,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.5557343649049643,
+     "n_params": 0
+    }
+   },
+   "contr\u00f4le : r\u00e9servoir accord\u00e9, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.010316691080803905,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.018459320342564124,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.009651784361042696,
+     "n_params": 300
+    }
+   },
+   "contr\u00f4le : RNN, readout carr\u00e9": {
+    "0": {
+     "nmse": 0.0020363446611884727,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.008119977518864303,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.006225503261246331,
+     "n_params": 10200
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,653 @@
+{
+ "args": {
+  "n": 100,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": null,
+  "report": false,
+  "tag": "",
+  "only": null
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.0018725798349177012,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.0015657192665139872,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.0015200663801718376,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 6.7236502126874e-05,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 7.698625413948989e-05,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 9.491575727450287e-05,
+     "n_params": 10200
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 9.833668646850422e-05,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00010494525225819656,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 6.646660667214339e-05,
+     "n_params": 300
+    }
+   },
+   "r\u00e9servoir tourn\u00e9 (rotations)": {
+    "0": {
+     "nmse": 6.766340483551002e-05,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 9.440699710622047e-05,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 4.975356570189138e-05,
+     "n_params": 10200
+    }
+   },
+   "accord\u00e9, valeurs propres (Jordan-Chevalley, partie semi-simple)": {
+    "0": {
+     "nmse": 6.673966937116706e-05,
+     "n_params": 400
+    },
+    "1": {
+     "nmse": 8.313423406530808e-05,
+     "n_params": 400
+    },
+    "2": {
+     "nmse": 8.399851676623005e-05,
+     "n_params": 400
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 3.826405708030754e-05,
+     "n_params": 5350
+    },
+    "1": {
+     "nmse": 4.848526162324794e-05,
+     "n_params": 5350
+    },
+    "2": {
+     "nmse": 4.605349549841318e-05,
+     "n_params": 5350
+    }
+   },
+   "Iwasawa : amplitudes (A)": {
+    "0": {
+     "nmse": 0.0001645079615019957,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 8.532208774636767e-05,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 8.735847374894017e-05,
+     "n_params": 300
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 8.72107320316783e-05,
+     "n_params": 5150
+    },
+    "1": {
+     "nmse": 7.309793761332148e-05,
+     "n_params": 5150
+    },
+    "2": {
+     "nmse": 6.288877407884755e-05,
+     "n_params": 5150
+    }
+   },
+   "Iwasawa : amplitudes et cisaillement (A et N)": {
+    "0": {
+     "nmse": 7.220212853380327e-05,
+     "n_params": 5250
+    },
+    "1": {
+     "nmse": 6.918570100646144e-05,
+     "n_params": 5250
+    },
+    "2": {
+     "nmse": 5.34278915523151e-05,
+     "n_params": 5250
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.29824857895170115,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.21898762341235645,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.3211620621622325,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.03738439414775158,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.03508443372392313,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.026706481094303035,
+     "n_params": 10200
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.02155436301076591,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.023208670658131675,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.025203168091062458,
+     "n_params": 300
+    }
+   },
+   "r\u00e9servoir tourn\u00e9 (rotations)": {
+    "0": {
+     "nmse": 0.024720915190328485,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.01888539486594368,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.026065933987813344,
+     "n_params": 10200
+    }
+   },
+   "accord\u00e9, valeurs propres (Jordan-Chevalley, partie semi-simple)": {
+    "0": {
+     "nmse": 0.040393130588642544,
+     "n_params": 400
+    },
+    "1": {
+     "nmse": 0.023448288354681282,
+     "n_params": 400
+    },
+    "2": {
+     "nmse": 0.03184270043663364,
+     "n_params": 400
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.028364521791139533,
+     "n_params": 5350
+    },
+    "1": {
+     "nmse": 0.022293096244259944,
+     "n_params": 5350
+    },
+    "2": {
+     "nmse": 0.02281510501403944,
+     "n_params": 5350
+    }
+   },
+   "Iwasawa : amplitudes (A)": {
+    "0": {
+     "nmse": 0.02526074499569196,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.021773529015426465,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.032375223414998724,
+     "n_params": 300
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.019377255790309154,
+     "n_params": 5150
+    },
+    "1": {
+     "nmse": 0.022143736829146363,
+     "n_params": 5150
+    },
+    "2": {
+     "nmse": 0.01878906569533121,
+     "n_params": 5150
+    }
+   },
+   "Iwasawa : amplitudes et cisaillement (A et N)": {
+    "0": {
+     "nmse": 0.021338603679581052,
+     "n_params": 5250
+    },
+    "1": {
+     "nmse": 0.023960832980622536,
+     "n_params": 5250
+    },
+    "2": {
+     "nmse": 0.01900133921649555,
+     "n_params": 5250
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.9446211896914288,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.597570004851789,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.833188511555464,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.002918807492724107,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.0027327898085605217,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.0028474787722335814,
+     "n_params": 10200
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.002789974790458979,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0029572357854401616,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0029923183527213503,
+     "n_params": 300
+    }
+   },
+   "r\u00e9servoir tourn\u00e9 (rotations)": {
+    "0": {
+     "nmse": 0.021271935490853298,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.01971970988517837,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.047968080030170335,
+     "n_params": 10200
+    }
+   },
+   "accord\u00e9, valeurs propres (Jordan-Chevalley, partie semi-simple)": {
+    "0": {
+     "nmse": 0.008037280191034949,
+     "n_params": 400
+    },
+    "1": {
+     "nmse": 0.0055232683144281775,
+     "n_params": 400
+    },
+    "2": {
+     "nmse": 0.009287421938281172,
+     "n_params": 400
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.0026297421826833064,
+     "n_params": 5350
+    },
+    "1": {
+     "nmse": 0.0022654933530975737,
+     "n_params": 5350
+    },
+    "2": {
+     "nmse": 0.0021041436619193507,
+     "n_params": 5350
+    }
+   },
+   "Iwasawa : amplitudes (A)": {
+    "0": {
+     "nmse": 0.003454322448976702,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0026837352909322818,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.003634751186043939,
+     "n_params": 300
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.002234093521005576,
+     "n_params": 5150
+    },
+    "1": {
+     "nmse": 0.002596165674720512,
+     "n_params": 5150
+    },
+    "2": {
+     "nmse": 0.0027610838907388374,
+     "n_params": 5150
+    }
+   },
+   "Iwasawa : amplitudes et cisaillement (A et N)": {
+    "0": {
+     "nmse": 0.0022273658411705115,
+     "n_params": 5250
+    },
+    "1": {
+     "nmse": 0.0024079858981199175,
+     "n_params": 5250
+    },
+    "2": {
+     "nmse": 0.00266005090418787,
+     "n_params": 5250
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.0011929985360267933,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.0029253440729658776,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00279157592073059,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.00014357333633885957,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.00014415435507495123,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.00010627248324563813,
+     "n_params": 10200
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.0007203949934710281,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.00047629686834392175,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.0006866888021544612,
+     "n_params": 300
+    }
+   },
+   "r\u00e9servoir tourn\u00e9 (rotations)": {
+    "0": {
+     "nmse": 0.00039165971533424045,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.0005714184806195626,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.0001975031438394135,
+     "n_params": 10200
+    }
+   },
+   "accord\u00e9, valeurs propres (Jordan-Chevalley, partie semi-simple)": {
+    "0": {
+     "nmse": 0.0012369014206470121,
+     "n_params": 400
+    },
+    "1": {
+     "nmse": 0.0024290279815446184,
+     "n_params": 400
+    },
+    "2": {
+     "nmse": 0.00043068961035493846,
+     "n_params": 400
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.0005264191935097454,
+     "n_params": 5350
+    },
+    "1": {
+     "nmse": 6.142253090747633e-05,
+     "n_params": 5350
+    },
+    "2": {
+     "nmse": 9.334646937694359e-05,
+     "n_params": 5350
+    }
+   },
+   "Iwasawa : amplitudes (A)": {
+    "0": {
+     "nmse": 0.0017158043236106292,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.0002852498008279857,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.001052864804526572,
+     "n_params": 300
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 7.688064344043152e-05,
+     "n_params": 5150
+    },
+    "1": {
+     "nmse": 0.0002165676400337768,
+     "n_params": 5150
+    },
+    "2": {
+     "nmse": 0.00018971132095220176,
+     "n_params": 5150
+    }
+   },
+   "Iwasawa : amplitudes et cisaillement (A et N)": {
+    "0": {
+     "nmse": 6.73064470465188e-05,
+     "n_params": 5250
+    },
+    "1": {
+     "nmse": 0.00013345373451320876,
+     "n_params": 5250
+    },
+    "2": {
+     "nmse": 0.000298570909711066,
+     "n_params": 5250
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.6801744264241126,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.6621816076013914,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.6647459873907902,
+     "n_params": 0
+    }
+   },
+   "RNN": {
+    "0": {
+     "nmse": 0.1275380370876453,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.054302927569136274,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.04422581459548075,
+     "n_params": 10200
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.04004745860500722,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.04234487438539029,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.04396243056719376,
+     "n_params": 300
+    }
+   },
+   "r\u00e9servoir tourn\u00e9 (rotations)": {
+    "0": {
+     "nmse": 0.01701192928869138,
+     "n_params": 10200
+    },
+    "1": {
+     "nmse": 0.014246000463477066,
+     "n_params": 10200
+    },
+    "2": {
+     "nmse": 0.014748103559210572,
+     "n_params": 10200
+    }
+   },
+   "accord\u00e9, valeurs propres (Jordan-Chevalley, partie semi-simple)": {
+    "0": {
+     "nmse": 0.02534885100560996,
+     "n_params": 400
+    },
+    "1": {
+     "nmse": 0.03590197923951733,
+     "n_params": 400
+    },
+    "2": {
+     "nmse": 0.08021487970896934,
+     "n_params": 400
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.09125381808539997,
+     "n_params": 5350
+    },
+    "1": {
+     "nmse": 0.09611183985048884,
+     "n_params": 5350
+    },
+    "2": {
+     "nmse": 0.08622241889806011,
+     "n_params": 5350
+    }
+   },
+   "Iwasawa : amplitudes (A)": {
+    "0": {
+     "nmse": 0.0322689351627794,
+     "n_params": 300
+    },
+    "1": {
+     "nmse": 0.037711089224285226,
+     "n_params": 300
+    },
+    "2": {
+     "nmse": 0.038353054028238534,
+     "n_params": 300
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.028589813319510347,
+     "n_params": 5150
+    },
+    "1": {
+     "nmse": 0.018196616647547143,
+     "n_params": 5150
+    },
+    "2": {
+     "nmse": 0.017813526065117352,
+     "n_params": 5150
+    }
+   },
+   "Iwasawa : amplitudes et cisaillement (A et N)": {
+    "0": {
+     "nmse": 0.12218782475930749,
+     "n_params": 5250
+    },
+    "1": {
+     "nmse": 0.03700201997907673,
+     "n_params": 5250
+    },
+    "2": {
+     "nmse": 0.04162701282700397,
+     "n_params": 5250
+    }
+   }
+  }
+ }
+}

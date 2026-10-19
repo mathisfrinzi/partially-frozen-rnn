@@ -1,0 +1,589 @@
+{
+ "args": {
+  "n": 500,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": null,
+  "report": false,
+  "tag": "",
+  "only": [
+   "r\u00e9servoir classique",
+   "valeurs singuli\u00e8res",
+   "cisaillement (N)",
+   "nilpotente apprise",
+   "en bande"
+  ]
+ },
+ "results": {
+  "Mackey-Glass (+15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 1.584303816127852e-05,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 1.5096570822912912e-05,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 7.142380156300314e-06,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 5.8020622712163325e-08,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 8.102738477981993e-08,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 8.610892073286023e-08,
+     "n_params": 1500
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 8.846011094144203e-06,
+     "n_params": 126750
+    },
+    "1": {
+     "nmse": 8.032844891140783e-06,
+     "n_params": 126750
+    },
+    "2": {
+     "nmse": 9.353746451085728e-06,
+     "n_params": 126750
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 1.21437515705261e-05,
+     "n_params": 125750
+    },
+    "1": {
+     "nmse": 1.1136783983054885e-05,
+     "n_params": 125750
+    },
+    "2": {
+     "nmse": 9.381234043123122e-06,
+     "n_params": 125750
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 1.3140327125699467e-07,
+     "n_params": 1499
+    },
+    "1": {
+     "nmse": 1.3903842196820283e-07,
+     "n_params": 1499
+    },
+    "2": {
+     "nmse": 1.342916877565467e-07,
+     "n_params": 1499
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 1.0011737341607322e-07,
+     "n_params": 2494
+    },
+    "1": {
+     "nmse": 6.464602450423244e-08,
+     "n_params": 2494
+    },
+    "2": {
+     "nmse": 9.635849942966837e-08,
+     "n_params": 2494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 3.871231179686602e-08,
+     "n_params": 5945
+    },
+    "1": {
+     "nmse": 4.824191261367915e-08,
+     "n_params": 5945
+    },
+    "2": {
+     "nmse": 3.480669538324235e-08,
+     "n_params": 5945
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 7.547771676811355e-08,
+     "n_params": 3494
+    },
+    "1": {
+     "nmse": 7.266129107218915e-08,
+     "n_params": 3494
+    },
+    "2": {
+     "nmse": 7.39968539288871e-08,
+     "n_params": 3494
+    }
+   }
+  },
+  "NARMA10": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.24986853598902237,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.2517819809513305,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.22257018363621206,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.010297194364303494,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.009816831990851125,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.010510805273174143,
+     "n_params": 1500
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.11691879885857871,
+     "n_params": 126750
+    },
+    "1": {
+     "nmse": 0.11716299082637337,
+     "n_params": 126750
+    },
+    "2": {
+     "nmse": 0.11760373296102458,
+     "n_params": 126750
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.10541062048234341,
+     "n_params": 125750
+    },
+    "1": {
+     "nmse": 0.1010013125929229,
+     "n_params": 125750
+    },
+    "2": {
+     "nmse": 0.10915666610286427,
+     "n_params": 125750
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 0.008822676154744646,
+     "n_params": 1499
+    },
+    "1": {
+     "nmse": 0.009771051029419855,
+     "n_params": 1499
+    },
+    "2": {
+     "nmse": 0.008225360058069687,
+     "n_params": 1499
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 0.006196279823685181,
+     "n_params": 2494
+    },
+    "1": {
+     "nmse": 0.006070229913812171,
+     "n_params": 2494
+    },
+    "2": {
+     "nmse": 0.007208901225836275,
+     "n_params": 2494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 0.00898638405078538,
+     "n_params": 5945
+    },
+    "1": {
+     "nmse": 0.006815501778729746,
+     "n_params": 5945
+    },
+    "2": {
+     "nmse": 0.008067568312970492,
+     "n_params": 5945
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 0.011724302098139216,
+     "n_params": 3494
+    },
+    "1": {
+     "nmse": 0.015149702568876306,
+     "n_params": 3494
+    },
+    "2": {
+     "nmse": 0.015972213297745032,
+     "n_params": 3494
+    }
+   }
+  },
+  "M\u00e9moire (d\u00e9lai 15)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.2171076911352125,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.19625862676111358,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.24863283768484942,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.0018978282384157885,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.0018665185089977148,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.0018182832485419537,
+     "n_params": 1500
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.08869220568736093,
+     "n_params": 126750
+    },
+    "1": {
+     "nmse": 0.08790643160856157,
+     "n_params": 126750
+    },
+    "2": {
+     "nmse": 0.08858406999210305,
+     "n_params": 126750
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.09388776968565683,
+     "n_params": 125750
+    },
+    "1": {
+     "nmse": 0.08694351300233376,
+     "n_params": 125750
+    },
+    "2": {
+     "nmse": 0.0845965385177187,
+     "n_params": 125750
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 0.0010785337654504812,
+     "n_params": 1499
+    },
+    "1": {
+     "nmse": 0.0010803029765159063,
+     "n_params": 1499
+    },
+    "2": {
+     "nmse": 0.0011102988211643368,
+     "n_params": 1499
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 0.0012335533263871984,
+     "n_params": 2494
+    },
+    "1": {
+     "nmse": 0.0013599837362584224,
+     "n_params": 2494
+    },
+    "2": {
+     "nmse": 0.0012382823413335153,
+     "n_params": 2494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 0.0010950455625351788,
+     "n_params": 5945
+    },
+    "1": {
+     "nmse": 0.0011979847193118827,
+     "n_params": 5945
+    },
+    "2": {
+     "nmse": 0.0011695351878758188,
+     "n_params": 5945
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 0.0024329496666858795,
+     "n_params": 3494
+    },
+    "1": {
+     "nmse": 0.002512606887860186,
+     "n_params": 3494
+    },
+    "2": {
+     "nmse": 0.002116696960715508,
+     "n_params": 3494
+    }
+   }
+  },
+  "Lorenz (+10)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.0006952753314326641,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.0009676362384494595,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.00021947841453242512,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 3.0004209455321874e-05,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 4.8396295977758465e-05,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 4.998976841445883e-05,
+     "n_params": 1500
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 2.4571964995656858e-05,
+     "n_params": 126750
+    },
+    "1": {
+     "nmse": 9.252432326606472e-06,
+     "n_params": 126750
+    },
+    "2": {
+     "nmse": 4.5074887246480994e-06,
+     "n_params": 126750
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 5.129920043062379e-06,
+     "n_params": 125750
+    },
+    "1": {
+     "nmse": 4.336390481518624e-06,
+     "n_params": 125750
+    },
+    "2": {
+     "nmse": 3.325794823739754e-05,
+     "n_params": 125750
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 1.3022506223175376e-05,
+     "n_params": 1499
+    },
+    "1": {
+     "nmse": 1.8410910464879458e-06,
+     "n_params": 1499
+    },
+    "2": {
+     "nmse": 1.3553997652396204e-05,
+     "n_params": 1499
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 4.37655127352805e-06,
+     "n_params": 2494
+    },
+    "1": {
+     "nmse": 3.82445008924357e-06,
+     "n_params": 2494
+    },
+    "2": {
+     "nmse": 1.8585438646682043e-05,
+     "n_params": 2494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 2.1677703606270414e-06,
+     "n_params": 5945
+    },
+    "1": {
+     "nmse": 1.5790272174294866e-06,
+     "n_params": 5945
+    },
+    "2": {
+     "nmse": 6.0142952502041626e-06,
+     "n_params": 5945
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 3.3097135601488444e-05,
+     "n_params": 3494
+    },
+    "1": {
+     "nmse": 1.4534171879249913e-05,
+     "n_params": 3494
+    },
+    "2": {
+     "nmse": 4.294106796606311e-06,
+     "n_params": 3494
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir classique": {
+    "0": {
+     "nmse": 0.481718096587231,
+     "n_params": 0
+    },
+    "1": {
+     "nmse": 0.5377459018895505,
+     "n_params": 0
+    },
+    "2": {
+     "nmse": 0.5563747374563917,
+     "n_params": 0
+    }
+   },
+   "r\u00e9servoir accord\u00e9 (valeurs singuli\u00e8res)": {
+    "0": {
+     "nmse": 0.057722959777071196,
+     "n_params": 1500
+    },
+    "1": {
+     "nmse": 0.059130278971217726,
+     "n_params": 1500
+    },
+    "2": {
+     "nmse": 0.07792183890742693,
+     "n_params": 1500
+    }
+   },
+   "Jordan-Chevalley + partie nilpotente apprise": {
+    "0": {
+     "nmse": 0.2577183756560019,
+     "n_params": 126750
+    },
+    "1": {
+     "nmse": 0.35563419556513154,
+     "n_params": 126750
+    },
+    "2": {
+     "nmse": 0.3086248394331961,
+     "n_params": 126750
+    }
+   },
+   "Iwasawa : cisaillement (N)": {
+    "0": {
+     "nmse": 0.21903535226692658,
+     "n_params": 125750
+    },
+    "1": {
+     "nmse": 0.21641300805427055,
+     "n_params": 125750
+    },
+    "2": {
+     "nmse": 0.21811332313655876,
+     "n_params": 125750
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 0.033879935963974754,
+     "n_params": 1499
+    },
+    "1": {
+     "nmse": 0.03929168884208034,
+     "n_params": 1499
+    },
+    "2": {
+     "nmse": 0.035486403234615806,
+     "n_params": 1499
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 0.04730768181804409,
+     "n_params": 2494
+    },
+    "1": {
+     "nmse": 0.040093032728194394,
+     "n_params": 2494
+    },
+    "2": {
+     "nmse": 0.04356865009084053,
+     "n_params": 2494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 0.04699320725978335,
+     "n_params": 5945
+    },
+    "1": {
+     "nmse": 0.0484153956251607,
+     "n_params": 5945
+    },
+    "2": {
+     "nmse": 0.05462104424830933,
+     "n_params": 5945
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 0.3040079656194563,
+     "n_params": 3494
+    },
+    "1": {
+     "nmse": 0.2433260345737984,
+     "n_params": 3494
+    },
+    "2": {
+     "nmse": 0.3461064568439847,
+     "n_params": 3494
+    }
+   }
+  }
+ }
+}

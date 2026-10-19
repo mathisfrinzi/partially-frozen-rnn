@@ -1,0 +1,163 @@
+{
+ "args": {
+  "n": 100,
+  "seeds": 3,
+  "steps": 1500,
+  "tasks": [
+   "Lorenz (+10)",
+   "H\u00e9non (+3)"
+  ],
+  "report": false,
+  "tag": "_p9b",
+  "only": [
+   "en bande",
+   "sans g"
+  ]
+ },
+ "results": {
+  "Lorenz (+10)": {
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 0.0005236755972171122,
+     "n_params": 299
+    },
+    "1": {
+     "nmse": 0.00028130531590142414,
+     "n_params": 299
+    },
+    "2": {
+     "nmse": 0.00031491835601550464,
+     "n_params": 299
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 0.00014413108065529706,
+     "n_params": 494
+    },
+    "1": {
+     "nmse": 0.0005151941127805648,
+     "n_params": 494
+    },
+    "2": {
+     "nmse": 0.00036882390949445653,
+     "n_params": 494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 0.00016397174659762292,
+     "n_params": 1145
+    },
+    "1": {
+     "nmse": 0.0002351268254521226,
+     "n_params": 1145
+    },
+    "2": {
+     "nmse": 9.414782542265334e-05,
+     "n_params": 1145
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 0.00016868049295434576,
+     "n_params": 694
+    },
+    "1": {
+     "nmse": 0.0004131644595666432,
+     "n_params": 694
+    },
+    "2": {
+     "nmse": 0.00019821379307242295,
+     "n_params": 694
+    }
+   },
+   "r\u00e9servoir \u00e0 biais et entr\u00e9es appris (sans g)": {
+    "0": {
+     "nmse": 0.00030779468907143946,
+     "n_params": 200
+    },
+    "1": {
+     "nmse": 0.00030801399240598903,
+     "n_params": 200
+    },
+    "2": {
+     "nmse": 0.0002806124630112706,
+     "n_params": 200
+    }
+   }
+  },
+  "H\u00e9non (+3)": {
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 1": {
+    "0": {
+     "nmse": 0.031982552386184984,
+     "n_params": 299
+    },
+    "1": {
+     "nmse": 0.038214247172099564,
+     "n_params": 299
+    },
+    "2": {
+     "nmse": 0.038559796693696226,
+     "n_params": 299
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 3": {
+    "0": {
+     "nmse": 0.042100466101509006,
+     "n_params": 494
+    },
+    "1": {
+     "nmse": 0.042502415598265765,
+     "n_params": 494
+    },
+    "2": {
+     "nmse": 0.04791253936138877,
+     "n_params": 494
+    }
+   },
+   "r\u00e9servoir cisaill\u00e9 en bande, k = 10": {
+    "0": {
+     "nmse": 0.016070321663564428,
+     "n_params": 1145
+    },
+    "1": {
+     "nmse": 0.026764782038192183,
+     "n_params": 1145
+    },
+    "2": {
+     "nmse": 0.014131521204666672,
+     "n_params": 1145
+    }
+   },
+   "r\u00e9servoir nilpotent en bande, k = 3": {
+    "0": {
+     "nmse": 0.018711494688796137,
+     "n_params": 694
+    },
+    "1": {
+     "nmse": 0.028258425407286958,
+     "n_params": 694
+    },
+    "2": {
+     "nmse": 0.08339719207007726,
+     "n_params": 694
+    }
+   },
+   "r\u00e9servoir \u00e0 biais et entr\u00e9es appris (sans g)": {
+    "0": {
+     "nmse": 0.03949076367839054,
+     "n_params": 200
+    },
+    "1": {
+     "nmse": 0.03470695530245816,
+     "n_params": 200
+    },
+    "2": {
+     "nmse": 0.026853060350597834,
+     "n_params": 200
+    }
+   }
+  }
+ }
+}
