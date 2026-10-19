@@ -1,0 +1,36 @@
+126 runs, 126 en cache, 0 à calculer
+
+Mackey-Glass (+15)  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+                           RNN   0.000085   0.000010   +0.000 ±0.000    0.00
+         mélange fixe α = 0.03   0.000040   0.000005   -0.331 ±0.093   -3.56
+          mélange fixe α = 0.1   0.000030   0.000005   -0.470 ±0.087   -5.40
+          mélange fixe α = 0.3   0.000040   0.000004   -0.317 ±0.070   -4.51
+ mélange réglé, départ α = 0.1   0.000035   0.000005   -0.387 ±0.076   -5.09
+ mélange réglé, départ α = 0.5   0.000065   0.000004   -0.096 ±0.037   -2.59
+    départ 0.1 : α_in final = 0.21 ± 0.01, α_rec final = 0.19 ± 0.01
+    départ 0.5 : α_in final = 0.63 ± 0.02, α_rec final = 0.56 ± 0.02
+
+NARMA10  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+                           RNN   0.031568   0.001926   +0.000 ±0.000    0.00
+         mélange fixe α = 0.03   0.017347   0.000646   -0.256 ±0.025  -10.43
+          mélange fixe α = 0.1   0.011773   0.000490   -0.425 ±0.021  -20.09
+          mélange fixe α = 0.3   0.012668   0.000692   -0.395 ±0.036  -11.00
+ mélange réglé, départ α = 0.1   0.008785   0.000538   -0.555 ±0.028  -20.12
+ mélange réglé, départ α = 0.5   0.013916   0.001131   -0.360 ±0.027  -13.24
+    départ 0.1 : α_in final = 0.66 ± 0.08, α_rec final = 0.18 ± 0.01
+    départ 0.5 : α_in final = 0.85 ± 0.03, α_rec final = 0.44 ± 0.02
+
+Mémoire (délai 15)  (5 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+                           RNN   0.002713   0.000159   +0.000 ±0.000    0.00
+         mélange fixe α = 0.03   0.025599   0.000886   +0.977 ±0.028   34.47
+          mélange fixe α = 0.1   0.010382   0.000049   +0.586 ±0.026   22.19
+          mélange fixe α = 0.3   0.005273   0.000177   +0.291 ±0.020   14.28
+ mélange réglé, départ α = 0.1   0.001045   0.000048   -0.413 ±0.046   -9.05
+ mélange réglé, départ α = 0.5   0.001751   0.000075   -0.189 ±0.014  -13.13
+    départ 0.1 : α_in final = 0.90 ± 0.02, α_rec final = 0.16 ± 0.01
+    départ 0.5 : α_in final = 0.99 ± 0.00, α_rec final = 0.46 ± 0.01
+
+Figure : results/figures/learned_alpha.png

@@ -1,0 +1,41 @@
+[  0.2 min] Lorenz (+10)         seed 0 réservoir accordé                          0.00072
+[  0.5 min] Lorenz (+10)         seed 0 contrôle : relais tout appris (type DT-RNN) 0.000252
+[  0.7 min] Lorenz (+10)         seed 1 réservoir accordé                          0.000476
+[  1.0 min] Lorenz (+10)         seed 1 contrôle : relais tout appris (type DT-RNN) 0.000215
+[  1.2 min] Lorenz (+10)         seed 2 réservoir accordé                          0.000687
+[  1.5 min] Lorenz (+10)         seed 2 contrôle : relais tout appris (type DT-RNN) 0.000613
+[  1.7 min] Hénon (+3)           seed 0 réservoir accordé                          0.04
+[  2.1 min] Hénon (+3)           seed 0 contrôle : relais tout appris (type DT-RNN) 0.000272
+[  2.2 min] Hénon (+3)           seed 1 réservoir accordé                          0.0423
+[  2.6 min] Hénon (+3)           seed 1 contrôle : relais tout appris (type DT-RNN) 0.000452
+[  2.8 min] Hénon (+3)           seed 2 réservoir accordé                          0.044
+[  3.1 min] Hénon (+3)           seed 2 contrôle : relais tout appris (type DT-RNN) 0.000744
+
+Mackey-Glass (+15) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  RNN                                          10200 par.  NMSE  7.95e-05  vs accordé -0.05 ± 0.11  égal
+  RNN, lr × 0.1                                10200 par.  NMSE  0.000106  vs accordé +0.07 ± 0.03  moins bien
+  réservoir accordé                              300 par.  NMSE  8.99e-05  vs accordé +0.00 ± 0.00  égal
+  forme 1 : duo croisé, lu côté RNN            30200 par.  NMSE  0.000101  vs accordé +0.04 ± 0.06  égal
+  contrôle : relais tout appris (type DT-RNN)   20300 par.  NMSE  0.000171  vs accordé +0.27 ± 0.15  égal
+
+NARMA10 — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  RNN                                          10200 par.  NMSE    0.0319  vs accordé +0.14 ± 0.04  moins bien
+  RNN, lr × 0.1                                10200 par.  NMSE     0.037  vs accordé +0.18 ± 0.11  égal
+  réservoir accordé                              300 par.  NMSE    0.0234  vs accordé +0.00 ± 0.00  égal
+  forme 1 : duo croisé, lu côté RNN            30200 par.  NMSE    0.0877  vs accordé +0.57 ± 0.03  moins bien
+  contrôle : relais tout appris (type DT-RNN)   20300 par.  NMSE    0.0716  vs accordé +0.48 ± 0.06  moins bien
+
+Mémoire (délai 15) — 1 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  RNN                                          10200 par.  NMSE    0.0027  vs accordé -0.02 ± nan  égal
+  RNN, lr × 0.1                                10200 par.  NMSE    0.0167  vs accordé +0.77 ± nan  égal
+  réservoir accordé                              300 par.  NMSE   0.00283  vs accordé +0.00 ± nan  égal
+  forme 1 : duo croisé, lu côté RNN            30200 par.  NMSE    0.0392  vs accordé +1.14 ± nan  égal
+  contrôle : relais tout appris (type DT-RNN)   20300 par.  NMSE    0.0123  vs accordé +0.64 ± nan  égal
+
+Lorenz (+10) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE  0.000628  vs accordé +0.00 ± 0.00  égal
+  contrôle : relais tout appris (type DT-RNN)   20300 par.  NMSE   0.00036  vs accordé -0.28 ± 0.12  mieux
+
+Hénon (+3) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE    0.0421  vs accordé +0.00 ± 0.00  égal
+  contrôle : relais tout appris (type DT-RNN)   20300 par.  NMSE  0.000489  vs accordé -1.97 ± 0.11  mieux

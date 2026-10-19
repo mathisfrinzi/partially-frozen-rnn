@@ -1,0 +1,72 @@
+273 runs, 273 en cache, 0 à calculer
+
+[supermasque] Mackey-Glass (+15)  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.001841   0.000160   +1.346 ±0.048   27.76
+    réservoir classique, dense   0.001649   0.000240   +1.279 ±0.093   13.77
+                           RNN   0.000085   0.000010   +0.000 ±0.000    0.00
+          RNN, lr global × 0.3   0.000089   0.000008   +0.029 ±0.068    0.43
+             RNN, départ dense   0.000071   0.000002   -0.058 ±0.053   -1.09
+                    RNN freiné   0.000032   0.000002   -0.408 ±0.049   -8.35
+      RNN freiné, départ dense   0.000036   0.000004   -0.366 ±0.068   -5.36
+      réservoir sculpté, creux   0.000048   0.000005   -0.245 ±0.051   -4.85
+      réservoir sculpté, dense   0.000039   0.000004   -0.333 ±0.072   -4.63
+réservoir sculpté, dense (lr des scores ÷ 5)   0.000029   0.000003   -0.463 ±0.075   -6.17
+réservoir sculpté intégral, dense   0.000035   0.000004   -0.379 ±0.077   -4.96
+contrôle : réservoir repondéré, dense   0.000038   0.000004   -0.344 ±0.055   -6.23
+  réservoir élagué 50 %, dense   0.000340   0.000024   +0.615 ±0.037   16.46
+    masques : fraction gardée (m > 0.5), masque moyen, NMSE si on binarise le masque après coup
+      réservoir sculpté, creux                       gardé 0.70  moyen 0.70  NMSE binarisé 5.723e-05 (contre 4.795e-05)
+      réservoir sculpté, dense                       gardé 0.83  moyen 0.81  NMSE binarisé 0.000111 (contre 3.916e-05)
+      réservoir sculpté, dense (lr des scores ÷ 5)   gardé 0.95  moyen 0.89  NMSE binarisé 0.0001254 (contre 2.904e-05)
+      réservoir sculpté intégral, dense              gardé 0.83  moyen 0.81  NMSE binarisé 9.729e-05 (contre 3.545e-05)
+      contrôle : réservoir repondéré, dense          gardé 0.99  moyen 1.01
+      réservoir élagué 50 %, dense                   gardé 0.50  moyen 0.50
+
+[supermasque] NARMA10  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.279309   0.024574   +0.942 ±0.032   29.79
+    réservoir classique, dense   0.259576   0.012623   +0.918 ±0.024   38.30
+                           RNN   0.031568   0.001926   +0.000 ±0.000    0.00
+          RNN, lr global × 0.3   0.017262   0.001308   -0.265 ±0.025  -10.55
+             RNN, départ dense   0.034587   0.002273   +0.039 ±0.045    0.86
+                    RNN freiné   0.008234   0.000418   -0.582 ±0.031  -18.68
+      RNN freiné, départ dense   0.009336   0.000471   -0.527 ±0.039  -13.42
+      réservoir sculpté, creux   0.030443   0.004665   -0.040 ±0.080   -0.50
+      réservoir sculpté, dense   0.008422   0.000477   -0.573 ±0.043  -13.18
+réservoir sculpté, dense (lr des scores ÷ 5)   0.009049   0.000421   -0.540 ±0.039  -13.98
+réservoir sculpté intégral, dense   0.007797   0.000374   -0.605 ±0.037  -16.42
+contrôle : réservoir repondéré, dense   0.009532   0.000568   -0.520 ±0.045  -11.57
+  réservoir élagué 50 %, dense   0.042620   0.003741   +0.124 ±0.059    2.11
+    masques : fraction gardée (m > 0.5), masque moyen, NMSE si on binarise le masque après coup
+      réservoir sculpté, creux                       gardé 0.72  moyen 0.72  NMSE binarisé 0.03155 (contre 0.03044)
+      réservoir sculpté, dense                       gardé 0.79  moyen 0.78  NMSE binarisé 0.02165 (contre 0.008422)
+      réservoir sculpté, dense (lr des scores ÷ 5)   gardé 0.88  moyen 0.84  NMSE binarisé 0.08909 (contre 0.009049)
+      réservoir sculpté intégral, dense              gardé 0.79  moyen 0.78  NMSE binarisé 0.03321 (contre 0.007797)
+      contrôle : réservoir repondéré, dense          gardé 0.97  moyen 1.01
+      réservoir élagué 50 %, dense                   gardé 0.50  moyen 0.50
+
+[supermasque] Mémoire (délai 15)  (5 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.784565   0.068914   +2.457 ±0.039   63.82
+    réservoir classique, dense   0.781707   0.026415   +2.462 ±0.025   96.94
+                           RNN   0.002713   0.000159   +0.000 ±0.000    0.00
+          RNN, lr global × 0.3   0.006879   0.000403   +0.404 ±0.023   17.41
+             RNN, départ dense   0.002785   0.000085   +0.014 ±0.031    0.44
+                    RNN freiné   0.001117   0.000092   -0.388 ±0.057   -6.81
+      RNN freiné, départ dense   0.001113   0.000023   -0.384 ±0.032  -11.89
+      réservoir sculpté, creux   0.003531   0.000918   +0.058 ±0.108    0.53
+      réservoir sculpté, dense   0.001174   0.000083   -0.365 ±0.053   -6.90
+réservoir sculpté, dense (lr des scores ÷ 5)   0.000810   0.000040   -0.524 ±0.045  -11.54
+réservoir sculpté intégral, dense   0.000604   0.000014   -0.650 ±0.020  -31.90
+contrôle : réservoir repondéré, dense   0.001738   0.000075   -0.192 ±0.044   -4.34
+  réservoir élagué 50 %, dense   0.078081   0.007155   +1.455 ±0.059   24.50
+    masques : fraction gardée (m > 0.5), masque moyen, NMSE si on binarise le masque après coup
+      réservoir sculpté, creux                       gardé 0.72  moyen 0.72  NMSE binarisé 0.00391 (contre 0.003531)
+      réservoir sculpté, dense                       gardé 0.82  moyen 0.81  NMSE binarisé 0.02894 (contre 0.001174)
+      réservoir sculpté, dense (lr des scores ÷ 5)   gardé 0.89  moyen 0.86  NMSE binarisé 0.04515 (contre 0.0008099)
+      réservoir sculpté intégral, dense              gardé 0.83  moyen 0.82  NMSE binarisé 0.02859 (contre 0.0006041)
+      contrôle : réservoir repondéré, dense          gardé 0.99  moyen 1.00
+      réservoir élagué 50 %, dense                   gardé 0.50  moyen 0.50
+
+Figure : results/figures/supermask.png

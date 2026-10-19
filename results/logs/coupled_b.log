@@ -1,0 +1,76 @@
+[  0.0 min] Lorenz (+10)         seed 0 réservoir classique                        0.00119
+[  0.2 min] Lorenz (+10)         seed 0 RNN                                        0.000154
+[  0.4 min] Lorenz (+10)         seed 0 RNN, lr × 0.1                              0.002
+[  0.6 min] Lorenz (+10)         seed 0 réservoir accordé                          0.00072
+[  1.1 min] Lorenz (+10)         seed 0 GRU, init soignée                          5.94e-06
+[  1.5 min] Lorenz (+10)         seed 0 forme 1 : duo croisé, lu côté RNN          0.00044
+[  2.0 min] Lorenz (+10)         seed 0 forme 2 : duo croisé, lu côté réservoir    5.01e-05
+[  2.3 min] Lorenz (+10)         seed 0 forme 3 : relais aléatoire                 0.000101
+[  2.6 min] Lorenz (+10)         seed 0 forme 4 : relais appris                    0.000122
+[  2.6 min] Lorenz (+10)         seed 1 réservoir classique                        0.00293
+[  2.8 min] Lorenz (+10)         seed 1 RNN                                        0.000451
+[  3.0 min] Lorenz (+10)         seed 1 RNN, lr × 0.1                              0.000854
+[  3.2 min] Lorenz (+10)         seed 1 réservoir accordé                          0.000476
+[  3.6 min] Lorenz (+10)         seed 1 GRU, init soignée                          9.75e-06
+[  4.1 min] Lorenz (+10)         seed 1 forme 1 : duo croisé, lu côté RNN          0.000295
+[  4.6 min] Lorenz (+10)         seed 1 forme 2 : duo croisé, lu côté réservoir    7.89e-05
+[  4.8 min] Lorenz (+10)         seed 1 forme 3 : relais aléatoire                 7.52e-05
+[  5.1 min] Lorenz (+10)         seed 1 forme 4 : relais appris                    8.6e-05
+[  5.1 min] Lorenz (+10)         seed 2 réservoir classique                        0.00279
+[  5.4 min] Lorenz (+10)         seed 2 RNN                                        0.000229
+[  5.5 min] Lorenz (+10)         seed 2 RNN, lr × 0.1                              0.000623
+[  5.7 min] Lorenz (+10)         seed 2 réservoir accordé                          0.000687
+[  6.2 min] Lorenz (+10)         seed 2 GRU, init soignée                          9.14e-06
+[  6.6 min] Lorenz (+10)         seed 2 forme 1 : duo croisé, lu côté RNN          0.000109
+[  7.1 min] Lorenz (+10)         seed 2 forme 2 : duo croisé, lu côté réservoir    0.000105
+[  7.4 min] Lorenz (+10)         seed 2 forme 3 : relais aléatoire                 0.000122
+[  7.6 min] Lorenz (+10)         seed 2 forme 4 : relais appris                    0.000138
+[  7.6 min] Hénon (+3)           seed 0 réservoir classique                        0.68
+[  7.8 min] Hénon (+3)           seed 0 RNN                                        0.13
+[  8.0 min] Hénon (+3)           seed 0 RNN, lr × 0.1                              0.633
+[  8.2 min] Hénon (+3)           seed 0 réservoir accordé                          0.04
+[  8.6 min] Hénon (+3)           seed 0 GRU, init soignée                          0.0195
+[  9.1 min] Hénon (+3)           seed 0 forme 1 : duo croisé, lu côté RNN          0.286
+[  9.5 min] Hénon (+3)           seed 0 forme 2 : duo croisé, lu côté réservoir    0.711
+[  9.8 min] Hénon (+3)           seed 0 forme 3 : relais aléatoire                 0.00194
+[ 10.1 min] Hénon (+3)           seed 0 forme 4 : relais appris                    0.00284
+[ 10.1 min] Hénon (+3)           seed 1 réservoir classique                        0.662
+[ 10.3 min] Hénon (+3)           seed 1 RNN                                        0.0538
+[ 10.5 min] Hénon (+3)           seed 1 RNN, lr × 0.1                              0.795
+[ 10.7 min] Hénon (+3)           seed 1 réservoir accordé                          0.0423
+[ 11.1 min] Hénon (+3)           seed 1 GRU, init soignée                          0.0179
+[ 11.6 min] Hénon (+3)           seed 1 forme 1 : duo croisé, lu côté RNN          0.374
+[ 12.1 min] Hénon (+3)           seed 1 forme 2 : duo croisé, lu côté réservoir    0.673
+[ 12.4 min] Hénon (+3)           seed 1 forme 3 : relais aléatoire                 0.000306
+[ 12.6 min] Hénon (+3)           seed 1 forme 4 : relais appris                    0.00343
+[ 12.6 min] Hénon (+3)           seed 2 réservoir classique                        0.665
+[ 12.8 min] Hénon (+3)           seed 2 RNN                                        0.0492
+[ 13.0 min] Hénon (+3)           seed 2 RNN, lr × 0.1                              0.647
+[ 13.2 min] Hénon (+3)           seed 2 réservoir accordé                          0.044
+[ 13.7 min] Hénon (+3)           seed 2 GRU, init soignée                          0.0567
+[ 14.1 min] Hénon (+3)           seed 2 forme 1 : duo croisé, lu côté RNN          0.111
+[ 14.6 min] Hénon (+3)           seed 2 forme 2 : duo croisé, lu côté réservoir    0.869
+[ 14.8 min] Hénon (+3)           seed 2 forme 3 : relais aléatoire                 0.000713
+[ 15.1 min] Hénon (+3)           seed 2 forme 4 : relais appris                    0.00183
+
+Lorenz (+10) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir classique                              0 par.  NMSE    0.0023  vs accordé +0.54 ± 0.17  moins bien
+  RNN                                          10200 par.  NMSE  0.000278  vs accordé -0.39 ± 0.19  mieux
+  RNN, lr × 0.1                                10200 par.  NMSE   0.00116  vs accordé +0.22 ± 0.14  égal
+  réservoir accordé                              300 par.  NMSE  0.000628  vs accordé +0.00 ± 0.00  égal
+  GRU, init soignée                            30900 par.  NMSE  8.28e-06  vs accordé -1.88 ± 0.11  mieux
+  forme 1 : duo croisé, lu côté RNN            30200 par.  NMSE  0.000281  vs accordé -0.41 ± 0.20  mieux
+  forme 2 : duo croisé, lu côté réservoir      30200 par.  NMSE  7.79e-05  vs accordé -0.92 ± 0.12  mieux
+  forme 3 : relais aléatoire                   10200 par.  NMSE  9.92e-05  vs accordé -0.80 ± 0.03  mieux
+  forme 4 : relais appris                      10200 par.  NMSE  0.000115  vs accordé -0.74 ± 0.02  mieux
+
+Hénon (+3) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir classique                              0 par.  NMSE     0.669  vs accordé +1.20 ± 0.01  moins bien
+  RNN                                          10200 par.  NMSE    0.0777  vs accordé +0.22 ± 0.15  égal
+  RNN, lr × 0.1                                10200 par.  NMSE     0.692  vs accordé +1.21 ± 0.03  moins bien
+  réservoir accordé                              300 par.  NMSE    0.0421  vs accordé +0.00 ± 0.00  égal
+  GRU, init soignée                            30900 par.  NMSE    0.0314  vs accordé -0.19 ± 0.15  égal
+  forme 1 : duo croisé, lu côté RNN            30200 par.  NMSE     0.257  vs accordé +0.73 ± 0.17  moins bien
+  forme 2 : duo croisé, lu côté réservoir      30200 par.  NMSE     0.751  vs accordé +1.25 ± 0.03  moins bien
+  forme 3 : relais aléatoire                   10200 par.  NMSE  0.000988  vs accordé -1.75 ± 0.24  mieux
+  forme 4 : relais appris                      10200 par.  NMSE    0.0027  vs accordé -1.21 ± 0.09  mieux

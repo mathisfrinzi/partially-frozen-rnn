@@ -1,0 +1,47 @@
+126 runs, 126 en cache, 0 à calculer
+
+[rotation] Mackey-Glass (+15)  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.001841   0.000160   +1.346 ±0.048   27.76
+                           RNN   0.000085   0.000010   +0.000 ±0.000    0.00
+                    RNN freiné   0.000032   0.000002   -0.408 ±0.049   -8.35
+réservoir tourné (W_in tourné)   0.000047   0.000004   -0.245 ±0.046   -5.37
+ réservoir tourné (W_in libre)   0.000072   0.000009   -0.074 ±0.079   -0.93
+             réservoir accordé   0.000084   0.000009   -0.003 ±0.091   -0.04
+    réservoir tourné (W_in tourné)           écart de Q à l'identité (‖Q − I‖/√N) : 0.52
+    réservoir tourné (W_in libre)            écart de Q à l'identité (‖Q − I‖/√N) : 0.51
+
+[rotation] NARMA10  (8 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.279309   0.024574   +0.942 ±0.032   29.79
+                           RNN   0.031568   0.001926   +0.000 ±0.000    0.00
+                    RNN freiné   0.008234   0.000418   -0.582 ±0.031  -18.68
+réservoir tourné (W_in tourné)   0.026611   0.003285   -0.090 ±0.064   -1.41
+ réservoir tourné (W_in libre)   0.025025   0.001915   -0.103 ±0.050   -2.07
+             réservoir accordé   0.024200   0.001025   -0.112 ±0.039   -2.91
+    réservoir tourné (W_in tourné)           écart de Q à l'identité (‖Q − I‖/√N) : 0.80
+    réservoir tourné (W_in libre)            écart de Q à l'identité (‖Q − I‖/√N) : 0.77
+
+[rotation] Mémoire (délai 15)  (5 seeds ; écart = log10(NMSE / RNN))
+                        modèle       NMSE  ± err.std           écart       t
+           réservoir classique   0.784565   0.068914   +2.457 ±0.039   63.82
+                           RNN   0.002713   0.000159   +0.000 ±0.000    0.00
+                    RNN freiné   0.001117   0.000092   -0.388 ±0.057   -6.81
+réservoir tourné (W_in tourné)   0.029720   0.004871   +1.014 ±0.084   12.07
+ réservoir tourné (W_in libre)   0.032909   0.005597   +1.060 ±0.085   12.54
+             réservoir accordé   0.002794   0.000085   +0.015 ±0.029    0.53
+    réservoir tourné (W_in tourné)           écart de Q à l'identité (‖Q − I‖/√N) : 0.93
+    réservoir tourné (W_in libre)            écart de Q à l'identité (‖Q − I‖/√N) : 0.85
+
+Analyse des spectres :
+  Mackey-Glass (+15)   réservoir (départ)               rayon spectral 0.900   σ_max 1.752   ‖W − W₀‖/‖W₀‖ = 0.00
+  Mackey-Glass (+15)   RNN entraîné                     rayon spectral 1.465   σ_max 2.379   ‖W − W₀‖/‖W₀‖ = 0.35
+  Mackey-Glass (+15)   RNN freiné                       rayon spectral 0.978   σ_max 1.784   ‖W − W₀‖/‖W₀‖ = 0.12
+  NARMA10              réservoir (départ)               rayon spectral 0.900   σ_max 1.752   ‖W − W₀‖/‖W₀‖ = 0.00
+  NARMA10              RNN entraîné                     rayon spectral 1.297   σ_max 2.310   ‖W − W₀‖/‖W₀‖ = 0.48
+  NARMA10              RNN freiné                       rayon spectral 1.111   σ_max 1.869   ‖W − W₀‖/‖W₀‖ = 0.18
+  Mémoire (délai 15)   réservoir (départ)               rayon spectral 0.900   σ_max 1.752   ‖W − W₀‖/‖W₀‖ = 0.00
+  Mémoire (délai 15)   RNN entraîné                     rayon spectral 0.814   σ_max 2.513   ‖W − W₀‖/‖W₀‖ = 0.38
+  Mémoire (délai 15)   RNN freiné                       rayon spectral 0.855   σ_max 1.804   ‖W − W₀‖/‖W₀‖ = 0.15
+
+Figures : results/figures/rotation.png, results/figures/spectra.png

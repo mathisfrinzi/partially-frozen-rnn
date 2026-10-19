@@ -1,0 +1,90 @@
+[  0.2 min] Mackey-Glass (+15)   seed 0 réservoir accordé                          9.83e-05
+[  0.2 min] Mackey-Glass (+15)   seed 0 contrôle : réservoir classique, readout carré 6.64e-05
+[  0.4 min] Mackey-Glass (+15)   seed 0 contrôle : réservoir accordé, readout carré 1.33e-05
+[  0.6 min] Mackey-Glass (+15)   seed 0 contrôle : RNN, readout carré              2.81e-05
+[  0.8 min] Mackey-Glass (+15)   seed 1 réservoir accordé                          0.000105
+[  0.8 min] Mackey-Glass (+15)   seed 1 contrôle : réservoir classique, readout carré 4.08e-05
+[  1.0 min] Mackey-Glass (+15)   seed 1 contrôle : réservoir accordé, readout carré 8.08e-06
+[  1.2 min] Mackey-Glass (+15)   seed 1 contrôle : RNN, readout carré              3.22e-05
+[  1.4 min] Mackey-Glass (+15)   seed 2 réservoir accordé                          6.65e-05
+[  1.4 min] Mackey-Glass (+15)   seed 2 contrôle : réservoir classique, readout carré 6.47e-05
+[  1.7 min] Mackey-Glass (+15)   seed 2 contrôle : réservoir accordé, readout carré 1.05e-05
+[  1.9 min] Mackey-Glass (+15)   seed 2 contrôle : RNN, readout carré              2.54e-05
+[  2.1 min] NARMA10              seed 0 réservoir accordé                          0.0217
+[  2.1 min] NARMA10              seed 0 contrôle : réservoir classique, readout carré 0.225
+[  2.3 min] NARMA10              seed 0 contrôle : réservoir accordé, readout carré 0.0172
+[  2.5 min] NARMA10              seed 0 contrôle : RNN, readout carré              0.0468
+[  2.7 min] NARMA10              seed 1 réservoir accordé                          0.0232
+[  2.7 min] NARMA10              seed 1 contrôle : réservoir classique, readout carré 0.131
+[  2.9 min] NARMA10              seed 1 contrôle : réservoir accordé, readout carré 0.0119
+[  3.1 min] NARMA10              seed 1 contrôle : RNN, readout carré              0.0435
+[  3.3 min] NARMA10              seed 2 réservoir accordé                          0.0252
+[  3.4 min] NARMA10              seed 2 contrôle : réservoir classique, readout carré 0.256
+[  3.6 min] NARMA10              seed 2 contrôle : réservoir accordé, readout carré 0.0144
+[  3.8 min] NARMA10              seed 2 contrôle : RNN, readout carré              0.0479
+[  4.0 min] Mémoire (délai 15)   seed 0 réservoir accordé                          0.00283
+[  4.0 min] Mémoire (délai 15)   seed 0 contrôle : réservoir classique, readout carré 0.978
+[  4.2 min] Mémoire (délai 15)   seed 0 contrôle : réservoir accordé, readout carré 0.00358
+[  4.4 min] Mémoire (délai 15)   seed 0 contrôle : RNN, readout carré              0.00343
+[  4.6 min] Mémoire (délai 15)   seed 1 réservoir accordé                          0.00309
+[  4.6 min] Mémoire (délai 15)   seed 1 contrôle : réservoir classique, readout carré 0.61
+[  4.8 min] Mémoire (délai 15)   seed 1 contrôle : réservoir accordé, readout carré 0.00329
+[  5.0 min] Mémoire (délai 15)   seed 1 contrôle : RNN, readout carré              0.00233
+[  5.2 min] Mémoire (délai 15)   seed 2 réservoir accordé                          0.0029
+[  5.2 min] Mémoire (délai 15)   seed 2 contrôle : réservoir classique, readout carré 0.864
+[  5.4 min] Mémoire (délai 15)   seed 2 contrôle : réservoir accordé, readout carré 0.00419
+[  5.6 min] Mémoire (délai 15)   seed 2 contrôle : RNN, readout carré              0.00282
+[  5.8 min] Lorenz (+10)         seed 0 réservoir accordé                          0.00072
+[  5.8 min] Lorenz (+10)         seed 0 contrôle : réservoir classique, readout carré 0.000182
+[  6.0 min] Lorenz (+10)         seed 0 contrôle : réservoir accordé, readout carré 0.000126
+[  6.2 min] Lorenz (+10)         seed 0 contrôle : RNN, readout carré              0.000157
+[  6.4 min] Lorenz (+10)         seed 1 réservoir accordé                          0.000476
+[  6.4 min] Lorenz (+10)         seed 1 contrôle : réservoir classique, readout carré 0.000328
+[  6.6 min] Lorenz (+10)         seed 1 contrôle : réservoir accordé, readout carré 7.86e-05
+[  6.8 min] Lorenz (+10)         seed 1 contrôle : RNN, readout carré              0.000403
+[  7.0 min] Lorenz (+10)         seed 2 réservoir accordé                          0.000687
+[  7.0 min] Lorenz (+10)         seed 2 contrôle : réservoir classique, readout carré 0.000676
+[  7.2 min] Lorenz (+10)         seed 2 contrôle : réservoir accordé, readout carré 4.67e-05
+[  7.4 min] Lorenz (+10)         seed 2 contrôle : RNN, readout carré              0.000164
+[  7.6 min] Hénon (+3)           seed 0 réservoir accordé                          0.04
+[  7.6 min] Hénon (+3)           seed 0 contrôle : réservoir classique, readout carré 0.512
+[  7.8 min] Hénon (+3)           seed 0 contrôle : réservoir accordé, readout carré 0.0103
+[  8.0 min] Hénon (+3)           seed 0 contrôle : RNN, readout carré              0.00204
+[  8.2 min] Hénon (+3)           seed 1 réservoir accordé                          0.0423
+[  8.2 min] Hénon (+3)           seed 1 contrôle : réservoir classique, readout carré 0.607
+[  8.4 min] Hénon (+3)           seed 1 contrôle : réservoir accordé, readout carré 0.0185
+[  8.6 min] Hénon (+3)           seed 1 contrôle : RNN, readout carré              0.00812
+[  8.8 min] Hénon (+3)           seed 2 réservoir accordé                          0.044
+[  8.8 min] Hénon (+3)           seed 2 contrôle : réservoir classique, readout carré 0.556
+[  9.0 min] Hénon (+3)           seed 2 contrôle : réservoir accordé, readout carré 0.00965
+[  9.2 min] Hénon (+3)           seed 2 contrôle : RNN, readout carré              0.00623
+
+Mackey-Glass (+15) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE  8.99e-05  vs accordé +0.00 ± 0.00  égal
+  contrôle : réservoir classique, readout carré       0 par.  NMSE  5.73e-05  vs accordé -0.20 ± 0.12  égal
+  contrôle : réservoir accordé, readout carré     300 par.  NMSE  1.06e-05  vs accordé -0.93 ± 0.09  mieux
+  contrôle : RNN, readout carré                10200 par.  NMSE  2.86e-05  vs accordé -0.49 ± 0.04  mieux
+
+NARMA10 — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE    0.0234  vs accordé +0.00 ± 0.00  égal
+  contrôle : réservoir classique, readout carré       0 par.  NMSE     0.204  vs accordé +0.93 ± 0.09  moins bien
+  contrôle : réservoir accordé, readout carré     300 par.  NMSE    0.0145  vs accordé -0.21 ± 0.06  mieux
+  contrôle : RNN, readout carré                10200 par.  NMSE    0.0461  vs accordé +0.29 ± 0.02  moins bien
+
+Mémoire (délai 15) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE   0.00294  vs accordé +0.00 ± 0.00  égal
+  contrôle : réservoir classique, readout carré       0 par.  NMSE     0.817  vs accordé +2.44 ± 0.07  moins bien
+  contrôle : réservoir accordé, readout carré     300 par.  NMSE   0.00368  vs accordé +0.10 ± 0.04  moins bien
+  contrôle : RNN, readout carré                10200 par.  NMSE   0.00286  vs accordé -0.02 ± 0.06  égal
+
+Lorenz (+10) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE  0.000628  vs accordé +0.00 ± 0.00  égal
+  contrôle : réservoir classique, readout carré       0 par.  NMSE  0.000395  vs accordé -0.26 ± 0.18  égal
+  contrôle : réservoir accordé, readout carré     300 par.  NMSE  8.36e-05  vs accordé -0.90 ± 0.13  mieux
+  contrôle : RNN, readout carré                10200 par.  NMSE  0.000241  vs accordé -0.45 ± 0.19  mieux
+
+Hénon (+3) — 3 graines (écart log10 apparié ; négatif = mieux ; seuil −max(2·SE, 0.05))
+  réservoir accordé                              300 par.  NMSE    0.0421  vs accordé +0.00 ± 0.00  égal
+  contrôle : réservoir classique, readout carré       0 par.  NMSE     0.558  vs accordé +1.12 ± 0.02  moins bien
+  contrôle : réservoir accordé, readout carré     300 par.  NMSE    0.0128  vs accordé -0.54 ± 0.09  mieux
+  contrôle : RNN, readout carré                10200 par.  NMSE   0.00546  vs accordé -0.95 ± 0.17  mieux
